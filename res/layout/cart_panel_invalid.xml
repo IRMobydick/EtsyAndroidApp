@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <View android:id="0x7f10019d" style="0x7f0b01a1" />
+    <TextView android:id="0x7f10019e" android:background="0x7f0e0063" android:padding="0x7f0a0030" android:layout_width="-1" android:layout_height="-2" android:text="@r/cart_invalid_header" style="?unknown_attr_ref: 7f01003c" />
+    <View android:id="0x7f10019f" style="0x7f0b01a0" />
+    <LinearLayout android:orientation="1" android:id="0x7f1001a0" android:background="0x7f0e0063" android:layout_width="-1" android:layout_height="-1" />
+</merge>

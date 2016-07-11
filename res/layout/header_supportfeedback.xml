@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:id="@r/dialog_header" app:layout_width="-1" app:layout_height="-2"
+    <LinearLayout app:orientation="0" app:background="@r/actionbar_background_v2" app:layout_width="-1" app:layout_height="-2">
+        <ImageView app:id="@r/btn_x" app:background="@r/bg_ten_percent_black_selector" app:paddingLeft="@r/fixed_large" app:paddingTop="@r/fixed_medium" app:paddingRight="@r/fixed_large" app:paddingBottom="@r/fixed_medium" app:layout_width="-2" app:layout_height="-1" app:layout_weight="0.0" app:srcCompat="@r/ic_close_24dp" />
+        <com.etsy.android.uikit.view.GuardianTextView app:gravity="11" app:id="@r/txt_title" app:padding="@r/fixed_medium" app:layout_width="0dp" app:layout_height="-1" app:text="@r/supportfeedback_compose_new_title" app:layout_weight="1.0" style="?unknown_attr_ref: 7f010030" />
+        <com.etsy.android.iconsy.views.IconView app:layout_gravity="5" app:id="@r/btn_send" app:background="@r/bg_ten_percent_black_selector" app:paddingLeft="@r/fixed_large" app:paddingTop="@r/fixed_medium" app:paddingRight="@r/fixed_large" app:paddingBottom="@r/fixed_medium" app:layout_width="@r/actionbar_icon_with_padding" app:layout_height="-1" app:layout_weight="0.0" app:iconChar="@r/ic_standard_send" app:iconColor="@r/light_grey" app:hasSelector="true" />
+    </LinearLayout>
+    <View style="@r/Divider_Horizontal" />
+</LinearLayout>

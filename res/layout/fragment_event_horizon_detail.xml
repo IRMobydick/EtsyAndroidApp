@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@r/scrollView" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:padding="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="96dp" android:layout_height="-2" android:text="@r/event_horizon_eventname_title" style="@r/TextGrey" />
+            <TextView android:id="@r/event_horizon_detail_eventname" android:layout_width="-2" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="96dp" android:layout_height="-2" android:text="@r/event_horizon_timestamp_title" style="@r/TextGrey" />
+            <TextView android:id="@r/event_horizon_detail_timestamp" android:layout_width="-2" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:divider="@r/divider_medium">
+            <TextView android:layout_width="96dp" android:layout_height="-2" android:text="@r/event_horizon_browserid_title" style="@r/TextGrey" />
+            <TextView android:id="@r/event_horizon_detail_browserid" android:layout_width="-2" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:divider="@r/divider_medium">
+            <TextView android:layout_width="96dp" android:layout_height="-2" android:text="@r/event_horizon_userid_title" style="@r/TextGrey" />
+            <TextView android:id="@r/event_horizon_detail_userid" android:layout_width="-2" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="96dp" android:layout_height="-2" android:text="@r/event_horizon_guid_title" style="@r/TextGrey" />
+            <TextView android:id="@r/event_horizon_detail_guid" android:layout_width="-2" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="96dp" android:layout_height="-2" android:text="@r/event_horizon_pageguid_title" style="@r/TextGrey" />
+            <TextView android:id="@r/event_horizon_detail_pageguid" android:layout_width="-2" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="96dp" android:layout_height="-2" android:text="@r/event_horizon_eventsource_title" style="@r/TextGrey" />
+            <TextView android:id="@r/event_horizon_detail_eventsource" android:layout_width="-2" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="96dp" android:layout_height="-2" android:text="@r/event_horizon_eventlogger_title" style="@r/TextGrey" />
+            <TextView android:id="@r/event_horizon_detail_eventlogger" android:layout_width="-2" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="96dp" android:layout_height="-2" android:text="@r/event_horizon_ip_title" style="@r/TextGrey" />
+            <TextView android:id="@r/event_horizon_detail_ip" android:layout_width="-2" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="96dp" android:layout_height="-2" android:text="@r/event_horizon_useragent_title" style="@r/TextGrey" />
+            <TextView android:id="@r/event_horizon_detail_useragent" android:layout_width="-2" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="96dp" android:layout_height="-2" android:text="@r/event_horizon_loc_title" style="@r/TextGrey" />
+            <TextView android:id="@r/event_horizon_detail_loc" android:layout_width="-2" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="96dp" android:layout_height="-2" android:text="@r/event_horizon_ref_title" style="@r/TextGrey" />
+            <TextView android:id="@r/event_horizon_detail_ref" android:layout_width="-2" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="96dp" android:layout_height="-2" android:text="@r/event_horizon_rawevent_title" style="@r/TextGrey" />
+            <TextView android:id="@r/event_horizon_detail_raw" android:layout_width="-2" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

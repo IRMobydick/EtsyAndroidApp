@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="@r/text_small" android:textColor="@r/white" android:id="@r/item_divider_label" android:background="@r/grey" android:layout_width="-1" android:layout_height="@r/list_item_labeled_divider_height" android:textAllCaps="true" style="@r/DialogListRow_Text" />
+    <TextView android:textColor="@r/text_disabled_selector" android:id="@r/item_label" android:layout_width="-1" android:layout_height="-2" style="@r/DialogRow_Text" />
+</LinearLayout>

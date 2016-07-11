@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:id="0x7f1005ca" android:background="@r/bg_ten_percent_black_selector" android:layout_width="-1" android:layout_height="-2" android:minHeight="@r/actionbar_height">
+        <View android:id="0x7f1005cb" android:background="@r/divider_header" android:layout_width="-1" android:layout_height="@r/divider_height" android:layout_alignParentTop="true" />
+        <ImageView android:id="0x7f1005cc" android:layout_width="@r/actionbar_height" android:layout_height="@r/actionbar_height" android:layout_marginLeft="@r/margin_medium" android:scaleType="7" android:layout_alignParentRight="true" />
+        <TextView android:gravity="10" android:id="0x7f1005cd" android:paddingLeft="@r/padding_large" android:paddingTop="@r/padding_large" android:paddingBottom="@r/padding_large" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="0x7f1005cc" style="?unknown_attr_ref: 7f01003f" />
+    </RelativeLayout>
+    <TextView android:id="0x7f1005ce" android:paddingLeft="@r/padding_large" android:paddingTop="@r/padding_small" android:paddingRight="@r/padding_large" android:paddingBottom="@r/padding_large" android:layout_width="-1" android:layout_height="-2" style="@r/TextGrey_Large" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="0" android:id="0x7f10054c" android:layout_marginBottom="@r/margin_medium_large" style="0x7f0b0224">
+        <TextView android:layout_marginRight="@r/margin_medium" android:text="@r/ipp_purchased_in_person" style="?unknown_attr_ref: 7f010022" />
+        <LinearLayout android:orientation="1" android:paddingRight="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="0x7f10054d" android:layout_width="-2" android:layout_height="-2" style="@r/TextGrey" />
+            <com.etsy.android.uikit.view.ExpandToFitImageView android:id="0x7f10054e" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium_large" android:adjustViewBounds="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="0x7f10054f" style="0x7f0b0224"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="0x7f100550" style="?unknown_attr_ref: 7f010022" />
+            <TextView android:id="0x7f100551" style="0x7f0b0229" />
+        </LinearLayout>
+        <View style="0x7f0b0223" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="0x7f100552" style="0x7f0b0224"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="0x7f100553" style="?unknown_attr_ref: 7f010022" />
+            <TextView android:id="0x7f100554" style="0x7f0b0229" />
+        </LinearLayout>
+        <View style="0x7f0b0223" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:id="0x7f100555" android:paddingBottom="@r/padding_medium_large" style="0x7f0b0224">
+        <TextView android:text="@r/seller_information" style="?unknown_attr_ref: 7f010022" />
+        <TextView android:id="0x7f100556" style="0x7f0b0229" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:background="0x7f0e002d" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="0x7f1002bc" android:layout_width="-1" android:layout_height="-2" android:text="@r/etsy_terms_of_use" style="@r/DialogRow_Text" />
+        <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <TextView android:id="0x7f1002bd" android:layout_width="-1" android:layout_height="-2" android:text="@r/privacy_policy" style="@r/DialogRow_Text" />
+        <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <TextView android:id="0x7f1002be" android:layout_width="-1" android:layout_height="-2" android:text="@r/comms_policy" style="@r/DialogRow_Text" />
+    </LinearLayout>
+</ScrollView>

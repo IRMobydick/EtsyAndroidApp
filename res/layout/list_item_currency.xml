@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="@r/list_item_height" style="@r/DialogListRow_Text">
+    <com.etsy.android.uikit.view.GuardianTextView android:gravity="10" android:id="0x7f1003de" android:layout_width="60dp" android:layout_height="-2" style="0x7f0b01b8" />
+    <TextView android:ellipsize="3" android:gravity="13" android:id="0x7f10034f" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="@r/fixed_medium" android:singleLine="true" android:layout_weight="0.25" style="?unknown_attr_ref: 7f01002e" />
+    <TextView android:ellipsize="3" android:gravity="10" android:id="0x7f1003df" android:paddingLeft="@r/fixed_medium" android:layout_width="0dp" android:layout_height="@r/list_item_height" android:singleLine="true" android:layout_weight="1.0" style="?unknown_attr_ref: 7f01002b" />
+</LinearLayout>

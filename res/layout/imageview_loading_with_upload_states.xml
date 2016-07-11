@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="11" android:layout_width="-1" android:layout_height="-1" android:foreground="@r/bg_ten_percent_black_selector">
+    <ImageView android:id="@r/image" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <View android:id="@r/alpha_screen" android:background="@r/white_transparent" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <LinearLayout android:layout_gravity="11" android:orientation="1" android:id="@r/upload_failed" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+        <com.etsy.android.uikit.view.GuardianTextView android:layout_gravity="11" android:paddingBottom="@r/padding_medium" android:layout_width="-2" android:layout_height="-2" android:text="@r/image_failed_to_upload" style="@r/TextDarkGrey_Large" />
+        <TextView android:layout_gravity="11" android:id="@r/retry_button" android:layout_width="-2" android:layout_height="-2" android:text="@r/image_retry_upload" style="@r/ButtonWhiteV2" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="11" android:orientation="1" android:id="@r/activity_indicator" android:layout_width="-2" android:layout_height="-2">
+        <com.etsy.android.uikit.view.GuardianTextView android:id="@r/uploading_message" android:paddingBottom="@r/padding_medium" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@r/giftcard_message_uploading_file" style="@r/TextDarkGrey_Large" />
+        <com.etsy.android.uikit.view.LoadingIndicatorView android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2" android:src="@r/spinner_white" android:scaleType="5" />
+    </LinearLayout>
+</FrameLayout>

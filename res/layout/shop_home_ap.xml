@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:background="@r/white" app:paddingBottom="@r/fixed_large_xlarge" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/neg_fixed_medium">
+    <com.etsy.android.uikit.view.ForegroundImageView app:id="@r/photo" app:layout_width="@r/shop2_home_ap_size" app:layout_height="@r/shop2_home_ap_size" app:scaleType="6" app:foreground="@r/fg_standard_selector" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView app:layout_width="-1" app:layout_height="-2" style="0x7f0b01e1">
+    <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+        <com.etsy.android.uikit.view.FullImageView app:id="0x7f1003a5" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="0x7f0a00d2" app:layout_marginRight="0x7f0a00d2" app:imageAspect="0.28" />
+        <com.etsy.android.uikit.view.GuardianTextView app:gravity="1" app:layout_gravity="1" app:id="@r/title" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_large" app:layout_marginTop="@r/margin_large" app:layout_marginRight="@r/margin_large" app:layout_marginBottom="@r/margin_medium" style="?unknown_attr_ref: 7f010045" />
+        <TextView app:gravity="1" app:layout_gravity="1" app:id="@r/subtitle" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_large" app:layout_marginRight="@r/margin_large" app:layout_marginBottom="@r/margin_large" style="@r/TextGrey_Large" />
+        <TextView app:gravity="1" app:layout_gravity="1" app:id="0x7f1003a6" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="@r/margin_large" style="?unknown_attr_ref: 7f010035" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView app:padding="@r/padding_medium_large" app:layout_width="-1" app:layout_height="-1" app:animateLayoutChanges="true">
+    <RelativeLayout app:id="0x7f100310" app:visibility="1" app:layout_width="-1" app:layout_height="-2">
+        <LinearLayout app:gravity="1" app:orientation="1" app:background="@r/bg_card" app:padding="@r/card_shadow_padding" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_medium_large" app:layout_centerInParent="true">
+            <TextView app:gravity="11" app:id="0x7f100311" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_xlarge_large" app:layout_marginTop="@r/share_feedback_card_top_margin" app:layout_marginRight="@r/margin_xlarge_large" app:layout_marginBottom="@r/margin_large_xlarge" app:text="@r/review_share_cta" style="@r/TextDarkGrey_Larger" />
+            <TextView app:gravity="11" app:id="0x7f100312" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/share_feedback_card_top_margin" app:text="@r/review_share_reason" style="@r/TextDarkGrey_Larger" />
+            <ImageView app:id="0x7f100313" app:visibility="2" app:layout_width="@r/share_feedback_photo_width" app:layout_height="@r/share_feedback_photo_height" app:layout_marginLeft="@r/margin_xlarge_large" app:layout_marginTop="@r/margin_large_xlarge" app:layout_marginRight="@r/margin_xlarge_large" app:src="@r/image_default_preview" app:contentDescription="@r/appreciation_photo_content_description" />
+            <Button app:textSize="@r/text_medium" app:id="0x7f100314" app:visibility="2" app:layout_width="-1" app:layout_height="@r/share_feedback_button_height" app:layout_marginTop="@r/margin_large_xlarge" app:text="@r/review_share_button" style="?unknown_attr_ref: 7f010001" />
+        </LinearLayout>
+        <ImageView app:id="0x7f100315" app:layout_width="@r/share_feedback_shop_avatar_width" app:layout_height="@r/share_feedback_shop_avatar_height" app:src="@r/default_avatar_75px" app:layout_centerHorizontal="true" app:contentDescription="@r/shop_avatar_content_description" style="0x7f0b023f" />
+        <ImageView app:id="0x7f100316" app:background="@r/bg_ten_percent_black_selector" app:padding="@r/fixed_large" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_medium_large" app:layout_marginRight="@r/margin_medium" app:layout_alignParentRight="true" app:contentDescription="@r/close_button_content_description" app:srcCompat="@r/ic_close_24dp" />
+    </RelativeLayout>
+</ScrollView>

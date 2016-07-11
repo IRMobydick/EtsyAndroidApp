@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:padding="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:layout_width="-1" android:layout_height="-2" android:text="@r/admin_toolbar_fragment_title" style="@r/TextGrey" />
+        <TextView android:id="@r/fragment" android:layout_width="-1" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        <TextView android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium" android:text="@r/admin_toolbar_activity_title" style="@r/TextGrey" />
+        <TextView android:id="@r/activity" android:layout_width="-1" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        <TextView android:id="@r/web_url" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium" style="@r/TextGrey" />
+        <TextView android:id="@r/analytics_title" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium" style="@r/TextGrey" />
+        <TextView android:id="@r/analytics" android:layout_width="-1" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        <TextView android:layout_width="-1" android:layout_height="-2" android:text="@r/admin_toolbar_ab_tests_title" style="@r/TextGrey" />
+        <TextView android:id="@r/ab_tests" android:layout_width="-1" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack_Large" />
+        <TextView android:id="@r/responses_title" android:layout_width="-1" android:layout_height="-2" style="@r/TextGrey" />
+        <LinearLayout android:orientation="1" android:id="@r/responses_layout" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_xlarge" />
+        <TextView android:id="@r/requests_title" android:layout_width="-1" android:layout_height="-2" style="@r/TextGrey" />
+        <TextView android:id="@r/requests" android:layout_width="-1" android:layout_height="-2" style="@r/TextBlack_Large" />
+    </LinearLayout>
+</ScrollView>

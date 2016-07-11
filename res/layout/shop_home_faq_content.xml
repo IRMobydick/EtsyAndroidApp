@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@r/white" android:paddingLeft="@r/fixed_large" android:paddingRight="@r/fixed_large" android:paddingBottom="@r/fixed_large" android:layout_width="-1" android:layout_height="-2">
+    <View android:background="@r/nav_divider" android:layout_width="-1" android:layout_height="1dp" />
+    <TextView android:id="@r/faq_question" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/padding_large" style="@r/StructuredPoliciesSubhead" />
+    <TextView android:id="@r/faq_answer" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_medium" style="@r/StructuredPoliciesText" />
+</LinearLayout>

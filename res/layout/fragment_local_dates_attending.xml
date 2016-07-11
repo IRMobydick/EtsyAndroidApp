@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:background="@r/background_main_v2" app:layout_width="-1" app:layout_height="-1">
+    <ImageView app:id="0x7f1002ce" app:layout_width="?unknown_attr_ref: 7f0100b1" app:layout_height="?unknown_attr_ref: 7f0100b1" app:scaleType="7" app:srcCompat="@r/ic_close_24dp" style="0x7f0b00d7" />
+    <ScrollView app:layout_width="-1" app:layout_height="-1" app:fillViewport="true">
+        <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+            <include layout="0x7f0300d7" />
+            <TableLayout app:orientation="1" app:id="0x7f1002cf" app:background="@r/white" app:layout_width="-1" app:layout_height="-2" app:divider="0x7f0201ec" app:stretchColumns="3" app:shrinkColumns="4" app:showDividers="2">
+                <TableRow>
+                    <com.etsy.android.iconsy.views.IconView app:layout_width="?unknown_attr_ref: 7f0100b1" app:layout_height="0x7f0a01f8" app:layout_marginTop="@r/padding_large_xlarge" app:layout_column="1" app:iconChar="@r/ic_standard_clock" app:gravity="1" app:iconColor="@r/blue" />
+                    <TextView app:paddingTop="@r/padding_large_xlarge" app:paddingBottom="@r/padding_large_xlarge" app:layout_column="2" app:text="@r/hours_title" app:textAllCaps="true" style="@r/TextGrey" />
+                    <Space app:layout_column="3" app:layout_weight="1.0" />
+                    <TextView app:id="0x7f1002d0" app:background="@r/bg_ten_percent_black_selector" app:paddingLeft="@r/padding_large" app:paddingTop="@r/padding_large_xlarge" app:paddingRight="@r/padding_large" app:paddingBottom="@r/padding_large_xlarge" app:layout_column="4" app:text="@r/add_to_calendar" app:textAllCaps="true" style="?unknown_attr_ref: 7f010034" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

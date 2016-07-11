@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TableLayout app:id="@r/image_layout" app:layout_width="-1" app:layout_height="-2" app:layout_margin="0dp" />
+    <LinearLayout app:gravity="10" app:orientation="0" app:id="@ae/bottom" app:paddingLeft="@r/margin_medium_large" app:paddingTop="@r/padding_medium" app:paddingRight="@r/margin_medium_large" app:paddingBottom="@r/padding_medium_large" app:layout_width="-1" app:layout_height="-2">
+        <ImageView app:id="@r/avatar" app:background="@r/bg_avatar_rounded_square_small_borderless" app:visibility="2" app:layout_width="@r/card_avatar_small" app:layout_height="@r/card_avatar_small" app:layout_marginRight="@r/margin_medium" app:scaleType="6" />
+        <LinearLayout app:gravity="10" app:orientation="1" app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0">
+            <com.etsy.android.uikit.view.GuardianTextView app:ellipsize="3" app:id="@r/title" app:layout_width="-2" app:layout_height="-2" app:maxLines="1" app:singleLine="true" style="?unknown_attr_ref: 7f01002c" />
+            <LinearLayout app:orientation="0" app:layout_width="-2" app:layout_height="-2">
+                <TextView app:ellipsize="3" app:id="@r/subtitle" app:layout_width="-2" app:layout_height="-2" app:maxLines="1" app:singleLine="true" app:drawablePadding="@r/padding_tiny" style="@r/TextLightGrey" />
+                <com.etsy.android.iconsy.views.IconView app:gravity="53" app:layout_gravity="53" app:id="@r/title_icon" app:visibility="2" app:layout_width="@r/text_medium" app:layout_height="@r/text_medium" app:layout_marginLeft="@r/margin_small" app:iconColor="@r/light_grey" app:hasSelector="false" />
+            </LinearLayout>
+            <LinearLayout app:gravity="10" app:orientation="0" app:layout_width="-2" app:layout_height="-2">
+                <TextView app:id="@r/rating_title" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:text="@r/reviews" style="@r/TextGrey_Small" />
+                <com.etsy.android.uikit.view.RatingIconView app:id="@r/rating" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_small" app:layout_marginRight="@r/margin_small" app:starSize="@r/review_star_size_small" />
+                <TextView app:id="@r/rating_count" app:visibility="2" app:layout_width="-2" app:layout_height="-2" style="@r/TextGrey_Small" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

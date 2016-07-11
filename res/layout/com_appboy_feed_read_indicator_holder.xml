@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1">
+    <ImageSwitcher android:gravity="35" android:id="@id/com_appboy_newsfeed_item_read_indicator_image_switcher" android:background="@drawable/icon_unread" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" />
+</merge>

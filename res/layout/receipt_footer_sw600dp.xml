@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:orientation="0" android:id="0x7f10054c" style="0x7f0b0224">
+        <TextView android:id="0x7f100557" android:layout_marginRight="@r/margin_medium" android:text="@r/ipp_purchased_in_person" style="?unknown_attr_ref: 7f010022" />
+        <TextView android:id="0x7f10054d" android:paddingRight="@r/padding_medium_large" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="0x7f100557" style="@r/TextGrey" />
+        <com.etsy.android.uikit.view.ExpandToFitImageView android:id="0x7f10054e" android:paddingRight="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium_large" android:adjustViewBounds="true" android:layout_toRightOf="0x7f100557" android:layout_below="0x7f10054d" />
+        <View android:layout_below="0x7f10054e" style="0x7f0b0223" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="0" android:paddingLeft="@r/padding_medium_large" android:paddingRight="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2" style="0x7f0b0224">
+        <TextView android:textSize="@r/text_medium" android:layout_marginLeft="0dp" android:layout_marginRight="@r/margin_medium_large" android:maxWidth="0x7f0a022d" android:text="@r/order_total" style="?unknown_attr_ref: 7f010022" />
+        <include layout="0x7f0301f3" />
+    </LinearLayout>
+    <View style="0x7f0b0223" />
+    <LinearLayout android:orientation="1" android:id="0x7f1002f3" style="0x7f0b0224">
+        <TextView android:id="0x7f1002f4" style="?unknown_attr_ref: 7f010022" />
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_small">
+            <TextView android:id="0x7f100558" android:text="@r/payment_method_label" style="?unknown_attr_ref: 7f010021" />
+            <TextView android:id="0x7f1002f5" style="0x7f0b0229" />
+        </LinearLayout>
+        <View style="0x7f0b0223" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="0x7f1002f6" style="0x7f0b0224"
+        <LinearLayout android:orientation="1" android:id="0x7f1002f7" android:layout_width="-1" android:layout_height="-2" />
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium">
+            <TextView android:text="@r/shipping_address" style="?unknown_attr_ref: 7f010021" />
+            <TextView android:id="0x7f1002f8" android:textIsSelectable="true" style="0x7f0b0229" />
+        </LinearLayout>
+        <View style="0x7f0b0223" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="0x7f10054f" style="0x7f0b0224"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="0x7f100550" style="?unknown_attr_ref: 7f010022" />
+            <TextView android:id="0x7f100551" style="0x7f0b0229" />
+        </LinearLayout>
+        <View style="0x7f0b0223" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="0x7f100552" style="0x7f0b0224"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="0x7f100553" style="?unknown_attr_ref: 7f010022" />
+            <TextView android:id="0x7f100554" style="0x7f0b0229" />
+        </LinearLayout>
+        <View style="0x7f0b0223" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:id="0x7f100555" android:paddingBottom="@r/padding_medium_large" style="0x7f0b0224">
+        <TextView android:text="@r/seller_information" style="?unknown_attr_ref: 7f010022" />
+        <TextView android:id="0x7f100556" style="0x7f0b0229" />
+    </LinearLayout>
+</LinearLayout>

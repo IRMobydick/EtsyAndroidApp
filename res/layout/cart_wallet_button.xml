@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton android:id="0x7f1001a3" android:background="0x7f020239" android:visibility="2" android:layout_width="-1" android:layout_height="0x7f0a0157" android:layout_marginLeft="0x7f0a0030" android:layout_marginTop="0x7f0a015d" android:layout_marginRight="0x7f0a0030" android:layout_marginBottom="0x7f0a015d" android:src="0x7f02023f" android:contentDescription="@r/buy_with_google" />

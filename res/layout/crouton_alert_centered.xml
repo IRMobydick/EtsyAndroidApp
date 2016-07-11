@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@r/no_connection" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:gravity="1" android:layout_gravity="1" android:id="@r/error_text" android:padding="@r/padding_medium_large" android:layout_width="-2" android:layout_height="-2" android:text="@r/crouton_no_internet_connection" style="@r/TextWhite" />
+</FrameLayout>

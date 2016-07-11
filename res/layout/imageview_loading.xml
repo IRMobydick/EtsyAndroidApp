@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="11" android:layout_width="-1" android:layout_height="-1" android:foreground="@r/bg_ten_percent_black_selector">
+    <ImageView android:id="@r/image" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <com.etsy.android.iconsy.views.IconView android:layout_gravity="11" android:id="@r/play_video_icon" android:visibility="2" style="@r/PlayVideoIcon" />
+    <FrameLayout android:layout_gravity="11" android:id="@r/activity_indicator" android:layout_width="-2" android:layout_height="-2">
+        <com.etsy.android.uikit.view.LoadingIndicatorView android:layout_width="-2" android:layout_height="-2" android:src="@r/spinner_white" android:scaleType="5" />
+    </FrameLayout>
+</FrameLayout>

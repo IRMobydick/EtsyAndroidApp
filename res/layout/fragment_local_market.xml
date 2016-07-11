@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <com.etsy.android.ui.view.ImageBatchSwitcher android:id="0x7f1002d1" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+    <include android:id="0x7f1002d2" layout="0x7f030163" />
+    <include android:id="0x7f1002d3" android:layout_width="-1" android:layout_height="-2" android:layout_below="0x7f1002d2" layout="0x7f030163" />
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@r/swipe_refresh_layout" android:layout_width="-1" android:layout_height="-2">
+        <android.support.v7.widget.RecyclerView android:id="@r/recycler_view" android:paddingLeft="0x7f0a0042" android:paddingTop="0x7f0a0044" android:paddingRight="0x7f0a0042" android:scrollbars="200" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <include layout="@r/partial_empty_result" />
+    <include layout="@r/partial_loading" />
+    <include layout="@r/partial_no_internet" />
+</RelativeLayout>

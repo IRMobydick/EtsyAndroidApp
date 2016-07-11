@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@r/status_bar_latest_event_content" android:layout_width="-1" android:layout_height="65dp">
+    <include layout="@layout/com_appboy_notification_base" />
+</FrameLayout>

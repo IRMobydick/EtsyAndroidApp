@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="0x7f1004a0" android:paddingRight="0x7f0a00c3" android:layout_width="0x7f0a00c4" android:layout_height="-2" android:layout_marginLeft="@r/fixed_large" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" style="?unknown_attr_ref: 7f01003f" />
+        <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0"
+            <LinearLayout android:orientation="1" android:id="0x7f1004a1" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f0a0073" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large">
+                <include layout="0x7f030159" />
+            </LinearLayout>
+            <TextView android:id="0x7f1004a2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f0a0073" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" android:text="@r/shipping_processing_label" style="?unknown_attr_ref: 7f01003c" />
+            <TextView android:id="@r/txt_shipping_time" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f0a0073" android:layout_marginTop="@r/fixed_medium" android:layout_marginRight="@r/margin_large" android:layout_marginBottom="@r/margin_large" style="@r/TextGrey" />
+            <TextView android:id="0x7f1004a4" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f0a0073" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" android:layout_marginBottom="@r/margin_large" style="@r/TextGrey" />
+            <com.etsy.android.uikit.view.shop.policies.StructuredShopShippingView android:theme="@r/StructuredPoliciesViewThemeListing" android:id="0x7f1004a5" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f0a0073" android:layout_marginRight="@r/margin_large" android:layout_marginBottom="@r/margin_large" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@r/divider_header" android:layout_width="-1" android:layout_height="@r/divider_height" android:layout_marginLeft="0x7f0a0074" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="0x7f1004a6" android:paddingRight="0x7f0a00c3" android:layout_width="0x7f0a00c4" android:layout_height="-2" android:layout_marginLeft="@r/fixed_large" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" android:text="@r/structured_payment" style="?unknown_attr_ref: 7f01003f" />
+        <com.etsy.android.uikit.view.shop.policies.StructuredShopPaymentsView android:theme="@r/StructuredPoliciesViewThemeListing" android:id="0x7f1004a7" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="0x7f0a0073" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" android:layout_marginBottom="@r/margin_large" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@r/divider_header" android:layout_width="-1" android:layout_height="@r/divider_height" android:layout_marginLeft="0x7f0a0074" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="0x7f1004a8" android:paddingRight="0x7f0a00c3" android:layout_width="0x7f0a00c4" android:layout_height="-2" android:layout_marginLeft="@r/fixed_large" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" android:text="@r/structured_returns_and_exchanges" style="?unknown_attr_ref: 7f01003f" />
+        <com.etsy.android.uikit.view.shop.policies.StructuredShopRefundsView android:theme="@r/StructuredPoliciesViewThemeListing" android:id="0x7f1004a9" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="0x7f0a0073" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" android:layout_marginBottom="@r/margin_large" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ViewStub android:id="0x7f1004aa" android:layout="0x7f03002b" android:layout_width="-1" android:layout_height="-2" />
+    <LinearLayout android:orientation="1" android:id="0x7f1004ab" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+        <View android:background="@r/divider_header" android:layout_width="-1" android:layout_height="@r/divider_height" android:layout_marginLeft="0x7f0a0074" />
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="0x7f1004ac" android:paddingRight="0x7f0a00c3" android:layout_width="0x7f0a00c4" android:layout_height="-2" android:layout_marginLeft="@r/fixed_large" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" android:text="@r/seller_details_title" style="?unknown_attr_ref: 7f01003f" />
+            <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:id="0x7f1004ad" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f0a0073" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" style="@r/TextGrey" />
+                <TextView android:id="0x7f1004ae" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f0a0073" android:layout_marginTop="@r/fixed_medium" android:layout_marginRight="@r/margin_large" android:layout_marginBottom="@r/margin_large" style="@r/TextBlue" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

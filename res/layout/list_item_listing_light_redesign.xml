@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@r/listing_matte" android:layout_width="-1" android:layout_height="-2" style="0x7f0b0191">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="@r/listing_image" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" android:contentDescription="@r/listing_image_content_description" />
+            <ImageView android:id="@r/btn_fav" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="@r/btn_lists" android:layout_alignParentTop="true" style="@r/IconFavoriteListing" />
+            <ImageView android:id="@r/btn_lists" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@r/IconListsListing" />
+        </RelativeLayout>
+        <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <LinearLayout android:orientation="1" android:id="0x7f1003a1" android:padding="@r/fixed_small" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:ellipsize="3" android:id="@r/listing_title" android:layout_width="-1" android:layout_height="0dp" android:layout_marginRight="@r/fixed_small" android:singleLine="true" android:layout_weight="1.0" style="@r/TextGrey_Small" />
+            <TextView android:typeface="1" android:ellipsize="0" android:id="@r/listing_price" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="@r/TextGreen_Small" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

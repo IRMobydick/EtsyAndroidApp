@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:divider="@r/divider_grey" android:showDividers="2">
+    <TextView android:id="0x7f100546" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="@r/manage_post" style="@r/PopUpDropDown" />
+    <TextView android:id="0x7f100547" android:layout_width="-1" android:layout_height="-2" android:text="@r/hide_post" style="@r/PopUpDropDown" />
+    <TextView android:id="0x7f100548" android:layout_width="-1" android:layout_height="-2" android:text="@r/hide_shop_posts" style="@r/PopUpDropDown" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView app:id="@r/no_internet" app:visibility="2" app:layout_width="-1" app:layout_height="-1" app:fillViewport="true">
+    <LinearLayout app:gravity="11" app:layout_gravity="11" app:orientation="1" app:paddingTop="@r/padding_large" app:paddingBottom="@r/padding_large" app:layout_width="-1" app:layout_height="-2">
+        <com.etsy.android.uikit.view.LazyNativeAssetImageView app:id="@r/no_internet_image" app:layout_width="-2" app:layout_height="-2" app:img="@r/error_sorry_girl" />
+        <com.etsy.android.uikit.view.GuardianTextView app:gravity="11" app:id="@r/no_internet_text" app:paddingLeft="@r/padding_xlarge" app:paddingRight="@r/padding_xlarge" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_large" app:text="@r/loading_problem" style="?unknown_attr_ref: 7f010030" />
+        <TextView app:gravity="11" app:id="@r/no_internet_subtext" app:paddingLeft="@r/padding_xlarge" app:paddingRight="@r/padding_xlarge" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_large" app:text="@r/loading_no_internet" style="@r/TextGrey_Larger" />
+        <Button app:id="@r/btn_retry_internet" app:layout_width="@r/button_wide_width" app:layout_height="@r/button_height" app:layout_marginTop="@r/margin_large" app:text="@r/try_again" style="@r/ButtonWhiteV2" />
+    </LinearLayout>
+</ScrollView>

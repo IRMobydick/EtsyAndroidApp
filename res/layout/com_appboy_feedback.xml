@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/com_appboy_feedback_root" android:layout_width="-1" android:layout_height="-1" style="@style/Appboy_Feedback_Layout">
+    <LinearLayout android:id="@id/com_appboy_feedback_navigation_bar" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true" style="@style/Appboy_Feedback_NavigationBar">
+        <Button android:id="@id/com_appboy_feedback_cancel" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/Appboy_Feedback_NavigationBarCancelButton" />
+        <Button android:id="@id/com_appboy_feedback_send" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@style/Appboy_Feedback_NavigationBarSendButton" />
+    </LinearLayout>
+    <ScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true" android:layout_above="@id/com_appboy_feedback_navigation_bar" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="1" android:paddingLeft="4dp" android:paddingTop="4dp" android:paddingRight="4dp" android:layout_width="-1" android:layout_height="-2">
+            <EditText android:id="@id/com_appboy_feedback_message" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" style="@style/Appboy_Feedback_MessageEditText" />
+            <EditText android:id="@id/com_appboy_feedback_email" android:layout_width="-1" android:layout_height="-2" style="@style/Appboy_Feedback_EmailEditText" />
+            <CheckBox android:id="@id/com_appboy_feedback_is_bug" android:layout_width="-1" android:layout_height="-2" style="@style/Appboy_Feedback_IsBugCheckBox" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:id="0x7f100455" app:background="@r/bg_card" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="0x7f0a00c1">
+    <View app:id="0x7f100456" app:background="@r/divider_dark" app:visibility="2" app:layout_width="-1" app:layout_height="@r/divider_height" />
+    <RelativeLayout app:id="0x7f100457" app:background="@r/bg_ten_percent_black_selector" app:layout_width="-1" app:layout_height="@r/actionbar_height">
+        <ImageView app:id="0x7f100458" app:layout_width="@r/actionbar_height" app:layout_height="@r/actionbar_height" app:layout_marginLeft="@r/margin_medium" app:scaleType="7" app:layout_alignParentRight="true" />
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-1" app:layout_marginLeft="@r/margin_medium" app:layout_toLeftOf="0x7f100458" app:layout_alignParentLeft="true">
+            <com.etsy.android.uikit.view.RatingIconView app:layout_gravity="10" app:id="@r/rating" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium" app:starSize="0x7f0a01f1" />
+            <TextView app:ellipsize="3" app:gravity="10" app:layout_gravity="10" app:id="0x7f100459" app:layout_width="0dp" app:layout_height="-1" app:layout_marginLeft="@r/margin_medium" app:singleLine="true" app:layout_weight="1.0" style="?unknown_attr_ref: 7f01003f" />
+        </LinearLayout>
+        <View app:id="0x7f10045a" app:background="@r/divider_dark" app:layout_width="-1" app:layout_height="@r/divider_height" app:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <LinearLayout app:orientation="1" app:id="0x7f10045b" app:layout_width="-1" app:layout_height="-2" />
+    <RelativeLayout app:id="0x7f10045c" app:background="@r/bg_ten_percent_black_selector" app:visibility="2" app:layout_width="-1" app:layout_height="@r/actionbar_height">
+        <ImageView app:id="0x7f10045d" app:layout_width="@r/actionbar_height" app:layout_height="@r/actionbar_height" app:layout_marginLeft="@r/margin_medium" app:scaleType="7" app:layout_alignParentRight="true" />
+        <TextView app:gravity="10" app:id="0x7f10045e" app:paddingLeft="@r/padding_large" app:layout_width="-1" app:layout_height="-1" app:text="@r/latest_update" app:layout_toLeftOf="0x7f10045d" style="?unknown_attr_ref: 7f01003f" />
+    </RelativeLayout>
+    <LinearLayout app:orientation="1" app:id="0x7f10045f" app:visibility="2" app:layout_width="-1" app:layout_height="-2">
+        <View app:background="@r/divider_dark" app:layout_width="-1" app:layout_height="@r/divider_height" />
+        <TextView app:id="0x7f100460" app:layout_width="-1" app:layout_height="-2" app:layout_margin="@r/margin_large" style="?unknown_attr_ref: 7f010056" />
+        <com.etsy.android.uikit.view.ExpandToFitImageView app:id="0x7f100461" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_large" app:layout_marginRight="@r/margin_large" app:scaleType="3" />
+        <com.etsy.android.uikit.view.GuardianTextView app:id="0x7f100462" app:layout_width="-1" app:layout_height="-2" app:layout_margin="@r/margin_large" style="0x7f0b0055" />
+        <Button app:id="0x7f100463" app:layout_width="-1" app:layout_height="-2" app:layout_margin="@r/margin_large" app:text="@r/show_more_updates" style="?unknown_attr_ref: 7f01000e" />
+    </LinearLayout>
+    <RelativeLayout app:id="0x7f100464" app:background="@r/bg_ten_percent_black_selector" app:layout_width="-1" app:layout_height="@r/actionbar_height">
+        <ImageView app:id="0x7f100465" app:layout_width="@r/actionbar_height" app:layout_height="@r/actionbar_height" app:layout_marginLeft="@r/margin_medium" app:scaleType="7" app:layout_alignParentRight="true" />
+        <TextView app:gravity="10" app:id="0x7f100466" app:paddingLeft="@r/padding_large" app:layout_width="-1" app:layout_height="-1" app:text="@r/item_overview" app:layout_toLeftOf="0x7f100465" style="?unknown_attr_ref: 7f01003f" />
+    </RelativeLayout>
+    <LinearLayout app:orientation="1" app:id="0x7f100467" app:layout_width="-1" app:layout_height="-2">
+        <View app:background="@r/divider_dark" app:layout_width="-1" app:layout_height="@r/divider_height" />
+        <TableLayout app:id="0x7f100468" app:layout_width="-1" app:layout_height="-2" app:layout_margin="@r/margin_large" />
+    </LinearLayout>
+    <View app:id="0x7f100469" app:background="@r/divider_dark" app:layout_width="-1" app:layout_height="@r/divider_height" />
+    <RelativeLayout app:id="0x7f10046a" app:background="@r/bg_ten_percent_black_selector" app:layout_width="-1" app:layout_height="@r/actionbar_height">
+        <ImageView app:id="0x7f10046b" app:layout_width="@r/actionbar_height" app:layout_height="@r/actionbar_height" app:layout_marginLeft="@r/margin_medium" app:scaleType="7" app:layout_alignParentRight="true" />
+        <TextView app:gravity="10" app:id="0x7f10046c" app:paddingLeft="@r/padding_large" app:layout_width="-1" app:layout_height="-1" app:text="@r/item_details" app:layout_toLeftOf="0x7f10046b" style="?unknown_attr_ref: 7f01003f" />
+    </RelativeLayout>
+    <LinearLayout app:orientation="1" app:id="0x7f10046d" app:layout_width="-1" app:layout_height="-2">
+        <View app:background="@r/divider_dark" app:layout_width="-1" app:layout_height="@r/divider_height" app:layout_marginBottom="@r/margin_large" />
+        <com.etsy.android.uikit.view.MachineTranslationOneClickView app:id="@r/machine_translation_one_click" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_large" app:layout_marginRight="@r/margin_large" app:layout_marginBottom="@r/margin_medium_large" app:textSize="@r/text_medium" app:activeButtonColor="@r/blue" />
+        <TextView app:id="0x7f10046e" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_large" app:layout_marginRight="@r/margin_large" app:layout_marginBottom="@r/margin_large" style="0x7f0b0055" />
+        <RelativeLayout app:orientation="0" app:id="0x7f10046f" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_large" app:layout_marginRight="@r/margin_large" app:layout_marginBottom="@r/margin_large">
+            <View app:id="0x7f100470" app:background="@r/divider_header" app:layout_width="-1" app:layout_height="@r/divider_height" app:layout_marginBottom="@r/margin_medium" app:layout_alignParentTop="true" />
+            <ImageView app:id="0x7f100471" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@r/margin_medium" app:src="0x7f02018f" app:layout_below="0x7f100470" />
+            <TextView app:id="0x7f100472" app:layout_width="-1" app:layout_height="-2" app:layout_toRightOf="0x7f100471" app:layout_below="0x7f100470" style="@r/TextGrey_Large" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout app:id="0x7f100473" app:background="@r/bg_ten_percent_black_selector" app:layout_width="-1" app:layout_height="@r/actionbar_height">
+        <View app:background="@r/divider_dark" app:layout_width="-1" app:layout_height="@r/divider_height" app:layout_alignParentTop="true" />
+        <ImageView app:id="0x7f100474" app:layout_width="@r/actionbar_height" app:layout_height="@r/actionbar_height" app:layout_marginLeft="@r/margin_medium" app:scaleType="7" app:layout_alignParentRight="true" />
+        <TextView app:gravity="10" app:id="0x7f100475" app:paddingLeft="@r/padding_large" app:layout_width="-1" app:layout_height="-1" app:text="@r/shipping_payment" app:layout_toLeftOf="0x7f100474" style="?unknown_attr_ref: 7f01003f" />
+    </RelativeLayout>
+    <LinearLayout app:orientation="1" app:id="0x7f100476" app:layout_width="-1" app:layout_height="-2">
+        <View app:background="@r/divider_dark" app:layout_width="-1" app:layout_height="@r/divider_height" />
+        <include layout="0x7f030156" />
+        <include layout="0x7f03015a" />
+    </LinearLayout>
+    <RelativeLayout app:id="0x7f100477" app:background="@r/bg_ten_percent_black_selector" app:layout_width="-1" app:layout_height="@r/actionbar_height">
+        <View app:background="@r/divider_dark" app:layout_width="-1" app:layout_height="@r/divider_height" app:layout_alignParentTop="true" />
+        <ImageView app:id="0x7f100478" app:layout_width="@r/actionbar_height" app:layout_height="@r/actionbar_height" app:layout_marginLeft="@r/margin_medium" app:scaleType="7" app:layout_alignParentRight="true" />
+        <TextView app:gravity="10" app:id="0x7f100479" app:paddingLeft="@r/padding_large" app:layout_width="-1" app:layout_height="-1" app:text="@r/shipping_and_policies" app:layout_toLeftOf="0x7f100478" style="?unknown_attr_ref: 7f01003f" />
+    </RelativeLayout>
+    <LinearLayout app:orientation="1" app:id="0x7f10047a" app:layout_width="-1" app:layout_height="-2">
+        <View app:background="@r/divider_dark" app:layout_width="-1" app:layout_height="@r/divider_height" />
+        <include layout="0x7f030157" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:background="@r/white" app:paddingTop="@r/fixed_medium_large" app:paddingRight="@r/padding_large" app:paddingBottom="@r/fixed_large_xlarge" app:layout_width="-1" app:layout_height="-2">
+    <com.etsy.android.uikit.view.ForegroundImageView app:layout_gravity="10" app:id="@r/listing_image" app:layout_width="@r/shop2_home_review_listing_width" app:layout_height="@r/shop2_home_review_listing_height" app:scaleType="6" app:foreground="@r/fg_standard_selector" />
+    <TextView app:ellipsize="3" app:layout_gravity="10" app:id="@r/listing_title" app:background="@r/bg_unbounded_selector" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/padding_medium" app:maxLines="2" app:lineSpacingMultiplier="@r/shop_home_text_line_spacing_mult" style="@r/TextBlue" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape android:shape="0">
+            <solid android:color="@r/dark_grey" />
+            <corners android:topLeftRadius="@r/funding_badge_text_bar_radius" android:topRightRadius="@r/funding_badge_text_bar_radius" android:bottomLeftRadius="@r/funding_badge_text_bar_radius" android:bottomRightRadius="0dp" />
+        </shape>
+    </item>
+</layer-list>

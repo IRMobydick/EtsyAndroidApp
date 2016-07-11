@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <com.etsy.android.uikit.view.GuardianTextView android:id="0x7f1004f3" android:padding="@r/fixed_large" android:layout_width="0dp" android:layout_height="-2" android:text="@r/new_search_filter_filters" android:layout_weight="1.0" style="@r/TextDarkGrey_Larger" />
+        <TextView android:id="0x7f1004f4" android:background="@r/bg_ten_percent_black_selector" android:padding="@r/fixed_large" android:visibility="1" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/fixed_medium" android:text="@r/new_search_filter_clear_all" android:textAllCaps="true" style="@r/TextBlue" />
+        <TextView android:id="0x7f1004f5" android:background="@r/bg_ten_percent_black_selector" android:padding="@r/fixed_large" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/fixed_medium" android:text="@r/new_search_filter_done" android:textAllCaps="true" style="@r/TextBlue" />
+    </LinearLayout>
+    <View android:background="@r/list_divider_light" android:layout_width="-1" android:layout_height="@r/divider_height" />
+    <FrameLayout android:id="0x7f1004f6" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:gravity="11" android:id="0x7f1004f7" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+            <com.etsy.android.uikit.view.LoadingIndicatorView android:background="0x106000d" android:padding="@r/padding_large" android:layout_width="-2" android:layout_height="-2" android:src="@r/spinner_blue" android:scaleType="5" />
+        </LinearLayout>
+        <ScrollView android:id="0x7f1004f8" android:layout_width="-1" android:layout_height="-2">
+            <include layout="0x7f030171" />
+        </ScrollView>
+    </FrameLayout>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.uikit.share.SocialShareView app:gravity="1" app:orientation="0" app:id="@r/toast_layout_root" app:background="@r/transparent" app:padding="@r/padding_medium" app:layout_width="-1" app:layout_height="-1">
+    <com.etsy.android.uikit.view.MaxWidthRelativeLayout app:id="@r/popup_container" app:background="@r/list_selector_blue" app:paddingLeft="@r/fixed_medium_large" app:paddingRight="@r/fixed_medium_large" app:layout_width="-1" app:layout_height="@r/button_height_fixed" app:layout_alignParentBottom="true" app:maxWidth="@r/social_share_popup_max_width">
+        <ImageView app:id="@r/share_icon" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+        <TextView app:textSize="@r/text_medium_fixed" app:id="@r/message" app:paddingRight="@r/fixed_medium_large" app:layout_width="-2" app:layout_height="-2" app:layout_toLeftOf="@r/share_icon" app:layout_alignParentLeft="true" app:layout_centerVertical="true" style="@r/TextWhite" />
+    </com.etsy.android.uikit.view.MaxWidthRelativeLayout>
+</com.etsy.android.uikit.share.SocialShareView>

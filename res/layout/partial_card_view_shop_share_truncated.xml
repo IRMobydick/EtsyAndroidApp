@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <include layout="@r/partial_card_shop_share_header" />
+    <com.etsy.android.uikit.view.SquareTaggableImageView android:id="@r/shop_share_image" android:background="@r/even_lighter_grey" android:layout_width="-1" android:layout_height="-2" android:contentDescription="@r/shop_share_image_description" />
+    <TextView android:ellipsize="3" android:gravity="13" android:id="@r/caption" android:padding="@r/fixed_large" android:layout_width="-2" android:layout_height="-2" android:maxLines="2" android:minLines="2" style="@r/TextGrey" />
+</LinearLayout>

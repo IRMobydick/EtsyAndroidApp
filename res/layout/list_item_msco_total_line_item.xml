@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" style="0x7f0b0016">
+    <TextView android:id="@r/txt_title" android:layout_width="-2" android:layout_height="-2" android:maxWidth="260dp" android:text="@r/total" android:layout_alignParentLeft="true" style="@r/TextGrey" />
+    <TextView android:id="0x7f100419" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" style="@r/TextGrey" />
+</RelativeLayout>

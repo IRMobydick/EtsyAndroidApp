@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingTop="@r/padding_medium" android:paddingBottom="@r/padding_medium" android:layout_width="-1" android:layout_height="-2">
+    <include layout="@r/merge_button_blue" />
+</LinearLayout>

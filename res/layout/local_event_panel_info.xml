@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="0x7f0a0040" android:paddingTop="@r/padding_large" android:paddingRight="0x7f0a0040" android:layout_width="-1" android:layout_height="-2">
+    <com.etsy.android.uikit.view.GuardianTextView android:id="0x7f1003fe" android:paddingLeft="@r/card_shadow_padding" android:paddingRight="@r/card_shadow_padding" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_tiny" style="?unknown_attr_ref: 7f010032" />
+    <TextView android:id="0x7f1003fb" android:paddingLeft="@r/card_shadow_padding" android:paddingRight="@r/card_shadow_padding" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_medium" style="@r/TextGrey_Large" />
+    <LinearLayout android:orientation="1" android:background="@r/bg_card" android:layout_width="-1" android:layout_height="-2" android:divider="0x7f02015f" android:showDividers="2">
+        <TextView android:id="0x7f1004e0" android:background="@r/bg_ten_percent_black_selector" android:paddingLeft="@r/margin_large_xlarge" android:paddingTop="@r/padding_large" android:paddingRight="@r/margin_large_xlarge" android:paddingBottom="@r/padding_large" android:layout_width="-1" android:layout_height="-2" style="@r/TextBlue_Large" />
+        <LinearLayout android:orientation="1" android:id="0x7f1004e1" android:background="@r/bg_ten_percent_black_selector" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="0x7f1004e2" android:paddingLeft="@r/margin_large_xlarge" android:paddingTop="@r/padding_large" android:paddingRight="@r/margin_large_xlarge" android:paddingBottom="@r/padding_medium" android:layout_width="-1" android:layout_height="-2" style="@r/TextBlue_Large" />
+            <TextView android:orientation="1" android:id="0x7f1004e3" android:paddingLeft="@r/margin_large_xlarge" android:paddingRight="@r/margin_large_xlarge" android:layout_width="-1" android:layout_height="-2" style="@r/TextLightGrey" />
+        </LinearLayout>
+        <TextView android:id="0x7f1004e4" android:background="@r/bg_ten_percent_black_selector" android:paddingLeft="@r/margin_large_xlarge" android:paddingTop="@r/padding_large" android:paddingRight="@r/padding_large" android:paddingBottom="@r/padding_large" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="@r/local_event_site" style="@r/TextBlue_Large" />
+    </LinearLayout>
+    <TextView android:id="0x7f1004e5" android:background="@r/bg_card" android:padding="@r/padding_large" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_small" android:textIsSelectable="true" style="@r/TextGrey_Large" />
+</LinearLayout>

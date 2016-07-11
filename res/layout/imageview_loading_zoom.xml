@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="11" android:layout_width="-1" android:layout_height="-1">
+    <com.etsy.android.uikit.view.TouchImageView android:id="@r/image" android:layout_width="-1" android:layout_height="-1" android:scaleType="3" />
+    <FrameLayout android:id="@r/activity_indicator" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+        <com.etsy.android.uikit.view.LoadingIndicatorView android:layout_width="-2" android:layout_height="-2" android:src="@r/spinner_white" android:scaleType="5" />
+    </FrameLayout>
+    <LinearLayout android:gravity="11" android:orientation="1" android:id="@r/unsupported_view" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+        <TextView android:layout_width="-2" android:layout_height="-2" android:layout_margin="@r/margin_large" android:text="@r/error_image" style="@r/TextWhite_Larger" />
+        <Button android:id="@r/view_btn" android:layout_width="-2" android:layout_height="-2" android:text="@r/error_image_button" style="@r/ButtonWhiteV2" />
+    </LinearLayout>
+</RelativeLayout>

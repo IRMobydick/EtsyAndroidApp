@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+    <TextView android:id="@r/text" android:padding="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2" style="@r/TextGrey" />
+</ScrollView>

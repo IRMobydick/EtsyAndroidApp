@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingTop="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2">
+    <View android:background="@r/list_divider_dark" android:layout_width="-1" android:layout_height="@r/divider_height" />
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:id="0x7f1005b2" android:background="@r/bg_ten_percent_black_selector" android:padding="@r/padding_large" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f0a00a8" android:layout_marginRight="0x7f0a00a8">
+            <TextView android:layout_width="-2" android:layout_height="-2" android:text="@r/curator" style="?unknown_attr_ref: 7f01002d" />
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium">
+                <ImageView android:id="0x7f1005b3" android:layout_width="0x7f0a026d" android:layout_height="0x7f0a026d" android:layout_marginRight="@r/margin_medium_large" style="0x7f0b0371" />
+                <LinearLayout android:layout_gravity="10" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                    <com.etsy.android.uikit.view.GuardianTextView android:ellipsize="3" android:id="0x7f1005b4" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="?unknown_attr_ref: 7f010030" />
+                    <TextView android:id="0x7f1002dc" android:layout_width="-1" android:layout_height="-2" style="@r/TextDarkGrey" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="0x7f1005b5" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true">
+            <com.etsy.android.uikit.view.LoadingIndicatorView android:background="0x106000d" android:padding="@r/padding_large" android:layout_width="-2" android:layout_height="-2" android:src="@r/spinner_blue" android:scaleType="5" />
+        </FrameLayout>
+    </RelativeLayout>
+    <View android:background="@r/list_divider_dark" android:layout_width="-1" android:layout_height="@r/divider_height" />
+    <LinearLayout android:orientation="1" android:padding="@r/padding_large" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f0a00a8" android:layout_marginRight="0x7f0a00a8">
+        <TextView android:layout_width="-2" android:layout_height="-2" android:text="@r/stats" style="?unknown_attr_ref: 7f01002d" />
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium"
+            <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                <com.etsy.android.uikit.view.GuardianTextView android:id="0x7f1005b6" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f01002c" />
+                <TextView android:layout_width="-2" android:layout_height="-2" android:text="@r/views" android:textAllCaps="true" style="@r/TextDarkGrey_Small" />
+            </LinearLayout>
+            <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                <com.etsy.android.uikit.view.GuardianTextView android:id="0x7f1005b7" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f01002c" />
+                <TextView android:layout_width="-2" android:layout_height="-2" android:text="@r/clicks" android:textAllCaps="true" style="@r/TextDarkGrey_Small" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

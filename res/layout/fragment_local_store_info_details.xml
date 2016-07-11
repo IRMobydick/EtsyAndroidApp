@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1"
+    <LinearLayout app:gravity="10" app:orientation="0" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f0100b1">
+        <ImageView app:id="0x7f1002ce" app:layout_width="?unknown_attr_ref: 7f0100b1" app:layout_height="-1" app:srcCompat="@r/ic_close_24dp" style="0x7f0b00d7" />
+        <com.etsy.android.uikit.view.GuardianTextView app:textAppearance="0x7f0b01d7" app:ellipsize="3" app:id="0x7f1002d4" app:layout_width="-1" app:layout_height="-2" app:singleLine="true" />
+    </LinearLayout>
+    <ScrollView app:layout_width="-1" app:layout_height="-1" app:fillViewport="true">
+        <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+            <TableLayout app:background="@r/white" app:paddingRight="@r/padding_large" app:layout_width="-1" app:layout_height="-2" app:divider="0x7f0201ec" app:shrinkColumns="2" app:showDividers="2">
+                <TableRow app:id="0x7f1002d5" app:background="@r/bg_ten_percent_black_selector" app:paddingTop="@r/padding_medium_large" app:paddingBottom="@r/padding_medium_large" app:layout_width="-1" app:layout_height="-2">
+                    <com.etsy.android.iconsy.views.IconView app:layout_width="?unknown_attr_ref: 7f0100b1" app:layout_height="0x7f0a01f8" app:layout_column="1" app:iconChar="@r/ic_etsy_location" app:gravity="11" app:iconColor="@r/blue" />
+                    <TextView app:id="0x7f1002d6" app:layout_width="-1" app:layout_height="-2" app:layout_column="2" style="@r/TextBlue" />
+                </TableRow>
+                <TableRow app:id="0x7f1002d7" app:background="@r/bg_ten_percent_black_selector" app:paddingTop="@r/padding_medium_large" app:paddingBottom="@r/padding_medium_large" app:layout_width="?unknown_attr_ref: 7f0100b1" app:layout_height="-2">
+                    <com.etsy.android.iconsy.views.IconView app:layout_width="0x7f0a01f7" app:layout_height="0x7f0a01f8" app:layout_column="1" app:iconChar="@r/ic_standard_cell" app:gravity="11" app:iconColor="@r/blue" />
+                    <TextView app:id="0x7f1002d8" app:layout_width="-1" app:layout_height="-2" app:layout_column="2" style="@r/TextBlue" />
+                </TableRow>
+                <TableRow app:id="0x7f1002d9" app:background="@r/bg_ten_percent_black_selector" app:paddingTop="@r/padding_medium_large" app:paddingBottom="@r/padding_medium_large" app:layout_width="-1" app:layout_height="-2">
+                    <com.etsy.android.iconsy.views.IconView app:layout_width="?unknown_attr_ref: 7f0100b1" app:layout_height="0x7f0a01f8" app:layout_column="1" app:iconChar="@r/ic_standard_link" app:gravity="11" app:iconColor="@r/blue" />
+                    <TextView app:id="0x7f1002da" app:layout_width="-1" app:layout_height="-2" style="@r/TextBlue" />
+                </TableRow>
+            </TableLayout>
+            <TableLayout app:orientation="1" app:id="0x7f1002cf" app:background="@r/white" app:paddingRight="@r/padding_large" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_xlarge" app:divider="0x7f0201ec" app:stretchColumns="2" app:shrinkColumns="3" app:showDividers="2">
+                <TableRow app:paddingTop="@r/padding_large_xlarge" app:paddingBottom="@r/padding_large_xlarge">
+                    <com.etsy.android.iconsy.views.IconView app:layout_width="?unknown_attr_ref: 7f0100b1" app:layout_height="0x7f0a01f8" app:layout_column="1" app:iconChar="@r/ic_standard_clock" app:gravity="1" app:iconColor="@r/blue" />
+                    <TextView app:layout_column="2" app:text="@r/hours_title" app:textAllCaps="true" style="@r/TextGrey" />
+                </TableRow>
+            </TableLayout>
+            <LinearLayout app:orientation="0" app:id="0x7f1002db" app:background="@r/white" app:paddingTop="@r/padding_large" app:paddingRight="@r/padding_large" app:paddingBottom="@r/padding_large" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_xlarge">
+                <com.etsy.android.iconsy.views.IconView app:layout_width="?unknown_attr_ref: 7f0100b1" app:layout_height="0x7f0a01f8" app:iconChar="@r/ic_standard_info" app:gravity="11" app:iconColor="@r/blue" />
+                <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+                    <TextView app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="@r/margin_large" app:text="@r/about" app:textAllCaps="true" style="@r/TextGrey" />
+                    <TextView app:id="0x7f1002dc" app:layout_width="-2" app:layout_height="-2" app:lineSpacingMultiplier="1.2" style="@r/TextGrey" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

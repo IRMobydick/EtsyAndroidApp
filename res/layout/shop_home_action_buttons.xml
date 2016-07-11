@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@r/bg_card" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/fixed_large_card" android:layout_marginTop="@r/fixed_medium" android:layout_marginRight="@r/fixed_large_card" android:layout_marginBottom="@r/fixed_large_xlarge" android:divider="@r/divider_grey_vertical" android:showDividers="2">
+    <FrameLayout android:id="@r/fav_click_region" android:layout_width="0dp" android:layout_height="-2" android:foreground="@r/fg_standard_selector" android:layout_weight="1.0">
+        <TextView android:gravity="11" android:layout_gravity="11" android:id="@r/fav_txt" android:padding="@r/fixed_medium_large" android:layout_width="-2" android:layout_height="-2" android:text="@r/favorite" android:drawablePadding="@r/padding_medium_large" style="@r/TextDarkGrey_Large" />
+    </FrameLayout>
+    <FrameLayout android:id="@r/contact_click_region" android:layout_width="0dp" android:layout_height="-2" android:foreground="@r/fg_standard_selector" android:layout_weight="1.0">
+        <TextView android:gravity="11" android:layout_gravity="11" android:id="@r/contact_txt" android:padding="@r/fixed_medium_large" android:layout_width="-2" android:layout_height="-2" android:text="@r/contact" android:drawablePadding="@r/padding_medium_large" style="@r/TextDarkGrey_Large" />
+    </FrameLayout>
+</LinearLayout>

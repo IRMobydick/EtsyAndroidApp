@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@r/padding_medium" android:paddingRight="@r/padding_medium" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:layout_gravity="13" android:orientation="0" android:id="@r/layout_filter_summary" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@r/txt_filter_summary" android:paddingLeft="@r/fixed_small" android:paddingRight="@r/fixed_small" android:layout_width="-2" android:layout_height="-2" style="@r/TextGrey" />
+        <TextView android:id="@r/txt_expand_radius" android:background="@r/bg_ten_percent_black_selector" android:padding="@r/fixed_medium" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@r/local_browse_expand_search_area" style="@r/TextBlue" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="11" android:orientation="0" android:id="@r/layout_searching_this_area" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:layout_gravity="13" android:id="@r/txt_searching_this_area" android:paddingLeft="@r/fixed_small" android:paddingRight="@r/fixed_small" android:layout_width="0dp" android:layout_height="-2" android:text="@r/local_browse_searching_area" android:layout_weight="1.0" style="@r/TextGrey" />
+        <com.etsy.android.uikit.view.LoadingIndicatorView android:layout_gravity="15" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_small" android:src="@r/spinner_blue" android:scaleType="5" />
+    </LinearLayout>
+    <TextView android:layout_gravity="13" android:id="@r/txt_search_this_area" android:background="@r/bg_ten_percent_black_selector" android:padding="@r/fixed_medium" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:text="@r/local_browse_search_area" android:textAllCaps="true" style="@r/TextBlue" />
+</FrameLayout>

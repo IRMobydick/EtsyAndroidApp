@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2" style="@r/StructuredPoliciesShopHomeSection">
+    <com.etsy.android.uikit.view.shop.policies.StructuredShopPaymentsView android:theme="@r/StructuredPoliciesViewThemeDefault" android:id="@r/structured_payments" android:layout_width="-1" android:layout_height="-2" />
+</FrameLayout>

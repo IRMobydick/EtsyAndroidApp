@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:divider="@r/list_divider" android:showDividers="2">
+    <include layout="0x7f030165" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="1" android:padding="@r/margin_large" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+            <TextView android:id="0x7f10036e" android:layout_width="-2" android:layout_height="-2" android:singleLine="false" style="@r/CardSectionTitle" />
+            <FrameLayout android:id="0x7f10036b" android:layout_width="-2" android:layout_height="-2">
+                <TextView android:id="0x7f10036c" android:layout_width="-1" android:layout_height="-2" style="@r/TextMidGrey" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:paddingBottom="@r/padding_medium" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="0x7f0d001a">
+            <include layout="0x7f030164" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:exitFadeDuration="0x10e0000">
+    <item android:state_checked="true" android:color="@r/white" />
+    <item android:state_pressed="true" android:color="@r/white" />
+    <item android:state_selected="true" android:color="@r/white" />
+    <item android:color="@r/text_mid_grey" />
+</selector>

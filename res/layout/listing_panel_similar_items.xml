@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="0x7f1004d1" android:background="@r/background_main_v2" android:paddingBottom="0x7f0a00c2" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="0x7f1004d2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0x7f0a00c2" android:layout_marginBottom="@r/fixed_tiny" android:text="@r/listing_similar_items" style="0x7f0b0202" />
+    <com.etsy.android.ui.core.SimilarItemsLayout android:id="0x7f1004d3" android:paddingLeft="0x7f0a00c2" android:paddingRight="0x7f0a00a6" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_small">
+        <com.etsy.android.uikit.view.LoadingIndicatorView android:background="0x106000d" android:padding="@r/padding_large" android:layout_width="@r/horizontal_listing_card_section_item_width" android:layout_height="0x7f0a01e3" android:src="@r/spinner_blue" android:scaleType="5" />
+    </com.etsy.android.ui.core.SimilarItemsLayout>
+</LinearLayout>

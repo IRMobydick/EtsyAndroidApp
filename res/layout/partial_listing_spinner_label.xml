@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:ellipsize="4" android:gravity="10" android:visibility="2" android:layout_width="-2" android:layout_height="0x7f0a0272" android:singleLine="true" style="@r/TextBlue" />

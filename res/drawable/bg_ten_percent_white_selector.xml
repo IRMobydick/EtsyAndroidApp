@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="@r/touch_enter_fade_speed" android:exitFadeDuration="@r/touch_exit_fade_speed">
+    <item android:state_pressed="true">
+        <shape android:shape="0">
+            <solid android:color="@r/ten_percent_white" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:drawable="@r/item_focused">
+        <shape android:shape="0">
+            <solid android:color="@r/ten_percent_white" />
+        </shape>
+    </item>
+    <item android:state_checked="true" android:drawable="@r/item_focused">
+        <shape android:shape="0">
+            <solid android:color="@r/ten_percent_white" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="0">
+            <solid android:color="0x106000d" />
+        </shape>
+    </item>
+</selector>

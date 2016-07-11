@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:id="0x7f100483" app:layout_width="-1" app:layout_height="-2">
+    <RelativeLayout app:id="0x7f100484" app:paddingLeft="@r/padding_large" app:paddingTop="@r/padding_large" app:paddingRight="@r/padding_large" app:paddingBottom="@r/padding_medium" app:layout_width="-2" app:layout_height="-2">
+        <TextView app:textStyle="1" app:ellipsize="3" app:id="0x7f100485" app:layout_width="-2" app:layout_height="-2" app:singleLine="true" app:includeFontPadding="false" style="?unknown_attr_ref: 7f01004e" />
+        <TextView app:ellipsize="3" app:id="0x7f100486" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_tiny" app:singleLine="true" app:includeFontPadding="false" app:layout_toRightOf="0x7f100485" app:layout_alignBaseline="0x7f100485" style="@r/TextBlack_Small" />
+        <com.etsy.android.uikit.view.LoadingIndicatorView app:id="0x7f100487" app:background="0x106000d" app:visibility="2" app:layout_width="@r/listing_price_loading_indicator_size" app:layout_height="@r/listing_price_loading_indicator_size" app:layout_marginLeft="@r/margin_medium" app:src="@r/spinner_blue" app:scaleType="7" app:layout_toRightOf="0x7f100486" app:layout_alignTop="0x7f100485" app:layout_alignBottom="0x7f100485" />
+        <TextView app:id="0x7f100488" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:text="@r/vat_included" app:includeFontPadding="false" app:layout_below="0x7f100485" style="@r/TextGreen_Small" />
+        <TextView app:ellipsize="3" app:id="0x7f100489" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_small" app:singleLine="true" app:includeFontPadding="false" app:layout_below="0x7f100488" style="@r/TextGrey_Small" />
+        <TextView app:id="0x7f100194" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_small" app:includeFontPadding="false" app:layout_below="0x7f100489" style="@r/TextLightGrey_Small" />
+    </RelativeLayout>
+    <com.etsy.android.uikit.view.ProgressButton app:gravity="3" app:layout_gravity="10" app:id="0x7f10048a" app:paddingLeft="@r/padding_large" app:paddingTop="@r/padding_medium" app:paddingRight="@r/padding_large" app:paddingBottom="@r/padding_medium" app:layout_width="-1" app:layout_height="-2" app:text="@r/listing_contact_button" app:textStyleResource="0x7f0b017d" style="?unknown_attr_ref: 7f01000a" />
+</LinearLayout>

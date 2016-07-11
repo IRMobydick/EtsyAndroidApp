@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable android:label="@r/app_name" android:icon="@r/ic_menu_e" android:hint="@r/search_etsy_hint" android:searchSuggestAuthority="@r/content_provider_authority" android:searchSuggestSelection=" ?" android:inputType="1" android:voiceSearchMode="5" android:imeOptions="3" android:queryAfterZeroResults="true" />

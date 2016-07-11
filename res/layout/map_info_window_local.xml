@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2"
+    <LinearLayout android:orientation="1" android:background="0x7f02007a" android:paddingLeft="0x7f0a01fd" android:paddingTop="0x7f0a01fd" android:paddingRight="0x7f0a01fd" android:paddingBottom="@r/fixed_large" android:layout_width="0x7f0a0077" android:layout_height="-2">
+        <TextView android:ellipsize="3" android:id="0x7f1003fb" android:paddingLeft="@r/fixed_large" android:paddingTop="@r/fixed_medium_large" android:paddingRight="@r/fixed_large" android:paddingBottom="@r/fixed_medium_large" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@r/TextGrey_Large" />
+        <include android:id="0x7f1003fc" layout="0x7f030163" />
+        <include android:id="0x7f1003fd" layout="0x7f030163" />
+        <TextView android:id="0x7f100401" android:paddingLeft="@r/fixed_large" android:paddingTop="@r/fixed_large" android:paddingRight="@r/fixed_large" android:layout_width="-1" android:layout_height="-2" android:textAllCaps="true" style="@r/TextGrey_Small" />
+        <TextView android:ellipsize="3" android:id="0x7f1003fe" android:paddingLeft="@r/fixed_large" android:paddingTop="@r/fixed_small" android:paddingRight="@r/fixed_large" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@r/TextDarkGrey_Large" />
+        <TextView android:ellipsize="3" android:id="0x7f1003ff" android:paddingLeft="@r/fixed_large" android:paddingTop="@r/fixed_small" android:paddingRight="@r/fixed_large" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@r/TextGrey" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="1" android:layout_width="0x7f0a01fc" android:layout_height="0x7f0a01fa" android:layout_marginTop="0x7f0a01fb" android:src="0x7f02019e" />
+</LinearLayout>

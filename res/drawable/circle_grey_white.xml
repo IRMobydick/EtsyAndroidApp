@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="0">
+    <corners android:topLeftRadius="@r/convo_count_radius" android:topRightRadius="@r/convo_count_radius" android:bottomLeftRadius="@r/convo_count_radius" android:bottomRightRadius="@r/convo_count_radius" />
+    <solid android:color="@r/text_grey_white" />
+    <size android:height="@r/convo_count_height" />
+    <margin android:left="@r/fixed_medium" android:top="@r/fixed_medium" android:right="@r/fixed_medium" android:bottom="@r/fixed_medium" />
+</shape>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingTop="@r/margin_medium" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="@r/text" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginRight="@r/margin_large" android:singleLine="false" android:lineSpacingMultiplier="@r/shop_home_text_line_spacing_mult" style="@r/TextGrey" />
+    <TextView android:id="@r/read_more" android:background="@r/bg_unbounded_selector" android:paddingRight="@r/margin_medium" android:visibility="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/fixed_small" android:layout_marginRight="@r/margin_large" android:text="@r/read_more" style="@r/TextBlue" />
+</LinearLayout>

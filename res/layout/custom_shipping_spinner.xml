@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <android.support.v7.widget.AppCompatSpinner android:id="@r/shipping_spinner" android:layout_width="-1" android:layout_height="-2" style="@r/Etsy_Widget_Spinner" />
+    <LinearLayout android:layout_width="-1" android:layout_height="-2">
+        <android.support.v7.widget.AppCompatSpinner android:id="@r/min_spinner" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@r/Etsy_Widget_Spinner" />
+        <TextView android:paddingLeft="@r/margin_large" android:paddingRight="@r/margin_large" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-5dp" android:text="@r/to" style="@r/TextBlack" />
+        <android.support.v7.widget.AppCompatSpinner android:id="@r/max_spinner" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@r/Etsy_Widget_Spinner" />
+    </LinearLayout>
+    <com.etsy.android.uikit.view.SwitchToggle android:id="@r/unit_toggle" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/fixed_medium" android:layout_marginBottom="@r/fixed_medium" android:textOn="@r/structured_shipping_business_days" android:textOff="@r/structured_shipping_weeks" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@r/root_view" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:id="0x102000a" android:layout_width="-1" android:layout_height="-1" style="@r/ListView_NoSelector" />
+    <include layout="@r/partial_loading" />
+    <include layout="@r/partial_no_internet" />
+    <include layout="@r/partial_empty_result" />
+</RelativeLayout>

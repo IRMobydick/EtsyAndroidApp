@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="0x7f10038e" android:layout_width="-2" android:layout_height="-2" style="@r/CardViewElementStyle">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="0" android:id="0x7f1003b7" android:layout_width="-1" android:layout_height="-2" android:weightSum="2.0">
+            <ImageView android:id="0x7f1003b8" android:layout_width="0dp" android:layout_height="-2" android:scaleType="6" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@r/listing_image_content_description" />
+            <ImageView android:id="0x7f1003b9" android:layout_width="0dp" android:layout_height="-2" android:scaleType="6" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@r/listing_image_content_description" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="0x7f1003ba" android:layout_width="-1" android:layout_height="-2" android:weightSum="2.0">
+            <ImageView android:id="0x7f1003bb" android:layout_width="0dp" android:layout_height="-2" android:scaleType="6" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@r/listing_image_content_description" />
+            <ImageView android:id="0x7f1003bc" android:layout_width="0dp" android:layout_height="-2" android:scaleType="6" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@r/listing_image_content_description" />
+        </LinearLayout>
+        <View android:background="0x7f0e001a" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <FrameLayout android:id="0x7f100395" android:layout_width="-1" android:layout_height="0x7f0a0063">
+            <TextView android:ellipsize="3" android:gravity="11" android:layout_gravity="11" android:id="@r/title" android:layout_width="-1" android:layout_height="-2" android:text="@r/view_more" android:singleLine="true" android:includeFontPadding="false" style="?unknown_attr_ref: 7f010035" />
+        </FrameLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

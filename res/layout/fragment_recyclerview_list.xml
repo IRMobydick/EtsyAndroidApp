@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@r/root_view" android:layout_width="-1" android:layout_height="-1">
+    <com.etsy.android.uikit.view.SwipeRefreshObeyRequestDisallowInterceptTouchEventLayout android:id="@r/swipe_refresh_layout" android:layout_width="-1" android:layout_height="-2">
+        <android.support.v7.widget.RecyclerView android:id="@r/recycler_view" android:paddingLeft="@r/card_view_margin" android:paddingRight="@r/card_view_margin" android:paddingBottom="@r/margin_medium" android:scrollbars="200" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" />
+    </com.etsy.android.uikit.view.SwipeRefreshObeyRequestDisallowInterceptTouchEventLayout>
+    <include layout="@r/partial_loading" />
+    <include layout="@r/partial_no_internet" />
+    <include layout="@r/partial_empty_result" />
+</FrameLayout>

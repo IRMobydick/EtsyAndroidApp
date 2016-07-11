@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1"
+    <FrameLayout android:id="0x7f1002bf" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:id="0x7f1002c0" android:layout_width="-1" android:layout_height="-2">
+            <include layout="0x7f0301cf" />
+            <include layout="0x7f030151" />
+            <include layout="0x7f0301ce" />
+            <ImageView android:layout_gravity="30" android:id="0x7f1002c1" android:background="@r/bg_ten_percent_black_selector" android:padding="@r/padding_medium" android:visibility="2" android:clickable="true" android:layout_width="0x7f0a01ee" android:layout_height="0x7f0a01ee" android:layout_marginTop="@r/margin_medium" android:layout_marginRight="@r/margin_small" android:src="@r/ic_listing_unfavorite_selector" android:scaleType="5" android:layout_toLeftOf="0x7f1002c3" android:layout_below="0x7f1002c2" android:contentDescription="@r/favorite_content_description" />
+            <ImageView android:layout_gravity="35" android:id="0x7f1002c3" android:background="@r/bg_ten_percent_black_selector" android:padding="@r/padding_medium" android:clickable="true" android:layout_width="0x7f0a01ee" android:layout_height="0x7f0a01ee" android:layout_marginTop="@r/margin_medium" android:layout_marginRight="@r/margin_medium" android:src="@r/ic_listing_lists" android:scaleType="5" android:layout_below="0x7f1002c2" android:layout_alignParentRight="true" android:contentDescription="@r/add_listing_to_collection_content_description" />
+        </RelativeLayout>
+        <ImageView android:id="@r/blur_image" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:scaleType="6" />
+        <View android:id="@r/blur_overlay" android:background="@r/background_main_v2_glass" android:visibility="2" android:layout_width="-1" android:layout_height="-2" />
+        <com.etsy.android.ui.view.ObservableScrollView android:id="0x7f1002c4" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true" style="0x7f0b01e8">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                <com.etsy.android.ui.view.ViewTouchInterceptor android:id="0x7f1002c5" android:background="@r/transparent" android:layout_width="-1" android:layout_height="-2" />
+                <LinearLayout android:orientation="1" android:id="0x7f1002c6" android:background="0x7f020077" android:paddingLeft="0x7f0a00c2" android:paddingTop="0x7f0a00c2" android:paddingRight="0x7f0a00c2" android:layout_width="-1" android:layout_height="-2">
+                    <include layout="0x7f030155" />
+                    <include layout="0x7f03014b" />
+                </LinearLayout>
+                <LinearLayout android:orientation="1" android:id="0x7f1002c7" android:background="@r/background_main_v2" android:paddingLeft="0x7f0a00c2" android:paddingRight="0x7f0a00c2" android:paddingBottom="0x7f0a00c2" android:layout_width="-1" android:layout_height="-2">
+                    <include layout="0x7f03014c" />
+                    <include layout="0x7f03015b" />
+                    <include layout="0x7f03014e" />
+                </LinearLayout>
+                <include layout="0x7f03015c" />
+                <View android:background="@r/divider_dialog" android:layout_width="-1" android:layout_height="@r/fixed_one" />
+                <LinearLayout android:orientation="1" android:background="@r/background_main_v2" android:layout_width="-1" android:layout_height="-2">
+                    <include layout="0x7f03015d" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.etsy.android.ui.view.ObservableScrollView>
+    </FrameLayout>
+    <include layout="0x7f030186" />
+    <include layout="@r/partial_loading" />
+    <include layout="@r/partial_no_internet" />
+    <include layout="0x7f03018a" />
+</FrameLayout>

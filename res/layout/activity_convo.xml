@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.lib.convos.BaseSplitView app:id="0x7f100134" app:layout_width="-1" app:layout_height="-1" app:empty_layout="0x7f03017f" app:no_internet_layout="@r/partial_no_internet" />

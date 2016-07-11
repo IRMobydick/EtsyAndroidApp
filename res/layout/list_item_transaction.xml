@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:background="@r/bg_ten_percent_black_selector" app:paddingLeft="@r/padding_medium_large" app:paddingTop="@r/padding_medium_large" app:paddingRight="@r/padding_medium_large" app:paddingBottom="@r/padding_medium_large" app:layout_width="-1" app:layout_height="-2"
+    <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-2">
+        <ImageView app:id="0x7f100447" app:layout_width="0x7f0a007c" app:layout_height="0x7f0a007b" app:layout_marginRight="@r/margin_medium" app:contentDescription="@r/listing_image_content_description" />
+        <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+            <TextView app:ellipsize="3" app:id="0x7f100448" app:layout_width="-2" app:layout_height="-2" app:maxLines="2" style="?unknown_attr_ref: 7f010029" />
+            <TextView app:ellipsize="3" app:id="0x7f100449" app:layout_width="-2" app:layout_height="-2" app:maxLines="1" app:singleLine="true" style="@r/TextMidGrey" />
+            <TextView app:ellipsize="3" app:id="0x7f10044a" app:layout_width="-2" app:layout_height="-2" app:maxLines="1" app:singleLine="true" style="@r/TextMidGrey" />
+            <TextView app:ellipsize="3" app:id="0x7f10044b" app:layout_width="-2" app:layout_height="-2" app:maxLines="4" style="@r/TextMidGrey" />
+            <TextView app:ellipsize="3" app:id="0x7f10044c" app:layout_width="-2" app:layout_height="-2" app:maxLines="1" app:singleLine="true" style="@r/TextMidGrey" />
+            <com.etsy.android.uikit.view.RatingIconView app:layout_gravity="10" app:id="0x7f10044d" app:paddingTop="@r/padding_medium" app:paddingBottom="@r/padding_medium" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:starSize="@r/review_star_size_small" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout app:gravity="11" app:layout_gravity="11" app:orientation="0" app:id="0x7f10044e" app:paddingTop="@r/padding_medium" app:paddingBottom="@r/padding_medium" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_medium" style="@r/ButtonBlueV2">
+        <TextView app:id="0x7f10044f" app:layout_width="-2" app:layout_height="-2" app:text="@r/edit_review" style="?unknown_attr_ref: 7f010065" />
+        <com.etsy.android.uikit.view.RatingIconView app:layout_gravity="10" app:id="0x7f100450" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium" app:starSize="@r/review_star_size_small" />
+    </LinearLayout>
+    <TextView app:gravity="11" app:id="0x7f100451" app:background="@r/etsy_light_blue" app:padding="@r/padding_medium" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_medium" style="?unknown_attr_ref: 7f010034" />
+</LinearLayout>

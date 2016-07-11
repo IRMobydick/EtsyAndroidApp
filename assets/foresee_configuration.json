@@ -1,0 +1,14 @@
+{
+  clientId: "9xqy0i0s47zHEnw2KUVp1w==",
+  measures: [
+    {
+      surveyId: "buyer_android_app",
+      launchCount: 3
+    }
+  ],
+  notificationType: "ON_EXIT",
+  sessionReplayEnabled: false,
+  repeatDaysAfterDecline: 180,
+  repeatDaysAfterComplete: 180,
+  repeatDaysAfterAccept: 180
+}

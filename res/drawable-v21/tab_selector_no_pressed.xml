@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_selected="true" android:drawable="0x7f02021e" />
+    <item android:state_checked="true" android:drawable="0x7f02021e" />
+    <item android:drawable="0x7f02021d" />
+</selector>

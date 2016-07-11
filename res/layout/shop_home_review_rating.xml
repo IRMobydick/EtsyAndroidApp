@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.uikit.view.RatingIconView app:gravity="3" app:id="@r/rating" app:background="@r/white" app:padding="0dp" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/neg_fixed_medium" app:starSize="@r/shop2_home_review_star_size" />

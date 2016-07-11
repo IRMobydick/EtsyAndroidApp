@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="0" android:id="0x7f1004e6" android:background="@r/local_store_image_bg" android:layout_width="-1" android:layout_height="-1" />
+    <com.etsy.android.uikit.view.ImageViewWithAspectRatio android:id="0x7f1004e7" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <LinearLayout android:orientation="0" android:id="0x7f1004e8" android:layout_width="-1" android:layout_height="-2" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:gravity="10" app:background="@r/white" app:paddingLeft="@r/fixed_large" app:paddingTop="@r/fixed_xlarge" app:paddingRight="@r/fixed_large" app:paddingBottom="@r/fixed_xlarge" app:layout_width="-1" app:layout_height="-2">
+    <TextView app:layout_width="-2" app:layout_height="-2" app:text="@r/reviews" style="?unknown_attr_ref: 7f010045" />
+    <Space app:layout_width="@r/margin_xxxlarge" app:layout_height="-2" />
+    <TextView app:id="@r/no_reviews_message" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:text="@r/no_reviews_in_last_year" app:singleLine="false" style="@r/TextDarkGrey" />
+    <TextView app:layout_gravity="10" app:id="@r/shop_avg_item_reviews" app:paddingRight="@r/fixed_small" app:layout_width="-2" app:layout_height="-2" app:text="@r/average_item_review" style="@r/TextLightGrey" />
+    <com.etsy.android.uikit.view.RatingIconView app:gravity="10" app:layout_gravity="10" app:id="@r/rating" app:paddingTop="@r/padding_tiny" app:layout_width="-2" app:layout_height="-2" app:starSize="@r/shop2_home_review_star_size" />
+    <TextView app:layout_gravity="10" app:id="@r/shop_num_reviews" app:paddingLeft="@r/fixed_small" app:layout_width="-2" app:layout_height="-2" style="@r/TextLightGrey" />
+</LinearLayout>

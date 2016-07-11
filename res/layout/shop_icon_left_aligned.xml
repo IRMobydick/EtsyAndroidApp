@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:layout_gravity="30" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/fixed_large" app:layout_marginTop="@r/margin_large" app:layout_marginRight="@r/margin_medium" app:layout_marginBottom="@r/margin_medium_large">
+    <com.etsy.android.uikit.view.FullImageView app:id="@r/shop_icon" app:layout_width="-1" app:layout_height="0dp" app:scaleType="6" app:imageAspect="1.0" />
+</FrameLayout>

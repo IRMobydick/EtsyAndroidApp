@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/fixed_xxlarge">
+    <include android:layout_width="-1" android:layout_height="-2" layout="@r/fragment_social_share_shop_header_item" />
+</FrameLayout>

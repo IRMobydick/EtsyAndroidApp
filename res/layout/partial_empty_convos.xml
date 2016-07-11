@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:id="@r/empty_view" app:visibility="2" app:layout_width="-1" app:layout_height="-1">
+    <ScrollView app:layout_width="-1" app:layout_height="-1" app:fillViewport="true">
+        <LinearLayout app:gravity="11" app:layout_gravity="11" app:orientation="1" app:padding="@r/padding_large" app:layout_width="-1" app:layout_height="-2">
+            <com.etsy.android.uikit.view.LazyNativeAssetImageView app:id="@r/empty_image" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="@r/margin_large" app:img="@r/error_sorry_girl" />
+            <com.etsy.android.uikit.view.GuardianTextView app:gravity="11" app:id="@r/empty_view_text" app:layout_width="-2" app:layout_height="-2" app:text="@r/empty_convos" style="?unknown_attr_ref: 7f010030" />
+            <TextView app:gravity="11" app:id="@r/empty_view_subtext" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_large" app:maxWidth="400dp" app:text="@r/convos_empty_subtext" style="@r/TextGrey_Large" />
+            <Button app:gravity="11" app:id="@r/empty_button" app:paddingLeft="@r/padding_xlarge" app:paddingRight="@r/padding_xlarge" app:visibility="2" app:layout_width="-2" app:layout_height="@r/button_height" app:layout_marginTop="@r/margin_large" style="@r/ButtonWhiteV2" />
+        </LinearLayout>
+    </ScrollView>
+    <View app:id="0x7f100273" style="@r/Divider_Vertical_Gradient" />
+</FrameLayout>

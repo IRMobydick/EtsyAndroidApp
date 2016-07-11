@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.uikit.view.GuardianTextView android:ellipsize="3" android:id="@r/listing_title" android:paddingBottom="@r/padding_small" android:layout_width="-2" android:layout_height="-2" android:maxLines="3" android:includeFontPadding="false" android:lineSpacingMultiplier="1.1" style="?unknown_attr_ref: 7f01002a" />

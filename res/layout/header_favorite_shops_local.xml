@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="0" android:paddingLeft="@r/fixed_small" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_medium_large" android:layout_marginTop="@r/margin_medium_large" android:layout_marginRight="@r/margin_medium_large">
+            <TextView android:paddingBottom="@r/padding_medium" android:layout_width="0dp" android:layout_height="-2" android:text="@r/local_selling_nearby" android:layout_weight="1.0" style="@r/TextBlack_Large" />
+            <TextView android:gravity="50" android:id="0x7f10035f" android:background="@r/bg_ten_percent_black_selector" android:paddingLeft="@r/fixed_small" android:paddingRight="@r/fixed_small" android:paddingBottom="@r/padding_medium" android:layout_width="-2" android:layout_height="-1" android:text="@r/see_more" android:textAllCaps="true" style="?unknown_attr_ref: 7f01003a" />
+        </LinearLayout>
+        <FrameLayout android:id="0x7f100360" android:paddingLeft="@r/margin_medium_large" android:paddingRight="@r/margin_medium_large" android:layout_width="-1" android:layout_height="-2"
+            <FrameLayout android:id="@r/click_region" android:background="@r/bg_card" android:layout_width="-1" android:layout_height="-2" android:foreground="@r/fg_card_selector">
+                <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false">
+                    <include layout="@r/card_standard_row" />
+                </LinearLayout>
+            </FrameLayout>
+        </FrameLayout>
+        <include android:id="0x7f100362" layout="0x7f0300f3" />
+        <TextView android:paddingLeft="@r/fixed_small" android:paddingRight="@r/fixed_small" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_medium_large" android:layout_marginTop="@r/margin_large_xlarge" android:layout_marginRight="@r/margin_medium_large" android:layout_marginBottom="@r/margin_medium" android:text="@r/local_all_favorite_shops" style="@r/TextBlack_Large" />
+    </LinearLayout>
+</FrameLayout>

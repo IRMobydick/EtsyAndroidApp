@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape android:shape="0">
+            <solid android:color="@r/white" />
+        </shape>
+    </item>
+    <item android:right="@r/divider_height">
+        <bitmap android:src="@r/empty_placeholder" android:tileMode="1" />
+    </item>
+</layer-list>

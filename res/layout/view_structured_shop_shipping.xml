@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView android:id="@r/btn_expand" android:visibility="2" android:layout_width="-2" android:layout_height="-2" style="@r/StructuredPoliciesButtonSeeMore" />
+    <LinearLayout android:orientation="1" android:id="@r/expansion_section" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@r/txt_subhead_processing_time" android:layout_width="-2" android:layout_height="-2" android:text="@r/structured_shipping_processing_time" style="?unknown_attr_ref: 7f0101de" />
+        <TextView android:id="@r/txt_processing_time" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_medium" style="?unknown_attr_ref: 7f0101df" />
+        <Space android:id="@r/spacer_1" android:layout_width="-1" android:layout_height="@r/fixed_xlarge" />
+        <TextView android:id="@r/txt_subhead_shipping_time" android:layout_width="-2" android:layout_height="-2" android:text="@r/structured_shipping_estimated_time" style="?unknown_attr_ref: 7f0101de" />
+        <TextView android:id="@r/txt_shipping_time" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_medium" android:lineSpacingExtra="@r/fixed_medium" style="?unknown_attr_ref: 7f0101df" />
+        <TextView android:id="@r/txt_shipping_disclaimer" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_large" android:text="@r/structured_shipping_message" style="?unknown_attr_ref: 7f0101e0" />
+        <Space android:id="@r/spacer_2" android:layout_width="-1" android:layout_height="@r/fixed_xlarge" />
+        <TextView android:id="@r/txt_subhead_customs_fees" android:layout_width="-2" android:layout_height="-2" android:text="@r/structured_shipping_customs_duties_fees" style="?unknown_attr_ref: 7f0101de" />
+        <TextView android:id="@r/txt_customs_fees" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_medium" android:text="@r/structured_shipping_customs_duties_fees_info" style="?unknown_attr_ref: 7f0101df" />
+    </LinearLayout>
+</merge>

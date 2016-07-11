@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="0x7f0a002f" android:paddingBottom="0x7f0a002f" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="0" android:id="0x7f10015f" android:padding="@r/padding_large" android:layout_width="-1" android:layout_height="-2" style="0x7f0b018f"
+        <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+            <com.etsy.android.uikit.view.GuardianTextView android:layout_gravity="10" android:id="0x7f100160" android:layout_width="-2" android:layout_height="0dp" android:layout_marginBottom="0x7f0a0030" android:layout_weight="1.0" style="?unknown_attr_ref: 7f01003c" />
+            <com.etsy.android.uikit.view.GuardianTextView android:layout_width="-2" android:layout_height="-2" android:text="@r/order_submitted_sent_email_msg" style="@r/TextDarkGrey" />
+        </LinearLayout>
+        <Button android:layout_gravity="10" android:id="0x7f100161" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/margin_tiny" android:text="@r/view_order_button" style="@r/ButtonBlueV2" />
+    </LinearLayout>
+</FrameLayout>

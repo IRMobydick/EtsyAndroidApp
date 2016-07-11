@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="0" app:id="@r/shop_row" app:layout_width="-1" app:layout_height="-2">
+    <ImageView app:layout_gravity="11" app:id="@r/shop_avatar" app:layout_marginLeft="@r/fixed_large" app:layout_marginTop="@r/fixed_large" app:layout_marginBottom="@r/fixed_large" app:contentDescription="@r/shop_avatar_content_description" style="@r/Avatar_Feed2" />
+    <com.etsy.android.uikit.view.GuardianTextView app:ellipsize="3" app:layout_gravity="11" app:id="@r/shop_name" app:layout_width="0dp" app:layout_height="-2" app:singleLine="true" app:includeFontPadding="false" app:layout_weight="1.0" style="?unknown_attr_ref: 7f01003c" />
+    <TextView app:layout_gravity="11" app:id="@r/create_date" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@r/fixed_large" style="@r/TextLightGrey_Small" />
+    <com.etsy.android.iconsy.views.IconView app:layout_gravity="11" app:id="@r/menu_icon" app:background="@r/bg_unbounded_selector" app:paddingTop="@r/shop_share_dotted_menu_padding" app:paddingBottom="@r/shop_share_dotted_menu_padding" app:layout_width="@r/shop_share_dotted_menu_size" app:layout_height="@r/shop_share_dotted_menu_size" app:layout_marginLeft="@r/shop_share_dotted_menu_margin_left" app:layout_marginRight="@r/shop_share_dotted_menu_margin_right" app:iconColor="@r/lighter_grey" app:hasSelector="true" style="@r/MenuIcon" />
+</LinearLayout>

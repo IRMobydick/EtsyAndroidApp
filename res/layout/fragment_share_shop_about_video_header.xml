@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:layout_gravity="11" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/fixed_xxlarge" android:text="@r/share_shop_about_video_prompt" />

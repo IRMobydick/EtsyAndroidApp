@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView android:layout_width="-2" android:layout_height="-2" android:text="@r/structured_shipping_digital_subtitle" style="?unknown_attr_ref: 7f0101de" />
+    <TextView android:id="@r/txt_downloads_info" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_large" android:text="@r/structured_shipping_digital_message" style="?unknown_attr_ref: 7f0101df" />
+</merge>

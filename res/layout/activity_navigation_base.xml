@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout app:id="@r/nav_drawer_layout" app:fitsSystemWindows="true" app:layout_width="-1" app:layout_height="-1">
+    <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+        <include layout="@r/app_bar" />
+        <FrameLayout app:id="@r/nav_content_frame" app:layout_width="-1" app:layout_height="-1" />
+    </LinearLayout>
+    <com.etsy.android.uikit.navigationview.EtsyNavigationView app:layout_gravity="800003" app:id="@r/nav_drawer_window" app:background="@r/brand_orange" app:layout_width="-2" app:layout_height="-1" app:itemIconTint="@r/transparent" app:itemTextColor="@r/navigation_view_item_color" />
+</android.support.v4.widget.DrawerLayout>

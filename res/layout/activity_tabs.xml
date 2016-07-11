@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <android.support.v4.view.ViewPager android:id="0x7f100132" android:layout_width="-1" android:layout_height="-1" />
+    <include layout="@r/partial_loading" />
+    <include layout="@r/partial_no_internet" />
+    <include layout="@r/partial_empty_result" />
+</RelativeLayout>

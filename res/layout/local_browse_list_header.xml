@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@r/bg_ten_percent_black_selector" android:paddingTop="0x7f0a001a" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:id="0x7f1004df" android:layout_width="-1" android:layout_height="-2">
+        <com.etsy.android.uikit.view.GuardianTextView android:textSize="0x7f0a0076" android:gravity="51" android:background="@r/white" android:paddingLeft="@r/padding_xlarge" android:paddingRight="@r/padding_xlarge" android:clickable="true" android:layout_width="-1" android:layout_height="0x7f0a0018" android:layout_marginLeft="0x7f0a003e" android:layout_marginRight="0x7f0a003e" android:text="@r/etsy_local" style="?unknown_attr_ref: 7f010032" />
+        <FrameLayout android:background="@r/background_main_v2" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:gravity="11" android:background="@r/white" android:paddingLeft="@r/padding_large_xlarge" android:paddingTop="@r/fixed_small" android:paddingRight="@r/padding_large_xlarge" android:paddingBottom="@r/padding_large" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f0a003e" android:layout_marginRight="0x7f0a003e" android:text="@r/local_browse_list_subtitle" style="@r/TextGrey" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

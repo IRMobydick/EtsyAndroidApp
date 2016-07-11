@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <View android:id="@r/conversation_divider" style="@r/Divider_Horizontal_ConvoList_New" />
+    <LinearLayout android:orientation="1" android:id="@r/convo_header" android:background="@r/background_split_background_start" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@r/convo_header_text" android:paddingTop="@r/padding_small" android:paddingBottom="@r/padding_small" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/convo_new_3x_medium_padding" style="@r/TextLightGrey" />
+        <View style="@r/Divider_Horizontal_Dark" />
+    </LinearLayout>
+    <com.etsy.android.uikit.view.ReadStateRelativeLayout android:id="@r/convo_layout" android:background="@r/list_selector_white" android:paddingLeft="@r/padding_medium" android:paddingTop="@r/padding_large" android:paddingRight="@r/padding_large" android:paddingBottom="@r/padding_large" android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:gravity="31" android:id="@r/convo_user_img_frame" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/padding_medium" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <View android:layout_gravity="11" android:id="@r/new_message_indicator" android:background="@r/blue_dot" android:layout_width="@r/padding_medium" android:layout_height="@r/padding_medium" android:layout_marginRight="@r/padding_medium" />
+            <com.etsy.android.uikit.view.ClickableImageView android:id="@r/convo_user_img" style="@r/Avatar_Convos_New_List" />
+        </LinearLayout>
+        <TextView android:id="@r/convo_time" android:layout_alignTop="@r/convo_user_img_frame" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@r/ConvoTime_New" />
+        <TextView android:id="@r/convo_username" android:layout_toLeftOf="@r/convo_time" android:layout_toRightOf="@r/convo_user_img_frame" android:layout_alignTop="@r/convo_user_img_frame" style="@r/ConvoUserName_New" />
+        <TextView android:gravity="15" android:id="@r/convo_msg_count" android:paddingLeft="@r/fixed_medium" android:paddingRight="@r/fixed_medium" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/fixed_small" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@r/ConvoMessageCount_New" />
+        <ImageView android:gravity="50" android:id="@r/convo_has_attachment" android:layout_width="@r/convo_attachment_icon" android:layout_height="@r/convo_attachment_icon" android:layout_marginLeft="@r/margin_small" android:src="@r/ic_attachments" android:layout_toLeftOf="@r/convo_msg_count" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="0" android:id="@r/convo_title_container" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="@r/convo_has_attachment" android:layout_toRightOf="@r/convo_user_img_frame" android:layout_below="@r/convo_username">
+            <TextView android:textSize="@r/text_small" android:textColor="@r/hot_coals" android:gravity="11" android:id="@r/convo_badge" android:paddingBottom="2dp" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_small" android:text="@r/custom_shops_brand" />
+            <TextView android:ellipsize="3" android:id="@r/convo_title" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" android:singleLine="true" style="@r/ConvoSubject_New" />
+        </LinearLayout>
+        <TextView android:ellipsize="3" android:id="@r/convo_message_preview" android:layout_width="-2" android:layout_height="-2" android:maxLines="2" android:singleLine="false" android:layout_toLeftOf="@r/convo_has_attachment" android:layout_toRightOf="@r/convo_user_img_frame" android:layout_below="@r/convo_title_container" style="@r/ConvoMessage_New" />
+    </com.etsy.android.uikit.view.ReadStateRelativeLayout>
+    <View android:id="@r/conversation_divider_bottom" android:visibility="2" style="@r/Divider_Horizontal_ConvoList_New" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout map:background="@r/white" map:paddingBottom="@r/fixed_large" map:layout_width="-1" map:layout_height="-2">
+    <com.google.android.gms.maps.MapView map:layout_gravity="11" map:id="@r/map" map:layout_width="-1" map:layout_height="-1" map:liteMode="true" map:uiMapToolbar="false" />
+</FrameLayout>

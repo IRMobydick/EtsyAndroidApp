@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_selected="true" android:drawable="@r/ic_listing_favorite_selected" />
+    <item android:state_pressed="true" android:drawable="@r/ic_listing_favorite_selected" />
+    <item android:drawable="@r/ic_listing_favorite" />
+</selector>

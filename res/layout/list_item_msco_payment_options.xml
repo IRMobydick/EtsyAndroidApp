@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:id="0x7f100422" android:layout_width="-1" android:layout_height="-2" style="0x7f0b0016">
+    <RadioButton android:id="0x7f100423" android:layout_width="-1" android:layout_height="-2" android:checked="true" android:drawableLeft="0x7f0201fb" />
+    <RadioButton android:id="0x7f100424" android:layout_width="-1" android:layout_height="-2" android:drawableLeft="0x7f0201fc" />
+</RadioGroup>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@r/empty_view" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <View android:id="0x7f100524" android:layout_width="-1" android:layout_height="0x7f0a0017" />
+        <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="1" android:background="@r/background_main_v2" android:padding="@r/padding_large" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+            <com.etsy.android.uikit.view.GuardianTextView android:gravity="11" android:id="@r/empty_view_text" android:layout_width="-1" android:layout_height="-2" android:text="@r/local_browse_list_empty_title" style="?unknown_attr_ref: 7f010032" />
+            <TextView android:gravity="11" android:id="@r/empty_view_subtext" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/margin_large" android:maxWidth="540dp" android:text="@r/local_browse_list_empty_message" style="@r/TextGrey_Large" />
+            <Button android:gravity="11" android:id="@r/empty_button" android:paddingLeft="@r/padding_xlarge" android:paddingRight="@r/padding_xlarge" android:layout_width="-2" android:layout_height="@r/button_height" android:layout_marginTop="@r/margin_large" android:text="@r/local_browse_expand_search_area" android:textAllCaps="true" style="@r/ButtonWhiteV2" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

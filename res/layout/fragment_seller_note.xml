@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+    <ScrollView app:layout_width="-1" app:layout_height="0dp" app:fillViewport="true" app:layout_weight="1.0">
+        <LinearLayout app:orientation="1" app:background="@r/white" app:padding="@r/padding_large" app:layout_width="-1" app:layout_height="-2">
+            <EditText app:gravity="30" app:id="0x7f10030c" app:layout_width="-1" app:layout_height="-2" app:minHeight="100dp" app:hint="@r/note_to_seller_hint" app:imeOptions="6" style="0x7f0b01d0" />
+            <com.etsy.android.uikit.view.ProgressButton app:id="0x7f100275" app:layout_width="-1" app:layout_height="@r/button_height" app:layout_marginTop="@r/margin_large" app:text="@r/note_to_seller_save" app:textStyleResource="@r/ButtonBlueV2_Large" style="@r/ButtonBlueV2_Large" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape android:shape="0">
+            <solid android:color="@r/list_divider" />
+        </shape>
+    </item>
+    <item android:top="@r/divider_height">
+        <shape android:shape="0">
+            <solid android:color="@r/white" />
+        </shape>
+    </item>
+</layer-list>

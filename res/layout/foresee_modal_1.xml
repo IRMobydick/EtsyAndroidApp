@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView app:id="0x7f100251" app:background="@r/sixty_percent_black" app:scrollbars="0" app:layout_width="-1" app:layout_height="-1" app:fillViewport="true">
+    <com.etsy.android.uikit.view.MaxWidthLinearLayout app:gravity="11" app:layout_gravity="11" app:orientation="1" app:padding="@r/padding_large" app:layout_width="-1" app:layout_height="-2" app:maxWidth="@r/dialog_max_width">
+        <LinearLayout app:orientation="1" app:background="@r/white" app:paddingLeft="@r/padding_large" app:paddingRight="@r/padding_large" app:layout_width="-1" app:layout_height="-2">
+            <include layout="0x7f030092" />
+            <com.etsy.android.uikit.view.GuardianTextView app:gravity="800003" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_large" app:text="@r/foresee_header_help_us" style="?unknown_attr_ref: 7f01002c" />
+            <TextView app:gravity="800003" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_medium" app:text="@r/foresee_how_to_help" style="@r/TextDarkGrey" />
+            <Button app:textSize="@r/text_medium" app:textStyle="1" app:id="0x7f100252" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_large" app:layout_marginBottom="@r/margin_medium" app:text="@r/foresee_button_happy_to_help" style="@r/ButtonBlue_Square" />
+            <TextView app:textSize="@r/text_small" app:layout_gravity="11" app:id="0x7f100253" app:padding="@r/padding_medium" app:clickable="true" app:layout_width="-2" app:layout_height="-2" app:layout_marginBottom="@r/margin_large" app:text="@r/foresee_button_no_thanks" style="@r/TextBlue" />
+        </LinearLayout>
+    </com.etsy.android.uikit.view.MaxWidthLinearLayout>
+</ScrollView>

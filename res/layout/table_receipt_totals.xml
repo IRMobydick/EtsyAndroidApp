@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="0x7f10059d" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:gravity="50" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="0x7f100186" android:layout_width="0dp" android:layout_height="-2" android:text="@r/item_total" android:layout_weight="1.0" style="@r/TextGrey" />
+        <TextView android:id="0x7f100187" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f010050" />
+    </LinearLayout>
+    <LinearLayout android:gravity="50" android:orientation="0" android:id="0x7f10059e" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium">
+        <TextView android:layout_width="0dp" android:layout_height="-2" android:text="@r/shipping_price_label" android:layout_weight="1.0" style="@r/TextGrey" />
+        <TextView android:id="0x7f100188" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f010050" />
+    </LinearLayout>
+    <LinearLayout android:gravity="50" android:orientation="0" android:id="0x7f10059f" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium">
+        <TextView android:id="0x7f1005a0" android:layout_width="0dp" android:layout_height="-2" android:text="@r/coupon_label" android:layout_weight="1.0" style="@r/TextGrey" />
+        <TextView android:id="0x7f1005a1" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f010050" />
+    </LinearLayout>
+    <LinearLayout android:gravity="50" android:orientation="0" android:id="0x7f1005a2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium">
+        <TextView android:id="0x7f1005a3" android:layout_width="0dp" android:layout_height="-2" android:text="@r/ipp_sales_tax" android:layout_weight="1.0" style="@r/TextGrey" />
+        <TextView android:id="0x7f10018a" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f010050" />
+    </LinearLayout>
+    <LinearLayout android:gravity="50" android:orientation="0" android:id="0x7f1005a4" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium">
+        <TextView android:id="0x7f1005a5" android:layout_width="0dp" android:layout_height="-2" android:text="@r/vat_total" android:layout_weight="1.0" style="@r/TextGrey" />
+        <TextView android:id="0x7f1005a6" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f010050" />
+    </LinearLayout>
+    <LinearLayout android:gravity="50" android:orientation="0" android:id="0x7f1005a7" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium">
+        <TextView android:layout_width="0dp" android:layout_height="-2" android:text="@r/ipp_discount_label" android:layout_weight="1.0" style="@r/TextGrey" />
+        <TextView android:id="0x7f1005a8" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f010050" />
+    </LinearLayout>
+    <View style="0x7f0b0060" />
+    <LinearLayout android:gravity="50" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium_large">
+        <TextView android:id="0x7f1005a9" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="0dp" android:text="@r/order_total" android:layout_weight="1.0" style="?unknown_attr_ref: 7f010022" />
+        <TextView android:textSize="@r/text_xxlarge" android:id="0x7f100193" android:layout_width="-2" android:layout_height="-2" style="@r/TextGreen_XLarge" />
+    </LinearLayout>
+    <TextView android:id="0x7f100194" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_small" style="@r/TextLightGrey_Small" />
+    <TextView android:textColorLink="@r/blue" android:linksClickable="true" android:id="0x7f1005aa" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium" android:text="@r/vat_view_invoice" style="@r/TextGrey" />
+    <TextView android:textColorLink="@r/blue" android:linksClickable="true" android:id="0x7f1005ab" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_large" android:text="@r/vat_desc" style="@r/TextGrey" />
+    <LinearLayout android:orientation="1" android:id="0x7f1005ac" android:visibility="2" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="1" android:id="0x7f1005ad" android:layout_width="-1" android:layout_height="-2" />
+        <View style="0x7f0b0060" />
+        <LinearLayout android:gravity="50" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium_large">
+            <TextView android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="0dp" android:text="@r/adjusted_total" android:layout_weight="1.0" style="?unknown_attr_ref: 7f010022" />
+            <TextView android:textSize="@r/text_xxlarge" android:id="0x7f1005ae" android:layout_width="-2" android:layout_height="-2" style="@r/TextGreen_XLarge" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="0x7f1005af" android:background="0x7f0e002f" android:padding="@r/padding_large" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium" android:layout_marginBottom="@r/margin_medium" style="@r/TextGrey" />
+</LinearLayout>

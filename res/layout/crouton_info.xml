@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-2">
+    <TextView android:id="@r/info_text" android:background="@r/blue" android:padding="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2" android:layout_toLeftOf="@r/btn_crouton_x" android:layout_alignParentLeft="true" style="@r/TextWhite" />
+    <ImageView android:id="@r/btn_crouton_x" android:background="@r/blue" android:padding="@r/fixed_large" android:layout_width="-2" android:layout_height="-2" android:layout_alignBottom="@r/info_text" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:srcCompat="@r/ic_close_white_24dp" />
+</RelativeLayout>

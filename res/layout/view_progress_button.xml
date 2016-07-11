@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView android:textSize="@r/text_large" android:gravity="11" android:id="@r/text" android:layout_width="-2" android:layout_height="-1" android:layout_centerInParent="true" style="?unknown_attr_ref: 7f010065" />
+    <FrameLayout android:id="@r/activity_indicator" android:visibility="2" android:layout_width="-2" android:layout_height="-1" android:layout_centerInParent="true">
+        <com.etsy.android.uikit.view.LoadingIndicatorView android:id="@r/activity_indicator_view" android:layout_width="-2" android:layout_height="-1" android:scaleType="5" />
+    </FrameLayout>
+</merge>

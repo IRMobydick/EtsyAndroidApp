@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="0" app:id="0x7f100526" app:background="@r/orange" app:padding="@r/padding_large" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:weightSum="1.0">
+    <ImageView app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@r/padding_large" app:src="@r/ic_asap_white_big" app:layout_marginEnd="@r/padding_large" />
+    <LinearLayout app:orientation="1" app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0">
+        <TextView app:id="0x7f100527" app:layout_width="-1" app:layout_height="-2" app:text="@r/etsy_asap_delivery_zone" style="@r/TextWhite" />
+        <TextView app:id="0x7f100528" app:layout_width="-1" app:layout_height="-2" app:text="@r/etsy_asap_get_it_today" style="?unknown_attr_ref: 7f010065" />
+    </LinearLayout>
+    <ImageView app:id="0x7f100529" app:padding="@r/padding_small_medium" app:layout_width="-2" app:layout_height="-2" app:srcCompat="@r/ic_close_white_24dp" />
+</LinearLayout>

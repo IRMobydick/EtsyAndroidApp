@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:padding="@r/padding_medium_large" app:layout_width="-1" app:layout_height="-2" style="@r/ConvoCard_Reply"
+    <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-2">
+        <FrameLayout app:gravity="31" app:id="@r/convo_user_img_frame" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@r/padding_medium">
+            <ImageView app:id="@r/convo_user_img" style="@r/Avatar_Convos" />
+        </FrameLayout>
+        <EditText app:layout_gravity="10" app:id="0x7f1003db" app:layout_width="0dp" app:layout_height="-2" app:minWidth="200dp" app:hint="@r/convo_add_reply" app:maxLength="0x7f0d002d" app:layout_weight="1.0" app:imeOptions="6" style="@r/EditText_MultiLine" />
+        <TextView app:layout_gravity="11" app:id="0x7f1003dd" app:background="@r/list_selector" app:padding="@r/padding_small" app:layout_width="-2" app:layout_height="-2" app:drawableLeft="@r/ic_camera" style="@r/TextBlue" />
+    </LinearLayout>
+    <com.etsy.android.uikit.view.ImageAttachmentLayout app:orientation="0" app:id="0x7f1003dc" app:paddingLeft="@r/padding_medium" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/conversation_avatar" app:attachmentPadding="@r/padding_large" />
+</LinearLayout>

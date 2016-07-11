@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-1"
+    <LinearLayout app:gravity="1" app:orientation="1" app:id="0x7f1002a1" app:padding="@r/padding_large" app:visibility="2" app:layout_width="@r/user_tablet_sidebar_width" app:layout_height="-1"
+        <LinearLayout app:gravity="1" app:orientation="1" app:id="0x7f1002a2" app:background="@r/bg_ten_percent_black_selector" app:padding="@r/padding_small" app:layout_width="-2" app:layout_height="-2">
+            <include layout="0x7f0301bf" />
+        </LinearLayout>
+        <TextView app:id="0x7f1002a3" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_medium" app:text="@r/average_item_review_no_colon" style="?unknown_attr_ref: 7f010055" />
+        <LinearLayout app:gravity="10" app:orientation="0" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_tiny">
+            <com.etsy.android.uikit.view.RatingIconView app:id="@r/shop_rating" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_small" app:starSize="0x7f0a0233" />
+            <TextView app:id="@r/rating_count" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_small" style="@r/TextGrey" />
+        </LinearLayout>
+    </LinearLayout>
+    <View app:background="@r/actionbar_bottom_line" app:layout_width="@r/divider_width" app:layout_height="-1" />
+    <include layout="@r/fragment_baserecyclerview" />
+</LinearLayout>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bulk_edit_activate_success">
+        <item quantity="other">%s inserzioni attivate</item>
+        <item quantity="zero">%s inserzioni attivate</item>
+        <item quantity="one">Inserzione attivata</item>
+    </plurals>
+    <plurals name="bulk_edit_activate_text_no_fee">
+        <item quantity="other">Queste inserzioni passeranno da non attive ad attive e saranno acquistabili nel tuo negozio.</item>
+        <item quantity="zero">Queste inserzioni passeranno da non attive ad attive e saranno acquistabili nel tuo negozio.</item>
+        <item quantity="one">Questa inserzione passerà da non attiva ad attiva e sarà acquistabile nel tuo negozio.</item>
+    </plurals>
+    <plurals name="bulk_edit_activate_text_partial_fee">
+        <item quantity="other">%d inserzioni verranno rinnovate. Le inserzioni che sono scadute mentre non erano attive devono essere rinnovate prima di poterle riattivare.</item>
+        <item quantity="zero">%d inserzioni verranno rinnovate. Le inserzioni che sono scadute mentre non erano attive devono essere rinnovate prima di poterle riattivare.</item>
+        <item quantity="one">%d inserzione verrà rinnovata. Le inserzioni che sono scadute mentre non erano attive devono essere rinnovate prima di poterle riattivare.</item>
+    </plurals>
+    <plurals name="bulk_edit_activate_title">
+        <item quantity="other">Attiva %s inserzioni</item>
+        <item quantity="zero">Attiva %s inserzioni</item>
+        <item quantity="one">Attiva inserzione</item>
+    </plurals>
+    <plurals name="bulk_edit_deactivate_success">
+        <item quantity="other">%s inserzioni disattivate</item>
+        <item quantity="zero">%s inserzioni disattivate</item>
+        <item quantity="one">Inserzione disattivata</item>
+    </plurals>
+    <plurals name="bulk_edit_deactivate_title">
+        <item quantity="other">Disattiva %s inserzioni</item>
+        <item quantity="zero">Disattiva %s inserzioni</item>
+        <item quantity="one">Disattiva inserzione</item>
+    </plurals>
+    <plurals name="bulk_edit_delete_success">
+        <item quantity="other">%s inserzioni eliminate</item>
+        <item quantity="zero">%s inserzioni eliminate</item>
+        <item quantity="one">Inserzione eliminata</item>
+    </plurals>
+    <plurals name="bulk_edit_delete_title">
+        <item quantity="other">Elimina %s inserzioni</item>
+        <item quantity="zero">Elimina %s inserzioni</item>
+        <item quantity="one">Elimina inserzione</item>
+    </plurals>
+    <plurals name="bulk_edit_publish_title">
+        <item quantity="other">Pubblica %s inserzioni</item>
+        <item quantity="zero">Pubblica %s inserzioni</item>
+        <item quantity="one">Pubblica inserzione</item>
+    </plurals>
+    <plurals name="bulk_edit_renew_success">
+        <item quantity="other">%s inserzioni rinnovate</item>
+        <item quantity="zero">%s inserzioni rinnovate</item>
+        <item quantity="one">Inserzione rinnovata</item>
+    </plurals>
+    <plurals name="bulk_edit_renew_title">
+        <item quantity="other">Rinnova %s inserzioni</item>
+        <item quantity="zero">Rinnova %s inserzioni</item>
+        <item quantity="one">Rinnova inserzione</item>
+    </plurals>
+    <plurals name="bulk_edit_title">
+        <item quantity="other">Modifica %s inserzioni</item>
+        <item quantity="zero">Modifica %s inserzioni</item>
+        <item quantity="one">Modifica 1 inserzione</item>
+    </plurals>
+    <plurals name="convo_messages_show_collapsed">
+        <item quantity="other">Mostra altri %d messaggi</item>
+        <item quantity="zero">Mostra altri %d messaggi</item>
+        <item quantity="one">Mostra un altro messaggio</item>
+    </plurals>
+    <plurals name="days_count">
+        <item quantity="other">%s giorni</item>
+        <item quantity="zero">%s giorni</item>
+        <item quantity="one">%d giorno</item>
+    </plurals>
+    <plurals name="etsy_shops_attending">
+        <item quantity="other">%s venditori Etsy saranno presenti</item>
+        <item quantity="zero">%s venditori Etsy saranno presenti</item>
+        <item quantity="one">1 venditore Etsy sarà presente</item>
+    </plurals>
+    <plurals name="etsy_shops_have_attended">
+        <item quantity="other">%s venditori Etsy sono stati qui</item>
+        <item quantity="zero">%s venditori Etsy sono stati qui</item>
+        <item quantity="one">1 venditore Etsy è stato qui</item>
+    </plurals>
+    <plurals name="favorite_counts">
+        <item quantity="other">%d preferiti</item>
+        <item quantity="zero">%d preferiti</item>
+        <item quantity="one">%d preferito</item>
+    </plurals>
+    <plurals name="follower_counts">
+        <item quantity="other">%s follower</item>
+        <item quantity="zero">%s follower</item>
+        <item quantity="one">1 follower</item>
+    </plurals>
+    <plurals name="followers">
+        <item quantity="other">Follower</item>
+        <item quantity="zero">Follower</item>
+        <item quantity="one">Follower</item>
+    </plurals>
+    <plurals name="ipp_processing_in_person_sales">
+        <item quantity="other">Elaborazione di %d vendite di persona</item>
+        <item quantity="zero">Elaborazione di %d vendite di persona</item>
+        <item quantity="one">Elaborazione di %d vendita di persona</item>
+    </plurals>
+    <plurals name="item_lowercase_quantity">
+        <item quantity="other">%s articoli</item>
+        <item quantity="zero">%s articoli</item>
+        <item quantity="one">%s articolo</item>
+    </plurals>
+    <plurals name="item_titlecase_quantity">
+        <item quantity="other">%s articoli</item>
+        <item quantity="zero">%s articoli</item>
+        <item quantity="one">1 articolo</item>
+    </plurals>
+    <plurals name="local_browse_results_summary">
+        <item quantity="other">"%s eventi e negozi in quest'area"</item>
+        <item quantity="zero">"%s eventi e negozi in quest'area"</item>
+        <item quantity="one">"1 evento o negozio in quest'area"</item>
+    </plurals>
+    <plurals name="local_favorite_shops_attending">
+        <item quantity="other">%s dei tuoi negozi Etsy preferiti partecipano</item>
+        <item quantity="zero">%s dei tuoi negozi Etsy preferiti partecipano</item>
+        <item quantity="one">1 dei tuoi negozi Etsy preferiti partecipa</item>
+    </plurals>
+    <plurals name="local_favorite_shops_banner">
+        <item quantity="other">%s negozi che ti piacciono vendono qui.</item>
+        <item quantity="zero">%s negozi che ti piacciono vendono qui.</item>
+        <item quantity="one">1 negozio che ti piace vende qui.</item>
+    </plurals>
+    <plurals name="local_other_shops_attending">
+        <item quantity="other">Altri %s negozi Etsy partecipano</item>
+        <item quantity="zero">Altri %s negozi Etsy partecipano</item>
+        <item quantity="one">1 altro negozio Etsy partecipa</item>
+    </plurals>
+    <plurals name="meet_the_owners_of">
+        <item quantity="other">Fai la conoscenza dei proprietari di %s</item>
+        <item quantity="zero">Fai la conoscenza dei proprietari di %s</item>
+        <item quantity="one">Fai la conoscenza del proprietario di %s</item>
+    </plurals>
+    <plurals name="n_items_available">
+        <item quantity="other">%d disponibili</item>
+        <item quantity="zero">%d disponibili</item>
+        <item quantity="one">%d disponibile</item>
+    </plurals>
+    <plurals name="num_stars">
+        <item quantity="other">%s stelle</item>
+        <item quantity="zero">%s stelle</item>
+        <item quantity="one">%s stella</item>
+    </plurals>
+    <plurals name="orders_count">
+        <item quantity="other">%s ordini</item>
+        <item quantity="zero">%s ordini</item>
+        <item quantity="one">%s ordine</item>
+    </plurals>
+    <plurals name="recently_featured_etsy_sellers">
+        <item quantity="other">%s venditori Etsy recentemente \"In evidenza\"</item>
+        <item quantity="zero">%s venditori Etsy recentemente \"In evidenza\"</item>
+        <item quantity="one">1 venditore Etsy recentemente \"In evidenza\"</item>
+    </plurals>
+    <plurals name="refavorite_counts">
+        <item quantity="other">%d nuove preferenze</item>
+        <item quantity="zero">%d nuove preferenze</item>
+        <item quantity="one">%d nuove preferenze</item>
+    </plurals>
+    <plurals name="review_counts">
+        <item quantity="other">(%d recensioni)</item>
+        <item quantity="zero">(%d recensioni)</item>
+        <item quantity="one">(%d recensione)</item>
+    </plurals>
+    <plurals name="shipping_delivery_notification_big_title">
+        <item quantity="other">%s ordini sono stati consegnati</item>
+        <item quantity="zero">%s ordini sono stati consegnati</item>
+        <item quantity="one">Il tuo ordine è stato consegnato</item>
+    </plurals>
+    <plurals name="shipping_processing_days">
+        <item quantity="other">%s giorni lavorativi</item>
+        <item quantity="zero">%s giorni lavorativi</item>
+        <item quantity="one">%s giorno lavorativo</item>
+    </plurals>
+    <plurals name="sold_order_subject_item_different_plural">
+        <item quantity="other">ha acquistato %d articoli da te</item>
+        <item quantity="zero">ha acquistato %d articoli da te</item>
+        <item quantity="one">ha acquistato qualcosa da te</item>
+    </plurals>
+    <plurals name="structured_refunds_day_options">
+        <item quantity="other">"%s giorni dall'acquisto"</item>
+        <item quantity="zero">"%s giorni dall'acquisto"</item>
+        <item quantity="one">"%s giorno dall'acquisto"</item>
+    </plurals>
+    <plurals name="structured_refunds_days">
+        <item quantity="other">%s giorni di consegna</item>
+        <item quantity="zero">%s giorni di consegna</item>
+        <item quantity="one">%s giorno di consegna</item>
+    </plurals>
+    <plurals name="structured_refunds_days_of_purchase">
+        <item quantity="other">"%s giorni dall'acquisto"</item>
+        <item quantity="zero">"%s giorni dall'acquisto"</item>
+        <item quantity="one">"%s giorno dall'acquisto"</item>
+    </plurals>
+    <plurals name="structured_refunds_hour_options">
+        <item quantity="other">"%s ore dall'acquisto"</item>
+        <item quantity="zero">"%s ore dall'acquisto"</item>
+        <item quantity="one">"%s ora dall'acquisto"</item>
+    </plurals>
+    <plurals name="structured_refunds_hours_of_purchase">
+        <item quantity="other">"%s ore dall'acquisto"</item>
+        <item quantity="zero">"%s ore dall'acquisto"</item>
+        <item quantity="one">"%s ora dall'acquisto"</item>
+    </plurals>
+    <plurals name="weeks_count">
+        <item quantity="other">%s settimane</item>
+        <item quantity="zero">%s settimane</item>
+        <item quantity="one">%s settimana</item>
+    </plurals>
+</resources>

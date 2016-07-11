@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:paddingLeft="0x7f0a0041" android:paddingTop="@r/padding_large" android:paddingRight="0x7f0a0041" android:paddingBottom="@r/padding_large" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+        <com.etsy.android.uikit.view.GuardianTextView android:id="@r/title" android:layout_width="-1" android:layout_height="-2" android:lineSpacingMultiplier="1.3" style="?unknown_attr_ref: 7f010032" />
+        <TextView android:id="0x7f100365" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium" style="@r/TextBlack_XLarge" />
+    </LinearLayout>
+    <Button android:id="0x7f100366" android:paddingLeft="@r/padding_large" android:paddingRight="@r/padding_large" android:layout_width="-2" android:layout_height="@r/button_height_small" android:text="@r/add_to_calendar" style="@r/ButtonBlueV2" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-1"
+    <LinearLayout app:orientation="1" app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0" style="@r/DialogRow_Text">
+        <TextView app:id="@r/snippet_title" app:layout_width="-1" app:layout_height="-2" style="?unknown_attr_ref: 7f01003c" />
+        <TextView app:ellipsize="3" app:id="@r/snippet_content" app:layout_width="-1" app:layout_height="-2" app:maxLines="1" style="@r/TextLightGrey_Small" />
+    </LinearLayout>
+    <com.etsy.android.iconsy.views.IconView app:layout_gravity="15" app:id="@r/overflow_menu_icon" app:background="@r/list_selector" app:padding="@r/dotted_menu_padding" app:layout_width="@r/dotted_menu_size" app:layout_height="@r/dotted_menu_size" app:hasSelector="true" style="@r/MenuIcon" />
+</LinearLayout>

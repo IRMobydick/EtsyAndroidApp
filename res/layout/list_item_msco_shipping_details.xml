@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" style="0x7f0b0016"
+    <LinearLayout android:orientation="0" android:id="0x7f100429" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_medium">
+        <TextView android:layout_gravity="10" android:id="0x7f10042a" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_medium" android:text="@r/shipping" style="@r/TextGrey" />
+        <Spinner android:layout_gravity="10" android:id="0x7f10042b" android:layout_width="-1" android:layout_height="-2" android:spinnerMode="0" style="@r/Widget_AppCompat_Spinner" />
+    </LinearLayout>
+    <TextView android:id="@r/txt_processing_time" android:layout_width="-1" android:layout_height="-2" style="@r/TextGrey_Small" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView app:id="@r/listing_matte" app:layout_width="-1" app:layout_height="-2" app:cardBackgroundColor="@task/NETWORK_STATE_CONNECTED" style="@r/CardViewElementStyle">
+    <android.support.v7.widget.GridLayout app:layout_width="-1" app:layout_height="-2" app:columnCount="2" app:alignmentMode="0">
+        <com.etsy.android.uikit.view.ListingFullImageView app:id="@r/listing_image" app:layout_width="0dp" app:layout_height="0dp" app:scaleType="6" app:adjustViewBounds="true" app:contentDescription="@r/listing_image_content_description" app:layout_columnSpan="2" app:layout_columnWeight="1.0" app:heightRatio="@r/card_standard_height_ratio" />
+        <View app:id="@r/listing_card_one_thin_rule" app:background="@r/list_divider" app:layout_width="0dp" app:layout_height="@r/divider_height" app:layout_columnSpan="2" app:layout_columnWeight="1.0" />
+        <TextView app:ellipsize="3" app:id="@r/listing_title" app:background="@r/white" app:paddingLeft="@r/padding_small" app:paddingTop="@r/padding_small" app:paddingRight="@r/padding_small" app:paddingBottom="@r/padding_tiny" app:layout_width="0dp" app:layout_height="-2" app:singleLine="true" app:includeFontPadding="false" app:layout_columnSpan="2" app:layout_columnWeight="1.0" style="@r/TextGrey_Small" />
+        <TextView app:ellipsize="3" app:id="@r/listing_shop" app:background="@r/white" app:paddingLeft="@r/padding_small" app:paddingRight="@r/padding_medium" app:paddingBottom="@r/padding_small" app:layout_width="0dp" app:layout_height="-2" app:singleLine="true" app:includeFontPadding="false" app:layout_columnWeight="1.0" app:layout_gravity="7" style="@r/TextLightGrey_Small" />
+        <TextView app:typeface="1" app:ellipsize="4" app:id="@r/listing_price" app:background="@r/white" app:paddingLeft="@r/padding_small" app:paddingRight="@r/padding_small" app:paddingBottom="@r/padding_small" app:layout_width="-2" app:layout_height="-2" app:singleLine="true" app:includeFontPadding="false" app:layout_gravity="800005" style="@r/TextGreen_Small" />
+    </android.support.v7.widget.GridLayout>
+    <TextView app:id="@r/search_ads_indicator" app:layout_width="-2" app:layout_height="-2" app:text="@r/search_ads_indicator_text" style="@r/SearchAdsListing" />
+    <LinearLayout app:layout_gravity="35" app:layout_width="-2" app:layout_height="-2">
+        <ImageView app:id="@r/btn_fav" app:layout_width="-2" app:layout_height="-2" style="@r/IconFavoriteListing" />
+        <ImageView app:id="@r/btn_lists" app:layout_width="-2" app:layout_height="-2" style="@r/IconListsListing" />
+    </LinearLayout>
+    <View app:id="@r/image_dark_overlay" app:background="@r/thirty_percent_black" app:visibility="2" app:layout_width="-1" app:layout_height="-1" />
+    <ImageButton app:layout_gravity="35" app:id="@r/delete_item" app:visibility="2" app:layout_width="-2" app:layout_height="-2" style="@r/IconRemoveListing" />
+</android.support.v7.widget.CardView>

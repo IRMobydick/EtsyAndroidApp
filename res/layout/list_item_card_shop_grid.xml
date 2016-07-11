@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView app:id="0x7f10038e" app:layout_width="-1" app:layout_height="-2" style="0x7f0b01e1">
+    <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+        <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+            <android.support.v7.widget.GridLayout app:id="0x7f10038f" app:layout_width="-1" app:layout_height="-2" app:rowCount="0x7f0a0012" app:columnCount="0x7f0a0011">
+                <com.etsy.android.uikit.view.ImageViewWithAspectRatio app:id="0x7f100390" app:layout_width="0dp" app:layout_height="-2" app:scaleType="6" app:adjustViewBounds="false" app:layout_columnWeight="1.0" app:layout_gravity="77" app:heightRatio="1.0" />
+                <com.etsy.android.uikit.view.ImageViewWithAspectRatio app:id="0x7f100391" app:layout_width="0dp" app:layout_height="-2" app:scaleType="6" app:adjustViewBounds="false" app:layout_columnWeight="1.0" app:layout_gravity="77" app:heightRatio="1.0" />
+                <com.etsy.android.uikit.view.ImageViewWithAspectRatio app:id="0x7f100392" app:layout_width="0dp" app:layout_height="-2" app:scaleType="6" app:adjustViewBounds="false" app:layout_columnWeight="1.0" app:layout_gravity="77" app:heightRatio="1.0" />
+                <com.etsy.android.uikit.view.ImageViewWithAspectRatio app:id="0x7f100393" app:layout_width="0dp" app:layout_height="-2" app:scaleType="6" app:adjustViewBounds="false" app:layout_columnWeight="1.0" app:layout_gravity="77" app:heightRatio="1.0" />
+            </android.support.v7.widget.GridLayout>
+            <TextView app:id="0x7f100394" app:layout_alignBottom="0x7f10038f" style="0x7f0b00e7" />
+        </RelativeLayout>
+        <View app:background="0x7f0e001a" app:layout_width="-1" app:layout_height="@r/divider_height" app:layout_weight="0.0" />
+        <RelativeLayout app:id="0x7f100395" app:layout_width="-1" app:layout_height="0x7f0a0063">
+            <ImageView app:layout_gravity="10" app:id="@r/shop_avatar" app:layout_width="0x7f0a007a" app:layout_height="-1" app:layout_marginLeft="@r/fixed_small" app:layout_marginRight="@r/fixed_small" app:scaleType="1" style="0x7f0b0122" />
+            <com.etsy.android.uikit.view.GuardianTextView app:ellipsize="3" app:id="@r/shop_name" app:paddingTop="@r/fixed_medium" app:layout_width="-1" app:layout_height="-2" app:singleLine="true" app:includeFontPadding="false" app:layout_toRightOf="@r/shop_avatar" style="?unknown_attr_ref: 7f01003c" />
+            <com.etsy.android.uikit.view.RatingIconView app:id="@r/rating" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/fixed_small" app:layout_toRightOf="@r/shop_avatar" app:layout_below="@r/shop_name" app:starSize="@r/review_star_size_small" />
+            <TextView app:id="0x7f100396" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/fixed_tiny" app:layout_marginTop="@r/fixed_tiny" app:layout_toRightOf="@r/rating" app:layout_below="@r/shop_name" style="@r/TextLightGrey_Small" />
+            <ImageView app:id="@r/btn_fav" app:padding="@r/padding_medium" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentRight="true" style="@r/IconFavoriteListing" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

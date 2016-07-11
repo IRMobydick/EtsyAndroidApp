@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="cart_show_totals_border">true</bool>
+    <bool name="is_phone">false</bool>
+    <bool name="is_seven_inch">true</bool>
+    <bool name="is_ten_inch">false</bool>
+</resources>

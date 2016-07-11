@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="1">
+    <solid android:color="@r/light_grey" />
+    <size android:height="@r/padding_medium" android:width="@r/padding_medium" />
+</shape>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:background="@r/white" app:layout_width="-1" app:layout_height="-1">
+    <include app:id="@r/error_view" layout="@r/partial_no_internet" />
+    <ScrollView app:id="0x7f100139" app:visibility="2" app:layout_width="-1" app:layout_height="-1">
+        <LinearLayout app:orientation="1" app:paddingTop="@r/padding_large" app:paddingBottom="@r/padding_large" app:layout_width="-1" app:layout_height="-2">
+            <TextView app:layout_width="-2" app:layout_height="-2" app:text="@r/gift_card_create_choose_design" style="0x7f0b01f5" />
+            <com.etsy.android.ui.giftcards.GiftCardDesignSelecterView app:id="0x7f10013a" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_medium" app:layout_marginBottom="@r/margin_medium" />
+            <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-2" app:weightSum="2.0">
+                <android.support.design.widget.TextInputLayout app:layout_width="-2" app:layout_height="-2" app:layout_weight="1.0" style="0x7f0b01f1">
+                    <EditText app:id="0x7f10013b" app:layout_width="-1" app:layout_height="-2" app:hint="@r/hint_recipient_name" app:lines="1" app:maxLength="120" style="@r/Widget_Design_TextInputLayout" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout app:layout_width="-2" app:layout_height="-2" app:layout_weight="1.0" style="0x7f0b01f1">
+                    <EditText app:id="0x7f10013c" app:layout_width="-1" app:layout_height="-2" app:hint="@r/hint_sender_name" app:lines="1" app:maxLength="120" style="@r/Widget_Design_TextInputLayout" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <android.support.design.widget.TextInputLayout app:layout_width="-1" app:layout_height="-2" app:errorEnabled="true" app:counterEnabled="true" style="0x7f0b01f1">
+                <EditText app:gravity="30" app:id="0x7f10013d" app:layout_width="-1" app:layout_height="-2" app:hint="@r/hint_gift_card_message" app:lines="1" app:maxLength="500" style="@r/Widget_Design_TextInputLayout" />
+            </android.support.design.widget.TextInputLayout>
+            <TextView app:layout_width="-2" app:layout_height="-2" app:text="@r/gift_card_create_choose_amount" style="0x7f0b01f5" />
+            <RadioGroup app:orientation="0" app:id="0x7f10013e" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_large" app:layout_marginTop="@r/margin_medium" app:layout_marginRight="@r/margin_large" app:layout_marginBottom="@r/margin_large" app:checkedButton="0x7f10013f" />
+            <TextView app:layout_width="-2" app:layout_height="-2" app:text="@r/gift_card_delivery_method" style="0x7f0b01f5" />
+            <RadioGroup app:orientation="0" app:id="0x7f100140" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_large" app:layout_marginTop="@r/margin_medium" app:layout_marginRight="@r/margin_large" app:layout_marginBottom="@r/margin_large" app:checkedButton="0x7f100141">
+                <RadioButton app:id="0x7f100141" app:layout_width="@r/button_large_width" app:text="@r/gift_card_create_opt_emailed" style="?unknown_attr_ref: 7f01001d" />
+                <RadioButton app:id="0x7f100142" app:layout_width="@r/button_large_width" app:layout_marginLeft="@r/margin_tiny" app:layout_marginRight="@r/margin_tiny" app:text="@r/gift_card_create_opt_printed" app:singleLine="false" style="?unknown_attr_ref: 7f01001d" />
+            </RadioGroup>
+            <LinearLayout app:orientation="0" app:id="0x7f100143" app:layout_width="-1" app:layout_height="-2" app:weightSum="2.0" app:animateLayoutChanges="true">
+                <android.support.design.widget.TextInputLayout app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0" style="0x7f0b01f1">
+                    <AutoCompleteTextView app:id="0x7f100144" app:layout_width="-1" app:layout_height="-2" app:hint="@r/hint_recipient_email_address" app:inputType="21" style="@r/Widget_Design_TextInputLayout" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0" style="0x7f0b01f1">
+                    <AutoCompleteTextView app:id="0x7f100145" app:layout_width="-1" app:layout_height="-2" app:hint="@r/hint_confirm_email" app:inputType="21" style="@r/Widget_Design_TextInputLayout" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <View app:background="@r/split_divider" app:layout_width="-1" app:layout_height="@r/divider_height" app:layout_marginTop="@r/margin_large" app:layout_marginBottom="@r/margin_large" />
+            <Button app:enabled="false" app:layout_gravity="1" app:id="0x7f100146" app:layout_width="@r/button_wide_width" app:layout_height="-2" app:layout_marginLeft="@r/margin_large" app:layout_marginRight="@r/margin_large" app:text="@r/add_to_cart" style="?unknown_attr_ref: 7f010005" />
+        </LinearLayout>
+    </ScrollView>
+    <include app:id="@r/loading_view" layout="@r/partial_loading" />
+</FrameLayout>

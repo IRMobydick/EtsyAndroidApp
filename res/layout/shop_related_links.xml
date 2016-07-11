@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@r/white" android:paddingLeft="@r/fixed_xlarge" android:paddingRight="@r/fixed_large" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:gravity="13" android:id="@r/related_link_text" android:background="@r/bg_unbounded_selector" android:paddingTop="@r/padding_medium" android:paddingBottom="@r/padding_medium" android:layout_width="-1" android:layout_height="-2" android:drawablePadding="@r/padding_medium_large" style="@r/TextGrey" />
+</FrameLayout>

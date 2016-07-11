@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" style="@r/ConvoCard_ClickState_New">
+    <TextView android:gravity="1" android:id="@r/convo_msg_count" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 7f010034" />
+</LinearLayout>

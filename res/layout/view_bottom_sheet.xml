@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@r/twenty_percent_black" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:layout_gravity="51" android:id="0x102000a" android:layout_width="-1" android:layout_height="-2" style="@r/ListView_NoSelector" />
+</FrameLayout>

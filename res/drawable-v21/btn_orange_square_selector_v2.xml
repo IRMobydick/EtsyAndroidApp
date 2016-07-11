@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?unknown_attr_ref: 7f0100f2">
+    <item android:state_enabled="false" android:drawable="@r/btn_orange_square_disabled_v2" />
+    <item android:drawable="@r/btn_orange_square_v2" />
+</ripple>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@r/bg_half_card_listing" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/fixed_xxlarge">
+    <include layout="@r/fragment_social_share_listing_header_item" />
+</FrameLayout>

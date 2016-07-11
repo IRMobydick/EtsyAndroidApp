@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@r/root_view" android:layout_width="-1" android:layout_height="-1">
+    <include layout="@r/partial_no_internet" />
+    <WebView android:id="0x7f10035d" android:layout_width="-1" android:layout_height="-1" />
+    <ProgressBar android:id="0x7f10035e" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/progressbar_padding_fix" android:layout_alignParentTop="true" style="@*style/Widget.Holo.ProgressBar.Horizontal" />
+</RelativeLayout>

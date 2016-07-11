@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="cart_panel_details">@layout/cart_panel_details_sw600dp</item>
+    <item type="layout" name="cartlisting_item">@layout/cartlisting_item_sw600dp</item>
+    <item type="layout" name="header_local_dates_attending">@layout/header_local_dates_attending_sw600dp</item>
+    <item type="layout" name="header_local_market">@layout/header_local_market_sw600dp</item>
+    <item type="layout" name="listing_panel_details_redesign">@layout/listing_panel_details_redesign_600dp</item>
+    <item type="layout" name="listing_panel_image_page_indicator">@layout/listing_panel_image_page_indicator_600dp</item>
+    <item type="layout" name="receipt_footer">@layout/receipt_footer_sw600dp</item>
+    <item type="layout" name="receipt_shipping_status">@layout/receipt_shipping_status_sw600dp</item>
+    <item type="layout" name="receipt_transaction">@layout/receipt_transaction_sw600dp</item>
+    <item type="layout" name="shop_home_icon">@layout/shop_icon_left_aligned</item>
+    <item type="layout" name="shop_home_info">@layout/shop_home_info_left_aligned</item>
+    <item type="layout" name="user_profile_card">@layout/user_profile_card_grid</item>
+    <item type="layout" name="user_profile_header">@layout/user_profile_header_horizontal</item>
+    <item type="layout" name="shop_review_description">@layout/shop_review_description_horizontal</item>
+</resources>

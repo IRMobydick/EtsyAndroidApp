@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="15" android:orientation="0" android:paddingLeft="0x7f0a0030" android:paddingTop="0x7f0a0030" android:paddingRight="0x7f0a0030" android:paddingBottom="0x7f0a0030" android:layout_width="-1" android:layout_height="-1">
+    <Button android:layout_gravity="1" android:id="0x7f10053a" android:layout_width="-2" android:layout_height="@r/button_height" android:minWidth="@r/button_medium_small_width" android:text="@r/move_item_to_favorites" style="@r/ButtonTransparent_Blue" />
+    <Button android:layout_gravity="1" android:id="0x7f100539" android:layout_width="-2" android:layout_height="@r/button_height" android:layout_marginLeft="@r/margin_medium" android:minWidth="@r/button_medium_small_width" android:text="@r/btn_move_to_cart" style="@r/ButtonBlueV2_Square" />
+</LinearLayout>

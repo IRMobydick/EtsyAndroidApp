@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.appboy.ui.inappmessage.views.AppboyInAppMessageFullView android:id="@id/com_appboy_inappmessage_full" style="@style/Appboy_InAppMessage_Full">
+    <LinearLayout android:orientation="1" android:padding="0dp" android:layout_width="-1" android:layout_height="-1" android:weightSum="1.0">
+        <ViewStub android:id="@id/com_appboy_inappmessage_full_imageview_stub" android:layout="@layout/com_appboy_stubbed_inappmessage_image_view" style="@style/Appboy_InAppMessage_Image_Full_Portrait" />
+        <ViewStub android:id="@id/com_appboy_inappmessage_full_drawee_stub" android:layout="@layout/com_appboy_stubbed_inappmessage_drawee_view" style="@style/Appboy_InAppMessage_Image_Full_Portrait" />
+        <RelativeLayout style="@style/Appboy_InAppMessage_Full_TextArea_Portrait">
+            <LinearLayout android:id="@id/com_appboy_inappmessage_full_text_layout" style="@style/Appboy_InAppMessage_Layout_Text_Full">
+                <com.appboy.ui.inappmessage.AppboyInAppMessageTextView android:id="@id/com_appboy_inappmessage_full_header_text" style="@style/Appboy_InAppMessage_Header_Full" />
+                <com.appboy.ui.inappmessage.AppboyInAppMessageTextView android:id="@id/com_appboy_inappmessage_full_message" style="@style/Appboy_InAppMessage_Message_Full" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/com_appboy_inappmessage_full_button_layout" style="@style/Appboy_InAppMessage_Layout_Button_Full">
+                <com.appboy.ui.inappmessage.AppboyInAppMessageButtonView android:id="@id/com_appboy_inappmessage_full_button_one" style="@style/Appboy_InAppMessage_Button_Full_One" />
+                <com.appboy.ui.inappmessage.AppboyInAppMessageButtonView android:id="@id/com_appboy_inappmessage_full_button_two" style="@style/Appboy_InAppMessage_Button_Full_Two" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:padding="10dp" android:layout_width="-1" android:layout_height="-1">
+        <ImageButton android:id="@id/com_appboy_inappmessage_full_close_button" style="@style/Appboy_InAppMessage_CloseButton_Full" />
+    </RelativeLayout>
+</com.appboy.ui.inappmessage.views.AppboyInAppMessageFullView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="0">
+    <corners android:topRightRadius="@r/button_corner_radius" android:bottomRightRadius="@r/button_corner_radius" />
+    <stroke android:width="0x7f0a023b" android:color="0x7f0e0050" />
+    <solid android:color="@r/transparent" />
+</shape>

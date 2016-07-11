@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" android:text="@r/payment_methods_label" style="?unknown_attr_ref: 7f010029" />
+    <View android:background="@r/divider_header" android:layout_width="-1" android:layout_height="@r/divider_height" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_small" android:layout_marginRight="@r/margin_large" />
+    <LinearLayout android:orientation="0" android:id="0x7f100499" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_small" android:layout_marginRight="@r/margin_large">
+        <ImageView android:id="0x7f10049a" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_tiny" android:src="0x7f0201fe" android:scaleType="5" />
+        <LinearLayout android:orientation="0" android:id="0x7f10049b" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_tiny" android:src="0x7f0201ff" android:scaleType="5" />
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_tiny" android:src="0x7f0201fd" android:scaleType="5" />
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_tiny" android:src="0x7f0201f9" android:scaleType="5" />
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:src="0x7f0201fa" android:scaleType="5" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="0x7f10049c" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginRight="@r/margin_large" style="@r/TextGrey" />
+    <LinearLayout android:orientation="1" android:id="0x7f10049d" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+        <include layout="0x7f030158" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_medium_large">
+        <TextView android:id="0x7f10049e" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_medium_large" android:layout_marginRight="@r/margin_large" style="?unknown_attr_ref: 7f010029" />
+        <TextView android:id="0x7f10049f" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_medium_large" android:layout_marginRight="@r/margin_large" style="?unknown_attr_ref: 7f010029" />
+    </LinearLayout>
+</merge>

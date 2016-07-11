@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout app:theme="@r/ThemeOverlay_AppCompat_ActionBar" app:id="@r/app_bar_layout" app:background="@r/actionbar_elevation_shadow" app:paddingBottom="@r/nav_divider_height" app:layout_width="-1" app:layout_height="-2">
+    <android.support.v7.widget.Toolbar app:id="@r/app_bar_toolbar" app:background="?unknown_attr_ref: 7f0100ed" app:layout_width="-1" app:layout_height="?unknown_attr_ref: 7f0100b1" app:popupTheme="@r/ThemeOverlay_AppCompat" app:layout_scrollFlags="5" />
+</android.support.design.widget.AppBarLayout>

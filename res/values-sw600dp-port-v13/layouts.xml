@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="listing_panel_stats_redesign">@layout/listing_panel_stats_redesign_sw600dp_port</item>
+</resources>

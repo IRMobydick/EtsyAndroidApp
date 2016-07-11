@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@r/root_view" android:layout_width="-1" android:layout_height="-1">
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@r/swipe_refresh_layout" android:layout_width="-1" android:layout_height="-2">
+        <android.support.v7.widget.RecyclerView android:id="@r/recycler_view" android:scrollbars="200" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <include layout="@r/partial_empty_result_normal" />
+    <include layout="@r/partial_loading" />
+    <include layout="@r/partial_no_internet" />
+</FrameLayout>

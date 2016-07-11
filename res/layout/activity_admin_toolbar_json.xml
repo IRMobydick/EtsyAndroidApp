@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:padding="@r/padding_medium" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="@r/url" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_medium" style="@r/TextGrey" />
+        <Button android:id="@r/send" android:layout_width="-2" android:layout_height="34dp" android:layout_marginBottom="@r/margin_medium" android:text="@r/convo_send_label" style="@r/ButtonBlueV2" />
+        <TextView android:id="@r/status_code" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_medium" android:textIsSelectable="true" style="@r/TextBlack" />
+        <TextView android:id="@r/headers" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_medium" android:textIsSelectable="true" style="@r/TextBlack" />
+        <TextView android:id="@r/json" android:layout_width="-1" android:layout_height="-2" android:textIsSelectable="true" style="@r/TextBlack" />
+    </LinearLayout>
+</ScrollView>

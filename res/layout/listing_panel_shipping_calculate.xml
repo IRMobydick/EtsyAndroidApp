@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:id="0x7f1004af" android:layout_width="-1" android:layout_height="-1">
+        <View android:background="@r/divider_header" android:layout_width="-1" android:layout_height="@r/divider_height" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_medium_large" android:layout_marginRight="@r/margin_large" />
+        <LinearLayout android:orientation="0" android:paddingLeft="@r/margin_large" android:paddingTop="@r/margin_medium_large" android:paddingRight="@r/margin_large" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="0x7f1004b0" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_large" android:text="@r/shipping_panel_cost_label" style="?unknown_attr_ref: 7f010029" />
+            <TextView android:id="0x7f1004b1" android:layout_width="-2" android:layout_height="-2" android:text="@r/shipping_cost_action_calculate" style="@r/TextBlue" />
+        </LinearLayout>
+        <LinearLayout android:id="0x7f1004b2" android:paddingLeft="@r/margin_large" android:paddingTop="@r/margin_small" android:paddingRight="@r/margin_large" android:paddingBottom="@r/margin_small" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textSize="@r/text_medium" android:id="0x7f1004b3" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_large" android:maxWidth="@r/listing_country_width" android:text="@r/shipping_to_default" android:layout_alignParentLeft="true" />
+                <TextView android:id="0x7f1004b4" android:layout_width="-2" android:layout_height="-2" android:text="@r/shipping_cost_action_update" android:layout_toRightOf="0x7f1004b3" style="@r/TextBlue" />
+                <TextView android:gravity="5" android:id="0x7f1004b5" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentRight="true" style="@r/TextGreen" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="0x7f1004b6" android:paddingLeft="@r/margin_large" android:paddingTop="0dp" android:paddingRight="@r/margin_large" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <Button android:id="0x7f1004b7" android:paddingLeft="0dp" android:layout_width="-2" android:layout_height="-2" android:text="@r/shipping_cost_action_calculate" android:layout_weight="1.0" style="0x7f0b0051" />
+            <EditText android:id="0x7f1004b8" android:layout_width="-2" android:layout_height="-2" android:hint="@r/shipping_to_hint_zip" android:singleLine="true" android:maxLength="5" android:layout_weight="1.0" android:inputType="2" style="@r/EditText" />
+        </LinearLayout>
+        <TextView android:id="0x7f1004b9" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_medium_large" android:layout_marginRight="@r/margin_large" style="@r/TextGrey" />
+        <View android:background="@r/divider_header" android:layout_width="-1" android:layout_height="@r/divider_height" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_medium_large" android:layout_marginRight="@r/margin_large" />
+    </LinearLayout>
+    <LinearLayout android:gravity="11" android:id="0x7f1004ba" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+        <com.etsy.android.uikit.view.LoadingIndicatorView android:background="0x106000d" android:padding="@r/padding_large" android:layout_width="-2" android:layout_height="-2" android:src="@r/spinner_blue" android:scaleType="5" />
+    </LinearLayout>
+</FrameLayout>

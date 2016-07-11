@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="@r/touch_enter_fade_speed" android:exitFadeDuration="@r/touch_exit_fade_speed">
+    <item android:state_pressed="true">
+        <shape android:shape="1">
+            <solid android:color="@r/card_foreground" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:drawable="@r/card_foreground">
+        <shape android:shape="1">
+            <solid android:color="@r/card_foreground" />
+        </shape>
+    </item>
+    <item android:drawable="@r/transparent" />
+</selector>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:drawable="@r/brand_orange" />
+    <item>
+        <bitmap android:gravity="11" android:src="0x7f02016f" />
+    </item>
+</layer-list>

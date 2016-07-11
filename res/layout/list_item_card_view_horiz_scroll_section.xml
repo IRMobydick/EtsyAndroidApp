@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView android:orientation="1" android:id="0x7f1003a8" android:paddingLeft="@r/fixed_medium" android:paddingRight="@r/fixed_medium" android:paddingBottom="@r/fixed_small" android:scrollbars="100" android:clipToPadding="false" android:layout_width="-2" android:layout_height="0x7f0a003b" style="@r/CardViewFullBleedElementStyle" />

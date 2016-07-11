@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:padding="@r/fixed_small" android:layout_width="-2" android:layout_height="-2" android:foreground="@r/fg_card_selector">
+    <com.etsy.android.uikit.view.SelectableImageView android:id="@r/img_thumbnail" android:layout_width="@r/listing_thumbnail_width" android:layout_height="@r/listing_thumbnail_height" android:scaleType="6" android:adjustViewBounds="false" />
+</FrameLayout>

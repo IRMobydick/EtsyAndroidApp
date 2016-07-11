@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="cart_panel_details">@layout/cart_panel_details_sw600dp_land</item>
+    <item type="layout" name="cart_panel_layout">@layout/cart_panel_layout_sw600dp_land</item>
+    <item type="layout" name="cart_panel_listings">@layout/cart_panel_listings_sw600dp_land</item>
+    <item type="layout" name="etsy_tabview">@layout/etsy_tabview_sw600dp_land</item>
+    <item type="layout" name="fragment_feedback">@layout/fragment_feedback_sw600dp_land</item>
+    <item type="layout" name="fragment_listing_redesign">@layout/fragment_listing_redesign_sw600dp_land</item>
+    <item type="layout" name="header_local_market">@layout/header_local_market_sw600dp_land</item>
+    <item type="layout" name="list_item_convo_reply">@layout/list_item_convo_reply_sw600dp_land</item>
+    <item type="layout" name="listing_panel_images">@layout/listing_panel_images_600dp_land</item>
+    <item type="layout" name="listing_panel_price_contact">@layout/listing_panel_price_contact_sw600dp_land</item>
+    <item type="layout" name="partial_listing_unavailable">@layout/partial_listing_unavailable_sw600dp_land</item>
+    <item type="layout" name="partial_no_internet">@layout/partial_no_internet_sw600dp_land</item>
+    <item type="layout" name="receipt_shipping_status">@layout/receipt_shipping_status_sw600dp_land</item>
+    <item type="layout" name="user_profile_action_buttons">@layout/user_profile_action_buttons_vertical</item>
+    <item type="layout" name="partial_empty_result">@layout/partial_empty_result_sw600dp_land</item>
+    <item type="layout" name="fragment_local_event_header">@layout/local_event_panel_info</item>
+</resources>

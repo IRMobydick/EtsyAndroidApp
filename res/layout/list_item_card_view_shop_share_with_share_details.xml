@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+    <com.etsy.android.uikit.view.SquareTaggableImageView android:id="@r/shop_share_image" android:background="@r/even_lighter_grey" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" android:contentDescription="@r/shop_share_image_description" />
+    <LinearLayout android:orientation="1" android:id="0x7f1003c1" android:layout_width="0x7f0a0045" android:layout_height="-2">
+        <include layout="@r/partial_card_shop_share_header" />
+        <ScrollView android:id="0x7f1003c2" android:paddingLeft="@r/fixed_large" android:paddingRight="@r/fixed_large" android:layout_width="-1" android:layout_height="0dp" android:layout_marginRight="@r/margin_large" android:layout_weight="1.0">
+            <TextView android:id="@r/caption" android:layout_width="-2" android:layout_height="-2" style="@r/TextGrey" />
+        </ScrollView>
+        <TextView android:id="0x7f1003c4" android:paddingLeft="@r/fixed_large" android:paddingTop="@r/fixed_large" android:paddingRight="@r/fixed_large" android:paddingBottom="0dp" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f01005a" />
+        <LinearLayout android:orientation="0" android:padding="@r/fixed_large" android:layout_width="-1" android:layout_height="-2">
+            <FrameLayout android:id="0x7f1003c5" android:padding="1dp" android:layout_width="0x7f0a0046" android:layout_height="-2" style="0x7f0b0191" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

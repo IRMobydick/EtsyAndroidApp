@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_enabled="false" android:drawable="@r/btn_blue_disabled_v2" />
+    <item android:state_enabled="true" android:state_pressed="true" android:drawable="@r/btn_blue_selected_v2" />
+    <item android:drawable="@r/btn_blue_v2" />
+</selector>

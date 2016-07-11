@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="@r/bg_ten_percent_black_selector" app:layout_width="-1" app:layout_height="-2">
+    <FrameLayout app:id="0x7f1003ee" app:paddingLeft="@r/collection_row_padding" app:paddingTop="@r/collection_row_padding" app:paddingRight="@r/margin_medium" app:paddingBottom="@r/collection_row_padding" app:layout_width="-2" app:layout_height="-2" app:layout_centerVertical="true">
+        <ImageView app:id="0x7f1003ef" app:background="@r/bg_empty_image" app:layout_width="0x7f0a00c5" app:layout_height="0x7f0a00c5" app:scaleType="6" />
+    </FrameLayout>
+    <LinearLayout app:orientation="1" app:layout_width="-2" app:layout_height="-2" app:layout_toLeftOf="0x7f1003f0" app:layout_toRightOf="0x7f1003ee" app:layout_centerVertical="true">
+        <TextView app:ellipsize="3" app:layout_gravity="50" app:id="0x7f1001ba" app:layout_width="-2" app:layout_height="-2" app:singleLine="true" style="@r/TextBlack_Large" />
+        <LinearLayout app:orientation="0" app:layout_width="-2" app:layout_height="-2">
+            <TextView app:id="0x7f1003f1" app:layout_width="-2" app:layout_height="-2" style="@r/TextLightGrey_Small" />
+            <com.etsy.android.iconsy.views.IconView app:gravity="53" app:layout_gravity="53" app:id="0x7f1001be" app:visibility="2" app:layout_width="@r/text_medium" app:layout_height="@r/text_medium" app:layout_marginLeft="@r/margin_small" app:iconChar="@r/ic_standard_private" app:iconColor="@r/lighter_grey" app:hasSelector="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <CheckBox app:id="0x7f1003f0" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@r/fixed_medium" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+    <View app:layout_alignParentBottom="true" style="@r/Divider_Horizontal" />
+</RelativeLayout>

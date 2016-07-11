@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="@r/fixed_medium" android:paddingTop="@r/fixed_large" android:paddingRight="@r/fixed_medium" android:paddingBottom="@r/fixed_large" android:layout_width="-1" android:layout_height="-2">
+    <com.etsy.android.uikit.view.GuardianTextView android:gravity="11" android:layout_gravity="1" android:id="0x7f1003bd" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_tiny" android:layout_marginBottom="@r/fixed_tiny" style="?unknown_attr_ref: 7f010045" />
+    <TextView android:gravity="11" android:layout_gravity="1" android:id="0x7f1003be" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_tiny" style="@r/TextGrey" />
+</LinearLayout>

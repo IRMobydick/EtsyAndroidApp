@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:background="0x7f0e0034" app:padding="@r/padding_medium_large" app:layout_width="-1" app:layout_height="-1">
+    <ScrollView app:layout_width="-1" app:layout_height="-1" app:animateLayoutChanges="true">
+        <LinearLayout app:orientation="1" app:background="@r/bg_card" app:clipChildren="false" app:layout_width="-1" app:layout_height="-2"
+            <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-2"
+                <LinearLayout app:background="@r/bg_grey_outline" app:padding="3dp" app:layout_width="-2" app:layout_height="-2" app:layout_margin="@r/margin_medium_large">
+                    <ImageView app:id="0x7f1002a6" app:layout_width="0x7f0a01c3" app:layout_height="0x7f0a01c2" app:contentDescription="@r/listing_image_content_description" />
+                </LinearLayout>
+                <LinearLayout app:orientation="1" app:layout_width="-2" app:layout_height="-1" app:layout_marginTop="@r/margin_medium_large" app:layout_marginRight="@r/margin_medium_large" app:layout_marginEnd="@r/margin_medium_large">
+                    <TextView app:ellipsize="3" app:id="0x7f1002a7" app:layout_width="-1" app:layout_height="-2" app:maxLines="4" style="@r/TextDarkGrey" />
+                    <TextView app:ellipsize="3" app:id="0x7f1002a8" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_medium_large" app:maxLines="4" style="?unknown_attr_ref: 7f01005e" />
+                </LinearLayout>
+            </LinearLayout>
+            <View app:background="@r/divider_medium" app:layout_width="-1" app:layout_height="@r/divider_height" app:layout_marginTop="@r/margin_large_xlarge" />
+            <TextView app:layout_gravity="1" app:id="0x7f1002a9" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_large_xlarge" app:text="@r/review_rating_desc_max" style="?unknown_attr_ref: 7f010041" />
+            <RelativeLayout app:clipChildren="false" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_medium_large">
+                <RatingBar app:id="@r/rating" app:layout_width="-2" app:numStars="0x7f0d003f" app:isIndicator="false" app:layout_centerInParent="true" style="0x7f0b0249" />
+                <com.etsy.android.uikit.view.RatingIconView app:id="0x7f1002aa" app:clipChildren="false" app:layout_width="-2" app:layout_height="-1" app:numStars="0x7f0d003f" app:layout_centerInParent="true" app:starSize="0x7f0a01c6" />
+            </RelativeLayout>
+            <TextView app:layout_gravity="1" app:id="0x7f1002ab" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_medium_large" app:layout_marginBottom="@r/margin_large_xlarge" app:text="@r/review_tap_stars_hint" style="@r/TextMidGrey" />
+            <LinearLayout app:gravity="1" app:orientation="1" app:id="0x7f1002ac" app:background="@r/etsy_light_blue" app:padding="@r/margin_medium_large" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_large_xlarge">
+                <TextView app:layout_width="-2" app:layout_height="-2" app:text="@r/review_have_a_problem" style="@r/TextDarkGrey_Larger" />
+                <TextView app:layout_width="-2" app:layout_height="-2" app:text="@r/review_try_contacting_shop" style="@r/TextBlue" />
+            </LinearLayout>
+            <LinearLayout app:gravity="31" app:orientation="1" app:id="0x7f1002ad" app:visibility="2" app:clipChildren="false" app:layout_width="-1" app:layout_height="-2" app:animateLayoutChanges="true">
+                <TextView app:gravity="11" app:id="0x7f1002ae" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium_large" app:layout_marginTop="@r/margin_xxlarge" app:layout_marginRight="@r/margin_medium_large" app:text="@r/review_add_photo_hint" style="@r/TextDarkGrey_Larger" />
+                <TextView app:textSize="@r/text_medium" app:textColor="@r/white" app:id="0x7f1002af" app:background="@r/red" app:padding="@r/padding_medium_large" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_medium_large" />
+                <RelativeLayout app:clipChildren="false" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_xlarge_large"
+                    <RelativeLayout app:id="0x7f1002b0" app:layout_width="0x7f0a01c5" app:layout_height="0x7f0a01c4" app:layout_marginLeft="@r/margin_medium_large" app:layout_marginStart="@r/margin_medium_large">
+                        <com.etsy.android.uikit.view.ClickableImageView app:id="0x7f1002b1" app:layout_width="-1" app:layout_height="-1" app:src="@r/btn_blue_v2" app:scaleType="6" />
+                        <LinearLayout app:gravity="11" app:orientation="1" app:id="0x7f1002b2" app:layout_width="-2" app:layout_height="-2" app:layout_centerInParent="true">
+                            <ImageView app:id="0x7f1002b3" app:layout_width="-2" app:layout_height="-2" />
+                            <TextView app:layout_width="-2" app:layout_height="-2" app:text="@r/review_add_photo" style="@r/TextWhite" />
+                        </LinearLayout>
+                        <com.etsy.android.uikit.view.ClickableImageView app:id="0x7f1002b4" app:background="@r/list_selector_black" app:layout_width="-2" app:layout_height="-2" app:srcCompat="@r/ic_close_white_24dp" />
+                    </RelativeLayout>
+                    <ImageView app:id="0x7f1002b5" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium_large" app:src="0x7f02017a" app:layout_toRightOf="0x7f1002b0" app:contentDescription="@r/example_appreciation_photo_content_description" app:layout_marginStart="@r/margin_medium_large" app:layout_toEndOf="0x7f1002b0" />
+                    <ImageView app:id="0x7f1002b6" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium_large" app:src="0x7f02017b" app:layout_toRightOf="0x7f1002b5" app:contentDescription="@r/example_appreciation_photo_content_description" app:layout_marginStart="@r/margin_medium_large" app:layout_toEndOf="0x7f1002b5" />
+                    <ImageView app:id="0x7f1002b7" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium_large" app:layout_marginTop="@r/margin_medium_large" app:layout_marginBottom="@r/margin_xxlarge" app:src="0x7f02017c" app:layout_below="0x7f1002b0" app:contentDescription="@r/example_appreciation_photo_content_description" app:layout_marginStart="@r/margin_medium_large" />
+                    <ImageView app:id="0x7f1002b8" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium_large" app:layout_marginTop="@r/margin_medium_large" app:layout_marginBottom="@r/margin_xxlarge" app:src="0x7f02017d" app:layout_toRightOf="0x7f1002b7" app:layout_below="0x7f1002b5" app:contentDescription="@r/example_appreciation_photo_content_description" app:layout_marginStart="@r/margin_medium_large" app:layout_toEndOf="0x7f1002b7" />
+                    <ImageView app:id="0x7f1002b9" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium_large" app:layout_marginTop="@r/margin_medium_large" app:layout_marginBottom="@r/margin_xxlarge" app:src="0x7f02017e" app:layout_toRightOf="0x7f1002b8" app:layout_below="0x7f1002b6" app:contentDescription="@r/example_appreciation_photo_content_description" app:layout_marginStart="@r/margin_medium_large" app:layout_toEndOf="0x7f1002b8" />
+                    <EditText app:id="@r/review_message" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium_large" app:layout_marginRight="@r/margin_medium_large" app:layout_marginBottom="@r/margin_xxlarge" app:hint="@r/review_message_hint" app:layout_toRightOf="0x7f1002b0" app:inputType="24001" app:imeOptions="6" app:layout_toEndOf="0x7f1002b0" style="0x7f0b01cf" />
+                </RelativeLayout>
+                <TextView app:id="0x7f1002bb" app:padding="@r/padding_medium_large" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:text="@r/review_add_photo_later_hint" style="@r/TextLightGrey_Small" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@r/partial_loading" />
+    <include layout="@r/partial_no_internet" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="0x7f10024e" android:paddingBottom="@r/padding_large" android:layout_width="-1" android:layout_height="-2" android:foreground="@r/fg_standard_selector">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <TextView android:gravity="11" android:paddingLeft="0x7f0a0041" android:paddingTop="@r/padding_large" android:paddingRight="0x7f0a0041" android:layout_width="-1" android:layout_height="-2" android:text="@r/see_other_local_events" android:textAllCaps="true" style="?unknown_attr_ref: 7f010034" />
+    </LinearLayout>
+</FrameLayout>

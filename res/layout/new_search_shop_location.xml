@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:divider="@r/list_divider_light" android:showDividers="6">
+        <TextView android:id="0x7f10050f" android:padding="@r/fixed_large" android:layout_width="-1" android:layout_height="-2" android:text="@r/new_search_filter_shop_location_anywhere" style="?unknown_attr_ref: 7f010051" />
+        <TextView android:id="0x7f100510" android:padding="@r/fixed_large" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 7f010051" />
+        <LinearLayout android:orientation="1" android:padding="@r/fixed_large" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="-1" android:layout_height="-2" android:text="@r/new_search_filter_shop_location_custom_title" style="?unknown_attr_ref: 7f010054" />
+            <EditText android:textAppearance="?unknown_attr_ref: 7f010051" android:id="0x7f100511" android:paddingBottom="@r/fixed_large" android:layout_width="-1" android:layout_height="-2" android:hint="@r/new_search_filter_shop_location_custom_hint" android:singleLine="true" android:drawablePadding="@r/fixed_medium" android:inputType="1" android:imeOptions="2" style="@r/EditText" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="@r/menu_next" app:title="@r/next" app:showAsAction="6" />
+</menu>

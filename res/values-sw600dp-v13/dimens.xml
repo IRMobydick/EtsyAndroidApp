@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">64.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20.0dip</dimen>
+    <dimen name="ap_landing_page_photo_height">600.0dip</dimen>
+    <item type="dimen" name="finds_shop_aspect_ratio">0.35</item>
+    <item type="dimen" name="finds_shop_card_grid_column_count">4</item>
+    <item type="dimen" name="finds_shop_card_grid_row_count">1</item>
+    <dimen name="listing_country_width">300.0dip</dimen>
+    <dimen name="local_browse_header_map_height">320.0dip</dimen>
+    <dimen name="local_browse_header_overlap">60.0dip</dimen>
+    <dimen name="local_browse_map_height">320.0dip</dimen>
+    <dimen name="local_browse_map_height_minus_overlap">260.0dip</dimen>
+    <item type="dimen" name="shop2_home_announcement_padding">@dimen/padding_xlarge</item>
+    <dimen name="shop2_search_card_conditional_space">0.0dip</dimen>
+    <dimen name="shop_share_card_home_margin_horizontal">16.0dip</dimen>
+    <dimen name="shop_share_card_home_margin_vertical">16.0dip</dimen>
+    <dimen name="shop_share_card_landing_margin_horizontal">16.0dip</dimen>
+    <dimen name="shop_share_card_landing_margin_vertical">16.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">580.0dip</dimen>
+    <dimen name="cart_listing_image_width">100.0dip</dimen>
+    <item type="dimen" name="cart_note_bottom_margin">@dimen/margin_medium</item>
+    <dimen name="cart_note_top_margin">0.0dip</dimen>
+    <item type="dimen" name="convo_card_padding">@dimen/fixed_medium</item>
+    <dimen name="following_margins">48.0dip</dimen>
+    <dimen name="horizontal_listings_section_item_height">400.0dip</dimen>
+    <dimen name="local_browse_header_panel_side_margin">60.0dip</dimen>
+    <dimen name="local_browse_list_side_padding">32.0dip</dimen>
+    <item type="dimen" name="local_event_list_side_padding">@dimen/padding_large_xlarge</item>
+    <item type="dimen" name="local_market_details_card_internal_side_padding">@dimen/padding_large_xlarge</item>
+    <dimen name="shop_share_caption_padding_vertical">24.0dip</dimen>
+    <dimen name="abc_action_bar_content_inset_material">24.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">8.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">8.0dip</dimen>
+    <item type="dimen" name="actionbar_portrait_height">@dimen/actionbar_height</item>
+    <dimen name="admin_badge_dim">45.0dip</dimen>
+    <dimen name="ap_landing_page_primary_listing_card_width">200.0dip</dimen>
+    <dimen name="ap_landing_page_review_stars">22.0dip</dimen>
+    <dimen name="button_header_height">44.0dip</dimen>
+    <dimen name="button_header_width">54.0dip</dimen>
+    <dimen name="button_listing_height">56.0dip</dimen>
+    <dimen name="button_medium_small_width">160.0dip</dimen>
+    <dimen name="card_margin_padding_fix">16.0dip</dimen>
+    <dimen name="com_appboy_feed_max_width">600.0dip</dimen>
+    <dimen name="convo_count_height">16.0dip</dimen>
+    <dimen name="design_navigation_max_width">320.0dip</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">0.0dip</dimen>
+    <dimen name="design_snackbar_background_corner_radius">2.0dip</dimen>
+    <dimen name="design_snackbar_extra_spacing_horizontal">24.0dip</dimen>
+    <dimen name="design_snackbar_max_width">576.0dip</dimen>
+    <dimen name="design_snackbar_min_width">320.0dip</dimen>
+    <item type="dimen" name="design_snackbar_padding_vertical_2lines">@dimen/design_snackbar_padding_vertical</item>
+    <dimen name="design_tab_scrollable_min_width">160.0dip</dimen>
+    <dimen name="dialog_max_width">460.0dip</dimen>
+    <dimen name="etsy_e_icon_size">24.0dip</dimen>
+    <dimen name="feed_avatar">56.0dip</dimen>
+    <dimen name="feed_avatar_card_offset">24.0dip</dimen>
+    <dimen name="feed_avatar_image">44.0dip</dimen>
+    <dimen name="feed_text_row_height">60.0dip</dimen>
+    <dimen name="feed_user_text_row_height">120.0dip</dimen>
+    <dimen name="finds_listing_margin">4.0dip</dimen>
+    <dimen name="horizontal_categories_section_item_height">228.0dip</dimen>
+    <dimen name="horizontal_category_card_item_width">200.0dip</dimen>
+    <dimen name="horizontal_scroll_list_item_height">210.0dip</dimen>
+    <dimen name="horizontal_scroll_list_item_width">170.0dip</dimen>
+    <dimen name="horizontal_shop_card_width">260.0dip</dimen>
+    <dimen name="horizontal_shop_section_item_height">296.0dip</dimen>
+    <dimen name="ipp_sell_now_text_icon">24.0dip</dimen>
+    <dimen name="list_item_height">56.0dip</dimen>
+    <dimen name="list_item_multi_level_height">64.0dip</dimen>
+    <dimen name="listing_card_fav_margin">6.0dip</dimen>
+    <dimen name="listing_card_fav_padding">6.0dip</dimen>
+    <dimen name="listing_price_loading_indicator_size">22.0dip</dimen>
+    <item type="dimen" name="listing_structured_policies_content_margin_left">@dimen/fixed_large</item>
+    <dimen name="listing_structured_policies_divider_margin_left">0.0dip</dimen>
+    <dimen name="local_browse_list_start_end_padding">20.0dip</dimen>
+    <dimen name="local_browse_list_title_text_size">32.0sp</dimen>
+    <dimen name="local_map_info_window_width">320.0dip</dimen>
+    <dimen name="local_market_info_map_height">192.0dip</dimen>
+    <dimen name="nav_bar_width">296.0dip</dimen>
+    <dimen name="object_avatar">50.0dip</dimen>
+    <dimen name="receipt_image_height">120.0dip</dimen>
+    <dimen name="receipt_image_width">160.0dip</dimen>
+    <dimen name="review_image_height">120.0dip</dimen>
+    <dimen name="review_image_width">160.0dip</dimen>
+    <dimen name="review_star_size_small">16.0dip</dimen>
+    <dimen name="search_actionbar_filters_preferred_width">380.0dip</dimen>
+    <dimen name="search_bg_image">360.0dip</dimen>
+    <dimen name="search_view_preferred_width">370.0dip</dimen>
+    <dimen name="search_view_vertical_offset">16.0dip</dimen>
+    <dimen name="shop2_home_ap_size">200.0dip</dimen>
+    <dimen name="shop2_home_review_listing_height">105.0dip</dimen>
+    <dimen name="shop2_home_review_listing_width">140.0dip</dimen>
+    <dimen name="shop2_home_side_margin">8.0dip</dimen>
+    <dimen name="shop2_horizontal_circular_image_size">50.0dip</dimen>
+    <dimen name="shop_about_image">240.0dip</dimen>
+    <dimen name="shop_about_video_padding">16.0dip</dimen>
+    <dimen name="shop_avatar">90.0dip</dimen>
+    <dimen name="shop_header_padding">20.0dip</dimen>
+    <dimen name="shop_home_main_avatar">90.0dip</dimen>
+    <dimen name="shop_listing_header_avatar">60.0dip</dimen>
+    <dimen name="shop_member_avatar">180.0dip</dimen>
+    <dimen name="signin_dialog_padding">48.0dip</dimen>
+    <dimen name="signin_nag_width">300.0dip</dimen>
+    <dimen name="social_share_grid_padding">32.0dip</dimen>
+    <dimen name="social_share_padding">64.0dip</dimen>
+    <dimen name="social_share_share_with_text">13.0sp</dimen>
+    <dimen name="social_share_text_padding">95.0dip</dimen>
+    <dimen name="stats_list_number_width">150.0dip</dimen>
+    <dimen name="text_large">18.0sp</dimen>
+    <dimen name="text_larger">20.0sp</dimen>
+    <dimen name="text_medium">16.0sp</dimen>
+    <dimen name="text_small">14.0sp</dimen>
+    <dimen name="text_smaller">12.0sp</dimen>
+    <dimen name="text_xlarge">22.0sp</dimen>
+    <dimen name="text_xsmall">10.0sp</dimen>
+    <dimen name="text_xxlarge">24.0sp</dimen>
+    <dimen name="text_xxxlarge">26.0sp</dimen>
+    <dimen name="user_avatar_image">80.0dip</dimen>
+    <dimen name="etsy_asap_padding_left">10.0dip</dimen>
+    <dimen name="etsy_asap_padding_right">10.0dip</dimen>
+    <dimen name="listing_seller_icon_size">52.0dip</dimen>
+</resources>

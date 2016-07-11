@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="0x7f10043f" android:layout_width="-2" android:layout_height="-1" android:foreground="@r/fg_standard_selector">
+    <TextView android:gravity="11" android:layout_gravity="11" android:id="0x7f100440" android:paddingLeft="@r/padding_xlarge" android:paddingRight="@r/padding_xlarge" android:layout_width="-2" android:layout_height="-1" android:text="@r/see_all" style="@r/TextBlue_Large" />
+</FrameLayout>

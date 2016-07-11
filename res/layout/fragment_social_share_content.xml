@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="@r/social_share_content" android:background="@r/white" android:paddingBottom="@r/padding_xlarge" android:layout_width="-1" android:layout_height="-1">
+    <com.etsy.android.uikit.view.GuardianTextView android:gravity="1" android:id="@r/social_share_title" android:paddingLeft="@r/social_share_padding" android:paddingTop="@r/padding_large_xlarge" android:paddingRight="@r/social_share_padding" android:paddingBottom="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 7f010041" />
+    <TextView android:gravity="1" android:id="@r/social_share_message" android:paddingLeft="@r/social_share_message_padding" android:paddingRight="@r/social_share_message_padding" android:paddingBottom="@r/padding_large" android:visibility="2" android:layout_width="-1" android:layout_height="-2" style="@r/TextLightGrey" />
+    <FrameLayout android:paddingLeft="@r/social_share_padding" android:paddingTop="@r/card_margin_padding_fix" android:paddingRight="@r/social_share_padding" android:layout_width="-1" android:layout_height="-2">
+        <View android:layout_gravity="10" android:background="#d5d5d5" android:layout_width="-1" android:layout_height="1dp" />
+        <TextView android:textSize="@r/social_share_share_with_text" android:textColor="@r/text_mid_grey" android:layout_gravity="11" android:background="@r/white" android:padding="@r/fixed_medium" android:layout_width="-2" android:layout_height="-2" android:text="@r/share_with_no_ellipsis" android:textAllCaps="true" style="@r/TextDarkGrey_Large" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="-1" android:layout_height="-2">
+        <include layout="@r/partial_loading" />
+        <android.support.v7.widget.RecyclerView android:id="@r/recycler_view" android:background="0x106000b" android:paddingLeft="@r/social_share_grid_padding" android:paddingRight="@r/social_share_grid_padding" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" />
+    </FrameLayout>
+</LinearLayout>

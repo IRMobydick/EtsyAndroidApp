@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.uikit.messaging.EasyOptOutToastView app:gravity="1" app:id="@r/persistent_toast_root" app:layout_width="-1" app:layout_height="-1" style="@r/PersistentToastRootView">
+    <com.etsy.android.uikit.view.MaxWidthRelativeLayout app:id="@r/popup_container" app:layout_width="-1" app:layout_height="@r/button_height_fixed" app:layout_alignParentBottom="true" app:maxWidth="@r/persistent_toast_popup_max_width" style="@r/PersistentToastPopupContainer">
+        <com.etsy.android.iconsy.views.IconView app:id="@r/dismiss_icon" app:padding="@r/fixed_small" app:layout_width="@r/persistent_toast_dismiss_icon_size" app:layout_height="@r/persistent_toast_dismiss_icon_size" app:layout_alignParentRight="true" app:layout_centerVertical="true" app:iconChar="@r/ic_etsy_cancel" app:gravity="11" app:iconColor="@r/white" app:hasSelector="true" />
+        <TextView app:id="@r/message" app:paddingRight="@r/fixed_medium" app:layout_width="-2" app:layout_height="-2" app:layout_toLeftOf="@r/dismiss_icon" app:layout_alignParentLeft="true" app:layout_centerVertical="true" style="@r/PersistentToastText" />
+    </com.etsy.android.uikit.view.MaxWidthRelativeLayout>
+</com.etsy.android.uikit.messaging.EasyOptOutToastView>

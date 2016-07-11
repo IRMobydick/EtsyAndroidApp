@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="0x7f100607" app:orderInCategory="100" app:title="@r/menu_search" app:showAsAction="2" />
+    <item app:id="0x7f100608" app:orderInCategory="100" app:title="@r/menu_cart" app:showAsAction="2" />
+</menu>

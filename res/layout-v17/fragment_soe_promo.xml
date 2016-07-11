@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_gravity="11" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:gravity="11" android:orientation="1" android:paddingLeft="@r/padding_large" android:paddingRight="@r/padding_large" android:paddingBottom="@r/padding_large" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:layout_width="0x7f0a00a0" android:layout_height="0x7f0a00a0" android:src="0x7f0201bf" />
+        <com.etsy.android.uikit.view.GuardianTextView android:textSize="@r/text_larger" android:textStyle="1" android:gravity="10" android:id="0x7f100330" android:padding="@r/padding_medium" android:layout_width="-2" android:layout_height="-2" />
+        <TextView android:textSize="@r/text_larger" android:gravity="11" android:id="0x7f100331" android:padding="@r/padding_medium" android:layout_width="-1" android:layout_height="-2" android:text="@r/soe_promo_desc_first_open" android:lineSpacingExtra="4dp" android:textAlignment="4" />
+        <Button android:id="0x7f100332" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@r/padding_medium" android:text="@r/soe_promo_get" style="@r/ButtonBlueV2_Large" />
+        <TextView android:gravity="13" android:id="0x7f100333" android:padding="@r/padding_small" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+</ScrollView>

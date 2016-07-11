@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <com.etsy.android.uikit.view.TaggableImageView android:layout_gravity="11" android:id="@r/save_share_image" android:layout_width="@r/social_share_shop_share_image_size" android:layout_height="@r/social_share_shop_share_image_size" android:contentDescription="@r/shop_share_image_description" />
+</LinearLayout>

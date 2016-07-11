@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:gravity="1" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_xxlarge" android:layout_marginTop="@r/margin_xlarge" android:layout_marginRight="@r/margin_xxlarge">
+        <TextView android:textSize="@r/text_super_ultra_large" android:id="@r/before_decimal_text" android:layout_width="-2" android:layout_height="-2" style="@r/TextMidGrey_Large" />
+        <EditText android:textSize="@r/text_super_ultra_large" android:id="@r/edit_text" android:layout_width="-2" android:layout_height="-2" android:minEms="@r/edit_number_default_min_chars" android:singleLine="true" android:digits="0123456789.," android:inputType="2002" android:imeOptions="6" />
+        <TextView android:textSize="@r/text_super_ultra_large" android:id="@r/after_decimal_text" android:layout_width="-2" android:layout_height="-2" style="@r/TextMidGrey_Large" />
+    </LinearLayout>
+    <TextView android:textColor="@r/text_warn" android:gravity="11" android:id="@r/error_text" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_xxlarge" android:layout_marginTop="@r/margin_small" android:layout_marginRight="@r/margin_xxlarge" style="@r/TextLightGrey_Small" />
+    <TextView android:gravity="11" android:id="@r/help_subtext" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_xxlarge" android:layout_marginTop="@r/margin_small" android:layout_marginRight="@r/margin_xxlarge" style="?unknown_attr_ref: 7f010059" />
+    <com.etsy.android.iconsy.views.IconView android:layout_gravity="1" android:id="@r/help_button" android:visibility="2" style="@r/HelpIcon" />
+    <View android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+</LinearLayout>

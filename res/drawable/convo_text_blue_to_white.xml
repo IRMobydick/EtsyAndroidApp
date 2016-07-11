@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:color="@r/blue" android:state_activated="false" />
+    <item android:state_pressed="false" android:color="@r/blue" android:state_activated="false" />
+    <item android:color="@r/white" android:state_activated="true" />
+</selector>

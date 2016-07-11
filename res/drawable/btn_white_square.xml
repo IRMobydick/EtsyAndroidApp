@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="0">
+    <corners android:radius="0dp" />
+    <solid android:color="@r/white" />
+    <stroke android:width="@r/divider_height" android:color="@r/divider_header" />
+</shape>

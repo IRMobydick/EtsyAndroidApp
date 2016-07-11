@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:left="@r/divider_padding" android:right="@r/divider_padding">
+        <shape android:shape="0">
+            <solid android:color="@r/list_divider" />
+        </shape>
+    </item>
+</layer-list>

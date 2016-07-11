@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape android:shape="0">
+            <stroke android:width="@r/divider_height" android:color="@r/divider_header" />
+            <solid android:color="0x106000d" />
+        </shape>
+    </item>
+    <item android:top="@r/divider_height">
+        <shape android:shape="0">
+            <solid android:color="0x7f0e0124" />
+        </shape>
+    </item>
+</layer-list>

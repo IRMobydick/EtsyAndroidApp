@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+    <LinearLayout android:orientation="1" android:paddingLeft="@r/split_horizontal_card_padding" android:paddingTop="@r/split_vertical_card_padding" android:paddingRight="@r/split_horizontal_card_padding" android:paddingBottom="@r/split_vertical_card_padding" android:layout_width="-1" android:layout_height="-2" android:animateLayoutChanges="true"
+        <LinearLayout android:orientation="1" android:id="@r/notification_av" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/card_shadow_padding" android:layout_marginTop="@r/padding_small" android:layout_marginRight="@r/card_shadow_padding" android:layout_marginBottom="@r/padding_small" android:text="@r/notification_alerts" style="@r/SettingsTitle" />
+            <LinearLayout android:orientation="0" android:background="@r/bg_card_top" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:id="@r/txt_sound" android:layout_width="0dp" android:layout_height="-2" android:text="@r/notifications_sound" android:layout_weight="6.0" style="@r/SettingsItemText" />
+                <android.support.v7.widget.SwitchCompat android:layout_gravity="10" android:id="@r/switch_sound" android:background="@task/NETWORK_STATE_CONNECTED" android:paddingLeft="@r/padding_tiny" android:paddingRight="@r/padding_tiny" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/fixed_medium" android:layout_marginRight="@r/fixed_medium" />
+            </LinearLayout>
+            <FrameLayout android:id="@r/card_ringtone" android:background="@r/bg_card_middle" android:layout_width="-1" android:layout_height="-2" android:foreground="@r/fg_card_selector_middle">
+                <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                    <TextView android:layout_width="-2" android:layout_height="-2" android:text="@r/notifications_ringtone" style="@r/SettingsItemText" />
+                    <TextView android:ellipsize="3" android:gravity="15" android:id="@r/txt_selected_ringtone" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/fixed_medium" android:layout_marginRight="@r/fixed_medium_large" android:text="@r/notifications" android:singleLine="true" style="?unknown_attr_ref: 7f010027" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:orientation="0" android:id="@r/card_cha_ching" android:background="@r/bg_card_middle" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:id="@r/txt_cha_ching" android:layout_width="0dp" android:layout_height="-2" android:text="@r/notifications_cha_ching" android:layout_weight="6.0" style="@r/SettingsItemText" />
+                <android.support.v7.widget.SwitchCompat android:layout_gravity="10" android:id="@r/switch_cha_ching" android:background="@task/NETWORK_STATE_CONNECTED" android:paddingLeft="@r/padding_tiny" android:paddingRight="@r/padding_tiny" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/fixed_medium" android:layout_marginRight="@r/fixed_medium" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:background="@r/bg_card_middle" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:id="@r/txt_vibrate" android:layout_width="0dp" android:layout_height="-2" android:text="@r/notifications_vibrate" android:layout_weight="6.0" style="@r/SettingsItemText" />
+                <android.support.v7.widget.SwitchCompat android:layout_gravity="10" android:id="@r/switch_vibrate" android:background="@task/NETWORK_STATE_CONNECTED" android:paddingLeft="@r/padding_tiny" android:paddingRight="@r/padding_tiny" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/fixed_medium" android:layout_marginRight="@r/fixed_medium" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:id="@r/card_lights" android:background="@r/bg_card_middle" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:id="@r/txt_light" android:layout_width="0dp" android:layout_height="-2" android:text="@r/notifications_light" android:layout_weight="6.0" style="@r/SettingsItemText" />
+                <android.support.v7.widget.SwitchCompat android:layout_gravity="10" android:id="@r/switch_light" android:background="@task/NETWORK_STATE_CONNECTED" android:paddingLeft="@r/padding_tiny" android:paddingRight="@r/padding_tiny" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/fixed_medium" android:layout_marginRight="@r/fixed_medium" />
+            </LinearLayout>
+            <LinearLayout android:orientation="0" android:id="@r/card_show_orders_convos_nav_bar" android:background="@r/bg_card_bottom" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:id="@r/txt_show_orders_convos_nav_bar" android:layout_width="0dp" android:layout_height="-2" android:text="@r/notifications_show_orders_convos_in_nav_bar" android:layout_weight="6.0" style="@r/SettingsItemText" />
+                <android.support.v7.widget.SwitchCompat android:layout_gravity="10" android:id="@r/switch_show_orders_and_convos_count_in_nav_bar" android:background="@task/NETWORK_STATE_CONNECTED" android:paddingLeft="@r/padding_tiny" android:paddingRight="@r/padding_tiny" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/fixed_medium" android:layout_marginRight="@r/fixed_medium" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/card_shadow_padding" android:layout_marginTop="@r/padding_large" android:layout_marginRight="@r/card_shadow_padding" android:layout_marginBottom="@r/padding_small" android:text="@r/notify_me_when" style="@r/SettingsTitle" />
+        <RelativeLayout android:background="@r/bg_card" android:layout_width="-1" android:layout_height="-2">
+            <include android:id="@r/loading_notification_settings" android:layout_width="-1" android:layout_height="-2" layout="@r/partial_loading" />
+            <LinearLayout android:orientation="1" android:id="@r/error_view" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+                <com.etsy.android.uikit.view.GuardianTextView android:gravity="11" android:layout_gravity="11" android:paddingLeft="@r/fixed_medium" android:paddingRight="@r/fixed_medium" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_medium" android:text="@r/loading_problem" />
+                <Button android:layout_gravity="11" android:id="@r/btn_retry_endless" android:layout_width="-2" android:layout_height="-2" android:layout_margin="@r/fixed_medium" android:text="@r/try_again" />
+            </LinearLayout>
+            <LinearLayout android:orientation="1" android:id="@r/server_driven_settings_section" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:divider="@r/divider_grey" android:showDividers="2" />
+        </RelativeLayout> />
+</ScrollView>

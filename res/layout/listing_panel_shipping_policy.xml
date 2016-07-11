@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="0x7f1004c7" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium_large">
+    <View android:background="@r/divider_medium" android:layout_width="-1" android:layout_height="@r/divider_height" />
+    <TextView android:gravity="11" android:id="0x7f1004c8" android:background="@r/bg_ten_percent_black_selector" android:padding="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2" android:text="@r/policies" style="?unknown_attr_ref: 7f010035" />
+</LinearLayout>

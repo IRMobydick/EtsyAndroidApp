@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:background="@r/white" app:paddingLeft="@r/margin_large" app:paddingRight="@r/margin_large" app:paddingBottom="@r/fixed_large" app:layout_width="-1" app:layout_height="-2">
+    <com.etsy.android.iconsy.views.IconView app:id="@r/estimate_delete" app:padding="@r/fixed_large" app:layout_width="@r/fixed_xxlarge" app:layout_height="@r/fixed_xxlarge" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:iconChar="@r/ic_standard_delete" app:gravity="11" app:iconColor="@r/light_grey" app:hasSelector="true" />
+    <com.etsy.android.uikit.view.ShippingPicker app:id="@r/shipping_picker" app:layout_width="-1" app:layout_height="-2" app:layout_marginBottom="@r/fixed_large" app:layout_toLeftOf="@r/estimate_delete" />
+    <View app:background="@r/lighter_grey" app:layout_width="-1" app:layout_height="@r/divider_height" app:layout_below="@r/shipping_picker" />
+</RelativeLayout>

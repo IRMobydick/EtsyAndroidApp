@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="@r/event_horizon_summary_timestamp" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="8dp" style="@r/TextGrey" />
+    <TextView android:id="@r/event_horizon_summary_eventlogger" android:clickable="false" android:layout_width="80dp" android:layout_height="-2" style="@r/TextGrey" />
+    <TextView android:id="@r/event_horizon_summary_eventname" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="@r/TextBlack_Large" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@r/listing_matte" android:layout_width="-1" android:layout_height="-2" style="@r/CardViewElementStyle">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <com.etsy.android.uikit.view.ListingFullImageView android:id="@r/listing_image" android:layout_width="-2" android:layout_height="-2" android:scaleType="6" android:adjustViewBounds="true" android:contentDescription="@r/listing_image_content_description" />
+        <View android:id="@r/listing_card_one_thin_rule" android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <TextView android:ellipsize="3" android:id="@r/listing_title" android:background="@r/white" android:paddingLeft="@r/padding_small" android:paddingTop="@r/padding_small" android:paddingRight="@r/padding_small" android:paddingBottom="@r/padding_tiny" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:includeFontPadding="false" style="?unknown_attr_ref: 7f010056" />
+        <TextView android:typeface="1" android:ellipsize="4" android:id="@r/listing_price" android:background="@r/white" android:paddingLeft="@r/padding_small" android:paddingRight="@r/padding_small" android:paddingBottom="@r/padding_small" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:includeFontPadding="false" style="?unknown_attr_ref: 7f01002f" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

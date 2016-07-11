@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group app:id="@r/menu_group_convo_thread">
+        <item app:id="@r/menu_reply" app:orderInCategory="100" app:title="@r/convo_reply" app:showAsAction="2" />
+        <item app:id="@r/menu_send_reply" app:orderInCategory="100" app:title="@r/convo_send_label" app:showAsAction="2" />
+        <item app:id="@r/menu_read_state" app:title="@r/convo_mark_as_read" app:showAsAction="0" />
+        <item app:id="@r/menu_mark_spam" app:title="@r/convo_mark_as_spam" app:showAsAction="0" />
+        <item app:id="@r/menu_delete" app:title="@r/convo_delete" app:showAsAction="0" />
+    </group>
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+    <com.etsy.android.uikit.view.GuardianTextView android:textAppearance="?unknown_attr_ref: 7f0100e7" android:ellipsize="3" android:gravity="800013" android:id="@r/etsy_menu_text" android:layout_width="0dp" android:layout_height="-1" android:maxLines="2" android:drawablePadding="@r/design_navigation_icon_padding" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="10" android:id="@r/etsy_menu_badge_icon" android:visibility="2" android:layout_width="-2" android:layout_height="-2" />
+    <TextView android:textSize="@r/default_badge_text_size" android:textStyle="1" android:gravity="10" android:layout_gravity="10" android:id="@r/etsy_menu_badge_text" android:background="@r/bg_nav_badge" android:paddingLeft="@r/fixed_small_medium" android:paddingTop="@r/fixed_small" android:paddingRight="@r/fixed_small_medium" android:paddingBottom="@r/fixed_small" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:lineSpacingMultiplier="1.2" />
+</merge>

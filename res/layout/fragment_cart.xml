@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@r/root_view" android:layout_width="-1" android:layout_height="-1">
+    <com.etsy.android.uikit.view.SwipeRefreshListView android:id="0x7f10026a" android:paddingLeft="0x7f0a0034" android:paddingTop="0x7f0a0035" android:paddingRight="0x7f0a0034" android:paddingBottom="0x7f0a0035" android:layout_width="-1" android:layout_height="-1" />
+    <include layout="0x7f030186" />
+    <include layout="@r/partial_loading" />
+    <include layout="@r/partial_no_internet" />
+    <include layout="@r/partial_empty_result" />
+    <include android:id="0x7f10026b" layout="0x7f0300dc" />
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:background="@r/white" app:padding="@r/fixed_large" app:layout_width="-1" app:layout_height="-2">
+    <TextView app:gravity="10" app:id="@r/title" app:layout_width="-1" app:layout_height="-2" style="?unknown_attr_ref: 7f01003f" />
+    <com.etsy.android.uikit.view.MachineTranslationButton app:id="@r/translate" app:layout_width="-2" app:layout_height="-2" app:disclaimerText="@r/machine_translation_faq_disclaimer" />
+</LinearLayout>

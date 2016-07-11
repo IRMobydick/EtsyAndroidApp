@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:padding="@r/padding_large" app:layout_width="-1" app:layout_height="-2"
+    <LinearLayout app:gravity="10" app:orientation="0" app:layout_width="-1" app:layout_height="-2">
+        <TextView app:ellipsize="3" app:gravity="50" app:id="0x7f1001ba" app:layout_width="0dp" app:layout_height="-2" app:layout_marginLeft="0x7f0a00a8" app:maxLines="2" app:layout_weight="1.0" style="@r/TextDarkGrey_XXLarge" />
+        <FrameLayout app:id="0x7f1001bb" app:background="@r/bg_ten_percent_black_selector" app:padding="@r/padding_medium" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_xlarge" app:layout_marginRight="0x7f0a00a8">
+            <TextView app:id="@r/edit_text" app:layout_width="-2" app:layout_height="-2" app:text="@r/collection_edit" app:textAllCaps="true" style="?unknown_attr_ref: 7f010034" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout app:orientation="0" app:layout_width="-2" app:layout_height="-2">
+        <TextView app:ellipsize="3" app:id="0x7f1001bd" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="0x7f0a00a8" app:maxLines="1" style="@r/TextLightGrey_Small" />
+        <com.etsy.android.iconsy.views.IconView app:gravity="53" app:layout_gravity="53" app:id="0x7f1001be" app:visibility="2" app:layout_width="@r/text_medium" app:layout_height="@r/text_medium" app:layout_marginLeft="@r/margin_small" app:iconChar="@r/ic_standard_private" app:iconColor="@r/light_grey" app:hasSelector="false" />
+    </LinearLayout>
+</LinearLayout>

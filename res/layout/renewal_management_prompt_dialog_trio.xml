@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="11" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:minHeight="48dp">
+    <TextView android:id="@r/txt_header" android:padding="@r/fixed_large" android:layout_width="-1" android:layout_height="-2" style="@r/TextDarkGrey_XLarge" />
+    <View style="@r/Divider_Horizontal" />
+    <include layout="@r/fragment_dialog_trio" />
+</LinearLayout>

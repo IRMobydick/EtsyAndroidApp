@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@r/list_selector" android:layout_width="-1" android:layout_height="-2" android:minHeight="0x7f0a0239">
+    <ImageView android:id="@r/edit_query" android:background="@r/list_selector" android:paddingLeft="0x7f0a0238" android:paddingRight="0x7f0a0238" android:visibility="2" android:layout_width="-2" android:layout_height="0x7f0a0239" android:src="@r/abc_ic_commit_search_api_mtrl_alpha" android:scaleType="7" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <TextView android:gravity="10" android:id="0x1020014" android:paddingLeft="@r/divider_padding" android:paddingRight="@r/divider_padding" android:layout_width="-1" android:layout_height="0x7f0a0239" android:singleLine="true" android:layout_toLeftOf="@r/edit_query" android:layout_toRightOf="0x1020007" android:layout_centerVertical="true" style="?unknown_attr_ref: 7f01002b" />
+</RelativeLayout>

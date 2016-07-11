@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:id="0x7f10039e" app:layout_width="-1" app:layout_height="-2" app:layout_marginBottom="@r/margin_medium" style="@r/CardViewFullBleedElementStyle">
+    <com.etsy.android.uikit.view.FullImageView app:id="@r/image" app:layout_width="-1" app:layout_height="-2" app:scaleType="6" app:contentDescription="@r/listing_image_content_description" app:imageAspect="0.0" />
+    <LinearLayout app:orientation="1" app:paddingLeft="@r/padding_large" app:paddingTop="@r/padding_large" app:paddingRight="@r/padding_large" app:paddingBottom="@r/padding_large" app:layout_width="-1" app:layout_height="-2">
+        <com.etsy.android.uikit.view.GuardianTextView app:ellipsize="3" app:gravity="1" app:layout_gravity="11" app:id="@r/txt_title" app:layout_width="-2" app:layout_height="-2" style="?unknown_attr_ref: 7f010045" />
+        <TextView app:ellipsize="3" app:gravity="1" app:layout_gravity="1" app:id="@r/txt_subtitle" app:visibility="2" app:layout_width="-2" app:layout_height="-2" style="@r/TextGrey_Small" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+    <ViewStub app:id="@r/convo_header" app:layout="@r/convo_new_header" app:layout_width="-2" app:layout_height="-2" />
+    <ScrollView app:layout_width="-1" app:layout_height="0dp" app:fillViewport="true" app:layout_weight="1.0">
+        <LinearLayout app:orientation="1" app:background="@r/white" app:layout_width="-1" app:layout_height="-2">
+            <RelativeLayout app:layout_width="-1" app:layout_height="0dp" app:layout_marginLeft="@r/padding_large" app:layout_marginTop="@r/padding_medium_large" app:layout_marginRight="@r/padding_large" app:layout_marginBottom="@r/padding_medium_large" app:layout_weight="1.0">
+                <com.etsy.android.uikit.view.ContactsAutoComplete app:ellipsize="3" app:id="0x7f10026d" app:layout_width="-1" app:layout_height="-2" app:hint="@r/convo_username_hint" app:maxLines="1" app:singleLine="true" app:completionThreshold="1" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:inputType="1" style="@r/EditText_AutoComplete" />
+                <EditText app:ellipsize="3" app:id="0x7f10026e" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_medium" app:hint="@r/convo_subject_hint" app:maxLines="1" app:scrollHorizontally="true" app:singleLine="true" app:layout_below="0x7f10026d" app:inputType="1" style="@r/EditText" />
+                <EditText app:gravity="30" app:id="0x7f10026f" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_medium" app:hint="@r/convo_message_hint" app:layout_below="0x7f10026e" style="@r/EditText_MultiLine" />
+                <com.etsy.android.uikit.view.ImageAttachmentLayout app:gravity="50" app:orientation="0" app:id="0x7f100270" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/padding_large" app:layout_below="0x7f10026f" app:attachmentPadding="@r/padding_large" />
+            </RelativeLayout>
+            <View style="@r/Divider_Horizontal" />
+            <TextView app:gravity="10" app:id="@r/button_image" app:background="@r/list_selector" app:padding="@r/margin_medium" app:layout_width="-1" app:layout_height="-2" app:text="@r/convos_add_photo" app:drawableLeft="@r/ic_camera" app:drawablePadding="@r/margin_medium" app:textAllCaps="true" style="@r/TextBlue" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

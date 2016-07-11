@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="0x7f0a002f" android:paddingBottom="0x7f0a002f" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" style="0x7f0b018f">
+        <include layout="0x7f030042" />
+        <View style="0x7f0b019f" />
+        <include layout="0x7f030044" />
+    </LinearLayout>
+    <include android:id="0x7f10016b" layout="@r/partial_loading" />
+</FrameLayout>

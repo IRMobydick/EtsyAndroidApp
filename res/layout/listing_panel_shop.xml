@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="0x7f1004c9" android:paddingTop="0x7f0a00c2" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="0x7f1004ca" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0x7f0a00c2" android:layout_marginBottom="@r/fixed_tiny" style="0x7f0b0202" />
+    <LinearLayout android:orientation="1" android:background="@r/bg_card" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_small"
+        <LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="1" android:id="0x7f1004cb" android:background="@r/bg_ten_percent_black_selector" android:paddingLeft="0x7f0a008c" android:paddingTop="0x7f0a008c" android:paddingRight="0x7f0a008c" android:layout_width="-1" android:layout_height="-2">
+            <include layout="0x7f0301bf" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:id="0x7f1004cc" android:layout_width="-2" android:layout_height="-1" android:layout_marginTop="@r/margin_medium" />
+        <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" android:layout_marginTop="@r/margin_medium" />
+        <TextView android:gravity="11" android:id="0x7f1004cd" android:background="@r/bg_ten_percent_black_selector" android:layout_width="-1" android:layout_height="0x7f0a0051" android:text="@r/visit_shop" style="?unknown_attr_ref: 7f010035" />
+        <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <LinearLayout android:gravity="10" android:layout_gravity="10" android:orientation="0" android:id="0x7f1004ce" android:background="@r/bg_ten_percent_black_selector" android:padding="@r/padding_large" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="0x7f1004cf" android:layout_width="0x7f0a01f0" android:layout_height="0x7f0a01f0" android:layout_marginRight="@r/padding_large" android:contentDescription="@r/shop_member_avatar_content_description" />
+            <LinearLayout android:layout_gravity="10" android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:id="0x7f1004d0" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 7f010034" />
+                <TextView android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/padding_tiny" android:text="@r/listing_shop_learn_about" style="@r/TextGrey_Small" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

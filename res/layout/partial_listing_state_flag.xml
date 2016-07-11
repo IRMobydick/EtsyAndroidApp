@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-2" android:layout_height="-2">
+    <TextView android:id="@r/state_flag" android:paddingLeft="@r/padding_small" android:paddingRight="@r/padding_small" android:layout_width="-2" android:layout_height="-2" android:drawablePadding="@r/padding_tiny" style="@r/TextMidGrey_Small" />
+</FrameLayout>

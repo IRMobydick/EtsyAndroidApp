@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:weightSum="10.0" android:divider="@r/list_divider_dark_vertical" android:showDividers="2" style="0x7f0b0057">
+    <android.support.v7.widget.RecyclerView android:id="0x7f10041a" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="6.0" />
+    <android.support.v7.widget.RecyclerView android:id="0x7f10041b" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="4.0" />
+</LinearLayout>

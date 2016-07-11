@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@r/window_container" android:background="@r/background_main_v2" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@r/blur_image" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" />
+    <View android:id="@r/blur_overlay" android:background="@r/background_main_v2_glass" android:layout_width="-1" android:layout_height="-1" />
+</FrameLayout>

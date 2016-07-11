@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="false">
+    <translate android:interpolator="@r/overshoot_interpolator_low_tension" android:duration="@r/dialog_animation_dur_slow" android:fromYDelta="100%p" android:toYDelta="0%p" />
+</set>

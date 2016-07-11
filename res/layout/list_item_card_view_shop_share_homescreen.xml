@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@r/bg_card" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f0a001f" android:layout_marginTop="0x7f0a0020" android:layout_marginRight="0x7f0a001f" android:layout_marginBottom="0x7f0a0020">
+    <include layout="@r/partial_card_view_shop_share_truncated" />
+</FrameLayout>

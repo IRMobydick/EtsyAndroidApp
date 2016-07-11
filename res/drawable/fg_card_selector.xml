@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="@r/touch_enter_fade_speed" android:exitFadeDuration="@r/touch_exit_fade_speed">
+    <item android:state_pressed="true" android:drawable="@r/card_foreground" />
+    <item android:state_focused="true" android:drawable="@r/card_foreground" />
+    <item android:drawable="@r/transparent" />
+</selector>

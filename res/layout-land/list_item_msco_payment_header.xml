@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@r/cardview_light_background" android:paddingTop="@r/padding_large" android:layout_width="-1" android:layout_height="-2" style="0x7f0b0018">
+    <TextView android:id="@r/txt_title" android:paddingLeft="@r/padding_large" android:paddingRight="@r/padding_large" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/padding_medium" android:text="@r/payment_methods" style="@r/TextDarkGrey" />
+</FrameLayout>

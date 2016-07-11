@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:paddingTop="@r/padding_large" android:paddingBottom="@r/padding_large">
+    <Space android:layout_column="1" />
+    <TextView android:id="0x7f1003f9" android:layout_column="2" style="@r/TextGrey" />
+    <TextView android:id="0x7f100369" android:layout_marginLeft="@r/margin_medium_large" android:layout_column="3" style="@r/TextGrey" />
+</TableRow>

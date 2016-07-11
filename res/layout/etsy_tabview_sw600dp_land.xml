@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+    <TabHost android:id="0x1020012" android:paddingLeft="@r/sidebar_left_margin" android:paddingTop="@r/padding_medium_large" android:paddingBottom="@r/padding_medium_large" android:layout_width="@r/tablet_left_sidebar_width" android:layout_height="-2">
+        <LinearLayout android:orientation="0" android:background="@r/bg_card" android:layout_width="-1" android:layout_height="-2">
+            <TabWidget android:orientation="1" android:id="0x1020013" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" />
+            <FrameLayout android:id="0x1020011" android:layout_width="0dp" android:layout_height="0dp" />
+        </LinearLayout>
+    </TabHost>
+    <android.support.v4.view.ViewPager android:id="@r/viewpager" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

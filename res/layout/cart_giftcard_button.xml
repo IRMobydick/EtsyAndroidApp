@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout android:orientation="0" android:id="0x7f100168" android:layout_width="-1" android:layout_height="0x7f0a00b0">
+        <TextView android:ellipsize="3" android:gravity="13" android:id="0x7f100169" android:background="0x7f020085" android:paddingBottom="@r/padding_tiny" android:layout_width="0dp" android:layout_height="-1" android:text="@r/giftcard_apply_balance" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" style="@r/TextGreen" />
+        <CheckBox android:layout_gravity="10" android:id="0x7f10016a" android:background="0x7f020085" android:layout_width="0x7f0a0158" android:layout_height="0x7f0a0158" />
+    </LinearLayout>
+</merge>

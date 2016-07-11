@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.uikit.view.MaxHeightFrameLayout android:layout_gravity="1" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:id="@r/dialog_card" android:background="@r/bg_card_dark" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@r/margin_small">
+        <include layout="@r/dialog_header" />
+        <com.etsy.android.uikit.view.GuardianTextView android:id="@r/txt_subtitle" android:paddingLeft="@r/fixed_large" android:paddingRight="@r/fixed_large" android:paddingBottom="@r/fixed_large" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/neg_fixed_medium" style="@r/TextDarkGrey" />
+        <View android:id="@r/divider" android:background="@r/list_divider_dark" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <FrameLayout android:id="@r/inner_fragment_container" android:layout_width="-1" android:layout_height="-2" />
+    </LinearLayout>
+</com.etsy.android.uikit.view.MaxHeightFrameLayout>

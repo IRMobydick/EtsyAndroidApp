@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@r/root_view" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="0x7f1002c9" android:background="@r/background_main_v2" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="0x7f0a001a" />
+    <com.etsy.android.uikit.view.SwipeRefreshObeyRequestDisallowInterceptTouchEventLayout android:id="@r/swipe_refresh_layout" android:layout_width="-1" android:layout_height="-2">
+        <android.support.v7.widget.RecyclerView android:id="@r/recycler_view" android:scrollbars="200" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" />
+    </com.etsy.android.uikit.view.SwipeRefreshObeyRequestDisallowInterceptTouchEventLayout>
+    <include layout="0x7f030180" />
+    <include layout="0x7f03018d" />
+    <include layout="0x7f030192" />
+</RelativeLayout>

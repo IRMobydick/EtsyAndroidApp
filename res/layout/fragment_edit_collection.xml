@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView app:id="0x7f100286" app:scrollbars="0" app:layout_width="-1" app:layout_height="-1" app:fillViewport="true">
+    <RelativeLayout app:layout_gravity="1" app:id="0x7f100287" app:background="@r/transparent" app:padding="@r/padding_large" app:layout_width="-1" app:layout_height="-2">
+        <LinearLayout app:orientation="1" app:id="@r/dialog_card" app:background="@r/bg_card_dark" app:clickable="true" app:layout_width="-2" app:layout_height="-2" app:layout_margin="@r/margin_small"
+            <LinearLayout app:orientation="0" app:id="@r/dialog_header" app:background="@r/white" app:layout_width="-1" app:layout_height="-2">
+                <com.etsy.android.uikit.view.GuardianTextView app:ellipsize="3" app:id="@r/txt_title" app:padding="@r/fixed_large" app:layout_width="0dp" app:layout_height="-2" app:text="@r/collection_edit" app:maxLines="1" app:singleLine="true" app:layout_weight="1.0" style="?unknown_attr_ref: 7f010045" />
+            </LinearLayout>
+            <View app:id="@r/divider" app:background="@r/list_divider_dark" app:layout_width="-1" app:layout_height="@r/divider_height" />
+            <LinearLayout app:orientation="1" app:id="0x7f100278" app:background="@r/white" app:padding="@r/padding_large" app:layout_width="-1" app:layout_height="-2">
+                <TextView app:ellipsize="3" app:gravity="3" app:id="0x7f100288" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_small" app:text="@r/collection_name_title" app:singleLine="true" style="?unknown_attr_ref: 7f01003c" />
+                <EditText app:id="0x7f100289" app:paddingBottom="@r/padding_medium" app:layout_width="-1" app:layout_height="-2" app:hint="@r/collection_create_name_hint" app:maxLines="1" app:singleLine="true" />
+                <TextView app:ellipsize="3" app:gravity="3" app:id="0x7f10028a" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/padding_large" app:text="@r/collection_privacy_title" app:singleLine="true" style="?unknown_attr_ref: 7f01003c" />
+                <RadioGroup app:orientation="1" app:id="0x7f10028b" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/padding_medium">
+                    <RadioButton app:id="0x7f10028c" app:background="@r/bg_unbounded_selector" app:paddingRight="@r/padding_small_medium" app:layout_width="-2" app:layout_height="-2" app:checked="true" app:text="@r/privacy_description_public" />
+                    <RadioButton app:id="0x7f10028d" app:background="@r/bg_unbounded_selector" app:paddingRight="@r/padding_small_medium" app:layout_width="-2" app:layout_height="-2" app:text="@r/privacy_description_private" />
+                </RadioGroup>
+            </LinearLayout>
+            <Button app:id="0x7f10028e" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_large" app:layout_marginRight="@r/margin_large" app:layout_marginBottom="@r/margin_medium_large" app:text="@r/save_caps" app:textAllCaps="true" style="?unknown_attr_ref: 7f010001" />
+        </LinearLayout>
+        <LinearLayout app:layout_gravity="11" app:orientation="0" app:id="@r/delete_button" app:background="@r/bg_ten_percent_black_selector" app:padding="@r/padding_medium" app:layout_width="-2" app:layout_height="-2" app:layout_below="@r/dialog_card" app:layout_centerHorizontal="true">
+            <com.etsy.android.iconsy.views.IconView app:layout_gravity="10" app:id="@r/delete_icon" app:layout_width="@r/text_large" app:layout_height="@r/text_large" app:iconChar="@r/ic_etsy_trash" app:gravity="11" app:iconColor="@r/button_blue" />
+            <TextView app:textSize="@r/text_large" app:textColor="@r/button_blue" app:layout_gravity="10" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium" app:text="@r/collection_btn_delete" />
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

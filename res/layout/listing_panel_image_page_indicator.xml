@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.viewpagerindicator.CirclePageIndicator app:id="@r/vpindicator_listing_images" app:padding="@r/padding_medium" app:layout_width="-1" app:layout_height="-2" app:layout_alignBottom="@r/viewpager_listing_images" app:strokeWidth="0dp" app:fillColor="@r/white" app:pageColor="@r/circle_unselected" app:radius="@r/circle_pager_indicator_radius" />

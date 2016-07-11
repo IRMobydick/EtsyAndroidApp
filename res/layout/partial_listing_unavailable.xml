@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="0x7f10052b" android:layout_width="-1" android:layout_height="-1">
+    <include layout="0x7f0301cf" />
+    <ScrollView android:layout_width="-1" android:layout_height="-1" android:layout_below="0x7f1002c2">
+        <LinearLayout android:layout_gravity="1" android:orientation="1" android:paddingBottom="@r/padding_large" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_large" android:src="@r/error_sorry_girl" />
+            <com.etsy.android.uikit.view.GuardianTextView android:gravity="11" android:layout_gravity="1" android:paddingLeft="@r/padding_xlarge" android:paddingRight="@r/padding_xlarge" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/margin_large" android:text="@r/listing_unavailable" style="?unknown_attr_ref: 7f010030" />
+            <TextView android:gravity="11" android:layout_gravity="1" android:id="@r/subtitle" android:paddingLeft="@r/padding_xlarge" android:paddingRight="@r/padding_xlarge" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_large" style="@r/TextGrey_Larger" />
+            <FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f0a00c2" android:layout_marginTop="0x7f0a00c2" android:layout_marginRight="0x7f0a00c2">
+                <include layout="0x7f03015b" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include layout="0x7f0301ce" />
+</RelativeLayout>

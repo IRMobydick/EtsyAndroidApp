@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_enabled="false" android:color="@r/lighter_grey" />
+    <item android:state_checked="true" android:color="@r/white" />
+    <item android:color="@r/light_grey" />
+</selector>

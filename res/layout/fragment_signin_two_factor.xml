@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="0x7f1002ff" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" style="0x7f0b0242" />
+    <ScrollView android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:padding="@r/padding_large" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="0x7f100323" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 7f010052" />
+            <TextView android:id="0x7f100324" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium" android:text="@r/enter_the_security_code_from_sms" style="@r/TextGrey" />
+            <EditText android:id="0x7f100325" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_large" android:hint="@r/security_code" android:inputType="2" android:imeOptions="6" style="@r/EditText" />
+            <Button android:id="0x7f10031a" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_large" android:text="@r/signin_button_text" style="@r/ButtonBlueV2_Large" />
+            <Button android:textSize="@r/text_large" android:id="0x7f100326" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_large" android:text="@r/resend_security_code" style="?unknown_attr_ref: 7f01000b" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

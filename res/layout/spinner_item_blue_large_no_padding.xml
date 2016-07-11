@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@r/text_large" android:textColor="@r/text_disabled_selector_blue" android:id="0x1020014" android:background="@task/NETWORK_STATE_CONNECTED" android:paddingLeft="0dp" android:paddingTop="@r/fixed_medium" android:paddingRight="0dp" android:paddingBottom="@r/fixed_medium" android:clickable="false" android:layout_width="-1" android:layout_height="-2" />

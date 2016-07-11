@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="0x7f100453" android:background="@r/bg_card" android:paddingTop="@r/padding_large" android:paddingBottom="@r/padding_large" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium_large" android:layout_marginBottom="@r/margin_medium"
+    <LinearLayout android:gravity="1" android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_tiny">
+        <TextView android:textStyle="1" android:textColor="@r/dark_grey" android:layout_gravity="10" android:id="0x7f100454" android:layout_width="-2" android:layout_height="-2" android:text="@r/listing_etsy_asap_available_today" />
+    </LinearLayout>
+    <LinearLayout android:gravity="1" android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="1dp" android:layout_marginRight="@r/margin_small" android:text="@r/listing_local_delivery_start" />
+        <ImageView android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2" android:src="@r/ic_asap_orange" />
+        <TextView android:textStyle="1" android:textColor="@r/orange" android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/margin_small" android:layout_marginTop="1dp" android:text="@r/listing_local_delivery_name" />
+        <TextView android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/margin_small" android:layout_marginTop="1dp" android:text="@r/listing_local_delivery_end" />
+    </LinearLayout>
+</LinearLayout>

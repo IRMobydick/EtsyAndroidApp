@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="shop_home_icon">@layout/shop_icon_with_border_center_aligned</item>
+    <item type="layout" name="shop_home_info">@layout/shop_home_info_center_aligned</item>
+    <item type="layout" name="user_profile_action_buttons">@layout/user_profile_action_buttons_horizontal</item>
+    <item type="layout" name="user_profile_card">@layout/user_profile_card_row</item>
+    <item type="layout" name="user_profile_header">@layout/user_profile_header_vertical</item>
+    <item type="layout" name="partial_empty_result">@layout/partial_empty_result_normal</item>
+    <item type="layout" name="shop_review_description">@layout/shop_review_description_vertical</item>
+</resources>

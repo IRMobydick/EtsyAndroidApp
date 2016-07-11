@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <FrameLayout android:id="0x7f10014b" android:layout_width="-1" android:layout_height="-1" />
+    <com.etsy.android.ui.search.v2.SearchSuggestionsPager android:id="0x7f10014c" android:background="@r/background_main_v2" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+</merge>

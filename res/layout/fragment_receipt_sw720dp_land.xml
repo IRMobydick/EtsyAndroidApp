@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@r/root_view" android:layout_width="-1" android:layout_height="-1">
+    <include layout="@r/partial_loading" />
+    <include layout="@r/partial_no_internet" />
+    <include layout="@r/partial_empty_result" />
+    <include layout="0x7f0301cf" />
+    <RelativeLayout android:orientation="0" android:id="0x7f1002f1" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_below="0x7f1002c2">
+        <ScrollView android:id="0x7f1002f2" android:paddingTop="@r/margin_medium" android:clipToPadding="false" android:layout_width="@r/tablet_left_sidebar_width" android:layout_height="-2">
+            <LinearLayout android:orientation="1" android:paddingLeft="@r/padding_medium_large" android:paddingRight="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_medium_large" android:layout_marginTop="@r/margin_medium_large" android:layout_marginRight="@r/margin_medium_large" android:text="@r/order_details" style="?unknown_attr_ref: 7f01002c" />
+                <LinearLayout android:orientation="1" android:id="0x7f1002f3" style="0x7f0b0224">
+                    <TextView android:id="0x7f1002f4" style="?unknown_attr_ref: 7f010022" />
+                    <TextView android:layout_marginTop="@r/margin_small" android:text="@r/payment_method_label" style="?unknown_attr_ref: 7f010021" />
+                    <TextView android:id="0x7f1002f5" style="0x7f0b0229" />
+                </LinearLayout>
+                <LinearLayout android:orientation="1" android:id="0x7f1002f6" style="0x7f0b0224"
+                    <LinearLayout android:orientation="1" android:id="0x7f1002f7" android:layout_width="-1" android:layout_height="-2" />
+                    <TextView android:layout_marginTop="@r/margin_medium" android:text="@r/shipping_address" style="?unknown_attr_ref: 7f010021" />
+                    <TextView android:id="0x7f1002f8" android:textIsSelectable="true" style="0x7f0b0229" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <FrameLayout android:id="0x7f1002f9" android:paddingLeft="@r/padding_medium_large" android:paddingRight="@r/padding_medium_large" android:layout_width="@r/tablet_right_sidebar_width" android:layout_height="-2" android:layout_marginTop="@r/margin_medium" android:layout_alignParentRight="true" style="0x7f0b0224">
+            <include layout="0x7f0301f3" />
+        </FrameLayout>
+        <ListView android:id="0x102000a" android:paddingTop="@r/margin_medium" android:clipToPadding="false" android:layout_width="-2" android:layout_height="-1" android:layout_toLeftOf="0x7f1002f9" android:layout_toRightOf="0x7f1002f2" style="@r/ListView_NoSelector" />
+    </RelativeLayout>
+    <include layout="0x7f0301ce" />
+</RelativeLayout>

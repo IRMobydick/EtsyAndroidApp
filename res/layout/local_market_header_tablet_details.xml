@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <FrameLayout android:id="0x7f100367" android:layout_width="-1" android:layout_height="0x7f0a0078" android:layout_marginTop="@r/margin_large" android:layout_marginRight="0x7f0a0041" />
+    <FrameLayout android:id="0x7f1002db" android:paddingTop="@r/padding_large" android:paddingRight="0x7f0a0041" android:paddingBottom="@r/padding_large" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="0x7f1002dc" android:layout_width="-1" android:layout_height="-2" android:lineSpacingMultiplier="1.2" style="@r/TextGrey" />
+    </FrameLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium">
+        <FrameLayout android:id="0x7f100368" android:paddingTop="@r/padding_large" android:paddingRight="@r/padding_medium_large" android:paddingBottom="@r/padding_medium_large" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+            <LinearLayout android:orientation="1" android:id="0x7f100369" android:layout_width="-1" android:layout_height="-2" />
+        </FrameLayout>
+        <LinearLayout android:orientation="1" android:id="0x7f1002d5" android:background="@r/bg_ten_percent_black_selector" android:paddingLeft="@r/padding_medium_large" android:paddingTop="@r/padding_large" android:paddingRight="0x7f0a0041" android:paddingBottom="@r/padding_medium_large" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+            <TextView android:layout_width="-1" android:layout_height="-2" android:text="@r/location" style="@r/TextBlack" />
+            <TextView android:id="0x7f1002d6" android:layout_width="-1" android:layout_height="-2" style="@r/TextBlue" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="1" android:id="0x7f1002d9" android:background="@r/bg_ten_percent_black_selector" android:paddingTop="@r/padding_medium_large" android:paddingRight="@r/padding_medium_large" android:paddingBottom="@r/padding_large" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+            <TextView android:layout_width="-1" android:layout_height="-2" android:text="@r/related_links" style="@r/TextBlack" />
+            <TextView android:ellipsize="3" android:id="0x7f1002da" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@r/TextBlue" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:id="0x7f1002d7" android:background="@r/bg_ten_percent_black_selector" android:paddingLeft="@r/padding_medium_large" android:paddingTop="@r/padding_medium_large" android:paddingRight="0x7f0a0041" android:paddingBottom="@r/padding_large" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+            <TextView android:layout_width="-1" android:layout_height="-2" android:text="@r/contact" style="@r/TextBlack" />
+            <TextView android:id="0x7f1002d8" android:layout_width="-1" android:layout_height="-2" style="@r/TextBlue" />
+        </LinearLayout>
+    </LinearLayout>
+    <Space android:id="0x7f10036d" android:layout_width="0dp" android:layout_height="0dp" />
+</merge>

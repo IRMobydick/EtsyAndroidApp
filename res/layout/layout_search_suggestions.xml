@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:background="@r/background_main_v2" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:id="0x7f100383" android:padding="@r/fixed_large" android:layout_width="0dp" android:layout_height="-2" android:text="@r/recent_searches" android:layout_weight="1.0" android:textAllCaps="true" style="@r/TextLightGrey" />
+        <TextView android:id="0x7f100384" android:background="@r/bg_ten_percent_black_selector" android:padding="@r/fixed_large" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/fixed_medium" android:text="@r/clear" android:textAllCaps="true" style="@r/TextBlue" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="0x7f100385" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="@r/menu_new_message" app:orderInCategory="100" app:title="@r/new_message" app:showAsAction="2" />
+</menu>

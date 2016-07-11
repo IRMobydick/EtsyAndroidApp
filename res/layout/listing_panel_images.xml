@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_below="0x7f1002c2">
+    <com.etsy.android.uikit.view.DynamicHeightViewPager android:id="@r/viewpager_listing_images" android:layout_width="-1" android:layout_height="-2" android:fadeScrollbars="false" />
+    <include layout="@r/listing_panel_image_page_indicator" />
+    <TextView android:layout_gravity="30" android:id="0x7f100482" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="0x7f0b01fc" />
+</RelativeLayout>

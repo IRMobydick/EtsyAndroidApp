@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@r/card_ripple_mask" android:insetLeft="@r/card_shadow_padding" android:insetRight="@r/card_shadow_padding" android:insetTop="@r/card_shadow_padding" android:insetBottom="@r/card_shadow_padding" />

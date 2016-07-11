@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" style="0x7f0b0016">
+    <View android:id="@r/divider" android:background="@r/divider_dark" android:layout_width="-1" android:layout_height="@r/divider_height" android:layout_marginBottom="@r/margin_large" />
+    <TextView android:id="@r/txt_title" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@r/margin_medium" android:maxWidth="260dp" android:text="@r/total" android:layout_below="@r/divider" android:layout_alignParentLeft="true" style="@r/TextBlack_Bold" />
+    <TextView android:id="0x7f100419" android:layout_width="-2" android:layout_height="-2" android:layout_below="@r/divider" android:layout_alignParentRight="true" style="@r/TextBlack_Bold" />
+</RelativeLayout>

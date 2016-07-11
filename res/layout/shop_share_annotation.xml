@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView android:id="@r/annotation" android:background="@task/NETWORK_STATE_CONNECTED" android:layout_width="@r/shop_share_tag_width" android:layout_height="@r/shop_share_tag_height" android:src="@r/ic_shop_share_annotation" android:scaleType="7" />

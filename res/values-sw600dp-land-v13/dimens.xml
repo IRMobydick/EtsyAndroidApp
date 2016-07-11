@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ap_landing_page_photo_height">550.0dip</dimen>
+    <item type="dimen" name="finds_shop_aspect_ratio">1.0</item>
+    <item type="dimen" name="finds_shop_card_grid_column_count">2</item>
+    <item type="dimen" name="finds_shop_card_grid_row_count">2</item>
+    <item type="dimen" name="finds_small_crosslink_aspect_ratio">1.2</item>
+    <dimen name="card_button_height">46.0dip</dimen>
+    <item type="dimen" name="cart_card_between_padding">@dimen/padding_small</item>
+    <item type="dimen" name="cart_inner_padding">@dimen/padding_large</item>
+    <dimen name="cart_listing_image_width">180.0dip</dimen>
+    <item type="dimen" name="cart_note_bottom_margin">@dimen/margin_large</item>
+    <dimen name="cart_note_top_margin">0.0dip</dimen>
+    <item type="dimen" name="cart_outer_padding">@dimen/padding_medium</item>
+    <item type="dimen" name="cart_outer_top_padding">@dimen/padding_small</item>
+    <item type="dimen" name="convo_card_padding">@dimen/padding_large</item>
+    <item type="dimen" name="convo_list_border_margin">@dimen/padding_medium</item>
+    <dimen name="following_margins">18.0dip</dimen>
+    <dimen name="fund_on_etsy_follow_btn_height">48.0dip</dimen>
+    <dimen name="horizontal_listings_section_item_height">376.0dip</dimen>
+    <dimen name="local_browse_header_panel_side_margin">120.0dip</dimen>
+    <dimen name="local_browse_list_side_padding">16.0dip</dimen>
+    <item type="dimen" name="local_event_list_side_padding">@dimen/padding_medium_large</item>
+    <item type="dimen" name="local_market_details_card_internal_side_padding">@dimen/padding_large</item>
+    <dimen name="local_market_details_card_padding">20.0dip</dimen>
+    <dimen name="local_market_details_hero_overlap">64.0dip</dimen>
+    <item type="dimen" name="local_market_details_side_padding">@dimen/padding_large</item>
+    <dimen name="shop_share_caption_padding_vertical">16.0dip</dimen>
+    <dimen name="ap_landing_page_photo_width">550.0dip</dimen>
+    <item type="dimen" name="foe_margin_right_of_raised_on_listing">@dimen/margin_medium_large</item>
+    <dimen name="listing_fragment_banner_margin_bottom">8.0dip</dimen>
+    <dimen name="listing_fragment_banner_margin_side">4.0dip</dimen>
+    <dimen name="share_details_width">380.0dip</dimen>
+    <dimen name="share_listing_card_width">250.0dip</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout etsy:orientation="0" etsy:id="0x7f100199" etsy:layout_width="-1" etsy:layout_height="@r/actionbar_height">
+    <ImageView etsy:gravity="10" etsy:layout_gravity="10" etsy:id="0x7f10019a" etsy:layout_marginLeft="0x7f0a015c" etsy:scaleType="3" style="0x7f0b0124" />
+    <com.etsy.android.uikit.view.GuardianTextView etsy:gravity="10" etsy:id="0x7f10019b" etsy:background="@r/list_selector" etsy:paddingLeft="0x7f0a015c" etsy:paddingTop="0x7f0a015c" etsy:paddingBottom="0x7f0a015c" etsy:layout_width="0dp" etsy:layout_height="-1" etsy:layout_weight="1.0" style="@r/TextBlue_XLarge" />
+    <com.etsy.android.iconsy.views.IconView etsy:layout_gravity="15" etsy:id="0x7f10019c" etsy:background="@r/bg_unbounded_selector" etsy:padding="@r/standard_ellipses_menu_padding" etsy:layout_width="@r/standard_ellipses_menu_click_target" etsy:layout_height="@r/standard_ellipses_menu_click_target" etsy:hasSelector="true" style="@r/MenuIcon" />
+</LinearLayout>

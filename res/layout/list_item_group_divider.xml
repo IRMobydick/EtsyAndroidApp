@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+    <TextView android:id="@r/item_divider_label" android:background="@r/grey" android:layout_width="-1" android:layout_height="-1" android:text="@r/dashed_list_divider" style="@r/DialogListRow_Text" />
+</FrameLayout>

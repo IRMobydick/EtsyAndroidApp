@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ScrollView android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <EditText android:textSize="@r/text_larger" android:gravity="30" android:id="@r/edit_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_medium_large" android:layout_marginTop="@r/margin_medium" android:layout_marginRight="@r/margin_medium_large" android:minLines="@r/edit_text_default_min_lines" android:singleLine="false" android:inputType="6c001" android:imeOptions="6" />
+            <TextView android:textColor="@r/text_warn" android:id="@r/error_text" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_small" android:layout_marginRight="@r/margin_large" style="@r/TextLightGrey_Small" />
+            <TextView android:id="@r/help_subtext" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_small" android:layout_marginRight="@r/margin_large" style="?unknown_attr_ref: 7f010059" />
+            <com.etsy.android.iconsy.views.IconView android:layout_gravity="1" android:id="@r/help_button" android:visibility="2" android:layout_margin="@r/margin_medium_large" style="@r/HelpIcon" />
+            <com.etsy.android.uikit.view.CharacterCounterView android:layout_gravity="5" android:id="@r/character_counter" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_large" style="@r/TextLightGrey_Small" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0" />
+</LinearLayout>

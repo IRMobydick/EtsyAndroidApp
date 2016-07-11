@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:id="0x7f1005bc" app:paddingLeft="@r/padding_medium_large" app:paddingTop="@r/padding_medium" app:paddingRight="@r/padding_medium_large" app:layout_width="-1" app:layout_height="-2" app:layout_margin="@r/margin_medium">
+    <FrameLayout app:layout_gravity="1" app:layout_width="-2" app:layout_height="-2">
+        <ImageView app:layout_gravity="1" app:id="@r/avatar" app:layout_width="0x7f0a00f5" app:layout_height="0x7f0a00f5" app:layout_margin="@r/margin_medium" app:contentDescription="@r/user_avatar_content_description" style="0x7f0b0371" />
+        <FrameLayout app:id="0x7f1005bd" app:background="0x7f020050" app:visibility="2" app:layout_width="0x7f0a004c" app:layout_height="0x7f0a004c" app:layout_margin="@r/margin_medium_large">
+            <com.etsy.android.iconsy.views.IconView app:layout_gravity="11" app:layout_width="0x7f0a005f" app:layout_height="0x7f0a005f" app:iconChar="@r/ic_etsy_e" app:iconColor="@r/white" />
+        </FrameLayout>
+        <FrameLayout app:layout_gravity="800055" app:id="0x7f1005be" app:background="0x7f020067" app:visibility="2" app:layout_width="0x7f0a00f1" app:layout_height="0x7f0a00f1" app:layout_marginBottom="@r/fixed_medium">
+            <com.etsy.android.iconsy.views.IconView app:layout_gravity="11" app:layout_width="0x7f0a00f2" app:layout_height="0x7f0a00f2" app:iconChar="@r/ic_standard_camera" app:iconColor="@r/button_blue" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.etsy.android.uikit.view.GuardianTextView app:ellipsize="3" app:gravity="11" app:layout_gravity="1" app:id="0x7f1005bf" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_medium" app:singleLine="true" style="?unknown_attr_ref: 7f010032" />
+    <TextView app:ellipsize="3" app:gravity="10" app:layout_gravity="1" app:id="0x7f1005c0" app:layout_width="-2" app:layout_height="-2" app:singleLine="true" app:drawablePadding="@r/padding_medium" style="@r/TextLightGrey" />
+    <LinearLayout app:gravity="11" app:orientation="0" app:padding="@r/padding_small" app:layout_width="-1" app:layout_height="-2" app:divider="@r/divider_grey_vertical" app:showDividers="2" app:dividerPadding="@r/padding_small">
+        <TextView app:textColor="@r/button_blue" app:id="0x7f1005c1" app:background="@r/bg_ten_percent_black_selector" app:padding="@r/padding_small" app:clickable="true" app:layout_width="-2" app:layout_height="-2" />
+        <TextView app:textColor="@r/button_blue" app:id="0x7f1005c2" app:background="@r/bg_ten_percent_black_selector" app:padding="@r/padding_small" app:clickable="true" app:layout_width="-2" app:layout_height="-2" />
+    </LinearLayout>
+    <TextView app:id="0x7f1005c3" app:padding="@r/padding_medium" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_medium" app:maxLines="2" app:singleLine="false" app:lineSpacingExtra="@r/padding_tiny" style="@r/TextGrey" />
+    <TextView app:layout_gravity="11" app:id="0x7f1005c4" app:background="@r/bg_ten_percent_black_selector" app:padding="@r/padding_medium" app:visibility="2" app:clickable="true" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_medium" app:text="@r/read_more" style="@r/TextBlue" />
+</LinearLayout>

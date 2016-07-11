@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bulk_edit_activate_success">
+        <item quantity="other">%s Listings geactiveerd</item>
+        <item quantity="zero">%s Listings geactiveerd</item>
+        <item quantity="one">Listing geactiveerd</item>
+    </plurals>
+    <plurals name="bulk_edit_activate_text_no_fee">
+        <item quantity="other">Deze listings worden weer actief en zullen vor aankoop beschikbaar in je shop zijn.</item>
+        <item quantity="zero">Deze listings worden weer actief en zullen vor aankoop beschikbaar in je shop zijn.</item>
+        <item quantity="one">Deze listing wordt weer actief en zullen vor aankoop beschikbaar in je shop zijn.</item>
+    </plurals>
+    <plurals name="bulk_edit_activate_text_partial_fee">
+        <item quantity="other">%d listings zullen vernieuwd worden. Listings die verlopen zijn toen ze inactief waren, moet je vernieuwen voor je ze kan heractiveren.</item>
+        <item quantity="zero">%d listings zullen vernieuwd worden. Listings die verlopen zijn toen ze inactief waren, moet je vernieuwen voor je ze kan heractiveren.</item>
+        <item quantity="one">%d listing zal vernieuwd worden. Listings die verlopen zijn toen ze inactief waren, moet je vernieuwen voor je ze kan heractiveren.</item>
+    </plurals>
+    <plurals name="bulk_edit_activate_title">
+        <item quantity="other">%s Listings activeren</item>
+        <item quantity="zero">%s Listings activeren</item>
+        <item quantity="one">Listing activeren</item>
+    </plurals>
+    <plurals name="bulk_edit_deactivate_success">
+        <item quantity="other">%s Listings gedeactiveerd</item>
+        <item quantity="zero">%s Listings gedeactiveerd</item>
+        <item quantity="one">Listing gedeactiveerd</item>
+    </plurals>
+    <plurals name="bulk_edit_deactivate_title">
+        <item quantity="other">%s Listings deactiveren</item>
+        <item quantity="zero">%s Listings deactiveren</item>
+        <item quantity="one">Listing deactiveren</item>
+    </plurals>
+    <plurals name="bulk_edit_delete_success">
+        <item quantity="other">%s Listings verwijderd</item>
+        <item quantity="zero">%s Listings verwijderd</item>
+        <item quantity="one">Listing verwijderd</item>
+    </plurals>
+    <plurals name="bulk_edit_delete_title">
+        <item quantity="other">%s Listings verwijderen</item>
+        <item quantity="zero">%s Listings verwijderen</item>
+        <item quantity="one">Listing verwijderen</item>
+    </plurals>
+    <plurals name="bulk_edit_publish_title">
+        <item quantity="other">%s listings publiceren</item>
+        <item quantity="zero">%s listings publiceren</item>
+        <item quantity="one">%s listing publiceren</item>
+    </plurals>
+    <plurals name="bulk_edit_renew_success">
+        <item quantity="other">%s listings vernieuwd</item>
+        <item quantity="zero">%s listings vernieuwd</item>
+        <item quantity="one">Listing vernieuwd</item>
+    </plurals>
+    <plurals name="bulk_edit_renew_title">
+        <item quantity="other">%s Listings vernieuwen</item>
+        <item quantity="zero">%s Listings vernieuwen</item>
+        <item quantity="one">Listing vernieuwen</item>
+    </plurals>
+    <plurals name="bulk_edit_title">
+        <item quantity="other">%s listings aanpassen</item>
+        <item quantity="zero">%s listings aanpassen</item>
+        <item quantity="one">%s listing aanpassen</item>
+    </plurals>
+    <plurals name="convo_messages_show_collapsed">
+        <item quantity="other">Laat nog %d berichten zien</item>
+        <item quantity="zero">Laat nog %d berichten zien</item>
+        <item quantity="one">Laat nog één bericht zien</item>
+    </plurals>
+    <plurals name="days_count">
+        <item quantity="other">%s Dagen</item>
+        <item quantity="zero">%s Dagen</item>
+        <item quantity="one">1 Dag</item>
+    </plurals>
+    <plurals name="etsy_shops_attending">
+        <item quantity="other">Er zullen %s Etsy verkopers aanwezig zijn</item>
+        <item quantity="zero">Er zullen %s Etsy verkopers aanwezig zijn</item>
+        <item quantity="one">Er zal %s Etsy verkoper aanwezig zijn</item>
+    </plurals>
+    <plurals name="etsy_shops_have_attended">
+        <item quantity="other">Er was %s Etsy verkoper aanwezig</item>
+        <item quantity="zero">Er was %s Etsy verkoper aanwezig</item>
+        <item quantity="one">Er was 1 Etsy verkoper aanwezig</item>
+    </plurals>
+    <plurals name="favorite_counts">
+        <item quantity="other">%d favorieten</item>
+        <item quantity="zero">%d favorieten</item>
+        <item quantity="one">1 favoriet</item>
+    </plurals>
+    <plurals name="follower_counts">
+        <item quantity="other">%s Volgers</item>
+        <item quantity="zero">%s Volgers</item>
+        <item quantity="one">1 Volger</item>
+    </plurals>
+    <plurals name="followers">
+        <item quantity="other">Volgers</item>
+        <item quantity="zero">Volgers</item>
+        <item quantity="one">Volger</item>
+    </plurals>
+    <plurals name="ipp_processing_in_person_sales">
+        <item quantity="other">%d persoonlijke verkopen aan het verwerken</item>
+        <item quantity="zero">%d persoonlijke verkopen aan het verwerken</item>
+        <item quantity="one">%d persoonlijke verkoop aan het verwerken</item>
+    </plurals>
+    <plurals name="item_lowercase_quantity">
+        <item quantity="other">%s items</item>
+        <item quantity="zero">%s items</item>
+        <item quantity="one">%s item</item>
+    </plurals>
+    <plurals name="item_titlecase_quantity">
+        <item quantity="other">%s Items</item>
+        <item quantity="zero">%s Items</item>
+        <item quantity="one">1 Item</item>
+    </plurals>
+    <plurals name="local_browse_results_summary">
+        <item quantity="other">%s evenementen en winkels in dit gebied</item>
+        <item quantity="zero">%s evenementen en winkels in dit gebied</item>
+        <item quantity="one">1 evenement en winkel in dit gebied</item>
+    </plurals>
+    <plurals name="local_favorite_shops_attending">
+        <item quantity="other">%s van je favoriete shops zullen hier ook zijn</item>
+        <item quantity="zero">%s van je favoriete shops zullen hier ook zijn</item>
+        <item quantity="one">1 van je favoriete shops zal hier ook zijn</item>
+    </plurals>
+    <plurals name="local_favorite_shops_banner">
+        <item quantity="other">%s shops die jij leuk vindt verkopen hier.</item>
+        <item quantity="zero">%s shops die jij leuk vindt verkopen hier.</item>
+        <item quantity="one">Eén shop die jij leuk vindt verkoopt hier.</item>
+    </plurals>
+    <plurals name="local_other_shops_attending">
+        <item quantity="other">%s andere Etsy shops zullen hier ook zijn</item>
+        <item quantity="zero">%s andere Etsy shops zullen hier ook zijn</item>
+        <item quantity="one">1 andere Etsy shop zal hier ook zijn</item>
+    </plurals>
+    <plurals name="meet_the_owners_of">
+        <item quantity="other">Maak kennis met de eigenaren van %s</item>
+        <item quantity="zero">Maak kennis met de eigenaren van %s</item>
+        <item quantity="one">Maak kennis met de eigenaar van %s</item>
+    </plurals>
+    <plurals name="n_items_available">
+        <item quantity="other">%d beschikbaar</item>
+        <item quantity="zero">%d beschikbaar</item>
+        <item quantity="one">%d beschikbaar</item>
+    </plurals>
+    <plurals name="num_stars">
+        <item quantity="other">%s sterren</item>
+        <item quantity="zero">%s sterren</item>
+        <item quantity="one">%s ster</item>
+    </plurals>
+    <plurals name="orders_count">
+        <item quantity="other">%s bestellingen</item>
+        <item quantity="zero">%s bestellingen</item>
+        <item quantity="one">%s bestelling</item>
+    </plurals>
+    <plurals name="recently_featured_etsy_sellers">
+        <item quantity="other">Heeft recentelijk %s Etsy verkopers gefeatured</item>
+        <item quantity="zero">Heeft recentelijk %s Etsy verkopers gefeatured</item>
+        <item quantity="one">Heeft recentelijk 1 Etsy verkoper gefeatured</item>
+    </plurals>
+    <plurals name="refavorite_counts">
+        <item quantity="other">%d als favoriet herkozen</item>
+        <item quantity="zero">%d als favoriet herkozen</item>
+        <item quantity="one">1 als favoriet herkozen</item>
+    </plurals>
+    <plurals name="review_counts">
+        <item quantity="other">(%d Recensies)</item>
+        <item quantity="zero">(%d Recensies)</item>
+        <item quantity="one">(1 Recensie)</item>
+    </plurals>
+    <plurals name="shipping_delivery_notification_big_title">
+        <item quantity="other">%s bestellingen zjn geleverd</item>
+        <item quantity="zero">%s bestellingen zijn geleverd</item>
+        <item quantity="one">Je bestelling is geleverd</item>
+    </plurals>
+    <plurals name="shipping_processing_days">
+        <item quantity="other">%s werkdagen</item>
+        <item quantity="zero">%s werkdagen</item>
+        <item quantity="one">%s werkdag</item>
+    </plurals>
+    <plurals name="sold_order_subject_item_different_plural">
+        <item quantity="other">Heeft %d items bij je gekocht</item>
+        <item quantity="zero">Heeft %d items bij je gekocht</item>
+        <item quantity="one">Heeft iets bij je gekocht</item>
+    </plurals>
+    <plurals name="structured_refunds_day_options">
+        <item quantity="other">%s dagen na aankoop</item>
+        <item quantity="zero">%s dagen na aankoop</item>
+        <item quantity="one">%s dag na aankoop</item>
+    </plurals>
+    <plurals name="structured_refunds_days">
+        <item quantity="other">%s dagen na levering</item>
+        <item quantity="zero">%s dagen na levering</item>
+        <item quantity="one">%s dag na levering</item>
+    </plurals>
+    <plurals name="structured_refunds_days_of_purchase">
+        <item quantity="other">%s dagen na aankoop</item>
+        <item quantity="zero">%s dagen na aankoop</item>
+        <item quantity="one">%s dag na aankoop</item>
+    </plurals>
+    <plurals name="structured_refunds_hour_options">
+        <item quantity="other">%s uur na aankoop</item>
+        <item quantity="zero">%s uur na aankoop</item>
+        <item quantity="one">%s uur na aankoop</item>
+    </plurals>
+    <plurals name="structured_refunds_hours_of_purchase">
+        <item quantity="other">%s uur na aankoop</item>
+        <item quantity="zero">%s uur na aankoop</item>
+        <item quantity="one">%s uur na aankoop</item>
+    </plurals>
+    <plurals name="weeks_count">
+        <item quantity="other">%s Weken</item>
+        <item quantity="zero">%s Weken</item>
+        <item quantity="one">1 Week</item>
+    </plurals>
+</resources>

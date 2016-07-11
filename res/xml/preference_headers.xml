@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers>
+    <header android:title="@r/dev_configs_title" android:summary="@r/dev_configs_flava_text" android:fragment="com.etsy.android.lib.devconfigs.PrefsFragment" />
+    <header android:title="@r/config_flags_title" android:summary="@r/config_flags_flava_text" android:fragment="com.etsy.android.lib.devconfigs.ConfigFlagsFragment" />
+</preference-headers>

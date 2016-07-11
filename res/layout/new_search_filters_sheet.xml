@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <View android:id="0x7f10050d" android:background="@r/twenty_percent_black" android:visibility="2" android:layout_width="-1" android:layout_height="-1" />
+    <LinearLayout android:layout_gravity="51" android:orientation="1" android:id="0x7f10050e" android:background="@r/white" android:visibility="1" android:layout_width="-1" android:layout_height="0dp">
+        <include layout="0x7f030170" />
+    </LinearLayout>
+</merge>

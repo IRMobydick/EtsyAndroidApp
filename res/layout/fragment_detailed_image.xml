@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-1">
+    <com.etsy.android.uikit.view.FixedViewPager app:id="@r/viewpager" app:layout_width="-1" app:layout_height="-1" />
+    <com.viewpagerindicator.CirclePageIndicator app:id="@r/vpindicator_listing_images" app:padding="@r/padding_large" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentBottom="true" app:strokeWidth="0dp" app:fillColor="@r/white" app:pageColor="@r/circle_unselected" app:radius="@r/circle_pager_indicator_radius" />
+    <com.etsy.android.uikit.view.CustomViewPageIndicator app:layout_gravity="1" app:orientation="0" app:id="@r/vpindicator_listing_thumbnails" app:padding="@r/padding_large" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" />
+</RelativeLayout>

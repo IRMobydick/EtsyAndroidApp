@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="@r/menu_send_reply" app:title="@r/convo_send_label" app:showAsAction="2" />
+</menu>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+    <ViewStub android:id="@r/list_item_divider" android:layout="@r/list_item_group_divider" android:inflatedId="@r/list_item_divider_inflated" android:layout_width="-1" android:layout_height="@r/list_item_divider_height" />
+    <TextView android:textColor="@r/text_disabled_selector" android:id="@r/item_label" android:layout_width="-1" android:layout_height="@r/list_item_height" style="@r/DialogListRow_Text" />
+</FrameLayout>

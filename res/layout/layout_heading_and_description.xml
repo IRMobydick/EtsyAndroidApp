@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@r/margin_medium">
+    <com.etsy.android.uikit.view.GuardianTextView android:id="@r/title" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f010041" />
+    <TextView android:id="@r/subtitle" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_tiny" style="@r/TextLightGrey" />
+</LinearLayout>

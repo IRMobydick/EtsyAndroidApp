@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:background="0x106000c" android:interpolator="0x10a0006" android:shareInterpolator="true">
+    <translate android:duration="@r/nav_anim_duration" android:fromXDelta="5%" android:toXDelta="0%" android:fromYDelta="5%" android:toYDelta="0%" />
+    <scale android:duration="@r/nav_anim_duration" android:fromXScale="0.9" android:toXScale="1.0" android:fromYScale="0.9" android:toYScale="1.0" />
+    <alpha android:duration="@r/nav_anim_duration" android:fromAlpha="0.4" android:toAlpha="1.0" />
+</set>

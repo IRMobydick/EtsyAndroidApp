@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout android:id="@id/appboy_feed_swipe_container" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@id/com_appboy_feed_root" android:layout_width="-1" android:layout_height="-1">
+        <ProgressBar android:id="@id/com_appboy_feed_loading_spinner" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="15sp" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="1" android:id="@id/com_appboy_feed_network_error" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="15sp" android:layout_centerInParent="true">
+            <TextView android:layout_width="-1" android:layout_height="-1" style="@style/Appboy_Feed_NetworkErrorTitle" />
+            <TextView android:id="0x1020004" android:layout_width="-1" android:layout_height="-1" style="@style/Appboy_Feed_NetworkErrorBody" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:id="@id/com_appboy_feed_empty_feed" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="15sp" android:layout_centerInParent="true">
+            <TextView android:gravity="1" android:layout_width="-1" android:layout_height="-1" style="@style/Appboy_Feed_Empty" />
+        </LinearLayout>
+        <ListView android:id="0x102000a" android:visibility="2" android:layout_width="@dimen/com_appboy_feed_max_width" android:layout_height="-1" android:layout_centerHorizontal="true" style="@style/Appboy_Feed_List" />
+        <View android:id="@id/com_appboy_feed_transparent_full_bounds_container_view" android:layout_width="-1" android:layout_height="-1" />
+    </RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

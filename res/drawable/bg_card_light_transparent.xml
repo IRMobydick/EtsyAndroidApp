@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="0">
+    <stroke android:width="0x7f0a013d" android:color="@r/list_divider" />
+    <padding android:left="0x7f0a013d" android:top="0x7f0a013d" android:right="0x7f0a013d" android:bottom="0x7f0a013d" />
+    <solid android:color="@r/transparent" />
+</shape>

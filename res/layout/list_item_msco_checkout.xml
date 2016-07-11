@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="1" android:paddingBottom="@r/padding_large_xlarge" android:layout_width="-1" android:layout_height="-2" style="0x7f0b0016">
+    <Button android:id="0x7f100418" android:layout_width="-1" android:layout_height="-2" android:text="@r/checkout_button" style="0x7f0b0175" />
+</FrameLayout>

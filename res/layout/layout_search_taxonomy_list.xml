@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0">
+        <android.support.v7.widget.RecyclerView android:id="0x7f100386" android:layout_width="-1" android:layout_height="-1" />
+        <com.etsy.android.uikit.view.LoadingIndicatorView android:layout_gravity="11" android:id="@r/loading_indicator" android:layout_width="-2" android:layout_height="-2" android:src="@r/spinner_blue" />
+        <ImageView android:layout_gravity="11" android:id="@r/error_view" android:layout_width="-2" android:layout_height="-2" android:src="@r/error_sorry_girl" android:scaleType="6" />
+    </FrameLayout>
+</merge>

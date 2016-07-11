@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView app:id="0x7f10038e" app:layout_width="-2" app:layout_height="-2" style="@r/CardViewElementStyle">
+    <RelativeLayout app:paddingBottom="@r/fixed_small" app:layout_width="-1" app:layout_height="-2">
+        <LinearLayout app:orientation="0" app:id="0x7f1003b7" app:layout_width="-1" app:layout_height="-2" app:weightSum="2.0">
+            <ImageView app:id="0x7f1003b8" app:layout_width="0dp" app:layout_height="-2" app:scaleType="6" app:adjustViewBounds="true" app:layout_weight="1.0" app:contentDescription="@r/listing_image_content_description" />
+            <ImageView app:id="0x7f1003b9" app:layout_width="0dp" app:layout_height="-2" app:scaleType="6" app:adjustViewBounds="true" app:layout_weight="1.0" app:contentDescription="@r/listing_image_content_description" />
+        </LinearLayout>
+        <LinearLayout app:orientation="0" app:id="0x7f1003ba" app:layout_width="-1" app:layout_height="-2" app:weightSum="2.0" app:layout_below="0x7f1003b7">
+            <ImageView app:id="0x7f1003bb" app:layout_width="0dp" app:layout_height="-2" app:scaleType="6" app:adjustViewBounds="true" app:layout_weight="1.0" app:contentDescription="@r/listing_image_content_description" />
+            <ImageView app:id="0x7f1003bc" app:layout_width="0dp" app:layout_height="-2" app:scaleType="6" app:adjustViewBounds="true" app:layout_weight="1.0" app:contentDescription="@r/listing_image_content_description" />
+        </LinearLayout>
+        <View app:background="0x7f0e001a" app:layout_width="-1" app:layout_height="@r/divider_height" app:layout_alignBottom="0x7f1003ba" />
+        <TextView app:id="0x7f100394" style="0x7f0b00e7" />
+        <RelativeLayout app:id="0x7f100395" app:layout_width="-1" app:layout_height="0x7f0a0063" app:layout_below="0x7f1003ba">
+            <ImageView app:layout_gravity="10" app:id="0x7f1003bf" app:layout_width="0x7f0a007a" app:layout_height="-1" app:layout_marginLeft="@r/fixed_small" app:layout_marginRight="@r/fixed_small" app:scaleType="1" style="0x7f0b0122" />
+            <com.etsy.android.uikit.view.GuardianTextView app:ellipsize="3" app:id="@r/shop_name" app:paddingTop="@r/fixed_medium" app:layout_width="-1" app:layout_height="-2" app:singleLine="true" app:includeFontPadding="false" app:layout_toRightOf="0x7f1003bf" style="?unknown_attr_ref: 7f01003c" />
+            <com.etsy.android.uikit.view.RatingIconView app:id="@r/rating" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/fixed_small" app:layout_toRightOf="0x7f1003bf" app:layout_below="@r/shop_name" app:starSize="@r/review_star_size_small" />
+            <TextView app:id="0x7f100396" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/fixed_tiny" app:layout_marginTop="@r/fixed_tiny" app:layout_toRightOf="@r/rating" app:layout_below="@r/shop_name" style="@r/TextLightGrey_Small" />
+            <ImageView app:id="@r/btn_fav" app:padding="@r/padding_medium" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentRight="true" style="@r/IconFavoriteListing" />
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

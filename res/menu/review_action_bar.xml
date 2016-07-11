@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="0x7f100619" app:title="@r/review_submit_menu" app:showAsAction="2" />
+</menu>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large">
+    <ImageView android:layout_gravity="11" android:id="@r/shop_icon" android:layout_width="@r/social_share_shop_icon_size" android:layout_height="@r/social_share_shop_icon_size" android:scaleType="1" android:adjustViewBounds="false" />
+    <com.etsy.android.uikit.view.GuardianTextView android:layout_gravity="1" android:id="@r/shop_name" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/margin_medium_large" style="?unknown_attr_ref: 7f010030" />
+    <TextView android:ellipsize="3" android:layout_gravity="1" android:id="@r/headline" android:paddingLeft="@r/social_share_text_padding" android:paddingRight="@r/social_share_text_padding" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_small" android:maxLines="2" style="@r/TextDarkGrey" />
+</LinearLayout>

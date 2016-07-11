@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-2" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:background="0x7f02007d" android:padding="@r/divider_width" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:id="0x7f1003f4" android:layout_width="-1" android:layout_height="-2" android:foreground="@r/fg_standard_selector">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                <include android:id="0x7f1003f5" layout="0x7f030163" />
+                <include android:id="0x7f1003f6" layout="0x7f030163" />
+                <LinearLayout android:gravity="10" android:orientation="0" android:padding="@r/fixed_medium_large" android:layout_width="-1" android:layout_height="-2">
+                    <ImageView android:layout_gravity="10" android:id="0x7f1003bf" android:layout_width="0x7f0a0201" android:layout_height="0x7f0a0201" android:scaleType="1" />
+                    <TextView android:ellipsize="3" android:id="@r/shop_name" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/fixed_medium_large" android:singleLine="true" style="?unknown_attr_ref: 7f010034" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:id="0x7f1003f7" android:layout_width="-1" android:layout_height="-2" android:foreground="@r/fg_standard_selector">
+            <LinearLayout android:gravity="11" android:orientation="0" android:background="@r/card_footer_background" android:padding="@r/fixed_medium_large" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:ellipsize="3" android:id="0x7f1003f8" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="@r/fixed_medium_large" android:singleLine="true" android:layout_weight="1.0" style="@r/TextGrey" />
+                <TextView android:layout_width="-2" android:layout_height="-2" android:text="@r/more_info_sentence_case" style="@r/TextBlue" />
+            </LinearLayout>
+            <View android:background="@r/divider_dialog" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

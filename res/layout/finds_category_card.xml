@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView app:id="@r/listing_matte" app:layout_width="-1" app:layout_height="-2" style="0x7f0b01e1">
+    <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+        <com.etsy.android.uikit.view.ImageViewWithAspectRatio app:id="@r/listing_image" app:layout_width="-1" app:layout_height="-2" app:scaleType="6" app:heightRatio="1.0" />
+        <View app:background="@r/list_divider" app:layout_width="-1" app:layout_height="@r/divider_height" />
+        <TextView app:ellipsize="3" app:layout_gravity="10" app:id="@r/txt_title" app:padding="@r/padding_small_medium" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/fixed_small" app:layout_marginRight="@r/fixed_small" app:singleLine="true" app:includeFontPadding="false" style="@r/TextDarkGrey" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="@r/menu_snippet_edit" app:visible="false" app:orderInCategory="100" app:title="@r/snippet_menu_edit" app:alphabeticShortcut="E" app:showAsAction="6" />
+    <item app:id="@r/menu_snippet_delete" app:orderInCategory="100" app:title="@r/snippet_menu_delete" app:alphabeticShortcut="D" app:showAsAction="6" />
+</menu>

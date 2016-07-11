@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="0x7f1001af" android:layout_width="-1" android:layout_height="-2" android:text="@r/cart_listing_custom_order" android:singleLine="true" android:textAllCaps="true" style="@r/TextGrey_Small" />
+    <TextView android:ellipsize="3" android:id="0x7f1001b0" android:layout_width="-1" android:layout_height="-2" android:maxLines="2" style="0x7f0b000e" />
+    <TextView android:ellipsize="4" android:id="0x7f1001b1" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" style="?unknown_attr_ref: 7f010049" />
+    <TableLayout android:layout_height="-2" style="0x7f0b004d">
+        <TableRow>
+            <TextView android:ellipsize="4" android:id="0x7f1001b2" android:paddingRight="@r/padding_small" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" style="@r/TextLightGrey" />
+            <Button android:id="0x7f1001b3" android:layout_height="0x7f0a00b1" style="0x7f0b0051" />
+        </TableRow>
+        <TableRow>
+            <TextView android:ellipsize="4" android:id="0x7f1001b4" android:paddingRight="@r/padding_small" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" style="@r/TextLightGrey" />
+            <Button android:id="0x7f1001b5" android:layout_height="0x7f0a00b1" style="0x7f0b0051" />
+        </TableRow>
+        <TableRow>
+            <TextView android:ellipsize="4" android:id="0x7f1001b6" android:paddingRight="@r/padding_small" android:layout_width="-2" android:layout_height="-2" android:text="@r/quantity" android:maxLines="1" style="@r/TextLightGrey" />
+            <Spinner android:id="0x7f1001b7" android:layout_height="-2" android:layout_weight="1.0" style="0x7f0b004c" />
+        </TableRow>
+    </TableLayout>
+    <TextView android:id="0x7f1001b8" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="@r/save_for_later" style="@r/TextBlue_CartListingButton" />
+</merge>

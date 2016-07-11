@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp">
+    <Button android:id="@r/dialog_no" style="@r/Button_Dialog_Trio" />
+    <View style="@r/DialogDivider" />
+    <Button android:id="@r/dialog_neutral" style="@r/Button_Dialog_Trio" />
+    <View style="@r/DialogDivider" />
+    <Button android:id="@r/dialog_yes" style="@r/Button_Dialog_Trio" />
+</LinearLayout>

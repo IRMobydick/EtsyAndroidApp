@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:exitFadeDuration="0x10e0001">
+    <item android:state_pressed="true" android:drawable="@r/ten_percent_black" />
+    <item android:state_pressed="false" android:drawable="@r/transparent" />
+</selector>

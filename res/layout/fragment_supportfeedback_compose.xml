@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+    <ViewStub app:id="@r/supportfeedback_header" app:layout="0x7f0301ef" app:layout_width="-2" app:layout_height="-2" />
+    <ScrollView app:layout_width="-1" app:layout_height="0dp" app:fillViewport="true" app:layout_weight="1.0">
+        <LinearLayout app:orientation="1" app:background="@r/white" app:layout_width="-1" app:layout_height="-2">
+            <RelativeLayout app:layout_width="-1" app:layout_height="0dp" app:layout_marginBottom="@r/padding_medium_large" app:layout_weight="1.0">
+                <LinearLayout app:id="@r/edit_useremail_container" app:background="@r/background_main_v2" app:paddingTop="@r/padding_medium" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentLeft="true" app:layout_alignParentTop="true">
+                    <EditText app:ellipsize="3" app:gravity="10" app:id="@r/edit_useremail" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/padding_large" app:layout_marginRight="@r/padding_large" app:layout_marginBottom="@r/padding_medium" app:hint="@r/supportfeedback_email_hint" app:maxLines="1" app:singleLine="true" app:inputType="1" style="@r/EditText" />
+                </LinearLayout>
+                <com.etsy.android.uikit.view.GuardianTextView app:id="@r/label_bug_message" app:paddingLeft="@r/padding_large" app:paddingRight="@r/padding_large" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_large" app:text="@r/supportfeedback_bug_message_label" app:layout_below="@r/edit_useremail_container" app:layout_alignParentLeft="true" style="?unknown_attr_ref: 7f01002c" />
+                <LinearLayout app:id="@r/edit_bug_message_container" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_tiny" app:layout_below="@r/label_bug_message" app:layout_alignParentLeft="true">
+                    <EditText app:id="@r/edit_bug_message" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/padding_large" app:layout_marginRight="@r/padding_large" app:hint="@r/supportfeedback_bug_message_hint" style="@r/EditText_MultiLine" />
+                </LinearLayout>
+                <com.etsy.android.uikit.view.GuardianTextView app:id="@r/label_other_message" app:paddingLeft="@r/padding_large" app:paddingRight="@r/padding_large" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_large" app:text="@r/supportfeedback_other_message_label" app:layout_below="@r/edit_bug_message_container" app:layout_alignParentLeft="true" style="?unknown_attr_ref: 7f01002c" />
+                <LinearLayout app:id="@r/edit_other_message_container" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_tiny" app:layout_below="@r/label_other_message" app:layout_alignParentLeft="true">
+                    <EditText app:id="@r/edit_other_message" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/padding_large" app:layout_marginRight="@r/padding_large" app:hint="@r/supportfeedback_other_message_hint" style="@r/EditText_MultiLine" />
+                </LinearLayout>
+                <TextView app:id="@r/footer_message" app:paddingLeft="@r/padding_large" app:paddingRight="@r/padding_large" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_large" app:text="@r/supportfeedback_footer_message" app:layout_below="@r/edit_other_message_container" app:lineSpacingExtra="2dp" style="@r/TextLightGrey_Small" />
+                <com.etsy.android.uikit.view.ImageAttachmentLayout app:gravity="50" app:orientation="0" app:id="@r/linear_supportfeedback_attachments" app:paddingLeft="@r/padding_large" app:paddingRight="@r/padding_large" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/padding_large" app:layout_below="@r/footer_message" app:attachmentPadding="@r/padding_large" />
+            </RelativeLayout>
+            <View style="@r/Divider_Horizontal" />
+            <TextView app:gravity="10" app:id="@r/button_image" app:background="@r/list_selector" app:padding="@r/margin_medium" app:layout_width="-1" app:layout_height="-2" app:text="@r/supportfeedback_add_photo" app:drawableLeft="@r/ic_camera" app:drawablePadding="@r/margin_medium" app:textAllCaps="true" style="@r/TextBlue" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

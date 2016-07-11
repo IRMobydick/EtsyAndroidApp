@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="0" app:paddingTop="@r/fixed_medium" app:paddingBottom="@r/fixed_medium" app:layout_width="-1" app:layout_height="-1">
+    <TextView app:layout_gravity="10" app:id="@r/text" app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0" style="@r/TextBlue_Large" />
+    <com.etsy.android.iconsy.views.IconView app:layout_gravity="10" app:id="@r/delete_button" app:paddingLeft="@r/fixed_medium" app:paddingTop="@r/fixed_medium" app:paddingBottom="@r/fixed_medium" app:layout_width="@r/fixed_xlarge" app:layout_height="@r/fixed_xlarge" app:iconChar="@r/ic_standard_delete" app:iconColor="@r/light_grey" app:hasSelector="true" />
+</LinearLayout>

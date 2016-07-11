@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.appboy.ui.inappmessage.views.AppboyInAppMessageHtmlFullView android:orientation="0" android:id="@id/com_appboy_inappmessage_html_full" style="@style/Appboy_InAppMessage_Html">
+    <WebView android:id="@id/com_appboy_inappmessage_html_full_webview" style="@style/Appboy_InAppMessage_Html_Webview" />
+</com.appboy.ui.inappmessage.views.AppboyInAppMessageHtmlFullView>

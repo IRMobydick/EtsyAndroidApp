@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:visibility="2" app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0">
+    <ImageView app:id="@r/convo_image_attachment" app:background="@r/etsy_light_blue" app:layout_width="-1" app:layout_height="-1" app:scaleType="6" app:layout_alignParentTop="true" app:layout_alignParentRight="true" />
+    <ImageButton app:gravity="11" app:layout_gravity="11" app:id="@r/convo_image_attachment_remove_button" app:background="@r/list_selector_black" app:layout_width="-2" app:layout_height="-2" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:srcCompat="@r/ic_close_white_24dp" />
+    <FrameLayout app:id="@r/activity_indicator" app:layout_width="-2" app:layout_height="-2" app:layout_centerInParent="true">
+        <com.etsy.android.uikit.view.LoadingIndicatorView app:layout_width="-2" app:layout_height="-2" app:src="@r/spinner_blue" app:scaleType="5" />
+    </FrameLayout>
+</RelativeLayout>

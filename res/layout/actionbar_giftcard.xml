@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:paddingRight="@r/padding_medium" app:layout_width="-2" app:layout_height="-2">
+    <LinearLayout app:orientation="0" app:layout_width="-2" app:layout_height="@r/actionbar_height">
+        <com.etsy.android.iconsy.views.IconView app:layout_gravity="10" app:id="0x7f100120" app:layout_width="@r/actionbar_icon" app:layout_height="@r/actionbar_icon" app:iconChar="@r/ic_etsy_gift_card" app:iconColor="@r/green" />
+        <com.etsy.android.uikit.view.ZeroSpinner app:layout_gravity="10" app:id="0x7f100121" app:layout_width="-2" app:layout_height="-2" app:prompt="@r/giftcards" style="0x7f0b00db" />
+    </LinearLayout>
+    <FrameLayout app:layout_gravity="11" app:id="@r/activity_indicator" app:visibility="2" app:layout_width="-2" app:layout_height="-1">
+        <com.etsy.android.uikit.view.LoadingIndicatorView app:layout_width="-2" app:layout_height="-1" app:src="@r/spinner_blue" app:scaleType="5" />
+    </FrameLayout>
+</FrameLayout>

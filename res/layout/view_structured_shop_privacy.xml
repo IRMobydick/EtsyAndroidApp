@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <RelativeLayout app:layout_width="-1" app:layout_height="-2">
+        <com.etsy.android.iconsy.views.IconView app:id="@r/edit_icon" app:layout_width="@r/fixed_large" app:layout_height="@r/fixed_large" app:layout_alignParentTop="true" app:layout_alignParentRight="true" app:iconChar="@r/ic_etsy_write" app:gravity="11" app:iconColor="@r/lighter_grey" />
+        <TextView app:id="@r/txt_privacy_info" app:layout_width="-1" app:layout_height="-2" app:layout_toLeftOf="@r/edit_icon" style="?unknown_attr_ref: 7f0101df" />
+    </RelativeLayout>
+    <TextView app:id="@r/txt_privacy_items" app:paddingTop="@r/fixed_large" app:layout_width="-2" app:layout_height="-2" app:lineSpacingExtra="@r/fixed_medium" style="?unknown_attr_ref: 7f0101df" />
+    <TextView app:id="@r/btn_privacy_other_expand" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/fixed_medium" style="@r/StructuredPoliciesButtonSeeMore" />
+</merge>

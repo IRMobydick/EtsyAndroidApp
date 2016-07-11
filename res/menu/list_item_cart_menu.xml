@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="0x7f100609" app:title="@r/cart_remove_shop_items_menu" app:showAsAction="2" />
+    <item app:id="0x7f10060a" app:title="@r/cart_contact_owner" app:showAsAction="2" />
+    <item app:id="0x7f10060b" app:title="@r/cart_visit_shop" app:showAsAction="2" />
+</menu>

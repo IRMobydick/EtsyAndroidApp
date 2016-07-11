@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <View android:background="@r/divider_header" android:layout_width="-1" android:layout_height="@r/divider_height" android:layout_marginLeft="0x7f0a0074" />
+    <LinearLayout android:orientation="0" android:paddingBottom="@r/fixed_xlarge" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:paddingRight="0x7f0a00c3" android:layout_width="0x7f0a00c4" android:layout_height="-2" android:layout_marginLeft="@r/fixed_large" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" android:text="@r/terms_and_conditions_title" style="?unknown_attr_ref: 7f01003f" />
+        <TextView android:id="0x7f10014e" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="0x7f0a0073" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" android:layout_marginBottom="@r/margin_large" android:layout_weight="1.0" android:lineSpacingMultiplier="@r/shop_home_text_line_spacing_mult" style="@r/TextBlue" />
+    </LinearLayout>
+</LinearLayout>

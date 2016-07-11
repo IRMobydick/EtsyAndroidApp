@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:background="0x7f0e002d" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="0" android:id="0x7f100349" android:layout_width="-1" android:layout_height="-2" style="@r/DialogRow">
+            <TextView android:layout_width="0dp" android:layout_height="-2" android:text="@r/enable_history" android:layout_weight="1.0" style="?unknown_attr_ref: 7f01002b" />
+            <CheckBox android:id="0x7f10034a" android:layout_width="-2" android:layout_height="-2" android:checked="true" />
+        </LinearLayout>
+        <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <TextView android:textColor="@r/text_disabled_light_selector" android:id="0x7f10034b" android:layout_width="-1" android:layout_height="-2" android:text="@r/clear_viewing_history" style="@r/DialogRow_Text" />
+        <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <TextView android:textColor="@r/text_disabled_light_selector" android:id="0x7f10034c" android:layout_width="-1" android:layout_height="-2" android:text="@r/clear_search_history" style="@r/DialogRow_Text" />
+        <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <LinearLayout android:orientation="0" android:id="0x7f10034d" android:layout_width="-1" android:layout_height="-2" style="@r/DialogRow">
+            <TextView android:ellipsize="3" android:layout_width="0dp" android:layout_height="-2" android:text="@r/prefs_set_currency_title" android:singleLine="true" android:layout_weight="1.0" style="?unknown_attr_ref: 7f01002b" />
+            <com.etsy.android.uikit.view.GuardianTextView android:layout_gravity="5" android:id="0x7f10034e" android:layout_width="-2" android:layout_height="-2" style="0x7f0b01b8" />
+            <TextView android:ellipsize="3" android:gravity="13" android:id="0x7f10034f" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/fixed_medium" android:singleLine="true" style="?unknown_attr_ref: 7f01002e" />
+        </LinearLayout>
+        <View android:id="0x7f100350" android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <TextView android:id="0x7f100351" android:layout_width="-1" android:layout_height="-2" android:text="@r/legal" style="@r/DialogRow_Text" />
+        <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <TextView android:id="0x7f100352" android:layout_width="-1" android:layout_height="-2" android:text="@r/about_app" style="@r/DialogRow_Text" />
+        <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <TextView android:id="0x7f100353" android:layout_width="-1" android:layout_height="-2" android:text="@r/phablets" style="@r/DialogRow_Text" />
+        <LinearLayout android:orientation="0" android:id="0x7f100354" android:visibility="2" android:layout_width="-1" android:layout_height="-2" style="@r/DialogRow">
+            <TextView android:layout_width="0dp" android:layout_height="-2" android:text="@r/bug_hunt_shake" android:layout_weight="1.0" style="?unknown_attr_ref: 7f01002b" />
+            <CheckBox android:id="0x7f100355" android:layout_width="-2" android:layout_height="-2" android:checked="true" />
+        </LinearLayout>
+        <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <LinearLayout android:orientation="1" android:id="0x7f100356" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:background="@r/list_selector" android:paddingLeft="@r/padding_large" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-2">
+                <ProgressBar android:layout_gravity="10" android:id="0x7f100357" android:visibility="2" android:layout_width="@r/fixed_xlarge" android:layout_height="@r/fixed_xlarge" android:layout_marginRight="@r/padding_medium" />
+                <TextView android:textColor="@r/text_disabled_light_selector" android:id="0x7f100358" android:background="@task/NETWORK_STATE_CONNECTED" android:paddingLeft="0dp" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:text="@r/update" style="@r/DialogRow_Text" />
+            </LinearLayout>
+            <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:id="0x7f100359" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:id="0x7f10035a" android:paddingLeft="@r/padding_large" android:paddingTop="@r/padding_medium_large" android:paddingRight="@r/padding_large" android:paddingBottom="@r/padding_small" android:layout_width="-1" android:layout_height="-2" android:textAllCaps="true" style="?unknown_attr_ref: 7f010029" />
+            <View android:background="@r/list_divider_dark" android:layout_width="-1" android:layout_height="@r/divider_height" />
+            <TextView android:textColor="@r/text_disabled_light_selector" android:id="0x7f10035b" android:layout_width="-1" android:layout_height="-2" android:text="@r/notifications" style="@r/DialogRow_Text" />
+            <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+            <Button android:id="0x7f10035c" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_medium_large" android:layout_marginRight="@r/margin_large" android:layout_marginBottom="@r/margin_medium_large" android:text="@r/sign_out" style="@r/ButtonWhiteV2" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <LinearLayout android:gravity="1" android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="0" android:id="0x7f100196" android:visibility="2" android:layout_width="0x7f0a0151" android:layout_height="0x7f0a0152" style="0x7f0b0198" />
+        <LinearLayout android:orientation="0" android:id="0x7f100197" android:layout_width="0x7f0a0151" android:layout_height="0x7f0a0152" style="0x7f0b0199" />
+        <LinearLayout android:gravity="1" android:layout_width="-1" android:layout_height="-2" style="0x7f0b0197">
+            <ImageView android:layout_gravity="11" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_medium" android:src="@r/ic_asap_white" />
+            <TextView android:textColor="@r/white" android:layout_gravity="10" android:id="0x7f100198" android:padding="1dp" android:layout_width="-2" android:layout_height="-2" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

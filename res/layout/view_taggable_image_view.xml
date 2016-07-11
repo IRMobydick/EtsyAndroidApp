@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-2" android:layout_height="-2">
+    <view android:layout_gravity="31" android:id="@r/taggable_image" android:layout_width="-1" android:layout_height="-2" android:scaleType="2" android:adjustViewBounds="true" class="com.etsy.android.uikit.view.TaggableImageView$ImageViewWithOnDrawListener" />
+    <RelativeLayout android:layout_gravity="31" android:id="@r/taggable_container" android:layout_width="-1" android:layout_height="-1" />
+</merge>

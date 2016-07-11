@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:ellipsize="3" android:gravity="11" android:id="@r/text" android:background="@r/bg_ten_percent_black_selector" android:padding="@r/padding_medium" android:layout_width="-1" android:layout_height="0x7f0a012c" android:singleLine="true" style="?unknown_attr_ref: 7f010035" />

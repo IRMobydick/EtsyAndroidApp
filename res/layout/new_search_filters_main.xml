@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout etsy:orientation="1" etsy:layout_width="-1" etsy:layout_height="-1" etsy:divider="@r/list_divider_light" etsy:showDividers="6"
+    <LinearLayout etsy:orientation="0" etsy:id="0x7f1004f9" etsy:background="@r/bg_ten_percent_black_selector" etsy:padding="@r/fixed_large" etsy:layout_width="-1" etsy:layout_height="-2">
+        <TextView etsy:layout_width="0dp" etsy:layout_height="-2" etsy:text="@r/new_search_filter_sort_by" etsy:layout_weight="1.0" style="?unknown_attr_ref: 7f010051" />
+        <TextView etsy:gravity="5" etsy:id="0x7f1004fa" etsy:layout_width="0dp" etsy:layout_height="-2" etsy:layout_weight="1.0" style="@r/TextBlue_Small" />
+    </LinearLayout>
+    <LinearLayout etsy:orientation="0" etsy:id="0x7f1004fb" etsy:background="@r/bg_ten_percent_black_selector" etsy:padding="@r/fixed_large" etsy:layout_width="-1" etsy:layout_height="-2">
+        <TextView etsy:layout_width="0dp" etsy:layout_height="-2" etsy:text="@r/new_search_filter_categories" etsy:layout_weight="1.0" style="?unknown_attr_ref: 7f010051" />
+        <TextView etsy:gravity="5" etsy:id="0x7f1004fc" etsy:layout_width="0dp" etsy:layout_height="-2" etsy:text="@r/new_search_filter_categories_all" etsy:layout_weight="1.0" style="@r/TextBlue_Small" />
+    </LinearLayout>
+    <TextView etsy:background="@r/list_divider_light" etsy:paddingLeft="@r/fixed_large" etsy:paddingTop="@r/fixed_medium" etsy:paddingRight="@r/fixed_large" etsy:paddingBottom="@r/fixed_medium" etsy:layout_width="-1" etsy:layout_height="-2" etsy:text="@r/new_search_filter_item_type" etsy:textAllCaps="true" style="@r/TextMidGrey_Small" />
+    <RadioGroup etsy:orientation="1" etsy:id="0x7f1004fd" etsy:layout_width="-1" etsy:layout_height="-2" etsy:divider="@r/list_divider" etsy:checkedButton="0x7f1004fe" etsy:showDividers="2">
+        <com.etsy.android.ui.search.v2.RightAlignedRadioButton etsy:id="0x7f1004ff" etsy:background="@r/list_selector_white" etsy:padding="@r/fixed_medium_large" etsy:layout_width="-1" etsy:layout_height="-2" etsy:button="?unknown_attr_ref: 1010219" etsy:text="@r/all_items" style="?unknown_attr_ref: 7f010051" />
+        <com.etsy.android.ui.search.v2.RightAlignedRadioButton etsy:id="0x7f100500" etsy:background="@r/list_selector_white" etsy:padding="@r/fixed_medium_large" etsy:layout_width="-1" etsy:layout_height="-2" etsy:button="?unknown_attr_ref: 1010219" etsy:text="@r/handmade" style="?unknown_attr_ref: 7f010051" />
+        <com.etsy.android.ui.search.v2.RightAlignedRadioButton etsy:id="0x7f100501" etsy:background="@r/list_selector_white" etsy:padding="@r/fixed_medium_large" etsy:layout_width="-1" etsy:layout_height="-2" etsy:button="?unknown_attr_ref: 1010219" etsy:text="@r/vintage" style="?unknown_attr_ref: 7f010051" />
+    </RadioGroup>
+    <TextView etsy:background="@r/list_divider_light" etsy:paddingLeft="@r/fixed_large" etsy:paddingTop="@r/fixed_medium" etsy:paddingRight="@r/fixed_large" etsy:paddingBottom="@r/fixed_medium" etsy:layout_width="-1" etsy:layout_height="-2" etsy:text="@r/new_search_filter_filter_by" etsy:textAllCaps="true" style="@r/TextMidGrey_Small" />
+    <RelativeLayout etsy:id="0x7f100502" etsy:layout_width="-1" etsy:layout_height="-2" etsy:layout_marginLeft="@r/fixed_large" etsy:layout_marginTop="@r/fixed_large" etsy:layout_marginRight="@r/fixed_large">
+        <TextView etsy:id="0x7f100503" etsy:layout_width="-2" etsy:layout_height="-2" etsy:text="@r/search_filter_price_title" etsy:layout_alignParentLeft="true" style="?unknown_attr_ref: 7f010051" />
+        <TextView etsy:id="0x7f100504" etsy:layout_width="-2" etsy:layout_height="-2" etsy:layout_alignParentRight="true" style="?unknown_attr_ref: 7f010051" />
+        <com.etsy.android.uikit.view.RangedProgressBar etsy:id="0x7f100505" etsy:layout_width="-1" etsy:layout_height="-2" etsy:layout_below="0x7f100504" etsy:waypointValues="0x7f0f0008" etsy:waypointLabels="@r/progress_bar_pricelabels" etsy:waypointLevels="0x7f0d0041" />
+    </RelativeLayout>
+    <LinearLayout etsy:orientation="0" etsy:id="0x7f100506" etsy:padding="@r/fixed_large" etsy:visibility="2" etsy:layout_width="-1" etsy:layout_height="-2"
+        <LinearLayout etsy:layout_gravity="10" etsy:orientation="1" etsy:layout_width="0dp" etsy:layout_height="-2" etsy:layout_weight="1.0">
+            <TextView etsy:layout_width="-2" etsy:layout_height="-2" etsy:text="@r/new_search_filter_etsy_asap" style="?unknown_attr_ref: 7f010051" />
+            <TextView etsy:layout_width="-2" etsy:layout_height="-2" etsy:text="@r/new_search_filter_etsy_asap_subtext" style="@r/TextLightGrey_Small" />
+        </LinearLayout>
+        <android.support.v7.widget.SwitchCompat etsy:layout_gravity="10" etsy:id="0x7f100507" etsy:background="@task/NETWORK_STATE_CONNECTED" etsy:paddingLeft="@r/padding_tiny" etsy:paddingRight="@r/padding_tiny" etsy:layout_width="-2" etsy:layout_height="-2" etsy:layout_marginLeft="@r/fixed_medium" />
+    </LinearLayout>
+    <LinearLayout etsy:orientation="0" etsy:id="0x7f100508" etsy:background="@r/bg_ten_percent_black_selector" etsy:padding="@r/fixed_large" etsy:layout_width="-1" etsy:layout_height="-2">
+        <TextView etsy:layout_width="0dp" etsy:layout_height="-2" etsy:text="@r/search_filter_location_title" etsy:layout_weight="1.0" style="?unknown_attr_ref: 7f010051" />
+        <TextView etsy:gravity="5" etsy:id="0x7f100509" etsy:layout_width="0dp" etsy:layout_height="-2" etsy:layout_weight="1.0" style="@r/TextBlue_Small" />
+    </LinearLayout>
+    <LinearLayout etsy:orientation="0" etsy:id="0x7f10050a" etsy:background="@r/bg_ten_percent_black_selector" etsy:padding="@r/fixed_large" etsy:layout_width="-1" etsy:layout_height="-2">
+        <TextView etsy:layout_width="0dp" etsy:layout_height="-2" etsy:text="@r/search_filter_ships_to_title" etsy:layout_weight="1.0" style="?unknown_attr_ref: 7f010051" />
+        <TextView etsy:gravity="5" etsy:id="0x7f10050b" etsy:layout_width="0dp" etsy:layout_height="-2" etsy:layout_weight="1.0" style="@r/TextBlue_Small" />
+    </LinearLayout>
+    <LinearLayout etsy:orientation="0" etsy:padding="@r/fixed_large" etsy:layout_width="-1" etsy:layout_height="-2">
+        <TextView etsy:layout_gravity="10" etsy:layout_width="0dp" etsy:layout_height="-2" etsy:text="@r/new_search_filter_accepts_giftcards" etsy:layout_weight="1.0" style="?unknown_attr_ref: 7f010051" />
+        <android.support.v7.widget.SwitchCompat etsy:layout_gravity="10" etsy:id="0x7f10050c" etsy:background="@task/NETWORK_STATE_CONNECTED" etsy:paddingLeft="@r/padding_tiny" etsy:paddingRight="@r/padding_tiny" etsy:layout_width="-2" etsy:layout_height="-2" etsy:layout_marginLeft="@r/fixed_medium" />
+    </LinearLayout>
+</LinearLayout>

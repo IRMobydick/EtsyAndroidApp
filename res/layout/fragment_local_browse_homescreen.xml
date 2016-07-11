@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout map:layout_width="-1" map:layout_height="-1">
+    <com.google.android.gms.maps.MapView map:id="@r/map" map:layout_width="-1" map:layout_height="0x7f0a0019" map:liteMode="true" map:uiMapToolbar="false" />
+    <ImageView map:id="0x7f1002cb" map:background="@r/local_store_image_bg" map:visibility="2" map:layout_width="-1" map:layout_height="0x7f0a0019" map:src="0x7f020082" map:scaleType="6" />
+    <FrameLayout map:id="0x7f1002cc" map:background="@r/background_main_v2" map:layout_width="-1" map:layout_height="-1" map:layout_marginTop="0x7f0a0019" />
+    <include layout="0x7f0300ae" />
+    <include layout="0x7f03018e" />
+</FrameLayout>

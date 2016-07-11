@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:left="@r/padding_medium_large" android:right="@r/padding_medium_large">
+        <shape android:shape="0">
+            <solid android:color="@r/divider_header" />
+            <size android:height="@r/divider_height" />
+        </shape>
+    </item>
+</layer-list>

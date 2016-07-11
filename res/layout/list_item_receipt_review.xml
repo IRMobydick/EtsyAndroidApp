@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:paddingLeft="@r/margin_medium_large" app:paddingTop="@r/margin_medium_large" app:paddingRight="@r/margin_medium_large" app:layout_width="-1" app:layout_height="-2">
+    <LinearLayout app:orientation="1" app:background="@r/bg_card" app:padding="@r/listing_card_shadow_padding" app:layout_width="-1" app:layout_height="-2"
+        <LinearLayout app:gravity="10" app:orientation="0" app:id="@r/review_user_click_area" app:background="@r/bg_ten_percent_black_selector" app:padding="@r/padding_medium" app:layout_width="-1" app:layout_height="-2">
+            <ImageView app:id="@r/avatar" app:layout_width="@r/card_avatar_small" app:layout_height="@r/card_avatar_small" app:layout_marginRight="@r/margin_medium" style="@r/Avatar" />
+            <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+                <TextView app:id="@r/reviewed_by_name" app:layout_width="-2" app:layout_height="-2" style="?unknown_attr_ref: 7f010050" />
+                <TextView app:id="@r/date" app:layout_width="-2" app:layout_height="-2" style="@r/TextLightGrey" />
+            </LinearLayout>
+        </LinearLayout>
+        <View app:background="@r/divider_medium" app:layout_width="-1" app:layout_height="@r/divider_height" app:layout_marginLeft="@r/padding_large" app:layout_marginRight="@r/padding_large" />
+        <LinearLayout app:orientation="0" app:id="@r/review_listing_click_area" app:background="@r/bg_ten_percent_black_selector" app:padding="@r/padding_medium" app:layout_width="-1" app:layout_height="-2">
+            <ImageView app:id="@r/item_image" app:layout_width="@r/review_image_width" app:layout_height="@r/review_image_height" app:layout_marginRight="@r/margin_medium" app:scaleType="6" />
+            <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+                <TextView app:ellipsize="3" app:id="@r/listing_title" app:layout_width="-2" app:layout_height="-2" app:maxLines="2" style="@r/TextMidGrey" />
+                <com.etsy.android.uikit.view.RatingIconView app:id="@r/rating" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_small" app:starSize="@r/text_large" />
+                <com.etsy.android.uikit.view.GuardianTextView app:id="@r/review_message" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_small" style="@r/TextDarkGrey" />
+                <LinearLayout app:orientation="1" app:id="@r/shop_owner_response" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_large">
+                    <View app:background="@r/divider_header" app:layout_width="-1" app:layout_height="@r/divider_height" app:layout_marginRight="@r/margin_medium" />
+                    <TextView app:id="@r/shop_owner_name" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_large" style="?unknown_attr_ref: 7f010050" />
+                    <TextView app:layout_width="-2" app:layout_height="-2" app:text="@r/shop_owner_parens" style="@r/TextLightGrey" />
+                    <com.etsy.android.uikit.view.GuardianTextView app:id="@r/response_message" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_medium" style="@r/TextMidGrey" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

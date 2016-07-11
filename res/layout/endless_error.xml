@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <com.etsy.android.uikit.view.GuardianTextView android:gravity="11" android:layout_gravity="11" android:paddingLeft="@r/fixed_medium" android:paddingRight="@r/fixed_medium" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_medium" android:text="@r/loading_no_internet" style="@r/TextGrey_Small" />
+    <Button android:layout_gravity="11" android:id="@r/btn_retry_endless" android:layout_width="@r/button_wide_width" android:layout_height="@r/button_height" android:layout_margin="@r/fixed_medium" android:text="@r/try_again" style="@r/ButtonWhiteV2" />
+</LinearLayout>

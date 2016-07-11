@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_large" android:layout_marginBottom="@r/margin_small">
+    <TextView android:gravity="11" android:layout_gravity="11" android:padding="@r/padding_small" android:layout_width="-2" android:layout_height="-2" android:text="@r/shop_owner" android:textAllCaps="true" style="?unknown_attr_ref: 7f01005a" />
+    <ImageView android:layout_gravity="11" android:id="@r/avatar" android:layout_width="@r/shop2_home_card_avatar" android:layout_height="@r/shop2_home_card_avatar" />
+    <TextView android:gravity="11" android:layout_gravity="11" android:id="@r/shop_owner_name" android:padding="@r/padding_small" android:layout_width="-2" android:layout_height="-2" style="@r/TextBlue" />
+    <TextView android:gravity="11" android:layout_gravity="11" android:id="@r/contact_shop_owner" android:background="@r/bg_unbounded_selector" android:padding="@r/padding_small" android:layout_width="-2" android:layout_height="-2" android:text="@r/contact" android:drawablePadding="@r/padding_small" style="@r/TextBlue" />
+</LinearLayout>

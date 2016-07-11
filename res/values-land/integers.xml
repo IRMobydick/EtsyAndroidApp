@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ap_landing_page_listing_card_cols">4</integer>
+    <integer name="appreciation_photo_page_max_span_count">3</integer>
+    <integer name="card_item_list_count">4</integer>
+    <integer name="finds_crosslink_span">42</integer>
+    <integer name="finds_hero_listing_span">28</integer>
+    <integer name="finds_listing_minimum_in_row">2</integer>
+    <integer name="finds_small_crosslink_span">21</integer>
+    <integer name="homescreen_card_holder_span_count">4</integer>
+    <integer name="listing_favorite_card_item_columns">3</integer>
+    <integer name="listing_shop_card_item_columns">3</integer>
+    <integer name="local_browse_list_columns">2</integer>
+    <integer name="local_market_details_listings_per_hero_row">4</integer>
+    <integer name="local_market_details_wholesale_hero_ratio">4</integer>
+    <integer name="max_feed_column_count">2</integer>
+    <integer name="multi_listing_columns_count">3</integer>
+    <integer name="phablet_cards_grid_columns">4</integer>
+    <integer name="search_card_item_list_count">2</integer>
+    <integer name="shop_featured_listing_columns_count">2</integer>
+    <integer name="user_profile_max_span_count">4</integer>
+</resources>

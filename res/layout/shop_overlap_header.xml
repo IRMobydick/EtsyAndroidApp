@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="0x7f100571" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+    <com.etsy.android.uikit.view.ClickableImageView android:id="0x7f100572" android:layout_width="0x7f0a008e" android:layout_height="0x7f0a008e" android:layout_marginLeft="@r/margin_medium" android:layout_marginTop="0x7f0a00e8" android:layout_marginRight="@r/margin_medium" android:scaleType="6" android:contentDescription="@r/shop_avatar_content_description" style="0x7f0b023f" />
+    <FrameLayout android:layout_width="0dp" android:layout_height="0x7f0a004b" android:layout_weight="1.0">
+        <include layout="0x7f0300dd" />
+    </FrameLayout>
+    <LinearLayout android:gravity="10" android:orientation="0" android:layout_width="-2" android:layout_height="0x7f0a004b">
+        <Button android:id="0x7f100573" android:visibility="2" android:layout_width="-2" android:layout_marginRight="@r/margin_medium" android:text="@r/follow" style="0x7f0b0184" />
+        <FrameLayout android:id="0x7f100574" android:visibility="2" android:layout_marginRight="@r/margin_medium" style="?unknown_attr_ref: 7f01000d">
+            <ImageView android:id="0x7f100575" android:layout_width="-1" android:layout_height="-1" android:src="0x7f020186" android:scaleType="5" />
+        </FrameLayout>
+        <ImageButton android:id="0x7f100576" android:visibility="2" android:layout_marginRight="@r/margin_large" android:src="0x7f020184" style="?unknown_attr_ref: 7f01000d" />
+    </LinearLayout>
+</LinearLayout>

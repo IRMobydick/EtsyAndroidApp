@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <group android:id="0x7f10060c" android:checkableBehavior="2">
+        <item android:id="0x7f10060d" android:title="@r/nav_home" />
+        <item android:id="0x7f10060e" android:title="@r/nav_favorites" />
+        <item android:id="0x7f10060f" android:title="@r/nav_convos" />
+        <item android:id="0x7f100610" android:title="@r/nav_purchases" />
+        <item android:id="0x7f100611" android:title="@r/user_profile" />
+    </group>
+    <group android:id="0x7f100612" android:checkableBehavior="0">
+        <item android:id="0x7f100613" android:title="@r/settings" />
+        <item android:icon="0x7f0201a0" android:id="0x7f100614" android:title="@r/config" />
+        <item android:icon="@r/ic_menu_feedback" android:id="0x7f100615" android:title="@r/supportfeedback" />
+        <item android:icon="@r/ic_bug" android:id="0x7f100616" android:title="@r/bugbounty" />
+        <item android:icon="@r/ic_soe_link" android:id="0x7f100617" android:title="@r/nav_get_sell_on_etsy" />
+    </group>
+</menu>

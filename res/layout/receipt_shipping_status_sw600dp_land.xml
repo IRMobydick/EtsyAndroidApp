@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-1">
+    <TextView android:id="0x7f10055f" android:layout_width="-2" style="?unknown_attr_ref: 7f010022" />
+    <TextView android:gravity="1" android:id="0x7f100560" android:padding="@r/padding_medium" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/margin_medium_large" android:text="@r/track_package" style="@r/ButtonBlueV2" />
+    <TextView android:id="0x7f100561" android:layout_marginTop="@r/margin_small" android:textIsSelectable="true" style="?unknown_attr_ref: 7f010021" />
+    <TextView android:id="0x7f100562" android:textIsSelectable="true" style="0x7f0b0229" />
+</LinearLayout>

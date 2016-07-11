@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:id="0x7f10011d" app:background="@r/bg_unbounded_selector" app:layout_width="-2" app:layout_height="-2">
+    <RelativeLayout app:layout_width="@r/abc_action_button_min_width_material" app:layout_height="@r/abc_action_button_min_height_material">
+        <com.etsy.android.iconsy.views.IconView app:id="0x7f10011e" app:layout_width="@r/actionbar_icon" app:layout_height="@r/actionbar_icon" app:layout_centerInParent="true" app:iconChar="@r/ic_etsy_cart" app:gravity="11" app:iconColor="@r/actionbar_icon" app:hasSelector="true" />
+        <TextView app:textSize="14sp" app:gravity="11" app:id="0x7f10011f" app:background="0x7f020066" app:paddingLeft="2dp" app:paddingRight="2dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="0x7f0a000c" app:layout_marginRight="0x7f0a000d" app:minWidth="0x7f0a00af" app:minHeight="0x7f0a00af" app:layout_alignParentTop="true" app:layout_alignParentRight="true" style="@r/TextWhite" />
+    </RelativeLayout>
+</FrameLayout>

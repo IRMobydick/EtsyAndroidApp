@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.uikit.view.EtsyTabLayout app:textColor="@r/text_black" app:id="@r/app_bar_tablayout" app:background="@r/actionbar_background_v2" app:layout_width="-1" app:layout_height="-2" app:tabIndicatorColor="@r/tool_bar_tab_underline" app:tabTextAppearance="@r/EtsyTabTextAppearance" />

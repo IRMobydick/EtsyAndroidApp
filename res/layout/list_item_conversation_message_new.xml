@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:layout_width="-1" app:layout_height="-2" style="@r/ConvoCard_New">
+    <FrameLayout app:gravity="31" app:id="@r/convo_user_img_frame" app:layout_width="-2" app:layout_height="-1" app:layout_marginRight="@r/padding_medium" app:layout_alignParentLeft="true">
+        <com.etsy.android.uikit.view.ClickableImageView app:id="@r/convo_user_img" style="@r/Avatar_Convos_New_Conversation" />
+    </FrameLayout>
+    <TextView app:id="@r/convo_time_text" app:layout_alignParentTop="true" app:layout_alignParentRight="true" style="@r/ConvoTime" />
+    <TextView app:id="@r/convo_user_name_text" app:layout_toLeftOf="@r/convo_time_text" app:layout_toRightOf="@r/convo_user_img_frame" app:layout_alignTop="@r/convo_user_img_frame" app:textIsSelectable="true" style="@r/ConvoUserName_New" />
+    <LinearLayout app:orientation="1" app:id="@r/convo_user_msg_text_layout" app:layout_width="-1" app:layout_height="-2" app:layout_toRightOf="@r/convo_user_img_frame" app:layout_below="@r/convo_user_name_text" app:lineSpacingExtra="@r/padding_tiny" app:textIsSelectable="true" style="?unknown_attr_ref: 7f010040">
+        <TextView app:id="@r/convo_user_msg_text" app:layout_width="-2" app:layout_height="-2" />
+        <com.etsy.android.uikit.view.MachineTranslationOneClickView app:id="@r/machine_translation_one_click" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_tiny" app:textSize="@r/text_medium" />
+    </LinearLayout>
+    <com.etsy.android.uikit.view.AttachmentThumbnailsView app:orientation="0" app:id="@r/linear_convo_images" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_medium" app:layout_toRightOf="@r/convo_user_img_frame" app:layout_below="@r/convo_user_msg_text_layout" />
+</RelativeLayout>

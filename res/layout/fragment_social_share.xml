@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.uikit.view.MaxWidthLinearLayout app:gravity="1" app:layout_gravity="51" app:orientation="1" app:layout_width="-1" app:layout_height="-2" app:maxWidth="@r/dialog_max_width">
+    <ScrollView app:scrollbars="0" app:layout_width="-1" app:layout_height="-2">
+        <LinearLayout app:orientation="1" app:id="@r/share_layout" app:focusableInTouchMode="true" app:layout_width="-1" app:layout_height="-2">
+            <android.support.v7.widget.Space app:layout_width="-1" app:layout_height="@r/padding_xxlarge" />
+            <include layout="@r/fragment_social_share_content" />
+        </LinearLayout>
+    </ScrollView>
+</com.etsy.android.uikit.view.MaxWidthLinearLayout>

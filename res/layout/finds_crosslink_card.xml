@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView app:id="0x7f100245" app:layout_width="-1" app:layout_height="-2" style="@r/CardViewElementStyle">
+    <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2"
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-2" app:weightSum="2.0">
+            <com.etsy.android.uikit.view.ImageViewWithAspectRatio app:id="0x7f100246" app:layout_width="0dp" app:layout_height="-2" app:scaleType="6" app:adjustViewBounds="false" app:layout_weight="1.0" app:heightRatio="0.8" />
+            <RelativeLayout app:gravity="10" app:padding="@r/padding_medium" app:layout_width="0dp" app:layout_height="-1" app:layout_weight="1.0">
+                <TextView app:gravity="800003" app:id="0x7f100247" app:layout_width="-1" app:layout_height="-2" app:layout_marginBottom="@r/margin_small" app:text="@r/editors_picks" app:lines="1" style="0x7f0b0054" />
+                <com.etsy.android.uikit.view.GuardianTextView app:gravity="800003" app:id="0x7f100248" app:layout_width="-1" app:layout_height="-2" app:layout_below="0x7f100247" style="?unknown_attr_ref: 7f010016" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-2">
+            <com.etsy.android.uikit.view.ImageViewWithAspectRatio app:id="0x7f100249" app:layout_width="0dp" app:layout_height="-2" app:scaleType="6" app:adjustViewBounds="false" app:layout_weight="1.0" app:heightRatio="1.0" />
+            <com.etsy.android.uikit.view.ImageViewWithAspectRatio app:id="0x7f10024a" app:layout_width="0dp" app:layout_height="-2" app:scaleType="6" app:adjustViewBounds="false" app:layout_weight="1.0" app:heightRatio="1.0" />
+            <com.etsy.android.uikit.view.ImageViewWithAspectRatio app:id="0x7f10024b" app:layout_width="0dp" app:layout_height="-2" app:scaleType="6" app:adjustViewBounds="false" app:layout_weight="1.0" app:heightRatio="1.0" />
+            <com.etsy.android.uikit.view.ImageViewWithAspectRatio app:id="0x7f10024c" app:layout_width="0dp" app:layout_height="-2" app:scaleType="6" app:adjustViewBounds="false" app:layout_weight="1.0" app:heightRatio="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

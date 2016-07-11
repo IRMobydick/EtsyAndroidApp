@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:background="@r/shop_home_vacation_banner_bg" app:paddingLeft="@r/fixed_large" app:paddingTop="@r/padding_large" app:paddingRight="@r/fixed_large" app:paddingBottom="@r/padding_large" app:layout_width="-1" app:layout_height="-1">
+    <TextView app:gravity="11" app:id="@r/shop_home_vacation_title" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_large" app:layout_marginRight="@r/margin_large" style="?unknown_attr_ref: 7f01003f" />
+    <com.etsy.android.uikit.view.ProgressButton app:layout_gravity="11" app:id="@r/shop_home_vacation_notify" app:background="@r/brand_orange" app:layout_width="-1" app:layout_height="@r/button_height" app:layout_marginLeft="@r/margin_large" app:layout_marginTop="@r/padding_medium_large" app:layout_marginRight="@r/margin_large" app:layout_marginBottom="@r/padding_medium_large" app:textStyleResource="?unknown_attr_ref: 7f010065" app:activityIndicatorDrawable="@r/spinner_white" />
+    <TextView app:id="@r/shop_home_vacation_message" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium_large" app:layout_marginRight="@r/margin_medium_large" app:lineSpacingMultiplier="@r/shop_home_text_line_spacing_mult" style="@r/TextDarkGrey" />
+</LinearLayout>

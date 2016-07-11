@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView app:id="@r/txt_subhead_secure_options" app:layout_width="-2" app:layout_height="-2" app:text="@r/structured_payment_secure_options" app:drawablePadding="@r/padding_small" style="?unknown_attr_ref: 7f0101de" />
+    <com.etsy.android.uikit.view.PaymentMethodsView app:id="@r/payment_methods" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/fixed_large" app:horizontalSpacing="@r/fixed_small" app:verticalSpacing="@r/fixed_small" />
+    <TextView app:id="@r/txt_secure_options_info" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/fixed_large" app:text="@r/structured_payment_secure_options_info" style="?unknown_attr_ref: 7f0101df" />
+    <TextView app:id="@r/btn_expand" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/fixed_xlarge" style="@r/StructuredPoliciesButtonSeeMore" />
+    <LinearLayout app:orientation="1" app:id="@r/expansion_section" app:layout_width="-1" app:layout_height="-2">
+        <TextView app:id="@r/txt_subhead_payment_methods" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:text="@r/structured_payment_payment_methods" style="?unknown_attr_ref: 7f0101de" />
+        <TextView app:id="@r/txt_subhead_other_options" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/fixed_xlarge" app:text="@r/structured_payment_other_options" style="?unknown_attr_ref: 7f0101de" />
+        <TextView app:id="@r/txt_other_options_info" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/fixed_large" style="?unknown_attr_ref: 7f0101df" />
+    </LinearLayout>
+</merge>

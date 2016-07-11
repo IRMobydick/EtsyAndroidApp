@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:exitFadeDuration="0x10e0001">
+    <item android:state_pressed="true">
+        <shape android:shape="0">
+            <solid android:color="@r/item_pressed" />
+        </shape>
+    </item>
+    <item android:state_enabled="true">
+        <shape android:shape="0">
+            <solid android:color="@r/card_footer_background" />
+        </shape>
+    </item>
+</selector>

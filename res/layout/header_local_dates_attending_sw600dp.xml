@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:paddingBottom="@r/padding_large" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@r/avatar" android:layout_width="@r/local_avatar_size" android:layout_height="@r/local_avatar_size" android:layout_margin="@r/margin_large" />
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false">
+            <com.etsy.android.uikit.view.GuardianTextView android:ellipsize="3" android:id="@r/shop_name" android:paddingTop="@r/padding_large" android:layout_width="0dp" android:layout_height="-2" android:singleLine="true" android:layout_weight="1.0" style="@r/TextBlack_XLarge" />
+            <TextView android:id="0x7f100363" android:background="@r/bg_ten_percent_black_selector" android:padding="@r/padding_large" android:layout_width="-2" android:layout_height="-2" android:text="@r/view_shop" android:textAllCaps="true" style="?unknown_attr_ref: 7f010034" />
+        </LinearLayout>
+        <TextView android:id="0x7f100364" android:paddingRight="@r/padding_large" android:layout_width="-2" android:layout_height="-2" android:lineSpacingMultiplier="1.1" style="@r/TextGrey" />
+    </LinearLayout>
+</LinearLayout>

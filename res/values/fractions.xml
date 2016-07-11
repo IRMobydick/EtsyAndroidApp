@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="convo_image_attachments_ratio">75.0%</fraction>
+    <fraction name="cart_listing_image_ratio">100.0%</fraction>
+    <fraction name="machine_translation_globe_scale">90.0%</fraction>
+    <fraction name="side_bar_convo">32.000004%</fraction>
+</resources>

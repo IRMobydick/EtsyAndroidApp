@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchView android:id="@r/search_box" android:background="@r/shop_home_search_card" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/fixed_large_card" android:layout_marginTop="@r/fixed_large_xlarge" android:layout_marginRight="@r/fixed_large_card" android:iconifiedByDefault="false" android:queryHint="@r/search_shop" />

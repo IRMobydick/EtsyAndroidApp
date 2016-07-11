@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.uikit.navigationview.EtsyNavigationMenuView android:paddingTop="@r/design_navigation_padding_top_default" android:paddingBottom="@r/design_navigation_padding_bottom" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" android:listSelector="?unknown_attr_ref: 7f0100cf" android:divider="@task/NETWORK_STATE_CONNECTED" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="50" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium">
+    <TextView android:id="0x7f100437" android:layout_width="-2" android:layout_height="-2" android:text="@r/refunded" style="@r/TextGrey" />
+    <TextView android:id="0x7f100438" android:layout_width="-2" android:layout_height="-2" android:layout_alignBaseline="0x7f100437" android:layout_alignParentRight="true" style="?unknown_attr_ref: 7f010050" />
+    <TextView android:id="0x7f100439" android:layout_width="-2" android:layout_height="-2" android:layout_below="0x7f100437" style="@r/TextMidGrey_Small" />
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="-1" android:layout_height="-1">
+    <fragment android:name="com.appboy.ui.AppboyFeedFragment" android:id="@id/com_appboy_feed" android:layout_width="-1" android:layout_height="-1" />
+</LinearLayout>

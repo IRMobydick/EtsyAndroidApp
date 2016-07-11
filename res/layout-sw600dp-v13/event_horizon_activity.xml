@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:padding="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="@r/container_event_horizon" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="0.5" />
+    <FrameLayout android:id="@r/container_event_horizon_detail" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="0.5" />
+</LinearLayout>

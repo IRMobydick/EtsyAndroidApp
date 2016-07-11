@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="0" android:padding="@r/fixed_medium_large" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:ellipsize="3" android:id="0x7f1004d4" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/fixed_small" android:text="@r/listed_on_detailed" android:singleLine="true" style="@r/TextLightGrey_Small" />
+    <TextView android:ellipsize="3" android:id="0x7f1004d5" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="@r/TextLightGrey_Small" />
+    <TextView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/fixed_medium" android:layout_marginRight="@r/fixed_medium" android:text="@r/dash" style="@r/TextLightGrey_Small" />
+    <TextView android:ellipsize="3" android:id="0x7f1004d6" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/fixed_small" android:singleLine="true" style="@r/TextLightGrey_Small" />
+    <TextView android:ellipsize="3" android:layout_width="-2" android:layout_height="-2" android:text="@r/views" android:singleLine="true" style="@r/TextLightGrey_Small" />
+    <View android:background="@r/light_grey_dot" android:layout_width="3dp" android:layout_height="3dp" android:layout_margin="@r/padding_small" />
+    <TextView android:ellipsize="3" android:id="0x7f1004d7" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/fixed_small" android:singleLine="true" style="@r/TextLightGrey_Small" />
+    <TextView android:ellipsize="3" android:layout_width="-2" android:layout_height="-2" android:text="@r/favorites" android:singleLine="true" style="@r/TextLightGrey_Small" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:paddingTop="@r/padding_large" android:paddingRight="@r/padding_large" android:paddingBottom="@r/padding_large">
+    <Space android:layout_width="?unknown_attr_ref: 7f0100b1" android:layout_column="1" />
+    <TextView android:id="0x7f1003f9" android:layout_column="2" style="@r/TextGrey" />
+    <TextView android:id="@r/date" android:layout_marginLeft="@r/margin_xlarge" android:layout_column="3" android:layout_weight="1.0" style="@r/TextGrey" />
+    <TextView android:gravity="5" android:id="0x7f100369" android:layout_marginLeft="@r/margin_medium_large" android:layout_column="4" style="@r/TextGrey" />
+</TableRow>

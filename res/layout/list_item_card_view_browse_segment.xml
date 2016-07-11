@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="0x7f10039e" android:layout_width="-1" android:layout_height="-2" style="@r/CardViewElementStyle">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="0x7f1003a0" android:layout_width="-1" android:layout_height="-2" android:scaleType="6" android:contentDescription="@r/listing_image_content_description" />
+            <TextView android:layout_gravity="55" android:id="0x7f1002a8" android:visibility="2" style="0x7f0b00e7" />
+        </FrameLayout>
+        <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <LinearLayout android:orientation="0" android:id="0x7f1003a1" android:padding="@r/padding_small_medium" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:ellipsize="3" android:id="@r/txt_title" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="@r/fixed_small" android:layout_marginRight="@r/fixed_small" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" style="@r/TextDarkGrey" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

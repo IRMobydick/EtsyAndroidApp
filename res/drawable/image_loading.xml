@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:drawable="@r/bg_empty_image" />
+    <item>
+        <bitmap android:gravity="11" android:src="@r/spinner_blue" />
+    </item>
+</layer-list>

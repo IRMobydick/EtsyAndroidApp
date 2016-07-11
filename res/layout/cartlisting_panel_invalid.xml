@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:layout_gravity="10" android:id="0x7f1001ab" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="@r/TextDarkGrey" />
+        <Button android:layout_gravity="10" android:id="0x7f1001ac" android:layout_width="-2" android:layout_height="@r/padding_xlarge" android:layout_marginLeft="@r/margin_tiny" android:text="@r/remove" android:maxLines="1" style="@r/ButtonBlueV2_NoHeight" />
+    </LinearLayout>
+    <View android:id="0x7f1001ad" android:background="0x7f0e00c5" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="@r/margin_medium" android:layout_marginBottom="@r/margin_medium" />
+    <com.etsy.android.uikit.view.ZeroSpinner android:id="0x7f1001ae" android:layout_width="-2" android:layout_height="-2" android:spinnerMode="0" style="0x7f0b00db" />
+</merge>

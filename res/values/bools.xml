@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_allow_stacked_button_bar">true</bool>
+    <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
+    <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="cart_show_add_text">false</bool>
+    <bool name="cart_show_totals_border">false</bool>
+    <bool name="is_phone">true</bool>
+    <bool name="is_seven_inch">false</bool>
+    <bool name="is_ten_inch">false</bool>
+    <bool name="abc_action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
+    <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="com_appboy_disable_location_collection">true</bool>
+    <bool name="com_appboy_push_gcm_messaging_registration_enabled">false</bool>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+</resources>

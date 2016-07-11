@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@r/background_main_v2" android:layout_width="-1" android:layout_height="-2">
+    <android.support.v7.widget.CardView android:id="0x7f100400" android:layout_width="-1" android:layout_height="-1" android:layout_margin="0dp" style="@r/CardViewElementStyle">
+        <LinearLayout android:orientation="1" android:paddingBottom="@r/fixed_large" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:ellipsize="3" android:id="0x7f1003fb" android:paddingLeft="@r/fixed_large" android:paddingTop="@r/fixed_medium_large" android:paddingRight="@r/fixed_large" android:paddingBottom="@r/fixed_medium_large" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@r/TextGrey_Large" />
+            <include android:id="0x7f1003fc" layout="0x7f030163" />
+            <include android:id="0x7f1003fd" layout="0x7f030163" />
+            <TextView android:id="0x7f100401" android:paddingLeft="@r/fixed_large" android:paddingTop="@r/fixed_large" android:paddingRight="@r/fixed_large" android:layout_width="-1" android:layout_height="-2" android:textAllCaps="true" style="@r/TextGrey_Small" />
+            <TextView android:ellipsize="3" android:id="0x7f1003fe" android:paddingLeft="@r/fixed_large" android:paddingTop="@r/fixed_small" android:paddingRight="@r/fixed_large" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@r/TextDarkGrey_Large" />
+            <TextView android:ellipsize="3" android:id="0x7f1003ff" android:paddingLeft="@r/fixed_large" android:paddingTop="@r/fixed_small" android:paddingRight="@r/fixed_large" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@r/TextGrey" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

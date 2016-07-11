@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" style="0x7f0b0017">
+    <RelativeLayout android:id="0x7f10041c" android:background="@r/cart_message_bubble" android:padding="@r/margin_large" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="11pt" android:textColor="@r/orange" android:gravity="11" android:id="@r/icon" android:background="@r/circle" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginRight="@r/margin_large" android:maxLength="1" />
+        <TextView android:id="0x7f10013d" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium" android:layout_marginBottom="@r/margin_medium" android:layout_toRightOf="@r/icon" android:lineSpacingExtra="@r/margin_medium" style="@r/TextDarkGrey" />
+        <Button android:textColor="@r/text_dark_grey" android:id="0x7f10041f" android:visibility="2" android:layout_width="-2" android:layout_toRightOf="@r/icon" android:layout_below="0x7f10013d" style="0x7f0b019d" />
+    </RelativeLayout>
+    <ImageView android:id="0x7f10041e" android:layout_width="-1" android:layout_height="26dp" android:layout_marginLeft="22dp" android:src="@r/cart_message_bubble_pointer" />
+</LinearLayout>

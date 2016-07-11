@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-2" android:layout_height="-2" android:foreground="@r/fg_standard_selector">
+    <RelativeLayout android:padding="@r/padding_large" android:layout_width="-1" android:layout_height="-2" android:minHeight="?unknown_attr_ref: 101004d">
+        <TextView android:id="@r/title" android:layout_width="-1" android:layout_height="-2" android:textAllCaps="true" style="?unknown_attr_ref: 7f010029" />
+        <TextView android:id="@r/subtitle" android:layout_width="-1" android:layout_height="-2" android:layout_below="@r/title" android:layout_alignLeft="@r/title" style="@r/TextGrey" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@r/ic_shop_share_annotation" />
+    <TextView android:gravity="1" android:layout_width="-2" android:layout_height="-2" android:layout_margin="@r/margin_large" android:text="@r/shop_share_boe_onboarding_text" android:maxEms="12" style="?unknown_attr_ref: 7f010065" />
+    <Button android:id="0x7f100317" android:paddingLeft="@r/padding_large" android:paddingRight="@r/padding_large" android:layout_width="-2" android:layout_height="-2" android:text="@r/shop_share_boe_onboarding_button" style="@r/ButtonBlueV2_NoHeight" />
+</LinearLayout>

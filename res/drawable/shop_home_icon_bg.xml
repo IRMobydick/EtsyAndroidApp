@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="0">
+    <padding android:left="@r/shop2_home_icon_border_width" android:top="@r/shop2_home_icon_border_width" android:right="@r/shop2_home_icon_border_width" android:bottom="@r/shop2_home_icon_border_width" />
+    <stroke android:width="@r/shop2_home_icon_border_width" android:color="@r/white" />
+    <corners android:radius="@r/shop2_home_icon_corner_radius" />
+</shape>

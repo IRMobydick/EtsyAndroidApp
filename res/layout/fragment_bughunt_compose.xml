@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:layout_width="-1" app:layout_height="-1">
+    <ScrollView app:id="@r/bughunt_compose_content" app:layout_width="-1" app:layout_height="-1">
+        <LinearLayout app:orientation="1" app:background="@r/white" app:layout_width="-1" app:layout_height="-2" app:layout_marginBottom="@r/padding_medium_large"
+            <LinearLayout app:id="@r/bugbounty_edit_username_container" app:background="@r/background_main_v2" app:paddingTop="@r/padding_medium" app:layout_width="-1" app:layout_height="-2">
+                <EditText app:ellipsize="3" app:gravity="10" app:id="@r/bugbounty_edit_username" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/padding_large" app:layout_marginRight="@r/padding_large" app:layout_marginBottom="@r/padding_medium" app:hint="@r/bugbounty_username_hint" app:maxLines="1" app:singleLine="true" app:inputType="1" style="@r/EditText" />
+            </LinearLayout>
+            <com.etsy.android.uikit.view.GuardianTextView app:id="@r/label_bug_message" app:paddingLeft="@r/padding_large" app:paddingRight="@r/padding_large" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_large" app:text="@r/bugbounty_description_label" style="?unknown_attr_ref: 7f01002c" />
+            <LinearLayout app:id="@r/edit_bug_message_container" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_tiny">
+                <EditText app:id="@r/edit_bug_message" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/padding_large" app:layout_marginRight="@r/padding_large" app:hint="@r/bugbounty_description_hint" style="@r/EditText_MultiLine" />
+            </LinearLayout>
+            <com.etsy.android.uikit.view.GuardianTextView app:textColor="@r/blue" app:id="@r/label_bugbounty_screenshot_prompt" app:paddingLeft="@r/padding_large" app:paddingRight="@r/padding_large" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_large" app:text="@r/bugbounty_screenshot_prompt" style="?unknown_attr_ref: 7f01002c" />
+            <LinearLayout app:gravity="10" app:orientation="0" app:layout_width="-1" app:layout_height="-2">
+                <ImageButton app:id="@r/bughunt_image_add" app:background="@r/btn_white_blue_border_selector_v2" app:padding="@r/fixed_large" app:layout_width="-2" app:layout_height="-2" app:layout_margin="@r/fixed_large" app:src="@r/ic_camera" />
+                <TextView app:layout_gravity="30" app:id="@r/footer_message" app:paddingTop="@r/fixed_large" app:paddingRight="@r/fixed_large" app:layout_width="0dp" app:layout_height="-2" app:text="@r/bugbounty_screenshot_message" app:layout_weight="1.0" app:lineSpacingExtra="2dp" style="@r/TextLightGrey_Small" />
+                <com.etsy.android.uikit.view.ImageAttachmentLayout app:orientation="0" app:id="@r/bughunt_image_attachments" app:padding="@r/padding_large" app:visibility="2" app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0" app:attachmentPadding="@r/padding_large" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.etsy.android.uikit.view.LoadingIndicatorView app:layout_gravity="11" app:id="@r/loading_indicator" app:background="0x106000d" app:padding="@r/padding_large" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:src="@r/spinner_blue" app:scaleType="5" />
+</FrameLayout>

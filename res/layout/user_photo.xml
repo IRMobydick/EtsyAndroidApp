@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView app:id="@r/click_region" app:layout_width="-1" app:layout_height="-2" style="@r/EtsyCardViewStyle">
+    <com.etsy.android.uikit.view.ImageViewWithAspectRatio app:id="@r/appreciation_photo" app:layout_width="-1" app:layout_height="0dp" app:scaleType="6" app:adjustViewBounds="true" app:heightRatio="1.0" />
+</android.support.v7.widget.CardView>

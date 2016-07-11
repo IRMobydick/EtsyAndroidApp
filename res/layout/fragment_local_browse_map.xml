@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <com.google.android.gms.maps.MapView android:id="@r/map" android:layout_width="-1" android:layout_height="-1" />
+    <Button android:layout_gravity="55" android:id="0x7f1002cd" android:paddingLeft="@r/padding_large" android:paddingRight="@r/padding_large" android:layout_width="-2" android:layout_height="@r/button_height_tall" android:layout_marginRight="@r/margin_medium_large" android:layout_marginBottom="@r/margin_medium_large" android:text="@r/local_browse_btn_list_view" android:textAllCaps="true" style="@r/ButtonBlueV2" />
+</FrameLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@r/link_text" android:background="@r/white" android:paddingLeft="@r/fixed_large" android:paddingRight="@r/fixed_large" android:paddingBottom="@r/padding_large" android:layout_width="-1" android:layout_height="-2" style="@r/TextBlue" />

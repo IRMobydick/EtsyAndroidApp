@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item android:left="0x7f0a0152">
+        <rotate android:fromDegrees="45.0" android:toDegrees="45.0" android:pivotX="0.0" android:pivotY="0.0">
+            <shape android:shape="0">
+                <stroke android:width="0x7f0a01f9" android:color="0x106000c" />
+                <solid android:color="0x106000c" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

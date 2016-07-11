@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="1" android:layout_width="-1" android:layout_height="0x7f0a004b" android:layout_marginRight="@r/margin_medium">
+    <com.etsy.android.uikit.view.GuardianTextView android:ellipsize="3" android:id="0x7f100370" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="?unknown_attr_ref: 7f01002a" />
+    <TextView android:ellipsize="3" android:id="0x7f100371" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_tiny" android:singleLine="true" style="@r/TextLightGrey_Small" />
+    <LinearLayout android:gravity="10" android:orientation="0" android:id="0x7f100153" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+        <com.etsy.android.uikit.view.RatingIconView android:id="@r/shop_rating" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_small" android:starSize="@r/review_star_size_small" />
+        <TextView android:id="@r/rating_count" android:layout_width="-2" android:layout_height="-2" style="@r/TextGrey_Small" />
+    </LinearLayout>
+</LinearLayout>

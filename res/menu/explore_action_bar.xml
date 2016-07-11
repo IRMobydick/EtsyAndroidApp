@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="@r/ic_menu_share" app:id="@r/menu_share" app:orderInCategory="10000" app:title="@r/menu_share" app:showAsAction="2" />
+    <item app:icon="0x7f0201a3" app:id="0x7f100607" app:orderInCategory="10000" app:title="@r/menu_search" app:showAsAction="2" />
+    <item app:id="0x7f100608" app:orderInCategory="10000" app:title="@r/menu_cart" app:showAsAction="2" />
+</menu>

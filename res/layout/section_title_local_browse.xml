@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@r/background_main_v2" android:paddingLeft="@r/padding_medium" android:paddingTop="@r/padding_large_xlarge" android:paddingRight="@r/padding_medium" android:paddingBottom="@r/padding_medium" android:layout_width="-1" android:layout_height="-2">
+    <com.etsy.android.uikit.view.GuardianTextView android:layout_gravity="11" android:id="@r/title" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f010045" />
+</FrameLayout>

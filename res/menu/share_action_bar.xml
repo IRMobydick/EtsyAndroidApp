@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="@r/ic_menu_share" app:id="@r/menu_share" app:title="@r/menu_share" app:showAsAction="2" />
+</menu>

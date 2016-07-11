@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="0x7f100158" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@r/margin_medium">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@r/appreciation_photo" android:layout_width="0x7f0a000b" android:layout_height="0x7f0a000a" android:scaleType="6" />
+        <FrameLayout android:gravity="1" android:layout_width="-1" android:layout_height="-2">
+            <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_margin="@r/margin_medium_large">
+                <ImageView android:id="0x7f10015a" android:layout_width="0x7f0a0136" android:layout_height="0x7f0a0136" />
+                <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_medium_large" android:layout_toRightOf="0x7f10015a">
+                    <TextView android:id="0x7f10015b" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f01005a" />
+                    <TextView android:id="0x7f10015c" android:layout_width="-1" android:layout_height="-2" style="@r/TextGrey_Large" />
+                    <include layout="@r/list_item_card_view_listing_full" />
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

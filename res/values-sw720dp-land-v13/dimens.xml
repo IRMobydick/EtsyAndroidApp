@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="shop_share_card_landing_margin_vertical">24.0dip</dimen>
+    <dimen name="card_button_height">54.0dip</dimen>
+    <item type="dimen" name="cart_card_between_padding">@dimen/padding_small</item>
+    <item type="dimen" name="cart_inner_padding">@dimen/padding_medium</item>
+    <dimen name="cart_listing_image_width">180.0dip</dimen>
+    <item type="dimen" name="cart_outer_padding">@dimen/padding_small</item>
+    <dimen name="cart_outer_top_padding">0.0dip</dimen>
+    <dimen name="local_browse_header_panel_side_margin">240.0dip</dimen>
+    <dimen name="local_browse_list_side_padding">16.0dip</dimen>
+    <dimen name="cart_inner_padding_adj">12.0dip</dimen>
+    <item type="dimen" name="cart_listing_image_buffer">@dimen/padding_medium</item>
+    <dimen name="feed_horizontal_padding">40.0dip</dimen>
+    <dimen name="grid_horizontal_padding">24.0dip</dimen>
+    <dimen name="list_horizontal_card_padding">52.0dip</dimen>
+    <dimen name="list_horizontal_padding">56.0dip</dimen>
+    <dimen name="list_multi_column_horizontal_padding">40.0dip</dimen>
+    <dimen name="listview_extra_padding">32.0dip</dimen>
+    <dimen name="user_left_adjust_padding">8.0dip</dimen>
+    <dimen name="share_details_width">420.0dip</dimen>
+    <dimen name="share_listing_card_width">275.0dip</dimen>
+</resources>

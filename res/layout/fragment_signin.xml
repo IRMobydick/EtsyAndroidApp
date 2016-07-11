@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <com.etsy.android.uikit.view.GuardianTextView android:id="@r/txt_title" android:paddingTop="@r/fixed_large" android:paddingBottom="@r/fixed_large" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginRight="@r/margin_large" android:text="@r/sign_in" style="?unknown_attr_ref: 7f010045" />
+    <TextView android:id="@r/txt_subtitle" android:paddingBottom="@r/fixed_large" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/neg_fixed_medium" android:layout_marginRight="@r/margin_large" style="@r/TextGrey" />
+    <View android:id="@r/divider" android:background="@r/list_divider_dark" android:layout_width="-1" android:layout_height="@r/divider_height" />
+    <TextView android:id="0x7f1002ff" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" style="0x7f0b0242" />
+    <ScrollView android:layout_width="-1" android:layout_height="-1">
+        <LinearLayout android:orientation="1" android:paddingBottom="@r/padding_medium" android:layout_width="-1" android:layout_height="-2">
+            <EditText android:id="0x7f10026d" android:nextFocusDown="0x7f100318" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_large" android:layout_marginTop="@r/margin_large" android:layout_marginRight="@r/margin_large" android:hint="@r/email_username_hint" android:singleLine="true" android:inputType="21" style="@r/EditText_RegSignin">
+                <requestFocus />
+            </EditText>
+            <EditText android:id="0x7f100318" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@r/margin_large" android:hint="@r/password_hint" android:inputType="80081" android:imeOptions="6" style="@r/EditText_RegSignin" />
+            <LinearLayout android:orientation="0" android:paddingBottom="@r/padding_medium" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:textStyle="0" android:gravity="13" android:id="0x7f100319" android:paddingLeft="0x7f0a00a6" android:paddingRight="0x7f0a00a6" android:layout_width="-2" android:layout_height="@r/button_height" android:text="@r/forgot_password_title" android:layout_weight="0.5" style="?unknown_attr_ref: 7f01000a" />
+                <Button android:id="0x7f10031a" android:paddingLeft="@r/padding_large" android:paddingRight="@r/padding_large" android:layout_width="-2" android:layout_height="@r/button_height" android:layout_marginLeft="@r/margin_large" android:layout_marginRight="@r/margin_large" android:text="@r/signin_button_text" android:layout_weight="0.5" style="?unknown_attr_ref: 7f010007" />
+            </LinearLayout>
+            <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" android:layout_marginBottom="@r/padding_medium" />
+            <TextView android:textStyle="0" android:gravity="11" android:layout_gravity="11" android:id="0x7f10031b" android:paddingLeft="0x7f0a00a6" android:paddingRight="0x7f0a00a6" android:layout_width="-2" android:layout_height="@r/list_item_height" android:text="@r/sign_in_switch_to_register" style="?unknown_attr_ref: 7f010009" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

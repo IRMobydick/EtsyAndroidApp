@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="0x7f100402" android:paddingTop="@r/padding_large" android:paddingBottom="@r/padding_large" android:layout_width="-1" android:layout_height="-2" style="0x7f0b0018">
+    <View android:background="@r/divider_dark" android:layout_width="-1" android:layout_height="@r/divider_height" />
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="@r/button_height" style="0x7f0b0019">
+        <Button android:id="0x7f100403" android:background="@r/bg_ten_percent_white_selector" android:layout_width="-2" android:layout_height="@r/button_height" android:layout_marginRight="@r/margin_medium" android:text="@r/coupon_code_hint" style="@r/TextOrange" />
+        <TextView android:layout_gravity="10" android:id="0x7f100404" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_medium" android:text="@r/coupon_code_title" style="@r/TextGrey" />
+        <EditText android:id="0x7f100405" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:inputType="1001" android:imeOptions="6" android:textAllCaps="true" style="@r/TextGrey" />
+    </LinearLayout>
+    <TextView android:textSize="@r/text_medium" android:textColor="@r/red" android:id="0x7f100406" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/padding_large" style="0x7f0b0019" />
+    <View android:background="@r/divider_dark" android:layout_width="-1" android:layout_height="@r/divider_height" />
+</LinearLayout>

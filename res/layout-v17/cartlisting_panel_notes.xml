@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="0" android:id="0x7f1001b9" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_medium" android:src="@r/ic_asap_orange" android:layout_marginEnd="@r/margin_medium" />
+        <TextView android:textColor="@r/orange" android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="1dp" android:text="@r/local_delivery_available" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="local_market_details_background">@drawable/bg_card</item>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@r/error_text" android:background="@r/sold_out_red" android:padding="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2" style="@r/TextWhite" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:background="0x7f0e0034" app:layout_width="-1" app:layout_height="-2">
+    <RelativeLayout app:id="0x7f1003f2" app:background="@r/bg_ten_percent_black_selector" app:padding="@r/collection_row_padding" app:layout_width="-1" app:layout_height="-2">
+        <com.etsy.android.iconsy.views.IconView app:id="0x7f1003f3" app:background="@r/white" app:padding="14dp" app:layout_width="0x7f0a00c5" app:layout_height="0x7f0a00c5" app:layout_marginRight="@r/margin_medium" app:layout_centerVertical="true" app:iconChar="@r/ic_etsy_plus" app:gravity="11" app:iconColor="@r/button_blue" />
+        <TextView app:layout_width="-2" app:layout_height="-2" app:text="@r/collection_create_new" app:layout_toRightOf="0x7f1003f3" app:layout_centerVertical="true" style="@r/TextGrey_Large" />
+    </RelativeLayout>
+</FrameLayout>

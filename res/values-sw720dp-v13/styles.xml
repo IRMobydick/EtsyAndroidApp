@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonWhiteV2.PreGraphik.Small" parent="@style/ButtonWhiteV2.PreGraphik">
+        <item name="android:paddingLeft">@dimen/padding_medium</item>
+        <item name="android:paddingRight">@dimen/padding_medium</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/button_small_height</item>
+    </style>
+    <style name="ButtonWhiteV2.Small" parent="@style/ButtonWhiteV2">
+        <item name="android:paddingLeft">@dimen/padding_medium</item>
+        <item name="android:paddingRight">@dimen/padding_medium</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/button_small_height</item>
+    </style>
+    <style name="Cart.NoteToSeller" parent="@style/Cart">
+        <item name="android:textAppearance">@style/TextGrey</item>
+        <item name="android:background">@drawable/edit_text_material</item>
+        <item name="android:layout_marginLeft">@dimen/cart_inner_padding_adj</item>
+        <item name="android:layout_marginTop">@dimen/cart_note_top_margin</item>
+        <item name="android:layout_marginRight">@dimen/cart_inner_padding_adj</item>
+        <item name="android:layout_marginBottom">@dimen/cart_note_bottom_margin</item>
+    </style>
+</resources>

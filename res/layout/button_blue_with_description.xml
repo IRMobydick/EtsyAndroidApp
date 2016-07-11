@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingTop="@r/padding_large" android:paddingBottom="@r/padding_large" android:layout_width="-1" android:layout_height="-2">
+    <include layout="@r/merge_button_blue" />
+    <TextView android:layout_gravity="1" android:id="0x1020014" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/fixed_small" style="@r/TextMidGrey" />
+</LinearLayout>

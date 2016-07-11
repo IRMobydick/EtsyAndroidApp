@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="shop_home_icon">@layout/shop_icon_left_aligned</item>
+    <item type="layout" name="shop_home_info">@layout/shop_home_info_left_aligned</item>
+    <item type="layout" name="user_profile_action_buttons">@layout/user_profile_action_buttons_horizontal</item>
+    <item type="layout" name="user_profile_card">@layout/user_profile_card_grid</item>
+    <item type="layout" name="user_profile_header">@layout/user_profile_header_horizontal</item>
+</resources>

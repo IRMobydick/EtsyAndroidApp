@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+    <include layout="@r/app_bar" />
+    <FrameLayout app:id="@r/window_container" app:background="@r/drawer_scrim" app:layout_width="-1" app:layout_height="-1" app:layout_behavior="@r/appbar_scrolling_view_behavior" />
+</LinearLayout>

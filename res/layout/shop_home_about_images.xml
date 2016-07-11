@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:background="@r/white" app:paddingBottom="@r/fixed_small" app:layout_width="-1" app:layout_height="-2">
+    <FrameLayout app:layout_width="-1" app:layout_height="-2">
+        <com.etsy.android.uikit.view.FixedViewPager app:layout_gravity="11" app:id="@r/viewpager" app:layout_width="-1" app:layout_height="-2" />
+        <com.viewpagerindicator.CirclePageIndicator app:layout_gravity="50" app:id="@r/vp_indicator" app:padding="@r/padding_large" app:layout_width="-1" app:layout_height="-2" app:strokeWidth="0dp" app:fillColor="@r/white" app:pageColor="@r/circle_unselected" app:radius="@r/circle_pager_indicator_radius" />
+    </FrameLayout>
+    <TextView app:layout_gravity="11" app:id="@r/caption" app:paddingLeft="@r/padding_medium_large" app:paddingTop="@r/padding_small" app:paddingRight="@r/padding_medium_large" app:layout_width="-2" app:layout_height="-2" style="@r/TextLightGrey_Small" />
+</LinearLayout>

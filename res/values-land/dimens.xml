@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48.0dip</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14.0dip</dimen>
+    <dimen name="ap_landing_page_photo_height">320.0dip</dimen>
+    <dimen name="cart_badge_offset">2.0dip</dimen>
+    <dimen name="cart_badge_offset_right">4.0dip</dimen>
+    <item type="dimen" name="finds_shop_aspect_ratio">0.35</item>
+    <item type="dimen" name="finds_shop_card_grid_column_count">4</item>
+    <item type="dimen" name="finds_shop_card_grid_row_count">1</item>
+    <item type="dimen" name="finds_small_crosslink_aspect_ratio">1.1</item>
+    <dimen name="listing_country_width">240.0dip</dimen>
+    <dimen name="local_browse_header_map_height">120.0dip</dimen>
+    <dimen name="local_browse_header_overlap">40.0dip</dimen>
+    <dimen name="local_browse_map_height">160.0dip</dimen>
+    <dimen name="local_browse_map_height_minus_overlap">120.0dip</dimen>
+    <dimen name="new_search_filter_sheet_centered_margin">32.0dip</dimen>
+    <dimen name="new_search_filter_sheet_top_margin">75.0dip</dimen>
+    <dimen name="shop2_home_announcement_padding">0.0dip</dimen>
+    <dimen name="shop2_search_card_conditional_space">0.0dip</dimen>
+    <dimen name="shop_share_card_home_margin_horizontal">16.0dip</dimen>
+    <dimen name="shop_share_card_home_margin_vertical">16.0dip</dimen>
+    <dimen name="shop_share_card_landing_margin_horizontal">16.0dip</dimen>
+    <dimen name="shop_share_card_landing_margin_vertical">16.0dip</dimen>
+    <dimen name="etsy_asap_padding_left">20.0dip</dimen>
+    <dimen name="etsy_asap_padding_right">20.0dip</dimen>
+    <dimen name="ap_landing_page_photo_width">320.0dip</dimen>
+    <item type="dimen" name="holiday_banner_horizontal_padding">@dimen/padding_large</item>
+    <item type="dimen" name="holiday_banner_vertical_padding">@dimen/padding_xxlarge</item>
+</resources>

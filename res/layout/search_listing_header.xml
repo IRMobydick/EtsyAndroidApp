@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:layout_gravity="30" app:orientation="1" app:id="0x7f100565" app:paddingLeft="0x7f0a00a5" app:paddingRight="0x7f0a00a5" app:clickable="true" app:layout_width="-1" app:layout_height="-2" app:layout_alignParentTop="true">
+    <RelativeLayout app:orientation="1" app:id="0x7f100566" app:background="@r/background_main_v2_transparent" app:paddingLeft="@r/fixed_small" app:paddingTop="0x7f0a00be" app:paddingRight="@r/fixed_small" app:paddingBottom="0x7f0a00bf" app:layout_width="-1" app:layout_height="-2">
+        <TextView app:ellipsize="3" app:id="@r/txt_header" app:layout_width="-1" app:layout_height="-2" app:singleLine="true" style="?unknown_attr_ref: 7f010031" />
+        <TextView app:id="0x7f100567" app:background="@r/list_selector" app:padding="@r/padding_small" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:text="@r/clear" app:layout_below="@r/txt_header" app:layout_alignParentRight="true" style="@r/TextBlue" />
+        <TextView app:ellipsize="3" app:id="0x7f100568" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_small" app:maxLines="2" app:singleLine="false" app:layout_toLeftOf="0x7f100567" app:layout_below="@r/txt_header" app:layout_alignParentLeft="true" style="@r/TextLightGrey" />
+    </RelativeLayout>
+    <com.etsy.android.uikit.view.MaxWidthLinearLayout app:orientation="1" app:id="0x7f100525" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:maxWidth="0x7f0a023a" style="@r/CardStyle">
+        <TextView app:ellipsize="3" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium" app:layout_marginTop="@r/margin_medium" app:layout_marginRight="@r/margin_medium" app:text="@r/other_things_to_try" app:singleLine="true" style="?unknown_attr_ref: 7f010052" />
+        <TextView app:ellipsize="3" app:id="0x7f100569" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium" app:layout_marginTop="@r/margin_medium" app:layout_marginRight="@r/margin_medium" app:text="@r/search_suggest_other_keywords" app:singleLine="true" style="@r/TextLightGrey" />
+        <TextView app:ellipsize="3" app:id="0x7f10056a" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium" app:layout_marginTop="@r/margin_small" app:layout_marginRight="@r/margin_medium" app:text="@r/search_suggest_fewer_keywords" app:singleLine="true" style="@r/TextLightGrey" />
+        <TextView app:ellipsize="3" app:id="0x7f10056b" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium" app:layout_marginTop="@r/margin_small" app:layout_marginRight="@r/margin_medium" app:layout_marginBottom="@r/margin_medium" app:text="@r/search_suggest_filters" app:singleLine="true" style="@r/TextLightGrey" />
+    </com.etsy.android.uikit.view.MaxWidthLinearLayout>
+</LinearLayout>

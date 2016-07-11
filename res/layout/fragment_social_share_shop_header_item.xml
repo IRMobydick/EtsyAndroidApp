@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:gravity="1" app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+    <ImageView app:id="@r/shop_avatar" app:layout_width="@r/shop_avatar" app:layout_height="@r/shop_avatar" style="@r/ShopAvatarLarge" />
+    <TextView app:textColor="@r/social_share_shop_name" app:id="@r/shop_owner_name" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_medium_large" style="?unknown_attr_ref: 7f01003c" />
+    <TextView app:textColor="@r/social_share_shop_description" app:gravity="1" app:id="@r/shop_description" app:paddingLeft="@r/social_share_text_padding" app:paddingTop="@r/fixed_small" app:paddingRight="@r/social_share_text_padding" app:layout_width="-2" app:layout_height="-2" style="@r/TextLightGrey" />
+    <com.etsy.android.uikit.view.RatingIconView app:id="@r/rating" app:paddingTop="@r/fixed_small_medium" app:layout_width="-2" app:layout_height="-2" app:starSize="@r/review_star_size_small" />
+</LinearLayout>

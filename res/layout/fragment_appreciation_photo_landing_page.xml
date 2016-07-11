@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <android.support.v7.widget.RecyclerView android:id="@r/recycler_view" android:padding="@r/margin_medium" android:scrollbars="200" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" />
+    <include layout="@r/partial_loading" />
+    <include layout="@r/partial_no_internet" />
+</FrameLayout>

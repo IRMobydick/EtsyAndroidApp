@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <include layout="@r/app_bar" />
+    <FrameLayout android:background="@r/white" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="1.0"
+        <FrameLayout android:id="@r/fragment_container" android:layout_width="-1" android:layout_height="-1" />
+        <android.support.design.widget.FloatingActionButton android:layout_gravity="55" android:id="@r/fab_bug" android:layout_width="@r/design_fab_size_normal" android:layout_height="@r/design_fab_size_normal" android:layout_marginRight="@r/fixed_large" android:layout_marginBottom="@r/fixed_large" android:src="@r/ic_bug" />
+    </FrameLayout>
+</LinearLayout>

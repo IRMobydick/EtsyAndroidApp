@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="0x7f100276" android:background="0x7f0e0034" android:padding="@r/padding_large" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="0x7f100277" android:background="@r/white" android:layout_width="0x7f0a00c5" android:layout_height="0x7f0a00c5" android:layout_marginRight="@r/margin_medium" android:scaleType="6" />
+    <LinearLayout android:orientation="1" android:id="0x7f100278" android:layout_width="-1" android:layout_height="-2" android:layout_toRightOf="0x7f100277"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+            <EditText android:id="0x7f100279" android:paddingBottom="@r/padding_medium" android:layout_width="0dp" android:layout_height="-2" android:hint="@r/collection_create_name_hint" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" />
+            <Button android:id="0x7f10027a" android:background="@r/list_selector" android:paddingLeft="@r/padding_small" android:paddingRight="@r/padding_small" android:layout_width="-2" android:layout_height="@r/button_height_small" android:minWidth="48dp" android:text="@r/collection_btn_add" android:textAllCaps="true" style="?unknown_attr_ref: 7f010034" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="-1" android:layout_height="@r/button_height" style="0x7f0b0016">
+    <Button android:id="0x7f100425" android:background="@r/bg_ten_percent_white_selector" android:layout_width="-2" android:layout_height="@r/button_height" android:layout_marginRight="@r/margin_medium" android:text="@r/calculate_shipping" style="@r/TextOrange" />
+    <TextView android:layout_gravity="10" android:id="0x7f100426" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_medium" android:text="@r/ship_to_label" style="@r/TextGrey" />
+    <Spinner android:entries="@r/stats_time_selections_nt" android:layout_gravity="10" android:id="0x7f100427" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_medium" android:spinnerMode="0" style="@r/Widget_AppCompat_Spinner" />
+    <EditText android:id="0x7f100428" android:visibility="2" android:layout_width="72dp" android:layout_height="-2" android:hint="@r/address_zip" android:inputType="2002" android:imeOptions="6" style="@r/TextGrey" />
+</LinearLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColorLink="@r/blue" android:linksClickable="true" android:orientation="1" android:id="0x7f1005b0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_large" android:text="@r/vat_desc" style="@r/TextGrey" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="@r/fixed_medium" android:paddingTop="@r/fixed_large" android:paddingRight="@r/fixed_medium" android:paddingBottom="@r/fixed_large" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:layout_gravity="1" android:id="@r/image" android:visibility="2" android:layout_width="-2" android:layout_height="@r/empty_icon_size" android:layout_marginTop="@r/margin_large" android:layout_marginBottom="@r/margin_large" android:src="0x7f02016a" />
+    <TextView android:gravity="11" android:layout_gravity="1" android:id="@r/txt_title" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/margin_large" android:layout_marginBottom="@r/margin_small" style="?unknown_attr_ref: 7f01003f" />
+    <TextView android:gravity="11" android:layout_gravity="1" android:id="0x7f1003ad" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/margin_small" android:layout_marginBottom="@r/margin_small" style="@r/TextGrey_Large" />
+    <FrameLayout android:layout_gravity="1" android:id="0x7f1003ae" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/margin_small" android:layout_marginBottom="@r/margin_large" android:foreground="@r/fg_standard_selector">
+        <TextView android:gravity="11" android:id="0x7f1003a7" android:padding="@r/padding_medium" android:layout_width="-2" android:layout_height="-2" android:singleLine="false" style="?unknown_attr_ref: 7f010035" />
+    </FrameLayout>
+</LinearLayout>

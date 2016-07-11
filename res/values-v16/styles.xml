@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Finds.Label" parent="@style/Finds">
+        <item name="android:textSize">@dimen/text_smaller</item>
+        <item name="android:textColor">@color/text_mid_grey</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">san-serif-light</item>
+    </style>
+    <style name="DialogListRow.Text.Light.PreGraphik" parent="@style/DialogListRow.Text">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="DialogRow.Text.Light.PreGraphik" parent="@style/DialogRow.Text">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="EditText.SingleLine.Light.PreGraphik" parent="@style/EditText.SingleLine">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="EtsySearchViewTextStyle" parent="@android:style/Widget.Holo.Light.AutoCompleteTextView">
+        <item name="android:textSize">@dimen/text_larger</item>
+        <item name="android:textColor">@color/actionbar_textcolor_v2</item>
+        <item name="android:textColorHint">@color/actionbar_textcolor_hint_v2</item>
+        <item name="android:popupBackground">@drawable/bg_card_dark</item>
+        <item name="android:popupAnimationStyle">@style/PopupAnimation</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PullToRefreshText.Light.PreGraphik" parent="@style/PullToRefreshText">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="RadioGroupRow.Light.PreGraphik" parent="@style/RadioGroupRow">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="SettingsItemText.Card.Light.PreGraphik" parent="@style/SettingsItemText.Card">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="SettingsItemText.Light.PreGraphik" parent="@style/SettingsItemText">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="SettingsSubTitle.PreGraphik" parent="@style/TextGrey.Small">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextBlack.Large.Light.PreGraphik" parent="@style/TextBlack.Large">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextBlack.Larger.Light.PreGraphik" parent="@style/TextBlack.Larger">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextBlack.Light.PreGraphik" parent="@style/TextBlack">
+        <item name="android:fontFamily">san-serif-light</item>
+    </style>
+    <style name="TextBlack.Lighter" parent="@style/TextBlack">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextBlack.XLarge.Light.PreGraphik" parent="@style/TextBlack.XLarge">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextBlue.Large.Light.PreGraphik" parent="@style/TextBlue.Large">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextBlue.Larger.Light.PreGraphik" parent="@style/TextBlue.Larger">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextBlue.Light.PreGraphik" parent="@style/TextBlue">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextDarkGrey.Condensed.PreGraphik" parent="@style/TextDarkGrey">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="TextDarkGrey.Large.Light.PreGraphik" parent="@style/TextDarkGrey.Large">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextDarkGrey.Larger.Light.PreGraphik" parent="@style/TextDarkGrey.Larger">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextDarkGrey.Light.PreGraphik" parent="@style/TextDarkGrey">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextDarkGrey.XLarge.Light.PreGraphik" parent="@style/TextDarkGrey.XLarge">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextGreen.Light.PreGraphik" parent="@style/TextGreen">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextGreen.XLarge.Light.PreGraphik" parent="@style/TextGreen">
+        <item name="android:textSize">@dimen/text_xxlarge</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextGreen.XXXLarge.Light.PreGraphik" parent="@style/TextGreen">
+        <item name="android:textSize">@dimen/text_xxxlarge</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextGrey.Large.Light.PreGraphik" parent="@style/TextGrey.Large">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextGrey.Larger.Light.PreGraphik" parent="@style/TextGrey.Larger">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextGrey.Light.PreGraphik" parent="@style/TextGrey">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextGrey.Small.Light.PreGraphik" parent="@style/TextGrey.Small">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextLightGrey.Large.Light.PreGraphik" parent="@style/TextLightGrey.Large">
+        <item name="android:fontFamily">san-serif-light</item>
+    </style>
+    <style name="TextLightGrey.Light.PreGraphik" parent="@style/TextLightGrey">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextLightGrey.XLarge.Light.PreGraphik" parent="@style/TextLightGrey.XLarge">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextMidGrey.Large.Light.PreGraphik" parent="@style/TextMidGrey.Large">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextMidGrey.Small.Light.PreGraphik" parent="@style/TextMidGrey.Small">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextWhite.Large.Light.PreGraphik" parent="@style/TextWhite.Large">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextWhite.Larger.Light.PreGraphik" parent="@style/TextWhite.Larger">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextWhite.Light.PreGraphik" parent="@style/TextWhite">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextWhite.Small.Light.PreGraphik" parent="@style/TextWhite.Small">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextWhite.Smaller.Light.PreGraphik" parent="@style/TextWhite.Smaller">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextWhite.XLarge.Light.PreGraphik" parent="@style/TextWhite.XLarge">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextWhite.XXLarge.Light.PreGraphik" parent="@style/TextWhite.XXLarge">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>

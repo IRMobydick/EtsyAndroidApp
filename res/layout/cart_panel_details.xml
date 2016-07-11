@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <TextView android:gravity="3" android:id="0x7f10016e" android:paddingLeft="0x7f0a0030" android:paddingRight="0x7f0a0030" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0x7f0a015d" style="@r/TextGrey" />
+    <LinearLayout android:orientation="1" android:id="0x7f10016f" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="1" android:id="0x7f100170" android:paddingLeft="0x7f0a0030" android:paddingRight="0x7f0a0030" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0x7f0a015d"
+            <LinearLayout android:layout_width="-1" android:layout_height="-2">
+                <TextView android:ellipsize="3" android:layout_gravity="800003" android:id="0x7f100171" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_small" android:text="@r/shipping_price_label" android:singleLine="true" style="@r/TextGrey" />
+                <TextView android:ellipsize="3" android:id="0x7f100172" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/margin_medium" android:text="@r/calculate" android:singleLine="true" style="@r/TextBlue" />
+            </LinearLayout>
+            <LinearLayout android:id="0x7f100173" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+                <Button android:id="0x7f100174" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="0x7f0b0051" />
+                <EditText android:id="0x7f100175" android:layout_width="100dp" android:layout_height="-2" android:hint="@r/shipping_to_hint_zip" android:singleLine="true" android:maxLength="5" android:inputType="2" android:imeOptions="6" style="@r/EditText" />
+            </LinearLayout>
+            <LinearLayout android:orientation="1" android:id="0x7f100176" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+                <Spinner android:id="0x7f100177" android:paddingLeft="@r/padding_small" android:layout_width="-1" android:layout_height="-2" android:spinnerMode="0" style="@r/Spinner_Blue" />
+            </LinearLayout>
+            <FrameLayout android:layout_gravity="11" android:id="0x7f100178" android:visibility="2" android:layout_width="-2" android:layout_height="-1">
+                <com.etsy.android.uikit.view.LoadingIndicatorView android:layout_width="-2" android:layout_height="-1" android:src="@r/spinner_blue" android:scaleType="7" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="0x7f100179" android:paddingLeft="0x7f0a0030" android:paddingRight="0x7f0a0030" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0x7f0a015d"
+            <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="2.0">
+                <TextView android:ellipsize="3" android:layout_gravity="800003" android:id="0x7f10017a" android:layout_width="-1" android:layout_height="-2" android:layout_marginRight="@r/margin_small" android:singleLine="true" style="@r/TextGrey" />
+                <TextView android:ellipsize="3" android:layout_gravity="800003" android:id="0x7f10017b" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_small" android:singleLine="true" style="@r/TextLightGrey" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:gravity="5" android:id="0x7f10017c" android:layout_width="-1" android:layout_height="-2" android:text="@r/shipping_cost_action_update" style="@r/TextBlue" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="0x7f10017d" android:paddingLeft="0x7f0a0030" android:paddingRight="0x7f0a0030" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0x7f0a015d">
+            <include layout="0x7f030041" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:id="0x7f10017e" android:paddingLeft="0x7f0a0030" android:paddingRight="0x7f0a0030" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0x7f0a015d">
+        <TextView android:ellipsize="3" android:layout_gravity="800013" android:id="0x7f10017f" android:layout_width="0dp" android:layout_height="-2" android:text="@r/payment_methods" android:layout_weight="1.0" style="@r/TextGrey" />
+        <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="2.0">
+            <TextView android:ellipsize="3" android:gravity="13" android:id="0x7f100180" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@r/TextGrey" />
+            <Spinner android:id="0x7f100181" android:layout_width="-1" android:layout_height="-2" android:spinnerMode="0" style="@r/Spinner_Blue" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:id="0x7f100168" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f0a0030" android:layout_marginTop="0x7f0a015d" android:layout_marginRight="0x7f0a0030">
+        <TextView android:ellipsize="3" android:gravity="13" android:id="0x7f100169" android:background="0x7f020085" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="0x7f0a0030" android:text="@r/giftcard_apply_balance" android:maxLines="1" android:singleLine="true" android:layout_weight="1.0" style="@r/TextGreen" />
+        <CheckBox android:layout_gravity="10" android:id="0x7f10016a" android:background="0x7f020085" android:layout_width="0x7f0a0158" android:layout_height="0x7f0a0158" />
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:id="0x7f10016c" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0x7f0a015d">
+        <TextView android:layout_gravity="10" android:id="0x7f10016d" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0" style="0x7f0b000f" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0x7f0a015d">
+        <TextView android:id="0x7f100182" android:layout_width="-1" android:layout_height="-2" style="0x7f0b0010" />
+        <TextView android:id="0x7f100183" android:layout_width="-1" android:layout_height="-2" style="0x7f0b000f" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="0x7f100184" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="0x7f0a015d"
+        <LinearLayout android:orientation="0" android:id="0x7f100185" android:paddingLeft="0x7f0a0030" android:paddingRight="0x7f0a0030" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_small">
+            <TextView android:id="0x7f100186" android:layout_width="0dp" android:layout_height="-2" android:text="@r/item_total" android:layout_weight="1.0" style="@r/TextGrey" />
+            <TextView android:id="0x7f100187" android:layout_width="-2" android:layout_height="-2" style="@r/TextGrey" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="0x7f100008" android:paddingLeft="0x7f0a0030" android:paddingRight="0x7f0a0030" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_small">
+            <TextView android:layout_width="0dp" android:layout_height="-2" android:text="@r/shipping_price_label" android:layout_weight="1.0" style="@r/TextGrey" />
+            <TextView android:id="0x7f100188" android:layout_width="-2" android:layout_height="-2" style="@r/TextGrey" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="0x7f100189" android:paddingLeft="0x7f0a0030" android:paddingRight="0x7f0a0030" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_small">
+            <TextView android:layout_width="0dp" android:layout_height="-2" android:text="@r/tax_price_label" android:layout_weight="1.0" style="@r/TextGrey" />
+            <TextView android:id="0x7f10018a" android:layout_width="-2" android:layout_height="-2" style="@r/TextGrey" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="0x7f10018b" android:paddingLeft="0x7f0a0030" android:paddingRight="0x7f0a0030" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_small">
+            <RelativeLayout android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0">
+                <TextView android:gravity="10" android:id="0x7f10018c" android:layout_width="-2" android:layout_height="-2" android:text="@r/coupon_label" android:layout_alignParentLeft="true" style="@r/TextGrey" />
+                <TextView android:gravity="10" android:id="0x7f10018d" android:background="@r/etsy_light_blue" android:paddingLeft="@r/padding_small" android:paddingRight="@r/padding_small" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/padding_small" android:singleLine="true" android:layout_toRightOf="0x7f10018c" android:layout_alignBaseline="0x7f10018c" style="@r/TextBlue" />
+            </RelativeLayout>
+            <TextView android:id="0x7f10018e" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f010034" />
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="0x7f10018f" android:paddingLeft="0x7f0a0030" android:paddingRight="0x7f0a0030" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_small">
+            <TextView android:layout_width="0dp" android:layout_height="-1" android:text="@r/giftcard_credit" android:layout_weight="1.0" style="@r/TextGreen" />
+            <TextView android:id="0x7f100190" android:layout_width="-2" android:layout_height="-1" style="@r/TextGreen" />
+        </LinearLayout>
+        <View android:id="0x7f100007" android:background="0x7f0e0061" android:visibility="2" android:layout_width="-1" android:layout_height="1dp" android:layout_marginLeft="0x7f0a0030" android:layout_marginRight="0x7f0a0030" />
+        <LinearLayout android:orientation="0" android:id="0x7f100191" android:paddingLeft="0x7f0a0030" android:paddingRight="0x7f0a0030" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:ellipsize="3" android:id="0x7f100192" android:layout_width="0dp" android:layout_height="-2" android:text="@r/order_total" android:singleLine="true" android:layout_weight="1.0" style="?unknown_attr_ref: 7f01003c" />
+            <TextView android:id="0x7f100193" android:layout_width="-2" android:layout_height="-2" style="?unknown_attr_ref: 7f01003c" />
+        </LinearLayout>
+        <TextView android:id="0x7f100194" android:paddingLeft="0x7f0a0030" android:paddingRight="0x7f0a0030" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_small" android:layout_marginBottom="@r/margin_medium" style="@r/TextLightGrey" />
+    </LinearLayout>
+    <include layout="0x7f030048" />
+    <Button android:gravity="11" android:id="0x7f100195" android:layout_width="-1" android:layout_height="48dp" android:layout_marginLeft="0x7f0a0030" android:layout_marginTop="0x7f0a015d" android:layout_marginRight="0x7f0a0030" android:layout_marginBottom="0x7f0a0030" android:text="@r/checkout_button" style="?unknown_attr_ref: 7f010005" />
+</merge>

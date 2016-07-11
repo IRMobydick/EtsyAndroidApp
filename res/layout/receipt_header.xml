@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:id="0x7f100559" android:paddingLeft="@r/padding_medium_large" android:paddingTop="@r/padding_large" android:paddingRight="@r/padding_medium_large" android:paddingBottom="@r/padding_tiny" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:id="0x7f10055a" android:background="@r/white" android:padding="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@r/margin_medium_large" style="@r/TextGrey" />
+    <RelativeLayout android:id="0x7f10055b" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:ellipsize="4" android:id="0x7f10055c" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="@r/margin_medium" android:text="@r/order_details" android:singleLine="true" android:layout_alignParentLeft="true" style="?unknown_attr_ref: 7f01002c" />
+        <TextView android:ellipsize="4" android:gravity="5" android:id="0x7f10055d" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_alignParentRight="true" style="?unknown_attr_ref: 7f01001f" />
+        <TextView android:ellipsize="4" android:id="0x7f10055e" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_below="0x7f10055c" android:layout_alignParentLeft="true" style="@r/TextGrey" />
+    </RelativeLayout>
+</LinearLayout>

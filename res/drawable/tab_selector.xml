@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector>
+    <item android:state_selected="true" android:state_pressed="true" android:drawable="0x7f02021f" />
+    <item android:state_checked="true" android:state_pressed="true" android:drawable="0x7f02021f" />
+    <item android:state_selected="true" android:drawable="0x7f02021e" />
+    <item android:state_checked="true" android:drawable="0x7f02021e" />
+    <item android:state_pressed="true" android:drawable="@r/bg_ten_percent_black_selector" />
+    <item android:drawable="0x7f02021d" />
+</selector>

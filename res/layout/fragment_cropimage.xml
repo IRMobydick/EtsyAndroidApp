@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:layout_gravity="1" android:id="@r/cropped_image" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:scaleType="0" android:adjustViewBounds="true" />
+        <com.etsy.android.uikit.view.CropImageView android:layout_gravity="1" android:id="@r/crop_guide" android:background="@r/bg_transparent_white_border" android:clickable="false" android:layout_width="-2" android:layout_height="-2" />
+    </FrameLayout>
+    <TextView android:gravity="11" android:id="@r/crop_help_text" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_xlarge" android:lineSpacingMultiplier="1.2" style="@r/TextGreyWhite_Large" />
+</LinearLayout>

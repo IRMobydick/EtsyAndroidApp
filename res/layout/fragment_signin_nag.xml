@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:layout_gravity="11" android:orientation="1" android:padding="@r/padding_large" android:layout_width="0x7f0a0091" android:layout_height="-2">
+    <com.etsy.android.uikit.view.GuardianTextView android:gravity="1" android:id="0x7f10031c" android:layout_width="-1" android:layout_height="-2" android:text="@r/sign_in_dialog_text" style="?unknown_attr_ref: 7f01003f" />
+    <TextView android:id="0x7f1002ff" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_large" style="0x7f0b0242" />
+    <FrameLayout android:paddingTop="@r/fixed_large" android:layout_width="-1" android:layout_height="-2">
+        <LinearLayout android:orientation="1" android:id="0x7f10031d" android:layout_width="-1" android:layout_height="-2">
+            <Button android:id="0x7f10031e" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 7f010004" />
+            <Button android:id="0x7f10031f" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/fixed_medium" style="?unknown_attr_ref: 7f010003" />
+            <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/fixed_medium">
+                <Button android:id="0x7f100320" android:paddingLeft="@r/fixed_large" android:paddingTop="@r/fixed_tiny" android:paddingRight="@r/fixed_large" android:paddingBottom="@r/fixed_tiny" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="@r/fixed_small" android:text="@r/register" android:layout_weight="1.0" style="@r/ButtonWhiteV2" />
+                <Button android:id="0x7f100321" android:paddingLeft="@r/fixed_large" android:paddingTop="@r/fixed_tiny" android:paddingRight="@r/fixed_large" android:paddingBottom="@r/fixed_tiny" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="@r/fixed_small" android:text="@r/sign_in" android:layout_weight="1.0" style="@r/ButtonWhiteV2" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.etsy.android.uikit.view.LoadingIndicatorView android:gravity="11" android:id="0x7f100322" android:background="0x106000d" android:padding="@r/padding_xlarge" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:src="@r/spinner_blue" android:scaleType="5" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_gravity="1" android:id="@r/listing_matte" android:layout_width="@r/social_share_listing_image_width" android:layout_height="-2" style="@r/EtsyCardViewStyle">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+            <com.etsy.android.uikit.view.ListingFullImageView android:id="@r/listing_image" android:layout_width="@r/social_share_listing_image_width" android:layout_height="@r/social_share_listing_image_height" android:scaleType="1" android:adjustViewBounds="false" android:contentDescription="@r/listing_image_content_description" />
+            <ImageView android:id="@r/btn_fav" android:padding="@r/fixed_medium" android:layout_width="-2" android:layout_height="-2" android:src="@r/ic_listing_favorite_selected" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" />
+        <TextView android:textSize="@r/text_small_fixed" android:ellipsize="3" android:id="@r/listing_title" android:padding="@r/fixed_medium" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:includeFontPadding="false" style="@r/TextGrey_Small" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

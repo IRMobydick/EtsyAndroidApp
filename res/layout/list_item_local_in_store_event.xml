@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:background="0x7f02007d" android:padding="@r/divider_width" android:layout_width="-1" android:layout_height="-2">
+        <FrameLayout android:layout_width="-1" android:layout_height="-2" android:foreground="@r/fg_standard_selector">
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                <TextView android:layout_gravity="30" android:id="0x7f1003fb" android:padding="@r/padding_large" android:layout_width="-1" android:layout_height="-2" style="?unknown_attr_ref: 7f010050" />
+                <include android:id="0x7f1003fc" layout="0x7f030163" />
+                <include android:id="0x7f1003fd" layout="0x7f030163" />
+                <TextView android:ellipsize="3" android:layout_gravity="10" android:id="0x7f1003fe" android:layout_width="-2" android:layout_height="-2" android:layout_margin="@r/margin_medium_large" android:singleLine="true" style="?unknown_attr_ref: 7f010035" />
+                <TextView android:ellipsize="3" android:id="0x7f1003ff" android:paddingLeft="@r/padding_medium_large" android:paddingRight="@r/padding_medium_large" android:paddingBottom="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@r/TextGrey" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

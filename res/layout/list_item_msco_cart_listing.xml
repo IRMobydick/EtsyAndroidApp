@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout app:id="0x7f1001a4" app:layout_width="-1" app:layout_height="-2" style="0x7f0b0017">
+    <com.etsy.android.uikit.view.ListingFullImageView app:id="0x7f100043" app:background="@r/lighter_grey" app:layout_width="74dp" app:layout_height="-2" app:scaleType="6" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:contentDescription="@r/cartlisting_image_content_description" app:imageAspect="0.75" />
+    <TextView app:ellipsize="3" app:id="0x7f1002a7" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium" app:maxLines="2" app:layout_toRightOf="0x7f100043" app:layout_alignParentTop="true" style="@r/TextDarkGrey" />
+    <TextView app:ellipsize="3" app:id="0x7f100408" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium" app:layout_marginTop="@r/margin_small" app:maxLines="4" app:layout_toRightOf="0x7f100043" app:layout_below="0x7f1002a7" style="@r/TextGrey_Small" />
+    <TextView app:id="0x7f100409" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium" app:layout_marginTop="@r/margin_small" app:text="@r/digital_download" app:layout_toRightOf="0x7f100043" app:layout_below="0x7f100408" style="@r/TextGrey_Small" />
+    <TextView app:id="0x7f10040a" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium" app:layout_marginTop="@r/margin_small" app:layout_toRightOf="0x7f100043" app:layout_below="0x7f100409" style="@r/TextGrey_Small" />
+    <TextView app:id="0x7f10040b" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium" app:layout_marginTop="@r/margin_small" app:text="@r/custom_order" app:layout_toRightOf="0x7f100043" app:layout_below="0x7f10040a" style="@r/TextGrey_Small" />
+    <LinearLayout app:orientation="1" app:id="0x7f1003b0" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium" app:layout_marginTop="@r/margin_small" app:weightSum="2.0" app:layout_toRightOf="0x7f100043" app:layout_below="0x7f10040b" app:layout_alignParentRight="true"
+        <LinearLayout app:orientation="0" app:id="0x7f10040c" app:layout_width="-2" app:layout_height="-2">
+            <TextView app:gravity="10" app:id="0x7f10040d" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@r/margin_medium" app:text="@r/title" />
+            <Button app:id="0x7f10040e" app:layout_width="-2" app:text="@r/a_finished_product" style="0x7f0b019d" />
+        </LinearLayout>
+        <LinearLayout app:orientation="0" app:id="0x7f10040f" app:layout_width="-2" app:layout_height="-2">
+            <TextView app:gravity="10" app:id="0x7f100410" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@r/margin_medium" app:text="@r/title" />
+            <Button app:id="0x7f100411" app:layout_width="-2" app:text="@r/a_finished_product" style="0x7f0b019d" />
+        </LinearLayout>
+        <LinearLayout app:orientation="0" app:id="0x7f100412" app:layout_width="-1" app:layout_height="-2">
+            <TextView app:gravity="10" app:id="0x7f100413" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@r/margin_medium" app:text="@r/quantity" />
+            <Button app:id="0x7f100414" app:layout_width="-2" style="0x7f0b019d" />
+            <TextView app:gravity="15" app:id="0x7f100415" app:layout_width="-1" app:layout_height="-2" app:text="@r/price" app:layout_toRightOf="0x7f100043" app:layout_below="0x7f1003b0" app:layout_alignParentRight="true" style="@r/TextBlack_Bold" />
+        </LinearLayout>
+        <TextView app:gravity="15" app:id="0x7f100416" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:text="@r/cart_listing_item_price" app:layout_toRightOf="0x7f100043" app:layout_below="0x7f1003b0" app:layout_alignParentRight="true" style="@r/TextGrey_Small" />
+    </LinearLayout>
+    <LinearLayout app:gravity="15" app:orientation="0" app:layout_width="-2" app:layout_height="-2" app:layout_toRightOf="0x7f100043" app:layout_below="0x7f1003b0">
+        <Button app:gravity="11" app:id="0x7f1001b8" app:background="@r/bg_ten_percent_black_selector" app:paddingLeft="@r/padding_medium" app:paddingRight="@r/padding_medium" app:layout_width="-2" app:layout_height="@r/button_height" app:text="@r/save_for_later" style="@r/TextOrange" />
+        <Button app:gravity="11" app:id="0x7f100417" app:background="@r/bg_ten_percent_black_selector" app:paddingLeft="@r/padding_medium" app:paddingRight="@r/padding_medium" app:layout_width="-2" app:layout_height="@r/button_height" app:layout_marginLeft="@r/margin_medium" app:text="@r/remove" style="@r/TextOrange" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_margin="@r/margin_medium_large">
+    <ImageView android:layout_gravity="11" android:id="@r/appreciation_photo" android:layout_width="@r/share_feedback_photo_width" android:layout_height="@r/share_feedback_photo_height" android:contentDescription="@r/appreciation_photo_content_description" />
+</FrameLayout>

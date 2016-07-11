@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="0x10a0006" android:duration="@r/nav_anim_duration" android:shareInterpolator="true" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="11" android:orientation="1" android:background="0x7f02007c" android:padding="@r/padding_xlarge" android:layout_width="-1" android:layout_height="-2">
+    <com.etsy.android.uikit.view.GuardianTextView android:gravity="11" android:id="0x7f10054b" android:layout_width="-1" android:layout_height="-2" android:text="@r/upgrade_beta_promo_title" style="@r/TextWhite_XLarge" />
+    <TextView android:textColor="0x7f0e0149" android:gravity="11" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium_large" android:text="@r/upgrade_beta_promo_body" style="@r/TextLightGrey_Large" />
+    <Button android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_medium_large" android:text="@r/upgrade_beta_promo_button" style="0x7f0b021c" />
+</LinearLayout>

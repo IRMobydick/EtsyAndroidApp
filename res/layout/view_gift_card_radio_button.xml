@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton android:layout_marginLeft="@r/margin_tiny" android:layout_marginRight="@r/margin_tiny" android:maxWidth="@r/button_medium_width" android:layout_weight="1.0" style="?unknown_attr_ref: 7f01001d" />

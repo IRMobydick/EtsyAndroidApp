@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="0" android:padding="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@r/bughunt_leaderboard_avatar" android:layout_width="-2" android:layout_height="-2" />
+    <TextView android:gravity="10" android:id="@r/bughunt_leaderboard_primary" android:paddingLeft="@r/padding_medium" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0" style="@r/TextDarkGrey_Large" />
+    <TextView android:textColor="@r/text_dark_grey" android:gravity="10" android:id="@r/bughunt_leaderboard_secondary" android:layout_width="-2" android:layout_height="-1" style="@r/TextDarkGrey_XXLarge" />
+</LinearLayout>

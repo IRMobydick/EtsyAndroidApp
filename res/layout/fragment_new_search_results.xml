@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <include layout="0x7f030172" />
+    <RelativeLayout android:id="@r/root_view" android:layout_width="-1" android:layout_height="-1">
+        <android.support.v4.widget.SwipeRefreshLayout android:id="@r/swipe_refresh_layout" android:layout_width="-1" android:layout_height="-2">
+            <android.support.v7.widget.RecyclerView android:id="@r/recycler_view" android:paddingLeft="@r/margin_medium" android:paddingRight="@r/card_view_margin" android:paddingBottom="@r/card_view_margin" android:scrollbars="200" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <include layout="0x7f03018f" />
+        <include layout="0x7f030190" />
+        <include layout="@r/partial_no_internet" />
+    </RelativeLayout>
+</FrameLayout>

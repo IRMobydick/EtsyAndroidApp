@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+    <LinearLayout android:orientation="1" android:id="0x7f10054c" style="0x7f0b0224">
+        <TextView android:text="@r/ipp_purchased_in_person" style="?unknown_attr_ref: 7f010022" />
+        <TextView android:id="0x7f10054d" android:layout_marginTop="@r/margin_medium" style="?unknown_attr_ref: 7f010021" />
+        <com.etsy.android.uikit.view.ExpandToFitImageView android:id="0x7f10054e" android:layout_width="-1" android:layout_height="-2" android:layout_margin="@r/margin_medium_large" android:adjustViewBounds="true" />
+        <View style="0x7f0b0223" />
+    </LinearLayout>
+    <FrameLayout android:paddingLeft="@r/padding_medium_large" android:paddingRight="@r/padding_medium_large" android:layout_width="-1" android:layout_height="-2" style="0x7f0b0224">
+        <include layout="0x7f0301f3" />
+    </FrameLayout>
+    <View style="0x7f0b0223" />
+    <LinearLayout android:orientation="1" android:id="0x7f1002f3" style="0x7f0b0224">
+        <TextView android:id="0x7f1002f4" style="?unknown_attr_ref: 7f010022" />
+        <TextView android:layout_marginTop="@r/margin_small" android:text="@r/payment_method_label" style="?unknown_attr_ref: 7f010021" />
+        <TextView android:id="0x7f1002f5" style="0x7f0b0229" />
+        <View style="0x7f0b0223" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="0x7f1002f6" style="0x7f0b0224"
+        <LinearLayout android:orientation="1" android:id="0x7f1002f7" android:layout_width="-1" android:layout_height="-2" />
+        <TextView android:layout_marginTop="@r/margin_medium" android:text="@r/shipping_address" style="?unknown_attr_ref: 7f010021" />
+        <TextView android:id="0x7f1002f8" android:textIsSelectable="true" style="0x7f0b0229" />
+        <View style="0x7f0b0223" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="0x7f10054f" style="0x7f0b0224">
+        <TextView android:id="0x7f100550" style="?unknown_attr_ref: 7f010022" />
+        <TextView android:id="0x7f100551" style="0x7f0b0229" />
+        <View style="0x7f0b0223" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="0x7f100552" style="0x7f0b0224">
+        <TextView android:id="0x7f100553" style="?unknown_attr_ref: 7f010022" />
+        <TextView android:id="0x7f100554" style="0x7f0b0229" />
+        <View style="0x7f0b0223" />
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:id="0x7f100555" android:paddingBottom="@r/padding_medium_large" style="0x7f0b0224">
+        <TextView android:text="@r/seller_information" style="?unknown_attr_ref: 7f010022" />
+        <TextView android:id="0x7f100556" style="0x7f0b0229" />
+    </LinearLayout>
+</LinearLayout>

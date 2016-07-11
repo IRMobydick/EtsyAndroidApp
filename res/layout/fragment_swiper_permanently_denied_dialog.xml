@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:layout_gravity="11" app:orientation="1" app:layout_width="-1" app:layout_height="-2">
+    <ScrollView app:layout_gravity="11" app:layout_width="-1" app:layout_height="0dp" app:layout_weight="1.0">
+        <FrameLayout app:layout_width="-2" app:layout_height="-2">
+            <ImageView app:id="@r/image_background" app:layout_width="-1" app:layout_height="-1" app:src="@r/white" app:scaleType="6" app:adjustViewBounds="true" />
+            <RelativeLayout app:gravity="11" app:layout_gravity="11" app:orientation="1" app:paddingLeft="@r/padding_xlarge" app:paddingTop="@r/padding_xlarge" app:paddingRight="@r/padding_xlarge" app:paddingBottom="@r/padding_large" app:layout_width="-2" app:layout_height="-2">
+                <com.etsy.android.iconsy.views.IconView app:id="@r/title_icon" app:layout_width="40dp" app:layout_height="40dp" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" app:iconChar="@r/ic_etsy_settings" app:iconColor="@r/grey" app:hasSelector="false" />
+                <TextView app:textSize="17sp" app:textColor="@r/dark_grey" app:gravity="1" app:id="@r/permission_message" app:paddingTop="@r/padding_large" app:paddingBottom="16dp" app:layout_width="-2" app:layout_height="-2" app:text="@r/permission_microphone_denied" app:layout_below="@r/title_icon" app:layout_centerHorizontal="true" />
+                <View app:background="@r/lighter_grey" app:layout_width="2dp" app:layout_height="120dp" app:layout_marginLeft="18dp" app:layout_marginTop="18dp" app:layout_below="@r/permission_message" />
+                <ImageView app:id="@r/app_icon" app:background="@r/bg_grey_round_rect" app:layout_width="36dp" app:layout_height="36dp" app:layout_marginTop="8dp" app:layout_marginRight="8dp" app:layout_marginBottom="8dp" app:layout_below="@r/permission_message" />
+                <TextView app:textSize="13sp" app:textColor="@r/grey" app:gravity="10" app:id="@r/permission_go_to_settings_line" app:paddingLeft="2dp" app:paddingTop="18dp" app:layout_width="-2" app:layout_height="-2" app:text="@r/etsy_settings" app:layout_toRightOf="@r/app_icon" app:layout_below="@r/permission_message" />
+                <com.etsy.android.iconsy.views.IconView app:id="@r/unlock_icon" app:background="@r/bg_grey_round_rect" app:padding="8dp" app:layout_width="36dp" app:layout_height="36dp" app:layout_marginTop="8dp" app:layout_marginRight="8dp" app:layout_marginBottom="8dp" app:layout_below="@r/app_icon" app:iconChar="@r/ic_etsy_unlock" app:iconColor="@r/white" app:hasSelector="false" />
+                <TextView app:textSize="13sp" app:textColor="@r/grey" app:gravity="10" app:paddingLeft="2dp" app:paddingTop="18dp" app:layout_width="-2" app:layout_height="-2" app:text="@r/permissions_open" app:layout_toRightOf="@r/unlock_icon" app:layout_below="@r/app_icon" />
+                <com.etsy.android.iconsy.views.IconView app:id="@r/permission_icon" app:background="@r/bg_grey_round_rect" app:padding="8dp" app:layout_width="36dp" app:layout_height="36dp" app:layout_marginTop="8dp" app:layout_marginRight="8dp" app:layout_marginBottom="8dp" app:layout_below="@r/unlock_icon" app:iconChar="@r/ic_etsy_microphone" app:iconColor="@r/white" app:hasSelector="false" />
+                <TextView app:textSize="13sp" app:textColor="@r/grey" app:gravity="10" app:id="@r/permission_to_request" app:paddingLeft="2dp" app:paddingTop="18dp" app:layout_width="-2" app:layout_height="-2" app:text="@r/permisson_to_request_microphone" app:layout_toRightOf="@r/permission_icon" app:layout_below="@r/unlock_icon" />
+            </RelativeLayout>
+        </FrameLayout>
+    </ScrollView>
+    <View app:id="@r/divider" style="@r/Divider_Horizontal" />
+    <LinearLayout app:orientation="0" app:id="@r/buttons" app:layout_width="-1" app:layout_height="-2" app:minHeight="48dp">
+        <Button app:id="@r/dialog_yes" app:text="@r/permissions_btn_go_to_settings" app:textAllCaps="true" style="@r/ButtonBlueV2_Dialog" />
+    </LinearLayout>
+</LinearLayout>

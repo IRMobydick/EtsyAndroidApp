@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:background="@r/divider_dark" android:paddingTop="@r/divider_height" android:layout_width="-1" android:layout_height="-2" />

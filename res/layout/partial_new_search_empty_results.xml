@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@r/empty_view" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:layout_gravity="1" android:id="@r/empty_image" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@r/error_sorry_girl" />
+        <com.etsy.android.uikit.view.GuardianTextView android:gravity="11" android:id="0x7f10052f" android:paddingLeft="@r/fixed_medium" android:paddingTop="@r/fixed_large" android:paddingRight="@r/fixed_medium" android:paddingBottom="@r/fixed_large" android:layout_width="-1" android:layout_height="-2" style="@r/TextDarkGrey_Large" />
+        <TextView android:gravity="11" android:id="0x7f100530" android:padding="@r/fixed_medium" android:layout_width="-1" android:layout_height="-2" android:text="@r/new_search_empty_view_filters_title" android:textAllCaps="true" style="@r/TextMidGrey_Small" />
+        <LinearLayout android:gravity="11" android:orientation="1" android:id="0x7f100531" android:paddingBottom="@r/fixed_large" android:layout_width="-1" android:layout_height="-2" />
+        <TextView android:gravity="11" android:id="0x7f100532" android:padding="@r/fixed_medium" android:layout_width="-1" android:layout_height="-2" android:text="@r/new_search_empty_view_query_title" android:textAllCaps="true" style="@r/TextMidGrey_Small" />
+        <LinearLayout android:gravity="11" android:orientation="1" android:id="0x7f100533" android:layout_width="-1" android:layout_height="-2" /> />
+</ScrollView>

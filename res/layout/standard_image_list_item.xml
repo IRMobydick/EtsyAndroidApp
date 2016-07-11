@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:orientation="0" android:background="0x7f02021a" android:paddingLeft="@r/padding_medium_large" android:paddingRight="@r/padding_medium_large" android:layout_width="-1" android:layout_height="@r/dialog_share_row_height">
+    <ImageView android:id="@r/item_image" android:layout_width="@r/dialog_share_image_height" android:layout_height="@r/dialog_share_image_height" />
+    <TextView android:ellipsize="3" android:id="@r/item_label" android:layout_width="0dp" android:layout_height="-2" android:layout_marginLeft="@r/margin_medium_large" android:singleLine="true" android:layout_weight="1.0" style="@r/TextGrey_Larger" />
+</LinearLayout>

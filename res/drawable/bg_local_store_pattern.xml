@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape android:shape="0">
+            <solid android:color="@r/local_store_image_bg" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="0x7f020082" />
+    </item>
+</layer-list>

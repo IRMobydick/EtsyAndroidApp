@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:id="0x7f10048b" app:background="@r/bg_card" app:layout_width="-1" app:layout_height="-2">
+    <com.etsy.android.uikit.view.GuardianTextView app:id="@r/listing_title" app:paddingLeft="@r/padding_large" app:paddingTop="@r/padding_large" app:paddingRight="@r/padding_large" app:layout_width="-2" app:layout_height="-2" app:lineSpacingMultiplier="1.1" style="?unknown_attr_ref: 7f01002c" />
+    <include layout="0x7f030153" />
+    <LinearLayout app:orientation="1" app:id="0x7f10048c" app:layout_width="-1" app:layout_height="-2">
+        <View app:background="@r/list_divider" app:layout_width="-1" app:layout_height="@r/divider_height" />
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_large" app:layout_marginTop="@r/padding_medium_large" app:layout_marginRight="@r/margin_large" app:baselineAligned="false"
+            <LinearLayout app:orientation="1" app:id="0x7f10048d" app:layout_width="-2" app:layout_height="-2" app:layout_marginRight="@r/margin_large"
+                <LinearLayout app:orientation="1" app:id="0x7f10048e" app:layout_width="-1" app:layout_height="-2" />
+                <TextView app:gravity="10" app:id="0x7f10048f" app:visibility="2" app:layout_width="-2" app:layout_height="0x7f0a0272" style="@r/TextBlue" />
+                <TextView app:gravity="10" app:id="0x7f100490" app:visibility="2" app:layout_width="-2" app:layout_height="0x7f0a0272" style="@r/TextBlue" />
+                <TextView app:gravity="10" app:id="0x7f100491" app:visibility="2" app:layout_width="-2" app:layout_height="0x7f0a0272" app:text="@r/quantity" style="@r/TextBlue" />
+            </LinearLayout>
+            <LinearLayout app:orientation="1" app:id="0x7f100492" app:layout_width="0dp" app:layout_height="-2" app:layout_weight="1.0"
+                <LinearLayout app:orientation="1" app:id="0x7f100493" app:layout_width="-1" app:layout_height="-2" />
+                <com.etsy.android.uikit.view.ZeroSpinner app:id="0x7f100494" app:visibility="2" app:layout_width="-1" app:layout_height="0x7f0a0272" style="0x7f0b00db" />
+                <com.etsy.android.uikit.view.ZeroSpinner app:id="0x7f100495" app:visibility="2" app:layout_width="-1" app:layout_height="0x7f0a0272" style="0x7f0b00db" />
+                <Spinner app:id="0x7f100496" app:visibility="2" app:layout_width="-1" app:layout_height="0x7f0a0272" style="@r/Spinner" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout app:orientation="0" app:id="0x7f100497" app:background="@r/button_green" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/padding_medium_large">
+        <com.etsy.android.uikit.view.ProgressButton app:id="0x7f100498" app:background="@r/bg_ten_percent_black_selector" app:layout_width="0dp" app:layout_height="0x7f0a0051" app:layout_weight="1.0" app:text="@r/add_to_cart" />
+    </LinearLayout>
+</LinearLayout>

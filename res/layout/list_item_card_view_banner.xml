@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:id="0x7f10039e" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/card_view_neg_margin" app:layout_marginRight="@r/card_view_neg_margin" app:foreground="@r/fg_standard_selector">
+    <LinearLayout app:layout_gravity="10" app:orientation="1" app:background="0x7f0e002d" app:layout_width="-1" app:layout_height="-2">
+        <com.etsy.android.uikit.view.FullImageView app:id="@r/image" app:layout_width="-1" app:layout_height="-2" app:contentDescription="@r/listing_image_content_description" app:imageAspect="0.0" />
+        <com.etsy.android.uikit.view.GuardianTextView app:ellipsize="3" app:gravity="1" app:layout_gravity="1" app:id="@r/txt_title" app:paddingLeft="@r/padding_xxlarge" app:paddingRight="@r/padding_xxlarge" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/fixed_large" app:layout_marginBottom="@r/fixed_small" app:maxLines="2" style="?unknown_attr_ref: 7f01001a" />
+        <TextView app:ellipsize="3" app:gravity="11" app:layout_gravity="1" app:id="@r/txt_subtitle" app:paddingLeft="@r/padding_xxlarge" app:paddingRight="@r/padding_xxlarge" app:layout_width="-2" app:layout_height="-2" app:lines="2" style="0x7f0b0203" />
+        <Button app:gravity="11" app:layout_gravity="1" app:id="0x7f10039f" app:layout_width="-2" app:layout_marginTop="@r/margin_small" app:layout_marginBottom="@r/fixed_large" style="?unknown_attr_ref: 7f010006" />
+    </LinearLayout>
+</FrameLayout>

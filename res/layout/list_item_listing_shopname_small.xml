@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@r/listing_matte" android:layout_width="-1" android:layout_height="-2" style="@r/CardStyle_Listing">
+    <ImageView android:id="@r/listing_image" android:layout_width="-1" android:layout_height="-1" android:scaleType="6" android:contentDescription="@r/listing_image_content_description" />
+    <View android:id="@r/listing_card_one_thin_rule" android:background="@r/list_divider" android:layout_width="-1" android:layout_height="@r/divider_height" android:layout_below="@r/listing_image" />
+    <LinearLayout android:gravity="10" android:orientation="1" android:paddingLeft="@r/padding_medium" android:paddingRight="@r/padding_medium" android:layout_width="-1" android:layout_height="@r/small_card_text_row_height" android:layout_below="@r/listing_card_one_thin_rule">
+        <TextView android:ellipsize="3" android:id="@r/listing_title" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" style="@r/TextGrey_Small" />
+        <LinearLayout android:orientation="0" android:id="0x7f1003a1" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:ellipsize="3" android:id="0x7f1003eb" android:layout_width="0dp" android:layout_height="-2" android:layout_marginRight="@r/margin_small" android:singleLine="true" android:layout_weight="1.0" style="@r/TextMidGrey_Small" />
+            <TextView android:typeface="1" android:ellipsize="4" android:id="@r/listing_price" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" style="@r/TextGreen_Small" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

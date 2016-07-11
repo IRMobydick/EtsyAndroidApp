@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_medium" android:layout_marginRight="@r/margin_medium">
+    <TextView android:ellipsize="3" android:gravity="11" android:id="0x7f100157" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/margin_large" android:layout_marginBottom="@r/margin_medium" android:text="@r/similar_items" android:singleLine="true" android:textAllCaps="true" style="@r/TextLightGrey" />
+</LinearLayout>

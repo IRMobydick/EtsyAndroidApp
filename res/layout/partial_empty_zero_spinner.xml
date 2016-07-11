@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.uikit.view.ZeroSpinner android:visibility="2" android:layout_width="-1" android:layout_height="0x7f0a0272" style="@r/Spinner_Blue" />

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector app:exitFadeDuration="0x10e0000">
+    <item app:state_activated="true">
+        <shape app:shape="0">
+            <solid app:color="@r/item_activated" />
+        </shape>
+    </item>
+    <item app:state_pressed="true" app:state_activated="true">
+        <shape app:shape="0">
+            <solid app:color="@r/black_transparent" />
+        </shape>
+    </item>
+    <item app:state_pressed="true" app:state_activated="false">
+        <shape app:shape="0">
+            <solid app:color="@r/item_pressed" />
+        </shape>
+    </item>
+    <item app:state_focused="true" app:drawable="@r/item_focused" app:state_activated="false">
+        <shape app:shape="0">
+            <solid app:color="@r/item_focused" />
+        </shape>
+    </item>
+    <item app:state_read="false">
+        <shape app:shape="0">
+            <solid app:color="@r/white" />
+        </shape>
+    </item>
+    <item>
+        <shape app:shape="0">
+            <solid app:color="@r/transparent" />
+        </shape>
+    </item>
+</selector>

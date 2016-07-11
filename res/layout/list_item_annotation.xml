@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:baselineAligned="false">
+        <ImageView android:id="@r/listing_image" android:padding="@r/padding_medium" android:layout_width="@r/shop_share_annotation_listing_image_size" android:layout_height="@r/shop_share_annotation_listing_image_size" android:scaleType="6" android:contentDescription="@r/listing_image_content_description" />
+        <TextView android:ellipsize="3" android:layout_gravity="10" android:id="@r/listing_title" android:layout_width="0dp" android:layout_height="-2" android:maxLines="2" android:layout_weight="1.0" style="@r/TextWhite" />
+        <FrameLayout android:layout_gravity="10" android:id="@r/delete_button" android:padding="@r/margin_large" android:layout_width="-2" android:layout_height="-2">
+            <com.etsy.android.iconsy.views.IconView android:id="@r/delete_icon" android:layout_width="@r/text_view_icon_drawable_small" android:layout_height="@r/text_view_icon_drawable_small" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:background="0x106000c" android:layout_width="-1" android:layout_height="1dp" />
+</LinearLayout>

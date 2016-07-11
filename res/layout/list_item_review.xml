@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:background="@r/white" app:layout_width="-1" app:layout_height="-2">
+    <RelativeLayout app:id="@r/review_user_click_area" app:background="@r/bg_ten_percent_black_selector" app:padding="@r/padding_large" app:layout_width="-1" app:layout_height="-2">
+        <ImageView app:id="@r/avatar" app:background="@r/bg_avatar_circle_small_borderless" app:layout_width="@r/review_card_avatar" app:layout_height="@r/review_card_avatar" app:layout_alignParentLeft="true" app:contentDescription="@r/user_avatar_content_description" />
+        <TextView app:id="@r/date" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_small" app:layout_alignParentRight="true" style="@r/TextLightGrey" />
+        <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/review_card_content_margin" app:layout_marginTop="@r/margin_small">
+            <TextView app:layout_width="-2" app:layout_height="-2" app:text="@r/review_by" style="@r/TextDarkGrey" />
+            <TextView app:id="@r/reviewed_by_name" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_small" style="?unknown_attr_ref: 7f010035" />
+            <Button app:textSize="@r/text_medium" app:textColor="@r/text_mid_grey" app:id="@r/review_unhide_photo" app:background="@r/bg_unbounded_selector" app:visibility="2" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_large_xlarge" app:text="@r/review_unhide_photo" />
+            <ImageView app:id="@r/review_appreciation_photo" app:visibility="2" app:layout_width="180dp" app:layout_height="180dp" app:layout_marginTop="@r/margin_large_xlarge" app:scaleType="6" app:contentDescription="@r/appreciation_photo_content_description" />
+            <com.etsy.android.uikit.view.RatingIconView app:id="@r/rating" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_large_xlarge" app:starSize="@r/text_large" />
+            <TextView app:id="@r/review_message" app:layout_width="-2" app:layout_height="-2" app:layout_marginTop="@r/margin_medium_large" style="@r/TextDarkGrey_Large" />
+            <com.etsy.android.uikit.view.MachineTranslationOneClickView app:id="@r/machine_translation_one_click" app:layout_width="-1" app:layout_height="-2" app:layout_marginTop="@r/margin_tiny" app:textSize="@r/text_large" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout app:orientation="0" app:id="@r/review_interaction_area" app:visibility="2" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_large" app:layout_marginRight="@r/margin_large" app:layout_marginBottom="@r/margin_large_xlarge">
+        <TextView app:id="@r/review_contact_buyer" app:background="@r/bg_ten_percent_black_selector" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/review_card_content_margin" app:text="@r/review_contact_buyer" style="@r/TextMidGrey" />
+    </LinearLayout>
+    <LinearLayout app:orientation="1" app:id="@r/shop_owner_response" app:background="@r/bg_ten_percent_black_selector" app:paddingLeft="@r/padding_large" app:paddingRight="@r/padding_large" app:layout_width="-1" app:layout_height="-2" app:layout_marginBottom="@r/margin_large_xlarge"
+        <LinearLayout app:orientation="0" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/review_card_content_margin">
+            <ImageView app:id="@r/review_seller_avatar" app:background="@r/bg_avatar_circle_small_borderless" app:layout_width="@r/review_card_avatar" app:layout_height="@r/review_card_avatar" app:contentDescription="@r/shop_avatar_content_description" />
+            <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium">
+                <TextView app:layout_width="-1" app:layout_height="-2" app:text="@r/response_by_shop_owner" style="@r/TextGrey_Small" />
+                <TextView app:id="@r/shop_owner_name" app:layout_width="-2" app:layout_height="-2" style="?unknown_attr_ref: 7f010055" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView app:id="@r/response_message" app:layout_width="-1" app:layout_height="-2" app:layout_marginLeft="@r/review_card_content_margin" app:layout_marginTop="@r/margin_medium" style="@r/TextDarkGrey" />
+    </LinearLayout>
+    <View app:background="@r/ten_percent_black" app:layout_width="-1" app:layout_height="@r/divider_height" />
+    <LinearLayout app:gravity="10" app:orientation="0" app:id="@r/review_listing_click_area" app:background="@r/bg_ten_percent_black_selector" app:paddingLeft="@r/padding_large" app:paddingTop="@r/padding_large_xlarge" app:paddingRight="@r/padding_large" app:paddingBottom="@r/padding_large_xlarge" app:layout_width="-1" app:layout_height="-2"
+        <LinearLayout app:background="@r/bg_grey_outline" app:padding="3dp" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/review_card_content_margin" app:layout_marginRight="@r/margin_medium">
+            <ImageView app:id="@r/item_image" app:layout_width="@r/review_image_width" app:layout_height="@r/review_image_height" app:scaleType="6" app:contentDescription="@r/listing_image_content_description" />
+        </LinearLayout>
+        <TextView app:ellipsize="3" app:id="@r/listing_title" app:layout_width="-2" app:layout_height="-2" app:maxLines="2" style="@r/TextMidGrey" />
+    </LinearLayout>
+</LinearLayout>

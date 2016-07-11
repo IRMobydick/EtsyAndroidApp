@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" style="0x7f0b0016">
+    <EditText android:id="0x7f10013d" android:layout_width="-1" android:layout_height="-2" android:inputType="10001" android:imeOptions="6" style="@r/TextGrey" />
+</LinearLayout>

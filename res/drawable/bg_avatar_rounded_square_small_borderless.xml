@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape android:shape="1">
+            <solid android:color="@r/transparent" />
+            <corners android:radius="@r/gen_avatar_corners_small" />
+            <padding android:top="@r/gen_avatar_border_shadow" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="0">
+            <solid android:color="@r/five_percent_black" />
+            <corners android:radius="@r/gen_avatar_corners_small" />
+            <padding android:left="@r/gen_avatar_border_shadow" android:top="@r/gen_avatar_border_shadow" android:right="@r/gen_avatar_border_shadow" android:bottom="@r/gen_avatar_border_shadow" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="0">
+            <solid android:color="@r/ten_percent_black" />
+            <corners android:radius="@r/gen_avatar_corners_small" />
+            <padding android:left="@r/gen_avatar_border_shadow" android:right="@r/gen_avatar_border_shadow" android:bottom="@r/gen_avatar_border_shadow" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="0">
+            <solid android:color="@r/background_default_avatar" />
+            <corners android:radius="@r/gen_avatar_corners_large" />
+        </shape>
+    </item>
+</layer-list>

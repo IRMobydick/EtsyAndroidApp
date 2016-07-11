@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.etsy.android.uikit.view.CustomViewPageIndicator android:orientation="0" android:id="@r/vpindicator_listing_images" android:paddingLeft="@r/padding_medium" android:paddingRight="@r/padding_medium" android:paddingBottom="@r/padding_small" android:layout_width="-2" android:layout_height="-2" android:layout_alignBottom="@r/viewpager_listing_images" android:layout_centerHorizontal="true" />

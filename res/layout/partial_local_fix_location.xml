@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="0x7f10052c" android:background="@r/orange" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:fillViewport="true">
+    <LinearLayout android:gravity="11" android:orientation="1" android:clickable="true" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:gravity="1" android:orientation="1" android:padding="@r/padding_xxlarge" android:layout_width="-2" android:layout_height="-2">
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:src="0x7f020168" />
+            <com.etsy.android.uikit.view.GuardianTextView android:layout_width="-2" android:layout_height="-2" android:text="@r/etsy_local" style="@r/TextWhite_XXLarge" />
+            <TextView android:gravity="1" android:id="0x7f10052d" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@r/margin_medium" android:text="@r/enable_location_description" android:lineSpacingMultiplier="1.2" style="@r/TextWhite" />
+            <Button android:textColor="@r/orange" android:id="0x7f10052e" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@r/margin_large" android:text="@r/enable_location" style="@r/ButtonWhiteV2" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

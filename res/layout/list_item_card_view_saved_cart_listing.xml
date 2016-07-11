@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout app:paddingTop="0x7f0a002f" app:paddingBottom="0x7f0a002f" app:layout_width="-1" app:layout_height="-2">
+    <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-2" style="0x7f0b018f">
+        <include layout="0x7f030042" />
+        <View style="0x7f0b019f" />
+        <LinearLayout android:orientation="1" android:background="@r/bg_ten_percent_black_selector" android:layout_width="-1" android:layout_height="-2">
+            <RelativeLayout android:paddingLeft="0x7f0a0030" android:paddingTop="0x7f0a0030" android:paddingRight="0x7f0a0030" android:layout_width="-1" android:layout_height="-2">
+                <com.etsy.android.uikit.view.ListingFullImageView android:id="0x7f1001a5" android:layout_width="0x7f0a0031" android:layout_height="0x7f0a0031" android:scaleType="6" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@r/cartlisting_image_content_description" android:imageAspect="1.0" />
+                <ImageButton android:layout_gravity="35" android:id="0x7f1001a6" android:background="@r/bg_unbounded_selector" android:padding="@r/padding_small" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/margin_medium" android:src="0x7f020189" android:scaleType="6" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                <LinearLayout android:orientation="1" android:id="0x7f1001a7" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="@r/margin_medium_large" android:layout_toLeftOf="0x7f1001a6" android:layout_toRightOf="0x7f1001a5" android:layout_alignParentTop="true">
+                    <TextView android:ellipsize="3" android:id="0x7f1001b0" android:layout_width="-1" android:layout_height="-2" android:maxLines="2" style="0x7f0b000e" />
+                    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                        <TextView android:ellipsize="4" android:id="0x7f1001b1" android:layout_width="-2" android:layout_height="-2" android:maxLines="1" style="?unknown_attr_ref: 7f010049" />
+                        <TextView android:ellipsize="3" android:id="0x7f1003af" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/fixed_small" android:text="@r/plus_shipping" android:maxLines="1" style="@r/TextLightGrey" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="1" android:id="0x7f1003b0" android:visibility="2" android:layout_width="-1" android:layout_height="-2">
+                        <TextView android:ellipsize="4" android:id="0x7f1003b1" android:paddingRight="@r/padding_small" android:layout_width="-2" android:layout_height="-2" style="@r/TextLightGrey" />
+                        <TextView android:ellipsize="3" android:id="0x7f1003b2" android:paddingRight="@r/padding_small" android:layout_width="-2" android:layout_height="-2" style="@r/TextLightGrey" />
+                        <TextView android:ellipsize="3" android:id="0x7f1003b3" android:paddingRight="@r/padding_small" android:layout_width="-2" android:layout_height="-2" android:text="@r/quantity_sub" android:maxLines="1" style="@r/TextLightGrey" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <include layout="0x7f030194" />
+            <LinearLayout android:gravity="10" android:orientation="1" android:id="0x7f1001a9" android:padding="@r/padding_medium_large" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0x7f0a0030" android:layout_marginRight="0x7f0a0030" android:layout_marginBottom="0x7f0a0030">
+                <include layout="0x7f03004b" />
+            </LinearLayout>
+            <View android:id="0x7f1001aa" style="0x7f0b019e" />
+        </LinearLayout>
+        <View android:id="0x7f1003b4" style="0x7f0b01a1" />
+        <TextView android:id="0x7f1003b5" android:background="0x7f0e0064" android:padding="0x7f0a0030" android:layout_width="-1" android:layout_height="-2" android:text="@r/items_unavailable" style="?unknown_attr_ref: 7f01003c" />
+        <View android:id="0x7f1003b6" style="0x7f0b01a0" />
+    </LinearLayout>
+    <include android:id="0x7f10016b" layout="@r/partial_loading" />
+</FrameLayout>

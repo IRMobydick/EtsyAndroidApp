@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@r/margin_medium_large" android:paddingTop="@r/margin_medium_large" android:paddingRight="@r/margin_medium_large" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:background="@r/bg_card_selector" android:padding="@r/listing_card_shadow_padding" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:gravity="10" android:orientation="0" android:padding="@r/padding_medium" android:layout_width="-1" android:layout_height="-2">
+            <ImageView android:id="0x7f1002fc" android:layout_width="@r/card_avatar_small" android:layout_height="@r/card_avatar_small" android:layout_marginRight="@r/margin_medium" style="0x7f0b0372" />
+            <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+                <TextView android:ellipsize="3" android:id="0x7f100433" android:layout_width="-2" android:layout_height="-2" android:singleLine="true" android:layout_toLeftOf="0x7f100434" android:layout_alignParentLeft="true" style="?unknown_attr_ref: 7f01003c" />
+                <TextView android:id="@r/date" android:layout_width="-2" android:layout_height="-2" android:layout_below="0x7f100433" style="@r/TextDarkGrey" />
+                <TextView android:id="0x7f100434" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/margin_medium" android:layout_alignBaseline="0x7f100433" android:layout_alignParentRight="true" style="?unknown_attr_ref: 7f01003c" />
+                <TextView android:id="0x7f100435" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@r/margin_medium" android:layout_below="0x7f100434" android:layout_alignBaseline="@r/date" android:layout_alignParentRight="true" android:layout_marginStart="@r/margin_medium" android:layout_alignParentEnd="true" style="@r/TextDarkGrey" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:id="0x7f100436" android:layout_width="-1" android:layout_height="-2" /> />
+</FrameLayout>

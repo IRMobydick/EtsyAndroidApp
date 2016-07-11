@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:orientation="1" app:id="@r/dialog_header" app:layout_width="-1" app:layout_height="-2"
+    <LinearLayout app:orientation="0" app:background="@r/white" app:layout_width="-1" app:layout_height="-2">
+        <ImageView app:id="@r/btn_x" app:background="@r/bg_ten_percent_black_selector" app:padding="@r/fixed_large" app:layout_width="-2" app:layout_height="-1" app:srcCompat="@r/ic_close_24dp" />
+        <com.etsy.android.uikit.view.GuardianTextView app:gravity="11" app:id="@r/txt_title" app:padding="@r/fixed_large" app:layout_width="0dp" app:layout_height="-1" app:text="@r/convo_compose_new_title" app:layout_weight="1.0" style="?unknown_attr_ref: 7f010045" />
+        <ImageView app:textStyle="1" app:id="@r/btn_send" app:background="@r/bg_ten_percent_black_selector" app:padding="@r/fixed_large" app:layout_width="-2" app:layout_height="-1" app:src="@r/ic_menu_send_selector" style="@r/TextBlue" />
+    </LinearLayout>
+    <View style="@r/Divider_Horizontal" />
+</LinearLayout>

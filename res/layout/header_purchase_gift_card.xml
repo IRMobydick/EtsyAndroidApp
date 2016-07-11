@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout app:gravity="1" app:orientation="0" app:id="0x7f10036f" app:paddingTop="@r/padding_large" app:paddingBottom="@r/margin_medium" app:layout_width="-1" app:layout_height="-2">
+    <com.etsy.android.iconsy.views.IconView app:gravity="11" app:layout_gravity="10" app:id="0x7f100120" app:layout_width="@r/cart_purchase_gift_card_icon" app:layout_height="@r/cart_purchase_gift_card_icon" app:iconChar="@r/ic_etsy_gift_card" app:iconColor="@r/green" />
+    <TextView app:gravity="11" app:layout_gravity="10" app:layout_width="-2" app:layout_height="-2" app:layout_marginLeft="@r/margin_medium" app:text="@r/purchase_gift_card" style="@r/TextGreen_Large" />
+</LinearLayout>

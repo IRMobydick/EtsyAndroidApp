@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MultiShopCartGroupItem">
+        <item name="android:background">@color/cardview_light_background</item>
+        <item name="android:paddingLeft">@dimen/padding_large</item>
+        <item name="android:paddingTop">@dimen/padding_medium</item>
+        <item name="android:paddingRight">@dimen/padding_large</item>
+        <item name="android:paddingBottom">@dimen/padding_medium</item>
+        <item name="android:elevation">@dimen/elevation_level_1</item>
+    </style>
+    <style name="MultiShopCartGroupItemInset">
+        <item name="android:background">@color/cardview_light_background</item>
+        <item name="android:paddingLeft">@dimen/padding_xlarge</item>
+        <item name="android:paddingTop">@dimen/padding_small</item>
+        <item name="android:paddingRight">@dimen/padding_large</item>
+        <item name="android:paddingBottom">@dimen/padding_medium</item>
+        <item name="android:elevation">@dimen/elevation_level_1</item>
+    </style>
+    <style name="MultiShopCartGroupLayout">
+        <item name="android:background">@color/cardview_light_background</item>
+        <item name="android:elevation">@dimen/elevation_level_1</item>
+    </style>
+    <style name="MultiShopCartItem">
+        <item name="android:paddingLeft">@dimen/padding_medium</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingRight">@dimen/padding_medium</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_marginLeft">@dimen/msco_cart_group_spacing</item>
+        <item name="android:layout_marginRight">@dimen/msco_cart_group_spacing</item>
+        <item name="android:elevation">@dimen/elevation_level_1</item>
+    </style>
+    <style name="MultiShopCartGroup">
+        <item name="android:background">@color/cardview_light_background</item>
+        <item name="android:layout_marginLeft">@dimen/msco_cart_group_spacing</item>
+        <item name="android:layout_marginRight">@dimen/msco_cart_group_spacing</item>
+        <item name="android:layout_marginBottom">@dimen/msco_cart_group_spacing</item>
+        <item name="android:elevation">@dimen/elevation_level_1</item>
+    </style>
+</resources>

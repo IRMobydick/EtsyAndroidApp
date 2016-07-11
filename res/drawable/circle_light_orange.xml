@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="1">
+    <solid android:color="0x7f0e00f0" />
+    <size android:height="@r/circle_icon_size" android:width="@r/circle_icon_size" />
+</shape>
